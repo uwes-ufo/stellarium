@@ -17436,7 +17436,7 @@ msgid ""
 " produce two different exit pupils, changing the view somewhat."
 msgstr ""
 "Le même oculaire dans des télescopes de longueurs focales différentes "
-"produira deux pupilles de sortie différentes, et donc un champ visuel "
+"produira des pupilles de sortie différentes, et donc un champ visuel "
 "différent."
 
 #: plugins/Oculars/src/gui/OcularDialog.cpp:645
@@ -17491,7 +17491,7 @@ msgid ""
 "The plug-in's key bindings can be edited in the Keyboard shortcuts editor "
 "(F7)."
 msgstr ""
-"Les raccourcis clavier du plugin peuvent être modifiés dans l'a fenêtre des "
+"Les raccourcis clavier du plugin peuvent être modifiés dans la fenêtre des "
 "raccourcis claviers (F7)."
 
 #: plugins/Oculars/src/gui/OcularDialog.cpp:657
@@ -17509,17 +17509,16 @@ msgid ""
 "binning 3)."
 msgstr ""
 "La vue capteur permet d'afficher le cadrage du capteur avec des informations"
-" sur la taille du cadrage. La taille du rectangle peut s'adapter "
-"automatiquement lorsque le binning est actif (par exemple, avec un binning "
-"de 3, une taille de cadrage de 100px sera ajustée à 99px)."
+" sur la taille du cadrage. La taille du rectangle s'adapte automatiquement "
+"lorsque le binning est actif (par exemple, avec un binning de 3, une taille "
+"de cadrage de 100px sera ajustée à 99px)."
 
 #: plugins/Oculars/src/gui/OcularDialog.cpp:659
 #, qt-format
 msgid ""
 "In this case, information about crop size overlay will be marked by %1."
 msgstr ""
-"Dans ce cas, les informations sur la taille du cadrage seront marquées par "
-"%1."
+"Dans ce cas, les informations sur la taille du cadrage sont marquées par %1."
 
 #: plugins/Oculars/src/gui/OcularDialog.cpp:660
 msgid ""
@@ -17552,8 +17551,8 @@ msgid ""
 "Mark it if you want the FOV value the same like at the startup of "
 "Stellarium."
 msgstr ""
-"Cocher pour que le champ visuel soit réinitialisé à sa valeur au démarrage "
-"de Stellarium"
+"Cocher pour que le champ visuel soit le même que sa valeur au démarrage de "
+"Stellarium"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1422
 msgid "Restore FOV to initial values"
@@ -17565,7 +17564,7 @@ msgstr "Afficher le critère de séparation"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1424
 msgid "On-screen control panel"
-msgstr "Tableau de bord sur l'écran"
+msgstr "Panneau de contrôle sur l'écran"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1426
 #: plugins/Oculars/src/ui_ocularDialog.h:1430
@@ -17581,7 +17580,7 @@ msgid ""
 "Mark it if you want the direction value the same like at the startup of "
 "Stellarium."
 msgstr ""
-"Cocher pour que la direction soit réinitialisée à sa valeur au démarrage de "
+"Cocher pour que la direction soit le même que sa valeur au démarrage de "
 "Stellarium"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1435
@@ -17615,7 +17614,7 @@ msgid ""
 "Show FOV circles relative to the apparent FOV of the widest-angle ocular"
 msgstr ""
 "Afficher les cercles de champ visuel relatifs au champ visuel apparent de "
-"l'oculaire de plus grand angle."
+"l'oculaire de plus grand angle"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1451
 msgid "Scale image circle"
