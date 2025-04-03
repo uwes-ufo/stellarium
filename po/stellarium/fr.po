@@ -2300,7 +2300,7 @@ msgstr "Consulter le fichier de journalisation pour des instructions."
 #. https://celestrak.org/NORAD/elements/supplemental/planet.txt
 #: src/core/modules/Planet.cpp:130 plugins/Satellites/src/Satellites.cpp:3417
 msgid "planet"
-msgstr "planète"
+msgstr "Planète"
 
 #: src/core/modules/Planet.cpp:131
 msgid "moon"
@@ -4371,7 +4371,7 @@ msgid ""
 "This sky culture is provided under unknown license. Please ask authors for "
 "details about license for this sky culture."
 msgstr ""
-"Cette culture céleste est fournie sans licence connue. Demandez aux auteurs "
+"Cette culture céleste est fournie sans licence connue. Demander aux auteurs "
 "les informations concernant la licence."
 
 #: src/core/StelSkyCultureMgr.cpp:421
@@ -4389,8 +4389,8 @@ msgid ""
 "You can use it for commercial and non-commercial purposes, freely adapt it "
 "and share adapted work."
 msgstr ""
-"Vous pouvez l'utiliser à des fins commerciales et non commerciales, "
-"l'adapter librement et partager toute œuvre dérivée."
+"Elle être utilisée à des fins commerciales et non commerciales, adaptée "
+"librement et toute œuvre dérivée peut être partagée."
 
 #: src/core/StelSkyCultureMgr.cpp:430
 msgid ""
@@ -4924,8 +4924,8 @@ msgid ""
 "Support is provided via the Github website.  Be sure to put \"%1\" in the "
 "subject when posting."
 msgstr ""
-"L'assistance est fournie via GitHub. N'oubliez pas de mentionner « %1 » dans"
-" l'objet du message."
+"L'assistance est fournie via GitHub. Ne pas oublier de mentionner « %1 » "
+"dans l'objet du message."
 
 #. TRANSLATORS: The text between braces is the text of an HTML link.
 #: src/core/StelModuleMgr.cpp:316
@@ -9866,7 +9866,7 @@ msgstr ""
 
 #: src/translations.h:583
 msgid "Script which runs automatically at startup"
-msgstr "Script s'exécutant au démarrage"
+msgstr "Script lancé au démarrage"
 
 #: src/translations.h:584
 msgid ""
@@ -14645,8 +14645,8 @@ msgid ""
 "Observe what works best on your multicore system."
 msgstr ""
 "Des threads supplémentaires peuvent améliorer la performance lorsque de "
-"nombreux objets du système solaire sont affichés. Examinez ce qui fonctionne"
-" le mieux sur votre système multicœur."
+"nombreux objets du système solaire sont affichés. Examiner ce qui fonctionne"
+" le mieux sur votre système multi-cœur."
 
 #: src/ui_configurationDialog.h:2283
 msgid "Font size: Screen"
@@ -14732,7 +14732,7 @@ msgstr "Lancer le script sélectionné"
 
 #: src/ui_configurationDialog.h:2326
 msgid "Stop a running script"
-msgstr "Stopper le script sélectionné"
+msgstr "Stopper un script en cours"
 
 #: src/ui_configurationDialog.h:2330
 msgid "Load at startup"
@@ -17822,7 +17822,7 @@ msgstr "Jumelles"
 #: plugins/TelescopeControl/src/gui/ui_telescopeConfigurationDialog.h:559
 #: plugins/TelescopeControl/src/gui/ui_storedPointsDialog.h:203
 msgid "Name:"
-msgstr "Nom:"
+msgstr "Nom :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1537
 msgid "Eyepieces"
@@ -17851,7 +17851,7 @@ msgstr "Guide hors axe"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1547
 msgid "Resolution y:"
-msgstr "Resolution y :"
+msgstr "Résolution y :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1548
 msgid "Binning x:"
@@ -17859,7 +17859,7 @@ msgstr "Binning x :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1549
 msgid "Resolution x:"
-msgstr "Resolution x :"
+msgstr "Résolution x :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1551
 msgid "Prism/CCD height:"
@@ -17877,7 +17877,7 @@ msgstr "Distance prisme/CCD :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1556
 msgid "Rotation Angle:"
-msgstr "Angle de rotation"
+msgstr "Angle de rotation :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1557
 msgid "Binning y:"
@@ -17897,7 +17897,7 @@ msgstr "Largeur du capteur :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1561
 msgid "Position angle:"
-msgstr "Angle de position :"
+msgstr "Angle de position :"
 
 #: plugins/Oculars/src/ui_ocularDialog.h:1562
 msgid "Sensors"
@@ -18012,8 +18012,7 @@ msgstr "International Gamma-Ray Astrophysics Laboratory"
 #. TRANSLATORS: Satellite description.
 #: plugins/Satellites/src/Satellites.cpp:1437
 msgid "The Microvariability and Oscillations of Stars telescope"
-msgstr ""
-"Le télescope spatial télescope Microvariability and oscillations of stars"
+msgstr "Le télescope Microvariability and Oscillations of Stars"
 
 #. TRANSLATORS: Satellite description.
 #: plugins/Satellites/src/Satellites.cpp:1439
@@ -18043,7 +18042,7 @@ msgstr "Interplanetary Kite-craft Accelerated by Radiation Of the Sun"
 #. TRANSLATORS: Satellite description.
 #: plugins/Satellites/src/Satellites.cpp:1449
 msgid "The russian space radio telescope RadioAstron"
-msgstr "Le radio-télescope russe de l'espace RadioAstron"
+msgstr "Le radio-télescope spatial russe RadioAstron"
 
 #. TRANSLATORS: Satellite description.
 #: plugins/Satellites/src/Satellites.cpp:1451
@@ -18124,7 +18123,7 @@ msgstr "Chargement TLE"
 #. TRANSLATORS: Satellite group: Communication satellites
 #: plugins/Satellites/src/Satellites.cpp:3324
 msgid "communications"
-msgstr "Communications"
+msgstr "Communication"
 
 #. TRANSLATORS: Satellite group: Navigation satellites
 #: plugins/Satellites/src/Satellites.cpp:3326
@@ -18134,22 +18133,22 @@ msgstr "Navigation"
 #. TRANSLATORS: Satellite group: Scientific satellites
 #: plugins/Satellites/src/Satellites.cpp:3328
 msgid "scientific"
-msgstr "Scientifiques"
+msgstr "Scientifique"
 
 #. TRANSLATORS: Satellite group: Earth Resources satellites
 #: plugins/Satellites/src/Satellites.cpp:3330
 msgid "earth resources"
-msgstr "ressources terrestres"
+msgstr "Ressources terrestres"
 
 #. TRANSLATORS: Satellite group: Satellites in geostationary orbit
 #: plugins/Satellites/src/Satellites.cpp:3332
 msgid "geostationary"
-msgstr "Géostationnaires"
+msgstr "Géostationnaire"
 
 #. TRANSLATORS: Satellite group: Satellites that are no longer functioning
 #: plugins/Satellites/src/Satellites.cpp:3334
 msgid "non-operational"
-msgstr "Non opérationnels"
+msgstr "Non opérationnel"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the space
 #. observatories
@@ -18163,7 +18162,7 @@ msgstr "Observatoire"
 #. under complete control of the Indian government.
 #: plugins/Satellites/src/Satellites.cpp:3338
 msgid "irnss"
-msgstr "irnss"
+msgstr "IRNSS"
 
 #. TRANSLATORS: Satellite group: The Quasi-Zenith Satellite System (QZSS), is
 #. a proposed three-satellite regional time transfer system and Satellite
@@ -18171,32 +18170,32 @@ msgstr "irnss"
 #. receivable within Japan.
 #: plugins/Satellites/src/Satellites.cpp:3340
 msgid "qzss"
-msgstr "qzss"
+msgstr "QZSS"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the COSMOS satellites
 #: plugins/Satellites/src/Satellites.cpp:3342
 msgid "cosmos"
-msgstr "cosmos"
+msgstr "COSMOS"
 
 #. TRANSLATORS: Satellite group: Debris of satellites
 #: plugins/Satellites/src/Satellites.cpp:3344
 msgid "debris"
-msgstr "debris"
+msgstr "Débris"
 
 #. TRANSLATORS: Satellite group: Crewed satellites
 #: plugins/Satellites/src/Satellites.cpp:3346
 msgid "crewed"
-msgstr "crewed"
+msgstr "Avec équipage"
 
 #. TRANSLATORS: Satellite group: Satellites of ISS resupply missions
 #: plugins/Satellites/src/Satellites.cpp:3348
 msgid "resupply"
-msgstr "resupply"
+msgstr "Ravitaillement"
 
 #. TRANSLATORS: Satellite group: are known to broadcast TV signals
 #: plugins/Satellites/src/Satellites.cpp:3350
 msgid "tv"
-msgstr "tv"
+msgstr "TV"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the GONETS satellites
 #: plugins/Satellites/src/Satellites.cpp:3352
@@ -18224,7 +18223,7 @@ msgstr "30 derniers lancements"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3365
 msgid "stations"
-msgstr "Stations"
+msgstr "Station"
 
 #. TRANSLATORS: Satellite group: Bright/naked-eye-visible satellites
 #. TRANSLATORS: CelesTrak source [100 (or so) Brightest]:
@@ -18233,7 +18232,7 @@ msgstr "Stations"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=visual&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3369
 msgid "visual"
-msgstr "Visibles"
+msgstr "Visible"
 
 #. TRANSLATORS: Satellite group: Active Satellites
 #. TRANSLATORS: CelesTrak source [Active Satellites]:
@@ -18242,7 +18241,7 @@ msgstr "Visibles"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3373
 msgid "active"
-msgstr "actif"
+msgstr "Actif"
 
 #. TRANSLATORS: Satellite group: Analyst Satellites
 #. TRANSLATORS: CelesTrak source [Analyst Satellites]:
@@ -18251,7 +18250,7 @@ msgstr "actif"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=analyst&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3377
 msgid "analyst"
-msgstr "analyste"
+msgstr "Analyste"
 
 #. TRANSLATORS: Satellite group: Weather (meteorological) satellites
 #. TRANSLATORS: CelesTrak source [Weather]:
@@ -18278,7 +18277,7 @@ msgstr "NOAA"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=goes&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3392
 msgid "goes"
-msgstr "va"
+msgstr "GOES"
 
 #. TRANSLATORS: Satellite group: Earth Resources satellites
 #. TRANSLATORS: CelesTrak source [Earth Resources]:
@@ -18287,7 +18286,7 @@ msgstr "va"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=resource&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3396
 msgid "resource"
-msgstr "ressource"
+msgstr "Resource"
 
 #. TRANSLATORS: Satellite group: Search & Rescue (SARSAT) satellites
 #. TRANSLATORS: CelesTrak source [Search & Rescue (SARSAT)]:
@@ -18317,7 +18316,7 @@ msgstr "Surveillance désastres"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=tdrss&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3408
 msgid "tdrss"
-msgstr "tdrss"
+msgstr "TDRSS"
 
 #. TRANSLATORS: Satellite group: ARGOS Data Collection System satellites
 #. TRANSLATORS: CelesTrak source [ARGOS Data Collection System]:
@@ -18336,7 +18335,7 @@ msgstr "ARGOS"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=spire&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3421
 msgid "spire"
-msgstr "spore"
+msgstr "Spire"
 
 #. TRANSLATORS: Satellite group: Active Geosynchronous Satellites
 #. TRANSLATORS: CelesTrak source [Active Geosynchronous]:
@@ -18375,7 +18374,7 @@ msgstr "GPZ Plus"
 #. https://celestrak.org/NORAD/elements/supplemental/intelsat.txt
 #: plugins/Satellites/src/Satellites.cpp:3441
 msgid "intelsat"
-msgstr "intelsat"
+msgstr "Intelsat"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the SES satellites
 #. TRANSLATORS: CelesTrak source [SES]:
@@ -18418,7 +18417,7 @@ msgstr "Iridium NEXT"
 #. https://celestrak.org/NORAD/elements/supplemental/starlink.txt
 #: plugins/Satellites/src/Satellites.cpp:3459
 msgid "starlink"
-msgstr "starlink"
+msgstr "Starlink"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the OneWeb
 #. constellation (OneWeb is a proper name)
@@ -18430,7 +18429,7 @@ msgstr "starlink"
 #. https://celestrak.org/NORAD/elements/supplemental/oneweb.txt
 #: plugins/Satellites/src/Satellites.cpp:3464
 msgid "oneweb"
-msgstr "oneweb"
+msgstr "OneWeb"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the ORBCOMM
 #. satellites
@@ -18442,7 +18441,7 @@ msgstr "oneweb"
 #. https://celestrak.org/NORAD/elements/supplemental/orbcomm.txt
 #: plugins/Satellites/src/Satellites.cpp:3469
 msgid "orbcomm"
-msgstr "orbcomm"
+msgstr "ORBCOMM"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the GLOBALSTAR
 #. satellites
@@ -18452,7 +18451,7 @@ msgstr "orbcomm"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=globalstar&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3473
 msgid "globalstar"
-msgstr "globalstar"
+msgstr "GLOBALSTAR"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the SWARM satellites
 #. TRANSLATORS: CelesTrak source [Swarm]:
@@ -18470,7 +18469,7 @@ msgstr "SWARM"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=amateur&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3481
 msgid "amateur"
-msgstr "Radio-amateurs"
+msgstr "Radio-amateur"
 
 #. TRANSLATORS: Satellite group: Experimental communication satellites
 #. TRANSLATORS: CelesTrak source [Experimental]:
@@ -18508,7 +18507,7 @@ msgstr "SatNOGS"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=gorizont&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3497
 msgid "gorizont"
-msgstr "gorizont"
+msgstr "GORIZONT"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the RADUGA satellites
 #. TRANSLATORS: CelesTrak source [Raduga]:
@@ -18517,7 +18516,7 @@ msgstr "gorizont"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=raduga&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3501
 msgid "raduga"
-msgstr "raduga"
+msgstr "RADUGA"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the MOLNIYA
 #. satellites
@@ -18527,7 +18526,7 @@ msgstr "raduga"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=molniya&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3505
 msgid "molniya"
-msgstr "molniya"
+msgstr "MOLNIYA"
 
 #. TRANSLATORS: Satellite group: Satellites belonging to the GNSS satellites
 #. TRANSLATORS: CelesTrak source [GNSS]:
@@ -18592,7 +18591,7 @@ msgstr "Galileo"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=beidou&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3534
 msgid "beidou"
-msgstr "beidou"
+msgstr "BeiDou"
 
 #. TRANSLATORS: Satellite group: Satellite-Based Augmentation System
 #. (WAAS/EGNOS/MSAS)
@@ -18630,7 +18629,7 @@ msgstr "Musson"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=science&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3553
 msgid "science"
-msgstr "science"
+msgstr "Science"
 
 #. TRANSLATORS: Satellite group: Geodetic satellites
 #. TRANSLATORS: CelesTrak source [Geodetic]:
@@ -18639,7 +18638,7 @@ msgstr "science"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=geodetic&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3557
 msgid "geodetic"
-msgstr "géodésique"
+msgstr "Géodésique"
 
 #. TRANSLATORS: Satellite group: Engineering satellites
 #. TRANSLATORS: CelesTrak source [Engineering]:
@@ -18648,7 +18647,7 @@ msgstr "géodésique"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=engineering&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3561
 msgid "engineering"
-msgstr "ingénierie"
+msgstr "Ingénierie"
 
 #. TRANSLATORS: Satellite group: Education satellites
 #. TRANSLATORS: CelesTrak source [Education]:
@@ -18666,7 +18665,7 @@ msgstr "Éducation"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=military&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3572
 msgid "military"
-msgstr "militaire"
+msgstr "Militaire"
 
 #. TRANSLATORS: Satellite group: Radar Calibration satellites
 #. TRANSLATORS: CelesTrak source [Radar Calibration]:
@@ -18675,7 +18674,7 @@ msgstr "militaire"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=radar&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3576
 msgid "radar"
-msgstr "radar"
+msgstr "Radar"
 
 #. TRANSLATORS: Satellite group: CubeSats (Cube Satellites)
 #. TRANSLATORS: CelesTrak source [CubeSats]:
@@ -18684,7 +18683,7 @@ msgstr "radar"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=cubesat&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3580
 msgid "cubesat"
-msgstr "cubesat"
+msgstr "CubeSat"
 
 #. TRANSLATORS: Satellite group: Other satellites
 #. TRANSLATORS: CelesTrak source [Other]:
@@ -18693,35 +18692,35 @@ msgstr "cubesat"
 #. https://celestrak.org/NORAD/elements/gp.php?GROUP=other&FORMAT=tle
 #: plugins/Satellites/src/Satellites.cpp:3584
 msgid "other"
-msgstr "autre"
+msgstr "Autre"
 
 #. TRANSLATORS: Satellite group: Meteosat
 #. TRANSLATORS: CelesTrak supplemental source [METEOSAT TLEs]:
 #. https://celestrak.org/NORAD/elements/supplemental/meteosat.txt
 #: plugins/Satellites/src/Satellites.cpp:3591
 msgid "meteosat"
-msgstr "meteosat"
+msgstr "Meteosat"
 
 #. TRANSLATORS: Satellite group: Telesat
 #. TRANSLATORS: CelesTrak supplemental source [Telesat TLEs]:
 #. https://celestrak.org/NORAD/elements/supplemental/telesat.txt
 #: plugins/Satellites/src/Satellites.cpp:3595
 msgid "telesat"
-msgstr "telesat"
+msgstr "Telesat"
 
 #. TRANSLATORS: Satellite group: ISS Segments
 #. TRANSLATORS: CelesTrak supplemental source [ISS TLEs]:
 #. https://celestrak.org/NORAD/elements/supplemental/iss.txt
 #: plugins/Satellites/src/Satellites.cpp:3598
 msgid "iss"
-msgstr "iss"
+msgstr "ISS"
 
 #. TRANSLATORS: Satellite group: CPF
 #. TRANSLATORS: CelesTrak supplemental source [CPF TLEs]:
 #. https://celestrak.org/NORAD/elements/supplemental/cpf.txt
 #: plugins/Satellites/src/Satellites.cpp:3601
 msgid "cpf"
-msgstr "cpf"
+msgstr "CPF"
 
 #. TRANSLATORS: Satellite name: International Space Station
 #: plugins/Satellites/src/Satellites.cpp:3605
@@ -18964,7 +18963,7 @@ msgstr "Inclinaison"
 
 #: plugins/Satellites/src/Satellite.cpp:396
 msgid "SubPoint (Lat./Long.)"
-msgstr "Sous-point (Lat./Long.)"
+msgstr "Sous-point (lat./long.)"
 
 #. TRANSLATORS: TEME (True Equator, Mean Equinox) is an Earth-centered
 #. inertial coordinate system
@@ -19042,7 +19041,7 @@ msgstr "Opérationnel"
 #: plugins/Satellites/src/Satellite.cpp:763
 msgctxt "operational status"
 msgid "non-operational"
-msgstr "non opérationnel"
+msgstr "Non opérationnel"
 
 #: plugins/Satellites/src/Satellite.cpp:764
 msgctxt "operational status"
@@ -19067,7 +19066,7 @@ msgstr "Mission prolongée"
 #: plugins/Satellites/src/Satellite.cpp:768
 msgctxt "operational status"
 msgid "decayed"
-msgstr "retombé"
+msgstr "Retombé"
 
 #: plugins/Satellites/src/Satellite.cpp:770
 msgctxt "operational status"
@@ -19109,7 +19108,7 @@ msgid ""
 msgstr ""
 "Les positions calculées ne sont valables que pour un temps relativement "
 "court (de l'ordre de quelques jours, semaines, voire mois dans le passé ou "
-"le futur). Attendez-vous à une large dérive au delà de ce laps de temps."
+"le futur). Une large dérive est attendue au-delà de ce laps de temps."
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:791
 msgid ""
@@ -19117,8 +19116,8 @@ msgid ""
 "days).  To get useful data out, you need to update the TLE data regularly."
 msgstr ""
 "Les paramètres orbitaux sont rapidement périmés (en quelques semaines, voire"
-" quelques jours). Pour des données fiables, vous devez mettre à jour les "
-"données TLE régulièrement."
+" quelques jours). Pour des données fiables, mettre à jour les données TLE "
+"régulièrement."
 
 #. TRANSLATORS: The translated names of the button and the tab are filled in
 #. automatically. You can check the original names in Stellarium. File names
@@ -19548,11 +19547,11 @@ msgstr "%1/%2 satellites mis à jour ; %3 ajoutés ; %4 manquants"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:941
 msgid "Empty string - not saving"
-msgstr "Aucun texte – pas enregistré"
+msgstr "Aucun texte - pas d'enregistrement"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:948
 msgid "Invalid URL - not saving"
-msgstr "URL non valide – pas enregistrée"
+msgstr "URL non valide - pas d'enregistrement"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1015
 msgid "[new source]"
@@ -19585,7 +19584,7 @@ msgstr "Mettre à jour à partir de fichiers"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1131
 msgid "[orbit calculation error]"
-msgstr "[Erreur de calcul de l'orbite]"
+msgstr "[erreur de calcul de l'orbite]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1132
 msgid "[atmospheric entry]"
@@ -19593,19 +19592,19 @@ msgstr "[entrée atmosphérique]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1133
 msgid "[all newly added]"
-msgstr "[Satellites récemment ajoutés]"
+msgstr "[satellites récemment ajoutés]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1134
 msgid "[all not displayed]"
-msgstr "[Satellites non affichés]"
+msgstr "[satellites non affichés]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1135
 msgid "[all displayed]"
-msgstr "[Satellites affichés]"
+msgstr "[satellites affichés]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1136
 msgid "[all communications]"
-msgstr "[Satellites toute communications]"
+msgstr "[tous satellites de communication]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1137
 msgid "[small satellites]"
@@ -19668,7 +19667,7 @@ msgstr "[TLE périmé]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1157
 msgid "[custom filter]"
-msgstr "[Filtre personnalisé]"
+msgstr "[filtre personnalisé]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1158
 msgid "[all user defined]"
@@ -19725,7 +19724,7 @@ msgstr "[satellites désintégrés]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1177
 msgid "[all]"
-msgstr "[Tous les satellites]"
+msgstr "[tous les satellites]"
 
 #: plugins/Satellites/src/gui/SatellitesDialog.cpp:1189
 #: plugins/Satellites/src/ui_satellitesFilterDialog.h:263
@@ -19825,7 +19824,7 @@ msgstr "Traitement des données…"
 
 #: plugins/Satellites/src/gui/SatellitesImportDialog.cpp:244
 msgid "No data could be downloaded. Try again later."
-msgstr "Les données n'ont pas pu être téléchargées. Réessayez plus tard."
+msgstr "Les données n'ont pas pu être téléchargées. Réessayer plus tard."
 
 #: plugins/Satellites/src/gui/SatellitesImportDialog.cpp:266
 msgid "Download aborted."
@@ -20130,11 +20129,11 @@ msgstr "Ne pas mettre à jour"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:1345
 msgid "(add personal notes here)"
-msgstr "(ajouter ici vos notes personnelles)"
+msgstr "(ajouter ici les notes personnelles)"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:1346
 msgid "Groups:"
-msgstr "Groupes:"
+msgstr "Groupes :"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:1347
 msgid "TLE set:"
@@ -20155,7 +20154,7 @@ msgstr ""
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:1352
 msgid "Age:"
-msgstr "Âge :"
+msgstr "Âge :"
 
 #: plugins/Satellites/src/ui_satellitesDialog.h:1357
 msgid ""
@@ -20210,12 +20209,12 @@ msgstr "Flashs Iridium"
 
 #: plugins/Satellites/src/ui_satellitesImportDialog.h:168
 msgid "Get data from update sources"
-msgstr "Obtenir les données des sources de mise à jour"
+msgstr "Obtenir les données à partir sources de mise à jour"
 
 #: plugins/Satellites/src/ui_satellitesImportDialog.h:169
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:490
 msgid "Abort download"
-msgstr "Annuler le téléchargement"
+msgstr "Interrompre le téléchargement"
 
 #: plugins/Satellites/src/ui_satellitesImportDialog.h:170
 msgid "New satellites"
@@ -20259,7 +20258,7 @@ msgstr "Excentricité"
 
 #: plugins/Satellites/src/ui_satellitesFilterDialog.h:264
 msgid "Perigee"
-msgstr "Perigée"
+msgstr "Périgée"
 
 #: plugins/Satellites/src/ui_satellitesFilterDialog.h:265
 msgid "Apogee"
@@ -20323,12 +20322,12 @@ msgstr "Centrage de la fenêtre sur les coordonnées du télescope #%1"
 
 #: plugins/TelescopeControl/src/TelescopeControl.cpp:205
 msgid "Move a telescope to a given set of coordinates"
-msgstr "Pointer le télescope sur des coordonnées spécifiées"
+msgstr "Pointer le télescope sur des coordonnées données"
 
 #: plugins/TelescopeControl/src/TelescopeControl.cpp:257
 #, qt-format
 msgid "Center the screen on telescope #%1 coordinates"
-msgstr "Centrer l'écran sur les coordonnées du télescope #%1"
+msgstr "Centrer l'écran sur les coordonnées du télescope № %1"
 
 #: plugins/TelescopeControl/src/TelescopeControl.cpp:774
 msgid ""
@@ -20432,7 +20431,8 @@ msgstr "Port TCP :"
 msgid ""
 "Host name or IPv4 address of the machine that hosts the telescope server"
 msgstr ""
-"Nom d'hôte ou adresse IPv4 du poste hébergeant le serveur de télescope"
+"Nom d'hôte ou adresse IPv4 de l'ordinateur hébergeant le serveur de "
+"télescope"
 
 #: plugins/TelescopeControl/src/INDI/ui_TelescopeClientINDIWidget.h:131
 #: plugins/TelescopeControl/src/gui/ui_telescopeConfigurationDialog.h:575
@@ -20489,7 +20489,7 @@ msgid ""
 "mounts will handle this correctly, but some might not."
 msgstr ""
 "Laisser l'appareil ASCOM dire à Stellarium le système de coordonnées à "
-"utiliser. La plupart des montures gère ceci correctement."
+"utiliser. La plupart des montures gèrent ceci correctement."
 
 #: plugins/TelescopeControl/src/ASCOM/TelescopeClientASCOMWidget.cpp:46
 msgid "Let ASCOM device decide"
@@ -20564,7 +20564,7 @@ msgstr "ASCOM obsolète !"
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:117
 msgid "Your ASCOM is below version 7. Upgrade to avoid problems!"
 msgstr ""
-"La version de votre ASCOM est antérieure à 7. Mettez à jour pour éviter des "
+"La version de ASCOM est antérieure à 7. Mettre à jour pour éviter des "
 "problèmes !"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:273
@@ -20585,7 +20585,7 @@ msgstr "Prise en charge RTS2"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:280
 msgid "INDI Telescope Client"
-msgstr "Client de télescope INDI"
+msgstr "Client télescope INDI"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:286
 msgid ""
@@ -20658,7 +20658,7 @@ msgstr "Possibilités et limitations"
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:302
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:324
 msgid "The original telescope control feature"
-msgstr "La fonctionnalité originale de commande de télescopes"
+msgstr "La fonctionnalité originale de commande de télescope"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:303
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:328
@@ -21028,7 +21028,7 @@ msgid ""
 "<b>Nothing, just simulate one (a moving reticle)</b> is a {virtual "
 "telescope} (no connection)"
 msgstr ""
-"<b>Rien, une simple simulation (un réticule mouvant)</b> indique un "
+"<b>Rien, une simple simulation (un réticule qui se déplace)</b> indique un "
 "{télescope virtuel} (pas de connexion)"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:393
@@ -21070,14 +21070,15 @@ msgid ""
 "Otherwise, to start the telescope, you need to open the main window, select "
 "that telescope and press the 'Start/Connect' button."
 msgstr ""
-"Dans le cas contraire, il sera nécessaire de lancer la connexion "
-"manuellement-"
+"Dans le cas contraire, pour démarrer le télescope, il sera nécessaire "
+"d'ouvrir la fenêtre principale, de sélectionner ce télescope et de lancer la"
+" connexion manuellement."
 
 #. TRANSLATORS: The text between braces is the text of an HTML link.
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:403
 msgid "This section is active only for DIRECT connections (see {above})."
 msgstr ""
-"Cette section n'est active que pour des connexions DIRECTES (voir {ci-"
+"Cette section n'est active que pour des connexions directes (voir {ci-"
 "dessus})."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:405
@@ -21112,22 +21113,22 @@ msgid ""
 "If you are using an USB cable, the default serial port of your telescope "
 "most probably is not in the list of suggestions."
 msgstr ""
-"Si vous utilisez un câble USB, le port sériel par défaut de votre télescope "
-"ne figure probablement pas dans la liste des suggestions."
+"Si un câble USB est utilisé, le port sériel par défaut du télescope ne "
+"figure probablement pas dans la liste des suggestions."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:411
 msgid ""
 "To list all valid serial port names in Mac OS X, open a terminal and type:"
 msgstr ""
 "Pour obtenir la liste des ports sériels valide dans Mac OS X, ouvrir un "
-"terminal et tapez :"
+"terminal et taper :"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:412
 msgid ""
 "This will list all devices, the full name of your serial port should be "
 "somewhere in the list (for example, '/dev/cu.usbserial-FTDFZVMK')."
 msgstr ""
-"La liste de tous les appareils. Le nom de votre port sériel est "
+"La liste de tous les appareils. Le nom du port sériel adéquat est "
 "vraisemblablement dans cette liste (par exemple, /dev/cu.usbserial-"
 "FTDFZVMK)."
 
@@ -21158,7 +21159,7 @@ msgid ""
 "<b>Host</b> can be either a host name or an {IPv4} address such as "
 "'127.0.0.1'. The default value of 'localhost' means 'this computer'."
 msgstr ""
-"L'<b>Hôte</b> peut être soit un nom d'hôte, soit une adresse {IPv4}, comme "
+"<b>Hôte</b> peut être soit un nom d'hôte, soit une adresse {IPv4}, comme "
 "127.0.0.1. La valeur par défaut est « localhost », ce qui signifie « cet "
 "ordinateur »."
 
@@ -21180,14 +21181,14 @@ msgid ""
 "only if you are attempting a remote connection over a network."
 msgstr ""
 "Pour les connexions indirectes, la modification du nom d'hôte par défaut n'a"
-" de sens que si vous tentez une connexion distante au moyen du réseau."
+" de sens que si une connexion distante et tentée au moyen du réseau."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:433
 msgid ""
 "In this case, it should be the name or IP address of the computer that runs "
 "a program that runs the telescope."
 msgstr ""
-"Dans ce cas, indiquez le nom ou l'adresse IP de l'ordinateur sur lequel "
+"Dans ce cas, indiquer le nom ou l'adresse IP de l'ordinateur sur lequel "
 "tourne le programme du télescope."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:437
@@ -21212,8 +21213,8 @@ msgid ""
 "Mark the 'Use field of view indicators' option, then enter a list of values "
 "separated with commas in the field below."
 msgstr ""
-"Cocher l'option « Utiliser des indicateurs de champ visuel », puis saisissez"
-" une liste de valeurs séparées par des virgules dans le champ ci-dessous."
+"Cocher l'option « Utiliser des indicateurs de champ visuel », puis saisir "
+"une liste de valeurs séparées par des virgules dans le champ ci-dessous."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:440
 msgid "The values are interpreted as degrees of arc."
@@ -21226,7 +21227,7 @@ msgid ""
 "moving reticle with the Telrad circles."
 msgstr ""
 "Ceci peut être utilisé en combinaison avec un {télescope virtuel} pour "
-"afficher un réticule se déplaçant avec des cercles Telrad."
+"afficher un réticule avec des cercles Telrad."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:448
 #, qt-format
@@ -21328,7 +21329,7 @@ msgstr "Par exemple, %1+1, pour le télescope #1."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:467
 msgid "This will move the telescope to the selected object."
-msgstr "Ceci pointera le télescope vers l'objet sélectionné."
+msgstr "Cette opération pointe le télescope vers l'objet sélectionné."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:468
 #, qt-format
@@ -21336,14 +21337,14 @@ msgid ""
 "<b>To point a device to the center of the view:</b> Press the number of the "
 "device while holding down the <b>%1</b> key."
 msgstr ""
-"<b>Pour pointer un appareil au centre du champ visuel </b>: pressez le "
-"numéro de l'appareil en maintenant enfoncée la touche <b>%1</b>."
+"<b>Pour pointer un appareil au centre du champ visuel </b>: presser le "
+"numéro du télescope en maintenant enfoncée la touche <b>%1</b>."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:470
 msgid ""
 "This will slew the device to the point in the center of the current view."
 msgstr ""
-"Cette opération pointe l'appareil vers le point au centre de la vue "
+"Cette opération pointe le télescope vers le point au centre de la vue "
 "actuelle."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:471
@@ -21351,8 +21352,8 @@ msgid ""
 "If you move the view after issuing the command, the target won't change "
 "unless you issue another command."
 msgstr ""
-"Si vous déplacer le champ visuel après avoir lancé la commande, la position "
-"visée ne sera modifiée que si vous lancez une nouvelle commande."
+"Si la vue est modifiée après le lancement de la commande, la position visée "
+"ne sera modifiée qu'après avoir lancé une nouvelle commande."
 
 #. TRANSLATORS: The text between braces is the text of an HTML link.
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:474
@@ -21413,7 +21414,7 @@ msgid ""
 "%1'Connection delay'%2 is 1.5 seconds instead of 0.5 seconds."
 msgstr ""
 "D'après le testeur, il est un peu lent, raison pour laquelle son réglage par"
-" défaut pour le %1délai de connexion%2 est de 1.5 s au lieu de 0.5 s."
+" défaut pour le %1« délai de connexion »%2 est de 1.5 s au lieu de 0.5 s."
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:492
 msgid ""
@@ -21455,8 +21456,8 @@ msgid ""
 "Just don't forget to set it to Meade compatibility mode and set the baud "
 "rate to 9600B"
 msgstr ""
-"N'oubliez pas de le régler en mode compatible Meade et de fixer son baudrate"
-" à 9600 "
+"Ne pas oublier de le régler en mode compatible Meade et de fixer son "
+"baudrate à 9600 "
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:501
 msgid ""
@@ -21466,10 +21467,10 @@ msgid ""
 "that will react in the same way as the reticle of a real telescope "
 "controlled by the plug-in."
 msgstr ""
-"Pour tester ce plugin sans appareil connecté à l'ordinateur, choisissez "
-"<b>Rien, une simple simulation (un réticule mouvant)</b> dans le champ "
-"<b>Télescope contrôlé par</b>. Un réticule sera affiché, qui réagira comme "
-"le réticule d'un véritable télescope piloté par le plugin."
+"Pour tester ce plugin sans appareil connecté à l'ordinateur, choisir "
+"<b>Rien, une simple simulation (un réticule qui se déplace)</b> dans le "
+"champ <b>Télescope contrôlé par</b>. Un réticule sera affiché, qui réagira "
+"comme le réticule d'un véritable télescope piloté par le plugin."
 
 #. TRANSLATORS: The text between braces is the text of an HTML link.
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:504
@@ -21495,7 +21496,7 @@ msgstr ""
 #: plugins/TelescopeControl/src/gui/StoredPointsDialog.cpp:102
 msgctxt "numero sign"
 msgid "#"
-msgstr "#"
+msgstr "N°"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:530
 msgid "Status"
@@ -21572,7 +21573,7 @@ msgstr "local, ASCOM"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:1004
 msgid "Start"
-msgstr "Lancer"
+msgstr "Démarrer"
 
 #: plugins/TelescopeControl/src/gui/TelescopeDialog.cpp:1006
 msgid "Start the selected local telescope"
@@ -21635,7 +21636,7 @@ msgstr "Pointer le télescope vers les coordonnées"
 #: plugins/TelescopeControl/src/gui/ui_slewDialog.h:315
 #: plugins/TelescopeControl/src/gui/ui_storedPointsDialog.h:204
 msgid "&Right Ascension (J2000):"
-msgstr "&Ascension droite (J2000) :"
+msgstr "Ascension d&roite (J2000) :"
 
 #: plugins/TelescopeControl/src/gui/ui_slewDialog.h:316
 #: plugins/TelescopeControl/src/gui/ui_storedPointsDialog.h:205
@@ -21649,7 +21650,7 @@ msgstr "Prendre les coordonnées de l'objet actuel"
 #: plugins/TelescopeControl/src/gui/ui_slewDialog.h:320
 #: plugins/TelescopeControl/src/gui/ui_storedPointsDialog.h:201
 msgid "&Current object"
-msgstr "Objet actuel"
+msgstr "Objet a&ctuel"
 
 #: plugins/TelescopeControl/src/gui/ui_slewDialog.h:322
 msgid "Take coordinates of screen center"
@@ -21760,11 +21761,11 @@ msgstr "Télescope RTS2"
 
 #: plugins/TelescopeControl/src/gui/ui_telescopeConfigurationDialog.h:557
 msgid "Nothing, just simulate one (a moving reticle)"
-msgstr "Rien, une simple simulation (un réticule mouvant)"
+msgstr "Rien, une simple simulation (un réticule qui se déplace)"
 
 #: plugins/TelescopeControl/src/gui/ui_telescopeConfigurationDialog.h:560
 msgid "Connection delay:"
-msgstr "Délai de connexion:"
+msgstr "Délai de connexion :"
 
 #: plugins/TelescopeControl/src/gui/ui_telescopeConfigurationDialog.h:565
 msgid "J2000 (default)"
@@ -21833,7 +21834,8 @@ msgstr "Réglages de l'interface utilisateur"
 #: plugins/TelescopeControl/src/gui/ui_telescopeConfigurationDialog.h:599
 msgid "Show circles with fixed angular size around the telescope reticle"
 msgstr ""
-"Afficher des cercles à taille angulaire fixe autour du réticule du télescope"
+"Afficher des cercles de taille angulaire fixe autour du réticule du "
+"télescope"
 
 #: plugins/TelescopeControl/src/gui/ui_telescopeConfigurationDialog.h:601
 msgid "Use field of view indicators"
@@ -21846,7 +21848,7 @@ msgstr "Taille du(des) cercle(s) :"
 #: plugins/TelescopeControl/src/gui/ui_telescopeConfigurationDialog.h:604
 msgid "Up to ten decimal values in degrees of arc, separated with commas"
 msgstr ""
-"Jusqu'à dix valeurs décimales en degrés d'arc séparées par des virgules"
+"Jusqu'à dix valeurs décimales en degrés d'arc, séparées par des virgules"
 
 #: plugins/TelescopeControl/src/gui/ui_telescopeConfigurationDialog.h:607
 msgid "OK"
@@ -21874,7 +21876,7 @@ msgstr "Interface graphique"
 
 #: plugins/TelescopeControl/src/gui/ui_telescopeDialog.h:408
 msgid "Show telescope labels"
-msgstr "Afficher les noms des télescope"
+msgstr "Afficher les noms des télescopes"
 
 #: plugins/TelescopeControl/src/gui/ui_telescopeDialog.h:409
 msgid "Show field of view indicators"
@@ -22053,7 +22055,7 @@ msgstr "Équateur galactique"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:439
 msgid "Sky Background (default: black)"
-msgstr "fond du ciel (par défaut : noir)"
+msgstr "Fond du ciel (par défaut : noir)"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:472
 msgid "Effects"
@@ -22085,11 +22087,11 @@ msgstr "Intensité de la lumière zodiacale :"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:537
 msgid "Run local script"
-msgstr "Exécuter un script local"
+msgstr "Lancer un script local"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:543
 msgid "Stop running script"
-msgstr "Arrêter le script en cours d'exécution"
+msgstr "Stopper le script en cours"
 
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:554
 #: plugins/TextUserInterface/src/TextUserInterface.cpp:558
@@ -22159,7 +22161,7 @@ msgstr ""
 #: plugins/SolarSystemEditor/src/SolarSystemEditor.cpp:151
 #: plugins/SolarSystemEditor/src/ui_solarSystemManagerWindow.h:238
 msgid "Import orbital elements in MPC format..."
-msgstr "Importation des paramètres orbitaux en format MPC…"
+msgstr "Importer des paramètres orbitaux en format MPC…"
 
 #: plugins/SolarSystemEditor/src/SolarSystemEditor.cpp:766
 msgid "Anonymous"
@@ -22192,18 +22194,18 @@ msgid ""
 "searching for \"%3\" will return %4, Halley's Comet, but a search for \"%5\""
 " will return the asteroid %6."
 msgstr ""
-"Il faut rajouter %1 ou %2 devant les <i>noms</i> des comètes. Si plus d'une "
+"Il faut ajouter %1 ou %2 devant les <i>noms</i> des comètes. Si plus d'une "
 "comète correspond à un nom, seul le premier résultat sera retourné. Par "
-"exemple, une recherche de \"%3\" retournera %4, la comète de Halley, mais "
-"une recherche de \"%5\" donnera l'astéroïde %6."
+"exemple, une recherche de « %3 » retournera %4, la comète de Halley, mais "
+"une recherche de « %5 » donnera l'astéroïde %6."
 
 #: plugins/SolarSystemEditor/src/gui/MpcImportWindow.cpp:200
 msgid "Select bookmark..."
-msgstr "Sélectionnez un signet…"
+msgstr "Sélectionner un signet…"
 
 #: plugins/SolarSystemEditor/src/gui/MpcImportWindow.cpp:337
 msgid "Plain Text File"
-msgstr "Fichier texte pur"
+msgstr "Fichier texte"
 
 #: plugins/SolarSystemEditor/src/gui/MpcImportWindow.cpp:339
 msgid "All Files"
@@ -22291,11 +22293,11 @@ msgstr "Télécharger une liste d'objets"
 
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:484
 msgid "Select a source from the list:"
-msgstr "Sélectionnez une source depuis la liste :"
+msgstr "Sélectionner une source depuis la liste :"
 
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:485
 msgid "Or enter a URL:"
-msgstr "Ou saisissez une URL:"
+msgstr "Ou saisir une URL :"
 
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:486
 msgid "Add this URL to the bookmarks list"
@@ -22334,7 +22336,7 @@ msgstr ""
 
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:497
 msgid "This will update existing objects only."
-msgstr "Cette opération mettra seulement à jour les objets existants."
+msgstr "Cette opération ne mettra à jour que les objets existants."
 
 #: plugins/SolarSystemEditor/src/ui_mpcImportWindow.h:499
 msgid "Overwrite existing objects only"
@@ -22888,7 +22890,7 @@ msgstr "Ces champs désignent :"
 #: plugins/NavStars/src/gui/NavStarsWindow.cpp:332
 #, qt-format
 msgid "GHA%1: The Greenwich Hour Angle of the first point of Aries."
-msgstr "GHA%1 : L'angle horaire de Greenwich du premier point de Aries."
+msgstr "GHA%1 : l'angle horaire de Greenwich du premier point de Aries."
 
 #: plugins/NavStars/src/gui/NavStarsWindow.cpp:312
 msgid "SHA: Sidereal Hour Angle of the navigation star."
@@ -22952,7 +22954,7 @@ msgstr ""
 #: plugins/NavStars/src/gui/NavStarsWindow.cpp:331
 msgid "Ho: Simulated observed altitude of navigation star using a sextant."
 msgstr ""
-"Ho : Hauteur simulée de l'étoile de navigation observée au moyen du sextant."
+"Ho : hauteur simulée de l'étoile de navigation observée au moyen du sextant."
 
 #: plugins/NavStars/src/gui/NavStarsWindow.cpp:333
 msgid "LMST: Local mean sidereal time."
@@ -23625,7 +23627,7 @@ msgid ""
 msgstr ""
 "Le partage de ressources entre origines multiples (CORS = Cross-Origin "
 "Resource Sharing) permet au site web indiqué de prendre le contrôle de votre"
-" application Stellarium.<br/>Indiquez * pour permettre à n'importe quel site"
+" application Stellarium.<br/>Indiquer * pour permettre à n'importe quel site"
 " web de prendre le contrôle, à vos risques et périls."
 
 #: plugins/RemoteControl/src/ui_remoteControlDialog.h:240
@@ -28211,7 +28213,7 @@ msgstr "Infos"
 
 #: plugins/MeteorShowers/src/gui/MSConfigDialog.cpp:298
 msgid "Info about meteor showers you can get here:"
-msgstr "Pour plus d'informations sur les pluies de météores, consultez :"
+msgstr "Pour plus d'informations sur les pluies de météores, consulter :"
 
 #. TRANSLATORS: The numbers contain the opening and closing tag of an HTML
 #. link
@@ -28324,7 +28326,7 @@ msgstr "Activer les mises à jour automatiques"
 
 #: plugins/MeteorShowers/src/ui_MSConfigDialog.h:427
 msgid "Next update:"
-msgstr "Prochaine mise à jou :"
+msgstr "Prochaine mise à jour :"
 
 #: plugins/MeteorShowers/src/ui_MSConfigDialog.h:428
 msgid "Last attempt to update"
@@ -28769,7 +28771,7 @@ msgstr "Finalisation du chargement…"
 #: plugins/Scenery3d/src/Scenery3d.cpp:528
 msgid "Could not load scene, please check log for error messages!"
 msgstr ""
-"Impossible de charger la scène. Consultez les messages d'erreur dans le "
+"Impossible de charger la scène. Consulter les messages d'erreur dans le "
 "journal."
 
 #: plugins/Scenery3d/src/Scenery3d.cpp:532
@@ -28779,7 +28781,7 @@ msgstr "Scène chargée correctement."
 #: plugins/Scenery3d/src/Scenery3d.cpp:592
 msgid "Could not load scene info, please check log for error messages!"
 msgstr ""
-"Impossible de charger les infos de la scène. Consultez les messages d'erreur"
+"Impossible de charger les infos de la scène. Consulter les messages d'erreur"
 " dans le journal."
 
 #: plugins/Scenery3d/src/Scenery3d.cpp:616
@@ -28925,7 +28927,7 @@ msgstr "Retour au mode « 6 Textures » en raison d'un bogue ANGLE"
 msgid ""
 "Shadow mapping can not be used on your hardware, check logs for details"
 msgstr ""
-"Le placage d'ombre ne peut pas être utilisé sur votre matériel. Consultez "
+"Le placage d'ombre ne peut pas être utilisé avec votre matériel. Consulter "
 "les journaux d'événements pour plus de détails."
 
 #: plugins/Scenery3d/src/gui/Scenery3dDialog.cpp:265

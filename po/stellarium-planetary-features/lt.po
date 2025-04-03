@@ -62965,7 +62965,7 @@ msgstr "Janas; olandų astronomas (1891-1946)."
 #: data/nomenclature.fab:11218
 msgctxt "crater"
 msgid "Wöhler"
-msgstr "Vöhleris"
+msgstr "Viohleris"
 
 #: data/nomenclature.fab:11218 data/nomenclature.fab:26034
 #: data/nomenclature.fab:26036 data/nomenclature.fab:26038
@@ -62982,9 +62982,9 @@ msgid ""
 "British philosopher (1711-1786); William Hammond; American astronomer "
 "(1871-1959)."
 msgstr ""
-"Frederick Eugene; amerikiečių petrologas ir astronomas (1877-1953); Thomas; "
-"britų filosofas (1711-1786); William Hammond; amerikiečių astronomas "
-"(1871-1959)."
+"Frederikas Eugenijus; amerikiečių petrologas ir astronomas (1877-1953); "
+"Tomas; britų filosofas (1711-1786); Viljamas Hamondas; amerikiečių "
+"astronomas (1871-1959)."
 
 #. TRANSLATORS: (Moon); John, Baron Wrottesley; British astronomer
 #. (1798-1867).
@@ -63031,7 +63031,7 @@ msgstr "Vróblevskis"
 #: data/nomenclature.fab:11228
 msgctxt "origin"
 msgid "Sigmund von; Polish physicist (1845-1888)."
-msgstr "Zigmundas von; lenkų fizikas (1845-1888)."
+msgstr "Zigmundas fon; lenkų fizikas (1845-1888)."
 
 #. TRANSLATORS: (Moon); Johann Philipp von; German astronomer (1651-1725).
 #: data/nomenclature.fab:11230
@@ -63335,7 +63335,7 @@ msgstr "Zupi, Džovanis Batista; italų astronomas (apie 1590-1650 m.)."
 #: data/nomenclature.fab:11272
 msgctxt "crater"
 msgid "Zwicky"
-msgstr "Zwicky"
+msgstr "Cvickis"
 
 #: data/nomenclature.fab:11272 data/nomenclature.fab:24610
 #: data/nomenclature.fab:24778 data/nomenclature.fab:24792
@@ -63348,7 +63348,7 @@ msgstr "Fricas; šveicarų astrofizikas (1898-1974)."
 #: data/nomenclature.fab:11274
 msgctxt "crater"
 msgid "Zöllner"
-msgstr "Zöllner"
+msgstr "Ziolneris"
 
 #: data/nomenclature.fab:11274 data/nomenclature.fab:24164
 #: data/nomenclature.fab:24166 data/nomenclature.fab:24168
@@ -63396,7 +63396,7 @@ msgstr ""
 #: data/nomenclature.fab:11280
 msgctxt "crater"
 msgid "Dunér"
-msgstr "Dunér"
+msgstr "Duneris"
 
 #: data/nomenclature.fab:11280 data/nomenclature.fab:25010
 msgctxt "origin"
@@ -63408,7 +63408,7 @@ msgstr "Nilsas Kristoferis; švedų astronomas (1839-1914)."
 #: data/nomenclature.fab:11282
 msgctxt "crater"
 msgid "D. Brown"
-msgstr "D. Brown"
+msgstr "D. Braunas"
 
 #: data/nomenclature.fab:11282
 msgctxt "origin"
@@ -63424,7 +63424,7 @@ msgstr ""
 #: data/nomenclature.fab:11284
 msgctxt "crater"
 msgid "M. Anderson"
-msgstr "M. Anderson"
+msgstr "M. Andersonas"
 
 #: data/nomenclature.fab:11284
 msgctxt "origin"
@@ -63440,7 +63440,7 @@ msgstr ""
 #: data/nomenclature.fab:11286
 msgctxt "crater"
 msgid "Chawla"
-msgstr "Chawla"
+msgstr "Čavla"
 
 #: data/nomenclature.fab:11286
 msgctxt "origin"
@@ -63456,7 +63456,7 @@ msgstr ""
 #: data/nomenclature.fab:11288
 msgctxt "crater"
 msgid "Husband"
-msgstr "Husband"
+msgstr "Husbandas"
 
 #: data/nomenclature.fab:11288
 msgctxt "origin"
@@ -63472,7 +63472,7 @@ msgstr ""
 #: data/nomenclature.fab:11290
 msgctxt "crater"
 msgid "McCool"
-msgstr "McCool"
+msgstr "MakKūlas"
 
 #: data/nomenclature.fab:11290
 msgctxt "origin"
@@ -63519,7 +63519,7 @@ msgstr ""
 #: data/nomenclature.fab:11296
 msgctxt "crater"
 msgid "L. Clark"
-msgstr "L. Clark"
+msgstr "L. Klark"
 
 #: data/nomenclature.fab:11296
 msgctxt "origin"
@@ -63559,7 +63559,7 @@ msgstr ""
 #: data/nomenclature.fab:11302
 msgctxt "crater"
 msgid "von Baeyer"
-msgstr "von Baeyer"
+msgstr "fon Baejeris"
 
 #: data/nomenclature.fab:11302
 msgctxt "origin"
@@ -63575,7 +63575,7 @@ msgstr ""
 #: data/nomenclature.fab:11304
 msgctxt "crater"
 msgid "Larmor"
-msgstr "Larmor"
+msgstr "Larmoras"
 
 #: data/nomenclature.fab:11304 data/nomenclature.fab:19802
 #: data/nomenclature.fab:19806 data/nomenclature.fab:19810
@@ -63588,7 +63588,7 @@ msgstr "Seras Džozefas; britų matematikas, fizikas (1857-1942)."
 #: data/nomenclature.fab:11306
 msgctxt "crater"
 msgid "Leeuwenhoek"
-msgstr "Leeuwenhoek"
+msgstr "Leeuvenhoekas"
 
 #: data/nomenclature.fab:11306 data/nomenclature.fab:19988
 msgctxt "origin"
@@ -63859,7 +63859,7 @@ msgstr ""
 #: data/nomenclature.fab:11344
 msgctxt "crater"
 msgid "Houssay"
-msgstr "Houssay"
+msgstr "Husėjus"
 
 #: data/nomenclature.fab:11344
 msgctxt "origin"
