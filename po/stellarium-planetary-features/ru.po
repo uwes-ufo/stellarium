@@ -4217,7 +4217,7 @@ msgstr ""
 #: data/nomenclature.fab:738
 msgctxt "rupes"
 msgid "Niman Rupes"
-msgstr "Уступ Ниман"
+msgstr "Утёс Ниман"
 
 #: data/nomenclature.fab:738
 msgctxt "origin"
@@ -6869,7 +6869,7 @@ msgstr ""
 #: data/nomenclature.fab:1148
 msgctxt "rupes"
 msgid "Samaria Rupes"
-msgstr "Уступ Самария"
+msgstr "Утёс Самария"
 
 #: data/nomenclature.fab:1148
 msgctxt "origin"
@@ -16485,7 +16485,7 @@ msgstr "Река во времена Лютеции, ныне река Рона 
 #: data/nomenclature.fab:2806
 msgctxt "rupes"
 msgid "Rhenus Rupes"
-msgstr "Уступ Ренуса"
+msgstr "Утёс Ренуса"
 
 #: data/nomenclature.fab:2806
 msgctxt "origin"
@@ -16497,7 +16497,7 @@ msgstr "Река во времена Лютеции, ныне река Рейн 
 #: data/nomenclature.fab:2808
 msgctxt "rupes"
 msgid "Glana Rupes"
-msgstr "Уступ Гланы"
+msgstr "Утёс Гланы"
 
 #: data/nomenclature.fab:2808
 msgctxt "origin"
@@ -32895,7 +32895,7 @@ msgstr "назван по классическому объекту альбед
 #: data/nomenclature.fab:6352
 msgctxt "rupes"
 msgid "Thyles Rupes"
-msgstr "Уступ Туле"
+msgstr "Утёс Туле"
 
 #: data/nomenclature.fab:6352
 msgctxt "origin"
@@ -32908,13 +32908,13 @@ msgstr ""
 #: data/nomenclature.fab:6354
 msgctxt "rupes"
 msgid "Argyre Rupes"
-msgstr "Уступ Аргир"
+msgstr "Утёс Аргир"
 
 #. TRANSLATORS: (Mars); Albedo feature; classical Persian deity of wickedness.
 #: data/nomenclature.fab:6356
 msgctxt "rupes"
 msgid "Arimanes Rupes"
-msgstr "Уступ Ариманес"
+msgstr "Утёс Ариманес"
 
 #: data/nomenclature.fab:6356
 msgctxt "origin"
@@ -32925,7 +32925,7 @@ msgstr "объект альбедо; классическое персидско
 #: data/nomenclature.fab:6358
 msgctxt "rupes"
 msgid "Elysium Rupes"
-msgstr "Уступ Элизий"
+msgstr "Утёс Элизий"
 
 #. TRANSLATORS: (Mars); From albedo feature at 70N, 248W.
 #: data/nomenclature.fab:6360
@@ -32964,13 +32964,13 @@ msgstr "назван по классическому объекту альбед
 #: data/nomenclature.fab:6366
 msgctxt "rupes"
 msgid "Ulyxis Rupes"
-msgstr "Уступ Уликса"
+msgstr "Утёс Уликса"
 
 #. TRANSLATORS: (Mars); From albedo feature at 58S, 319W.
 #: data/nomenclature.fab:6368
 msgctxt "rupes"
 msgid "Pityusa Rupes"
-msgstr "Уступ Пицундский"
+msgstr "Утёс Пицундский"
 
 #: data/nomenclature.fab:6368
 msgctxt "origin"
@@ -32981,7 +32981,7 @@ msgstr "по объекту альбедо в 58° ю.ш., 319° з.д."
 #: data/nomenclature.fab:6370
 msgctxt "rupes"
 msgid "Avernus Rupes"
-msgstr "Уступ Авернус"
+msgstr "Утёс Авернус"
 
 #: data/nomenclature.fab:6370
 msgctxt "origin"
@@ -32992,7 +32992,7 @@ msgstr "по объекту  альбедо Авернус в 10° ю.ш., 195°
 #: data/nomenclature.fab:6372
 msgctxt "rupes"
 msgid "Claritas Rupes"
-msgstr "Уступ Кларитас"
+msgstr "Утёс Кларитас"
 
 #: data/nomenclature.fab:6372
 msgctxt "origin"
@@ -33003,7 +33003,7 @@ msgstr "по объекту альбедо в 25° ю.ш., 110° з.д."
 #: data/nomenclature.fab:6374
 msgctxt "rupes"
 msgid "Ogygis Rupes"
-msgstr "Уступ Огига"
+msgstr "Утёс Огига"
 
 #. TRANSLATORS: (Mars); From albedo feature at 50S, 6W.
 #: data/nomenclature.fab:6376
@@ -33026,31 +33026,31 @@ msgstr "Босфорский уступ"
 #: data/nomenclature.fab:6380
 msgctxt "rupes"
 msgid "Amenthes Rupes"
-msgstr "Уступ Аментес"
+msgstr "Утёс Аментес"
 
 #. TRANSLATORS: (Mars); Classical albedo feature name.
 #: data/nomenclature.fab:6382
 msgctxt "rupes"
 msgid "Phison Rupes"
-msgstr "Уступ Физон"
+msgstr "Утёс Физон"
 
 #. TRANSLATORS: (Mars); Classical albedo feature name.
 #: data/nomenclature.fab:6384
 msgctxt "rupes"
 msgid "Morpheos Rupes"
-msgstr "Уступ Морфея"
+msgstr "Утёс Морфея"
 
 #. TRANSLATORS: (Mars); Classical albedo feature name.
 #: data/nomenclature.fab:6386
 msgctxt "rupes"
 msgid "Promethei Rupes"
-msgstr "Уступ Прометея"
+msgstr "Утёс Прометея"
 
 #. TRANSLATORS: (Mars); Named for albedo feature at 2N, 183W.
 #: data/nomenclature.fab:6388
 msgctxt "rupes"
 msgid "Tartarus Rupes"
-msgstr "Уступ Тартар"
+msgstr "Утёс Тартар"
 
 #: data/nomenclature.fab:6388
 msgctxt "origin"
@@ -33061,7 +33061,7 @@ msgstr "назван по объекту альбедо в 2° с.ш., 183° з.
 #: data/nomenclature.fab:6390
 msgctxt "rupes"
 msgid "Rupes Tenuis"
-msgstr "Уступ Тенуис"
+msgstr "Утёс Тенуис"
 
 #. TRANSLATORS: (Mars); Classical albedo feature name.
 #: data/nomenclature.fab:6392
@@ -33090,7 +33090,7 @@ msgstr "слово, обозначающее \"север\" в переводе 
 #: data/nomenclature.fab:6398
 msgctxt "rupes"
 msgid "Icaria Rupes"
-msgstr "Уступ Икария"
+msgstr "Утёс Икария"
 
 #: data/nomenclature.fab:6398
 msgctxt "origin"
@@ -33101,13 +33101,13 @@ msgstr "название классического объекта альбед�
 #: data/nomenclature.fab:6400
 msgctxt "rupes"
 msgid "Hiddekel Rupes"
-msgstr "Уступ Хиддекел"
+msgstr "Утёс Хиддекел"
 
 #. TRANSLATORS: (Mars); Classical albedo feature name, Phrixi.
 #: data/nomenclature.fab:6402
 msgctxt "rupes"
 msgid "Phrixi Rupes"
-msgstr "Уступ Фрикси"
+msgstr "Утёс Фрикси"
 
 #: data/nomenclature.fab:6402
 msgctxt "origin"
@@ -41662,7 +41662,7 @@ msgstr "слово инков/кечуа, обозначающее планет�
 #: data/nomenclature.fab:7990
 msgctxt "rupes"
 msgid "Endurance Rupes"
-msgstr "Уступ Эндурэнс"
+msgstr "Утёс Эндурэнс"
 
 #: data/nomenclature.fab:7990
 msgctxt "origin"
@@ -41679,7 +41679,7 @@ msgstr ""
 #: data/nomenclature.fab:7992
 msgctxt "rupes"
 msgid "Vejas Rupes"
-msgstr "Уступ Веяс"
+msgstr "Утёс Веяс"
 
 #: data/nomenclature.fab:7992
 msgctxt "origin"
@@ -41698,7 +41698,7 @@ msgstr ""
 #: data/nomenclature.fab:7994
 msgctxt "rupes"
 msgid "Volasiga Rupes"
-msgstr "Уступ Воласига"
+msgstr "Утёс Воласига"
 
 #: data/nomenclature.fab:7994
 msgctxt "origin"
@@ -41716,7 +41716,7 @@ msgstr ""
 #: data/nomenclature.fab:7996
 msgctxt "rupes"
 msgid "Italica Rupes"
-msgstr "Уступ Италика"
+msgstr "Утёс Италика"
 
 #: data/nomenclature.fab:7996
 msgctxt "origin"
@@ -41736,7 +41736,7 @@ msgstr ""
 #: data/nomenclature.fab:7998
 msgctxt "rupes"
 msgid "Baltica Rupes"
-msgstr "Уступ Балтика"
+msgstr "Утёс Балтика"
 
 #: data/nomenclature.fab:7998
 msgctxt "origin"
@@ -41754,7 +41754,7 @@ msgstr ""
 #: data/nomenclature.fab:8000
 msgctxt "rupes"
 msgid "Lance Rupes"
-msgstr "Уступ Ланс"
+msgstr "Утёс Ланс"
 
 #: data/nomenclature.fab:8000
 msgctxt "origin"
@@ -41773,7 +41773,7 @@ msgstr ""
 #: data/nomenclature.fab:8002
 msgctxt "rupes"
 msgid "Adventure Rupes"
-msgstr "Уступ Адвенчер"
+msgstr "Утёс Адвенчер"
 
 #: data/nomenclature.fab:8002
 msgctxt "origin"
@@ -41787,7 +41787,7 @@ msgstr ""
 #: data/nomenclature.fab:8004
 msgctxt "rupes"
 msgid "Carnegie Rupes"
-msgstr "Уступ Карнеги"
+msgstr "Утёс Карнеги"
 
 #: data/nomenclature.fab:8004
 msgctxt "origin"
@@ -41803,7 +41803,7 @@ msgstr ""
 #: data/nomenclature.fab:8006
 msgctxt "rupes"
 msgid "Endeavour Rupes"
-msgstr "Уступ Индевор"
+msgstr "Утёс Индевор"
 
 #: data/nomenclature.fab:8006
 msgctxt "origin"
@@ -41818,7 +41818,7 @@ msgstr ""
 #: data/nomenclature.fab:8008
 msgctxt "rupes"
 msgid "Astrolabe Rupes"
-msgstr "Уступ Астроляб"
+msgstr "Утёс Астроляб"
 
 #: data/nomenclature.fab:8008
 msgctxt "origin"
@@ -41831,7 +41831,7 @@ msgstr ""
 #: data/nomenclature.fab:8010
 msgctxt "rupes"
 msgid "Fram Rupes"
-msgstr "Уступ Фрам"
+msgstr "Утёс Фрам"
 
 #: data/nomenclature.fab:8010
 msgctxt "origin"
@@ -41847,7 +41847,7 @@ msgstr ""
 #: data/nomenclature.fab:8012
 msgctxt "rupes"
 msgid "Gjöa Rupes"
-msgstr "Уступ Йоа"
+msgstr "Утёс Йоа"
 
 #: data/nomenclature.fab:8012
 msgctxt "origin"
@@ -41860,7 +41860,7 @@ msgstr ""
 #: data/nomenclature.fab:8014
 msgctxt "rupes"
 msgid "Heemskerck Rupes"
-msgstr "Уступ Хемскерк"
+msgstr "Утёс Хемскерк"
 
 #: data/nomenclature.fab:8014 data/nomenclature.fab:8020
 msgctxt "origin"
@@ -41875,7 +41875,7 @@ msgstr ""
 #: data/nomenclature.fab:8016
 msgctxt "rupes"
 msgid "Hero Rupes"
-msgstr "Уступ Хироу"
+msgstr "Утёс Хироу"
 
 #: data/nomenclature.fab:8016
 msgctxt "origin"
@@ -41889,7 +41889,7 @@ msgstr ""
 #: data/nomenclature.fab:8018
 msgctxt "rupes"
 msgid "Santa María Rupes"
-msgstr "Уступ Санта Мария"
+msgstr "Утёс Санта Мария"
 
 #: data/nomenclature.fab:8018
 msgctxt "origin"
@@ -41903,14 +41903,14 @@ msgstr ""
 #: data/nomenclature.fab:8020
 msgctxt "rupes"
 msgid "Zeehaen Rupes"
-msgstr "Уступ Зехан"
+msgstr "Утёс Зехан"
 
 #. TRANSLATORS: (Mercury); Russian; Bellingshausen's ship for Antarctic
 #. exploration, 1819-21.
 #: data/nomenclature.fab:8022 data/nomenclature.fab:8084
 msgctxt "rupes"
 msgid "Mirni Rupes"
-msgstr "Уступ Мирный"
+msgstr "Утёс Мирный"
 
 #: data/nomenclature.fab:8022 data/nomenclature.fab:8044
 #: data/nomenclature.fab:8084
@@ -41925,7 +41925,7 @@ msgstr ""
 #: data/nomenclature.fab:8024
 msgctxt "rupes"
 msgid "Calypso Rupes"
-msgstr "Уступ Калипсо"
+msgstr "Утёс Калипсо"
 
 #: data/nomenclature.fab:8024
 msgctxt "origin"
@@ -41943,7 +41943,7 @@ msgstr ""
 #: data/nomenclature.fab:8026
 msgctxt "rupes"
 msgid "Zarya Rupes"
-msgstr "Уступ Заря"
+msgstr "Утёс Заря"
 
 #: data/nomenclature.fab:8026
 msgctxt "origin"
@@ -41956,7 +41956,7 @@ msgstr ""
 #: data/nomenclature.fab:8028
 msgctxt "rupes"
 msgid "Pourquoi-Pas Rupes"
-msgstr "Уступ Пуркуа-Па"
+msgstr "Утёс Пуркуа-Па"
 
 #: data/nomenclature.fab:8028
 msgctxt "origin"
@@ -41968,7 +41968,7 @@ msgstr "французское; корабль Шарко для исследо�
 #: data/nomenclature.fab:8030
 msgctxt "rupes"
 msgid "Resolution Rupes"
-msgstr "Уступ Резольюшен"
+msgstr "Утёс Резольюшен"
 
 #: data/nomenclature.fab:8030
 msgctxt "origin"
@@ -41982,7 +41982,7 @@ msgstr ""
 #: data/nomenclature.fab:8032
 msgctxt "rupes"
 msgid "Victoria Rupes"
-msgstr "Уступ Виктория"
+msgstr "Утёс Виктория"
 
 #: data/nomenclature.fab:8032
 msgctxt "origin"
@@ -41997,7 +41997,7 @@ msgstr ""
 #: data/nomenclature.fab:8034
 msgctxt "rupes"
 msgid "Enterprise Rupes"
-msgstr "Уступ Энтерпрайз"
+msgstr "Утёс Энтерпрайз"
 
 #: data/nomenclature.fab:8034
 msgctxt "origin"
@@ -42015,7 +42015,7 @@ msgstr ""
 #: data/nomenclature.fab:8036
 msgctxt "rupes"
 msgid "Terror Rupes"
-msgstr "Уступ Террор"
+msgstr "Утёс Террор"
 
 #: data/nomenclature.fab:8036
 msgctxt "origin"
@@ -42031,7 +42031,7 @@ msgstr ""
 #: data/nomenclature.fab:8038
 msgctxt "rupes"
 msgid "Beagle Rupes"
-msgstr "Уступ Бигль"
+msgstr "Утёс Бигль"
 
 #: data/nomenclature.fab:8038
 msgctxt "origin"
@@ -42048,7 +42048,7 @@ msgstr ""
 #: data/nomenclature.fab:8040
 msgctxt "rupes"
 msgid "Nautilus Rupes"
-msgstr "Уступ Наутилус"
+msgstr "Утёс Наутилус"
 
 #: data/nomenclature.fab:8040
 msgctxt "origin"
@@ -42065,7 +42065,7 @@ msgstr ""
 #: data/nomenclature.fab:8042
 msgctxt "rupes"
 msgid "Palmer Rupes"
-msgstr "Уступ Палмер"
+msgstr "Утёс Палмер"
 
 #: data/nomenclature.fab:8042
 msgctxt "origin"
@@ -42083,7 +42083,7 @@ msgstr ""
 #: data/nomenclature.fab:8044
 msgctxt "rupes"
 msgid "Vostok Rupes"
-msgstr "Уступ Восток"
+msgstr "Утёс Восток"
 
 #. TRANSLATORS: (Mercury); Belgian; ship used for an expedition to determine
 #. the position of the South Magnetic Pole in 1898, first ship to winter in
@@ -42091,7 +42091,7 @@ msgstr "Уступ Восток"
 #: data/nomenclature.fab:8046
 msgctxt "rupes"
 msgid "Belgica Rupes"
-msgstr "Уступ Бельгика"
+msgstr "Утёс Бельгика"
 
 #: data/nomenclature.fab:8046
 msgctxt "origin"
@@ -42109,7 +42109,7 @@ msgstr ""
 #: data/nomenclature.fab:8048
 msgctxt "rupes"
 msgid "Alvin Rupes"
-msgstr "Уступ Элвин"
+msgstr "Утёс Элвин"
 
 #: data/nomenclature.fab:8048
 msgctxt "origin"
@@ -42127,7 +42127,7 @@ msgstr ""
 #: data/nomenclature.fab:8050
 msgctxt "rupes"
 msgid "Eltanin Rupes"
-msgstr "Уступ Элтанин"
+msgstr "Утёс Элтанин"
 
 #: data/nomenclature.fab:8050
 msgctxt "origin"
@@ -42143,7 +42143,7 @@ msgstr ""
 #: data/nomenclature.fab:8052
 msgctxt "rupes"
 msgid "Duyfken Rupes"
-msgstr "Уступ Дейфкен"
+msgstr "Утёс Дейфкен"
 
 #: data/nomenclature.fab:8052
 msgctxt "origin"
@@ -42160,7 +42160,7 @@ msgstr ""
 #: data/nomenclature.fab:8054
 msgctxt "rupes"
 msgid "Paramour Rupes"
-msgstr "Уступ Парамоур"
+msgstr "Утёс Парамоур"
 
 #: data/nomenclature.fab:8054
 msgctxt "origin"
@@ -42210,7 +42210,7 @@ msgstr ""
 #: data/nomenclature.fab:8060
 msgctxt "rupes"
 msgid "Grifo Rupes"
-msgstr "Уступ Грифо"
+msgstr "Утёс Грифо"
 
 #: data/nomenclature.fab:8060
 msgctxt "origin"
@@ -42226,7 +42226,7 @@ msgstr ""
 #: data/nomenclature.fab:8062
 msgctxt "rupes"
 msgid "Soya Rupes"
-msgstr "Уступ Соя"
+msgstr "Утёс Соя"
 
 #: data/nomenclature.fab:8062
 msgctxt "origin"
@@ -42244,7 +42244,7 @@ msgstr ""
 #: data/nomenclature.fab:8064
 msgctxt "rupes"
 msgid "Unity Rupes"
-msgstr "Уступ Юнити"
+msgstr "Утёс Юнити"
 
 #: data/nomenclature.fab:8064
 msgctxt "origin"
@@ -42264,7 +42264,7 @@ msgstr ""
 #: data/nomenclature.fab:8066 data/nomenclature.fab:8078
 msgctxt "rupes"
 msgid "Discovery Rupes"
-msgstr "Уступ Дискавери"
+msgstr "Утёс Дискавери"
 
 #: data/nomenclature.fab:8066 data/nomenclature.fab:8078
 msgctxt "origin"
@@ -42278,7 +42278,7 @@ msgstr ""
 #: data/nomenclature.fab:8068
 msgctxt "rupes"
 msgid "Yelcho Rupes"
-msgstr "Уступ Ельчо"
+msgstr "Утёс Ельчо"
 
 #: data/nomenclature.fab:8068
 msgctxt "origin"
@@ -42296,7 +42296,7 @@ msgstr ""
 #: data/nomenclature.fab:8070
 msgctxt "rupes"
 msgid "Investigator Rupes"
-msgstr "Уступ Инвестигейтор"
+msgstr "Утёс Инвестигейтор"
 
 #: data/nomenclature.fab:8070
 msgctxt "origin"
@@ -42315,7 +42315,7 @@ msgstr ""
 #: data/nomenclature.fab:8072
 msgctxt "rupes"
 msgid "Chikyu Rupes"
-msgstr "Уступ Джикю"
+msgstr "Утёс Джикю"
 
 #: data/nomenclature.fab:8072
 msgctxt "origin"
@@ -42331,7 +42331,7 @@ msgstr ""
 #: data/nomenclature.fab:8074
 msgctxt "rupes"
 msgid "Blossom Rupes"
-msgstr "Уступ Блоссом"
+msgstr "Утёс Блоссом"
 
 #: data/nomenclature.fab:8074
 msgctxt "origin"
@@ -42366,7 +42366,7 @@ msgstr ""
 #: data/nomenclature.fab:8080
 msgctxt "rupes"
 msgid "Altair Rupes"
-msgstr "Уступ Альтаир"
+msgstr "Утёс Альтаир"
 
 #: data/nomenclature.fab:8080
 msgctxt "origin"
@@ -42383,7 +42383,7 @@ msgstr ""
 #: data/nomenclature.fab:8082
 msgctxt "rupes"
 msgid "La Dauphine Rupes"
-msgstr "Уступ  Дофинэ"
+msgstr "Утёс  Дофинэ"
 
 #: data/nomenclature.fab:8082
 msgctxt "origin"
@@ -42401,7 +42401,7 @@ msgstr ""
 #: data/nomenclature.fab:8086
 msgctxt "rupes"
 msgid "Challenger Rupes"
-msgstr "Уступ Челленджер"
+msgstr "Утёс Челленджер"
 
 #: data/nomenclature.fab:8086
 msgctxt "origin"
@@ -42419,7 +42419,7 @@ msgstr ""
 #: data/nomenclature.fab:8088
 msgctxt "rupes"
 msgid "Xuelong Rupes"
-msgstr "Уступ Сюэлун"
+msgstr "Утёс Сюэлун"
 
 #: data/nomenclature.fab:8088
 msgctxt "origin"
@@ -42436,7 +42436,7 @@ msgstr ""
 #: data/nomenclature.fab:8090
 msgctxt "rupes"
 msgid "Acadia Rupes"
-msgstr "Уступ Акадия"
+msgstr "Утёс Акадия"
 
 #: data/nomenclature.fab:8090
 msgctxt "origin"
@@ -42455,7 +42455,7 @@ msgstr ""
 #: data/nomenclature.fab:8092
 msgctxt "rupes"
 msgid "Tangaroa Rupes"
-msgstr "Уступ Тангароа"
+msgstr "Утёс Тангароа"
 
 #: data/nomenclature.fab:8092
 msgctxt "origin"
@@ -42473,7 +42473,7 @@ msgstr ""
 #: data/nomenclature.fab:8094
 msgctxt "rupes"
 msgid "Protea Rupes"
-msgstr "Уступ Протея"
+msgstr "Утёс Протея"
 
 #: data/nomenclature.fab:8094
 msgctxt "origin"
@@ -42489,7 +42489,7 @@ msgstr ""
 #: data/nomenclature.fab:8096
 msgctxt "rupes"
 msgid "Zapiola Rupes"
-msgstr "Уступ Запиола"
+msgstr "Утёс Запиола"
 
 #: data/nomenclature.fab:8096
 msgctxt "origin"
@@ -42505,7 +42505,7 @@ msgstr ""
 #: data/nomenclature.fab:8098
 msgctxt "rupes"
 msgid "Aegaeo Rupes"
-msgstr "Уступ Эгео"
+msgstr "Утёс Эгео"
 
 #: data/nomenclature.fab:8098
 msgctxt "origin"
@@ -42523,7 +42523,7 @@ msgstr ""
 #: data/nomenclature.fab:8100
 msgctxt "rupes"
 msgid "Akademik Rupes"
-msgstr "Уступ Академик"
+msgstr "Утёс Академик"
 
 #: data/nomenclature.fab:8100
 msgctxt "origin"
@@ -42575,7 +42575,7 @@ msgstr ""
 #: data/nomenclature.fab:8106
 msgctxt "rupes"
 msgid "Antares Rupes"
-msgstr "Уступ Антарес"
+msgstr "Утёс Антарес"
 
 #: data/nomenclature.fab:8106
 msgctxt "origin"
@@ -42593,7 +42593,7 @@ msgstr ""
 #: data/nomenclature.fab:8108
 msgctxt "rupes"
 msgid "Astrea Rupes"
-msgstr "Уступ Астрея"
+msgstr "Утёс Астрея"
 
 #: data/nomenclature.fab:8108
 msgctxt "origin"
@@ -42612,7 +42612,7 @@ msgstr ""
 #: data/nomenclature.fab:8110
 msgctxt "rupes"
 msgid "Legend Rupes"
-msgstr "Уступ Легенда"
+msgstr "Утёс Легенда"
 
 #: data/nomenclature.fab:8110
 msgctxt "origin"
@@ -42672,7 +42672,7 @@ msgstr ""
 #: data/nomenclature.fab:8116
 msgctxt "rupes"
 msgid "Providencia Rupes"
-msgstr "Уступ Провиденсия"
+msgstr "Утёс Провиденсия"
 
 #: data/nomenclature.fab:8116
 msgctxt "origin"
@@ -42692,7 +42692,7 @@ msgstr ""
 #: data/nomenclature.fab:8118
 msgctxt "rupes"
 msgid "Hesperides Rupes"
-msgstr "Уступ Геспериды"
+msgstr "Утёс Геспериды"
 
 #: data/nomenclature.fab:8118
 msgctxt "origin"
@@ -42713,7 +42713,7 @@ msgstr ""
 #: data/nomenclature.fab:8120
 msgctxt "rupes"
 msgid "Pelagia Rupes"
-msgstr "Уступ Пелагиа"
+msgstr "Утёс Пелагиа"
 
 #: data/nomenclature.fab:8120
 msgctxt "origin"
@@ -43454,7 +43454,7 @@ msgstr "местоположение замка, где был побежден 
 #: data/nomenclature.fab:8244
 msgctxt "rupes"
 msgid "Argier Rupes"
-msgstr "Уступ Аргиер"
+msgstr "Утёс Аргиер"
 
 #: data/nomenclature.fab:8244
 msgctxt "origin"
@@ -43465,7 +43465,7 @@ msgstr "место более раннего действия в «Буре»."
 #: data/nomenclature.fab:8246
 msgctxt "rupes"
 msgid "Verona Rupes"
-msgstr "Уступ Верона"
+msgstr "Утёс Верона"
 
 #: data/nomenclature.fab:8246
 msgctxt "origin"
@@ -67690,7 +67690,7 @@ msgstr "Борозда Лувиля"
 #: data/nomenclature.fab:12198
 msgctxt "rupes"
 msgid "Rupes Altai"
-msgstr "Уступ Алтай"
+msgstr "Утёс Алтай"
 
 #: data/nomenclature.fab:12198
 msgctxt "origin"
@@ -67701,19 +67701,19 @@ msgstr "названы в честь земных Алтайских гор."
 #: data/nomenclature.fab:12200
 msgctxt "rupes"
 msgid "Rupes Liebig"
-msgstr "Уступ Либиха"
+msgstr "Утёс Либиха"
 
 #. TRANSLATORS: (Moon); Named from nearby crater.
 #: data/nomenclature.fab:12202
 msgctxt "rupes"
 msgid "Rupes Mercator"
-msgstr "Уступ Меркатора"
+msgstr "Утёс Меркатора"
 
 #. TRANSLATORS: (Moon); Latin for "straight cliff" (the straight wall).
 #: data/nomenclature.fab:12204
 msgctxt "rupes"
 msgid "Rupes Recta"
-msgstr "Уступ Прямая Стена"
+msgstr "Утёс Прямая Стена"
 
 #: data/nomenclature.fab:12204
 msgctxt "origin"
@@ -67724,25 +67724,25 @@ msgstr "в переводе с латыни это означает “прям�
 #: data/nomenclature.fab:12206
 msgctxt "rupes"
 msgid "Rupes Boris"
-msgstr "Уступ Бориса"
+msgstr "Утёс Бориса"
 
 #. TRANSLATORS: (Moon); Named from nearby crater.
 #: data/nomenclature.fab:12208
 msgctxt "rupes"
 msgid "Rupes Cauchy"
-msgstr "Уступ Коши"
+msgstr "Утёс Коши"
 
 #. TRANSLATORS: (Moon); Named from nearby promontorium.
 #: data/nomenclature.fab:12210
 msgctxt "rupes"
 msgid "Rupes Kelvin"
-msgstr "Уступ Кельвина"
+msgstr "Утёс Кельвина"
 
 #. TRANSLATORS: (Moon); Named from nearby crater.
 #: data/nomenclature.fab:12212
 msgctxt "rupes"
 msgid "Rupes Toscanelli"
-msgstr "Уступ Тосканелли"
+msgstr "Утёс Тосканелли"
 
 #. TRANSLATORS: (Moon); Italian explorer (1254-1324).
 #: data/nomenclature.fab:12214
@@ -114869,7 +114869,7 @@ msgstr ""
 #: data/nomenclature.fab:26638
 msgctxt "rupes"
 msgid "Piri Rupes"
-msgstr "Уступ Пири"
+msgstr "Утёс Пири"
 
 #: data/nomenclature.fab:26638
 msgctxt "origin"
@@ -114889,7 +114889,7 @@ msgstr ""
 #: data/nomenclature.fab:26640
 msgctxt "rupes"
 msgid "Ride Rupes"
-msgstr "Уступ Райд"
+msgstr "Утёс Райд"
 
 #: data/nomenclature.fab:26640
 msgctxt "origin"
@@ -118372,7 +118372,7 @@ msgstr "Место в фильме “Много шума из ничего”"
 #: data/nomenclature.fab:27172
 msgctxt "rupes"
 msgid "Rousillon Rupes"
-msgstr "Уступ Руссильон"
+msgstr "Утёс Руссильон"
 
 #: data/nomenclature.fab:27172
 msgctxt "origin"
@@ -140722,7 +140722,7 @@ msgstr "первая буква греческого алфавита."
 #: data/nomenclature.fab:31482
 msgctxt "rupes"
 msgid "Fornax Rupes"
-msgstr "Уступ Форнаки"
+msgstr "Утёс Форнаки"
 
 #: data/nomenclature.fab:31482
 msgctxt "origin"
@@ -140733,7 +140733,7 @@ msgstr "римская богиня домашнего очага и выпеч�
 #: data/nomenclature.fab:31484
 msgctxt "rupes"
 msgid "Gabie Rupes"
-msgstr "Уступ Габи"
+msgstr "Утёс Габи"
 
 #: data/nomenclature.fab:31484
 msgctxt "origin"
@@ -140744,7 +140744,7 @@ msgstr "литовская богиня огня и домашнего очаг�
 #: data/nomenclature.fab:31486
 msgctxt "rupes"
 msgid "Hestia Rupes"
-msgstr "Уступ Гестии"
+msgstr "Утёс Гестии"
 
 #: data/nomenclature.fab:31486
 msgctxt "origin"
@@ -140755,7 +140755,7 @@ msgstr "греческая богиня домашнего очага."
 #: data/nomenclature.fab:31488
 msgctxt "rupes"
 msgid "Uorsar Rupes"
-msgstr "Уступ Уорсар"
+msgstr "Утёс Уорсар"
 
 #: data/nomenclature.fab:31488
 msgctxt "origin"
@@ -140766,7 +140766,7 @@ msgstr "адыгейская (Кавказ) богиня домашнего оч
 #: data/nomenclature.fab:31490
 msgctxt "rupes"
 msgid "Ut Rupes"
-msgstr "Уступ Ут"
+msgstr "Утёс Ут"
 
 #: data/nomenclature.fab:31490
 msgctxt "origin"
@@ -140777,7 +140777,7 @@ msgstr "сибирское; тюрко-татарская богиня дома�
 #: data/nomenclature.fab:31492
 msgctxt "rupes"
 msgid "Vaidilute Rupes"
-msgstr "Уступ Вайдилуте"
+msgstr "Утёс Вайдилуте"
 
 #: data/nomenclature.fab:31492
 msgctxt "origin"
@@ -140788,7 +140788,7 @@ msgstr "литовская богиня домашнего очага."
 #: data/nomenclature.fab:31494
 msgctxt "rupes"
 msgid "Vesta Rupes"
-msgstr "Уступ Весты"
+msgstr "Утёс Весты"
 
 #: data/nomenclature.fab:31494
 msgctxt "origin"
@@ -144325,7 +144325,7 @@ msgstr ""
 #: data/nomenclature.fab:32102
 msgctxt "rupes"
 msgid "Parentatio Rupes"
-msgstr "Уступ Парентации"
+msgstr "Утёс Парентации"
 
 #: data/nomenclature.fab:32102
 msgctxt "origin"
@@ -144341,7 +144341,7 @@ msgstr ""
 #: data/nomenclature.fab:32104
 msgctxt "rupes"
 msgid "Agonium Rupes"
-msgstr "Уступ Агоналии"
+msgstr "Утёс Агоналии"
 
 #: data/nomenclature.fab:32104
 msgctxt "origin"
@@ -144357,7 +144357,7 @@ msgstr ""
 #: data/nomenclature.fab:32106
 msgctxt "rupes"
 msgid "Matronalia Rupes"
-msgstr "Уступ Матроналии"
+msgstr "Утёс Матроналии"
 
 #: data/nomenclature.fab:32106
 msgctxt "origin"
