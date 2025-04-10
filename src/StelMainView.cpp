@@ -1454,7 +1454,7 @@ void StelMainView::dumpOpenGLdiagnostics() const
 		}
 		QMapIterator<QString, QString> iter2(extensionMap);
 		while (iter2.hasNext()) {
-			qInfo() << " -" << iter2.next().key();
+			qInfo().noquote() << " -" << iter2.next().key();
 		}
 
 		QFunctionPointer programParameterPtr =context->getProcAddress("glProgramParameteri");
