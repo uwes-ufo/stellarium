@@ -12801,12 +12801,12 @@ msgstr "アラウカニア族 (またはマプチェ族、チリとアルゼン�
 #: data/nomenclature.fab:2228
 msgctxt "fluctus"
 msgid "Guaraci Fluctus"
-msgstr ""
+msgstr "グアラシ流域"
 
 #: data/nomenclature.fab:2228
 msgctxt "origin"
 msgid "Guarani (Brazil) sun god."
-msgstr ""
+msgstr "グアラニ族の太陽神。"
 
 #. TRANSLATORS: (Io); Hittite sun goddess.
 #: data/nomenclature.fab:2230
@@ -13061,42 +13061,42 @@ msgstr "「接触の子供」を意味する、イオとゼウスの息子。"
 #: data/nomenclature.fab:2278
 msgctxt "mons"
 msgid "Antenora Mons"
-msgstr ""
+msgstr "アンテノーラ山"
 
 #: data/nomenclature.fab:2278
 msgctxt "origin"
 msgid ""
 "Name for the second ring of Cocytus, the frozen lake that is the ninth "
 "circle of Hell in Dante’s “The Inferno.”"
-msgstr ""
+msgstr "ダンテの『神曲』「地獄篇」に登場する地獄の第9圏である凍った湖、コキュートスの2番目の円の名前。"
 
 #. TRANSLATORS: (Io); Name for the walled city encompassing the sixth through
 #. ninth circles of Hell in Dante’s “The Inferno.”
 #: data/nomenclature.fab:2280
 msgctxt "mons"
 msgid "Dis Mons"
-msgstr ""
+msgstr "ディース山"
 
 #: data/nomenclature.fab:2280
 msgctxt "origin"
 msgid ""
 "Name for the walled city encompassing the sixth through ninth circles of "
 "Hell in Dante’s “The Inferno.”"
-msgstr ""
+msgstr "ダンテの『神曲』「地獄篇」に登場する地獄の第6圏から第9圏を囲む城壁都市の名前。"
 
 #. TRANSLATORS: (Io); Name for the frozen lake which is the ninth and final
 #. circle of Hell in Dante’s “The Inferno.”
 #: data/nomenclature.fab:2282
 msgctxt "mons"
 msgid "Cocytus Montes"
-msgstr ""
+msgstr "コキュートス山脈"
 
 #: data/nomenclature.fab:2282
 msgctxt "origin"
 msgid ""
 "Name for the frozen lake which is the ninth and final circle of Hell in "
 "Dante’s “The Inferno.”"
-msgstr ""
+msgstr "ダンテの『神曲』「地獄篇」に登場する地獄の第9圏であり最終圏である凍った湖の名前。"
 
 #. TRANSLATORS: (Io); Brazilian god who destroyed the world with fire and
 #. flood.
@@ -13736,12 +13736,12 @@ msgstr "ルイジアード諸島 (パプアニューギニア) 文化の英雄�
 #: data/nomenclature.fab:2402
 msgctxt "patera"
 msgid "Amatsumara Patera"
-msgstr ""
+msgstr "アマツマラ火口"
 
 #: data/nomenclature.fab:2402
 msgctxt "origin"
 msgid "Shinto (Japanese) smith deity."
-msgstr ""
+msgstr "神道 (日本神話) に登場する鍛冶の神、天津麻羅。"
 
 #. TRANSLATORS: (Io); Dakota name meaning the sun.
 #: data/nomenclature.fab:2404
@@ -25866,162 +25866,162 @@ msgstr "インド、ビハール州の村。"
 #: data/nomenclature.fab:4902
 msgctxt "crater"
 msgid "Forro"
-msgstr ""
+msgstr "フォロ"
 
 #: data/nomenclature.fab:4902
 msgctxt "origin"
 msgid ""
 "Madeleine Barbothy; Hungarian-American specialist on cosmic rays "
 "(1904-1995)."
-msgstr ""
+msgstr "マドレン・バルボシー; ハンガリー系アメリカ人の宇宙線の専門家(1904-1995)。"
 
 #. TRANSLATORS: (Mars); Town in Uganda.
 #: data/nomenclature.fab:4904
 msgctxt "crater"
 msgid "Moyo"
-msgstr ""
+msgstr "モヨ"
 
 #. TRANSLATORS: (Mars); Town in Germany.
 #: data/nomenclature.fab:4906
 msgctxt "crater"
 msgid "Lendringsen"
-msgstr ""
+msgstr "レントリングセン"
 
 #. TRANSLATORS: (Mars); Town in Madhya Pradesh, India.
 #: data/nomenclature.fab:4908
 msgctxt "crater"
 msgid "Sidhi"
-msgstr ""
+msgstr "スィーディー"
 
 #: data/nomenclature.fab:4908
 msgctxt "origin"
 msgid "Town in Madhya Pradesh, India."
-msgstr ""
+msgstr "インドのマディヤ・プラデーシュ州にある町。"
 
 #. TRANSLATORS: (Mars); Sandra; Italian astrobiologist (1933-2021).
 #: data/nomenclature.fab:4910
 msgctxt "crater"
 msgid "Pizzarello"
-msgstr ""
+msgstr "ピッツァレロ"
 
 #: data/nomenclature.fab:4910
 msgctxt "origin"
 msgid "Sandra; Italian astrobiologist (1933-2021)."
-msgstr ""
+msgstr " サンドラ; イタリアの宇宙生物学者 (1933-2021)。"
 
 #. TRANSLATORS: (Mars); Masatsugu; Japanese physicist and astronomer who
 #. observed Martian dust storms (1938-2019).
 #: data/nomenclature.fab:4912
 msgctxt "crater"
 msgid "Minami"
-msgstr ""
+msgstr "ミナミ"
 
 #: data/nomenclature.fab:4912
 msgctxt "origin"
 msgid ""
 "Masatsugu; Japanese physicist and astronomer who observed Martian dust "
 "storms (1938-2019)."
-msgstr ""
+msgstr "南政次-みなみまさつぐ; 火星の砂塵嵐を観測した物理学者で天文学者 (1938-2019)。"
 
 #. TRANSLATORS: (Mars); Town in Nigeria.
 #: data/nomenclature.fab:4914
 msgctxt "crater"
 msgid "Idah"
-msgstr ""
+msgstr "イダー"
 
 #. TRANSLATORS: (Mars); Jens Martin; Danish astrophysicist known as the
 #. "founder of Danish Mars research" (1930-2005).
 #: data/nomenclature.fab:4916
 msgctxt "crater"
 msgid "Knudsen"
-msgstr ""
+msgstr "クヌーセン"
 
 #: data/nomenclature.fab:4916
 msgctxt "origin"
 msgid ""
 "Jens Martin; Danish astrophysicist known as the “founder of Danish Mars "
 "research” (1930-2005)."
-msgstr ""
+msgstr "イェンス・マーティン; 「デンマークでの火星研究の創始者」として知られるデンマーク人天体物理学者 (1930-2005)。"
 
 #. TRANSLATORS: (Mars); Michael J.; British-American planetary scientist
 #. (1946-2011).
 #: data/nomenclature.fab:4918
 msgctxt "crater"
 msgid "Drake"
-msgstr ""
+msgstr "ドレイク"
 
 #: data/nomenclature.fab:4918
 msgctxt "origin"
 msgid "Michael J.; British-American planetary scientist (1946-2011)."
-msgstr ""
+msgstr "マイケル・J.; 英国系アメリカ人の惑星科学者 (1946-2011)。"
 
 #. TRANSLATORS: (Mars); James J.; American planetary geologist and expert on
 #. Martian meteorites (1937-2020).
 #: data/nomenclature.fab:4920
 msgctxt "crater"
 msgid "Papike"
-msgstr ""
+msgstr "パピケ"
 
 #: data/nomenclature.fab:4920
 msgctxt "origin"
 msgid ""
 "James J.; American planetary geologist and expert on Martian meteorites "
 "(1937-2020)."
-msgstr ""
+msgstr "ジェームス・J.; アメリカの惑星地質学者、火星隕石の専門家 (1937-2020)。"
 
 #. TRANSLATORS: (Mars); Marjorie; American electrical engineer and the first
 #. woman to manage a spacecraft launch for NASA (1930-2015).
 #: data/nomenclature.fab:4922
 msgctxt "crater"
 msgid "Townsend"
-msgstr ""
+msgstr "タウンゼント"
 
 #: data/nomenclature.fab:4922
 msgctxt "origin"
 msgid ""
 "Marjorie; American electrical engineer and the first woman to manage a "
 "spacecraft launch for NASA (1930-2015)."
-msgstr ""
+msgstr "マジョリ－; アメリカの電気技師でNASAの惑星探査機打ち上げを管理した最初の女性 (1930-2015)。"
 
 #. TRANSLATORS: (Mars); Katherine “Kit” Hoyt Price; American planetary
 #. geologist (1951-2020).
 #: data/nomenclature.fab:4924
 msgctxt "crater"
 msgid "Blount"
-msgstr ""
+msgstr "ブロント"
 
 #: data/nomenclature.fab:4924
 msgctxt "origin"
 msgid "Katherine “Kit” Hoyt Price; American planetary geologist (1951-2020)."
-msgstr ""
+msgstr "キャサリン・“キット”・ホイト・プライス; アメリカの惑星地質学者 (1951-2020)。"
 
 #. TRANSLATORS: (Mars); Town in São Paulo state, Brazil.
 #: data/nomenclature.fab:4926
 msgctxt "crater"
 msgid "Tupã"
-msgstr ""
+msgstr "トゥパン"
 
 #: data/nomenclature.fab:4926
 msgctxt "origin"
 msgid "Town in São Paulo state, Brazil."
-msgstr ""
+msgstr "ブラジル、サンパウロ州の町。"
 
 #. TRANSLATORS: (Mars); Margherita; Italian astrophysicist (1922-2013).
 #: data/nomenclature.fab:4928
 msgctxt "crater"
 msgid "Hack"
-msgstr ""
+msgstr "アック"
 
 #: data/nomenclature.fab:4928
 msgctxt "origin"
 msgid "Margherita; Italian astrophysicist (1922-2013)."
-msgstr ""
+msgstr "マルゲリータ; イタリアの天体物理学者(1922-2013)。"
 
 #. TRANSLATORS: (Mars); Town in Pakistan.
 #: data/nomenclature.fab:4930
 msgctxt "crater"
 msgid "Hala"
-msgstr ""
+msgstr "ハラ"
 
 #. TRANSLATORS: (Mars); Town in Saint Kitts and Nevis.
 #: data/nomenclature.fab:4932
@@ -32211,12 +32211,12 @@ msgstr "メリディアニ高原"
 #: data/nomenclature.fab:6340
 msgctxt "planum"
 msgid "Ogygis Planum"
-msgstr ""
+msgstr "オギギス高原"
 
 #: data/nomenclature.fab:6340
 msgctxt "origin"
 msgid "From the nearby classical albedo feature Ogygis Regio."
-msgstr ""
+msgstr "古典的なアルベド地形オギギス地域の近くにあることによる。"
 
 #. TRANSLATORS: (Mars); Classical albedo feature name.
 #: data/nomenclature.fab:6342
@@ -32388,7 +32388,7 @@ msgstr "オギギス断崖"
 #: data/nomenclature.fab:6380 data/nomenclature.fab:6562
 msgctxt "origin"
 msgid "Named from the classical albedo feature name Ogygis Regio."
-msgstr ""
+msgstr "古典的なアルベド地形の名前オギギス地域のによる命名。"
 
 #. TRANSLATORS: (Mars); From albedo feature at 50S, 6W.
 #: data/nomenclature.fab:6382
@@ -35249,84 +35249,84 @@ msgstr "アーシュラ・クローバー; アメリカの作家 (1929-2018) 。
 #: data/nomenclature.fab:6968
 msgctxt "crater"
 msgid "Mahsati"
-msgstr ""
+msgstr "マフサティ"
 
 #: data/nomenclature.fab:6968
 msgctxt "origin"
 msgid "Mahsati Ganjavi; medieval Persian poet (c. 1089-1159)."
-msgstr ""
+msgstr "マフサティ・ガンジャヴィi; 中世ペルシャの詩人 (1089年頃 -1159年) 。"
 
 #. TRANSLATORS: (Mercury); Zuni (SW USA) potter, textile artist and fiber
 #. weaver (c. 1849-1896).
 #: data/nomenclature.fab:6970
 msgctxt "crater"
 msgid "We’wha"
-msgstr ""
+msgstr "ウィーワ"
 
 #: data/nomenclature.fab:6970
 msgctxt "origin"
 msgid "Zuni (SW USA) potter, textile artist and fiber weaver (c. 1849-1896)."
-msgstr ""
+msgstr "ズニ族 (合衆国南西部) の陶芸家、織物芸術家、機織り職人 (1849年頃 -1896年)。"
 
 #. TRANSLATORS: (Mercury); Clemencia; Colombian painter (1945-1983).
 #: data/nomenclature.fab:6972
 msgctxt "crater"
 msgid "Lucena"
-msgstr ""
+msgstr "ルセナ"
 
 #: data/nomenclature.fab:6972
 msgctxt "origin"
 msgid "Clemencia; Colombian painter (1945-1983)."
-msgstr ""
+msgstr "クレメンシア; コロンビアの画家 (1945-1983)。"
 
 #. TRANSLATORS: (Mercury); May; Irish painter (1863-1955).
 #: data/nomenclature.fab:6974
 msgctxt "crater"
 msgid "Guinness"
-msgstr ""
+msgstr "ギネス"
 
 #: data/nomenclature.fab:6974
 msgctxt "origin"
 msgid "May; Irish painter (1863-1955)."
-msgstr ""
+msgstr "メイ; アイルランドの画家(1863-1955)。"
 
 #. TRANSLATORS: (Mercury); Gertrude "Ma"; American blues singer and early-
 #. blues recording artist (1886-1939).
 #: data/nomenclature.fab:6976
 msgctxt "crater"
 msgid "Rainey"
-msgstr ""
+msgstr "レイニー"
 
 #: data/nomenclature.fab:6976
 msgctxt "origin"
 msgid ""
 "Gertrude “Ma”; American blues singer and early-blues recording artist "
 "(1886-1939)."
-msgstr ""
+msgstr "ガートルード・\"マ\"; アメリカのブルース歌手で初期のブルースのレコーディング・アーティスト(1886-1939)。"
 
 #. TRANSLATORS: (Mercury); Florence Beatrice; American composer and musician
 #. (1887-1953).
 #: data/nomenclature.fab:6978
 msgctxt "crater"
 msgid "Price"
-msgstr ""
+msgstr "プライス"
 
 #: data/nomenclature.fab:6978
 msgctxt "origin"
 msgid "Florence Beatrice; American composer and musician (1887-1953)."
-msgstr ""
+msgstr "フローレンス・ベアトリス; アメリカの作曲家で音楽家 (1887-1953)。"
 
 #. TRANSLATORS: (Mercury); Marta; Argentinian-born Colombian writer and art
 #. critic (1930-1983).
 #: data/nomenclature.fab:6980
 msgctxt "crater"
 msgid "Traba"
-msgstr ""
+msgstr "トゥラバ"
 
 #: data/nomenclature.fab:6980
 msgctxt "origin"
 msgid "Marta; Argentinian-born Colombian writer and art critic (1930-1983)."
-msgstr ""
+msgstr "マルタ;アルゼンチン生まれでコロンビア人の作家で美術評論家 (1930-1983)。"
 
 #. TRANSLATORS: (Mercury); Ivan Sergeyevich; Russian writer (1818-1883).
 #: data/nomenclature.fab:6982
@@ -40430,12 +40430,12 @@ msgstr "フィリピノ語/タガログ語でヘビを表す単語。"
 #: data/nomenclature.fab:7904
 msgctxt "facula"
 msgid "Serp Facula"
-msgstr ""
+msgstr "セルプ白斑"
 
 #: data/nomenclature.fab:7904
 msgctxt "origin"
 msgid "Word for snake in Catalan."
-msgstr ""
+msgstr "カタロニア語でヘビを表す単語。"
 
 #. TRANSLATORS: (Mercury); Zulu and Xhosa (South Africa) word for snake.
 #: data/nomenclature.fab:7906
@@ -60351,12 +60351,12 @@ msgstr "ワレンチナ・ヴラディミロヴナ; ソ連の宇宙飛行士 (19
 #: data/nomenclature.fab:11014
 msgctxt "crater"
 msgid "Whitaker"
-msgstr ""
+msgstr "ウィテカー"
 
 #: data/nomenclature.fab:11014
 msgctxt "origin"
 msgid "Ewen; British-American astronomer (1922-2016)."
-msgstr ""
+msgstr "ユエン; 英国系アメリカ人天文学者 (1922-2016)。"
 
 #. TRANSLATORS: (Moon); Paul; German astronomer (1901-1961).
 #: data/nomenclature.fab:11016
@@ -65454,25 +65454,25 @@ msgstr "アジアの山脈 (現在のウラル山脈) から名づけられた�
 #: data/nomenclature.fab:11932
 msgctxt "mons"
 msgid "Mons Kocher"
-msgstr ""
+msgstr "コッハー山"
 
 #. TRANSLATORS: (Moon); Named from nearby crater Cabeus.
 #: data/nomenclature.fab:11934
 msgctxt "mons"
 msgid "Mons Cabeus"
-msgstr ""
+msgstr "カベウス山"
 
 #: data/nomenclature.fab:11934
 msgctxt "origin"
 msgid "Named from nearby crater Cabeus."
-msgstr ""
+msgstr "近くのクレーター名カベウスから名付けられた。"
 
 #. TRANSLATORS: (Moon); Roald Engelbregt Gravning; Norwegian explorer
 #. (1872-1928).
 #: data/nomenclature.fab:11936
 msgctxt "mons"
 msgid "Mons Amundsen"
-msgstr ""
+msgstr "アムンセン山"
 
 #. TRANSLATORS: (Moon); Spanish for "mountain chain."
 #: data/nomenclature.fab:11938
