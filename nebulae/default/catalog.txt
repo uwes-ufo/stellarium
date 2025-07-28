@@ -1,5 +1,5 @@
 # Stellarium DSO catalog
-# Version 3.20 standard
+# Version 3.21 standard
 # Generic columns:
 #  1 - (int)	- deep-sky object identificator
 #  2 - (float)	- RA (decimal degrees)
