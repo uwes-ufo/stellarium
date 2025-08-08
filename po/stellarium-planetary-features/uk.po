@@ -62864,12 +62864,12 @@ msgstr "Greek natural philosopher, historian (c. 430-354 B.C.)."
 #: data/nomenclature.fab:11248
 msgctxt "crater"
 msgid "Mareta"
-msgstr ""
+msgstr "Марета"
 
 #: data/nomenclature.fab:11248
 msgctxt "origin"
 msgid "English female first name."
-msgstr ""
+msgstr "Англійське жіноче ім'я"
 
 #. TRANSLATORS: (Moon); Pavel Nikoaevich; Russian electrical engineer
 #. (1847-1894).
