@@ -229,17 +229,20 @@ void printSystemInfo()
 
 #ifdef Q_OS_LINUX
 	// CPU info
-	QString cpumodel = "unknown", freq = "", hardware = "", model = "", platform = "", machine = "";
+	QString cpumodel = "unknown", freq = "", hardware = "", model = "", platform = "", machine = "", vendor = "";
 	int ncpu = 0;
 	bool cpuOK = false;
+	bool readVendorId = false;
 	QFile infoFile("/proc/cpuinfo");
 	if (!infoFile.open(QIODevice::ReadOnly | QIODevice::Text))
 		log("Could not get CPU info.");
 	else
 	{
 		cpuOK = true;
-		bool readModel = true;
+		bool readCpuModel = true;
+                #if defined(__powerpc__) || defined(__powerpc64__)
 		bool readClock = true;
+                #endif
 		while(!infoFile.peek(1).isEmpty())
 		{
 			QString line = infoFile.readLine();
@@ -247,16 +250,16 @@ void printSystemInfo()
 			if (line.startsWith("processor", Qt::CaseInsensitive))
 				ncpu++;
 
-			if (line.startsWith("model name", Qt::CaseInsensitive) && readModel)
+			if (line.startsWith("model name", Qt::CaseInsensitive) && readCpuModel)
 			{
 				cpumodel = line.split(":").last().trimmed();
-				readModel = false;
+				readCpuModel = false;
 			}
 			#if defined(__powerpc__) || defined(__powerpc64__)
-			if (line.startsWith("cpu", Qt::CaseInsensitive) && readModel)
+			if (line.startsWith("cpu", Qt::CaseInsensitive) && readCpuModel)
 			{
 				cpumodel = line.split(":").last().trimmed();
-				readModel = false;
+				readCpuModel = false;
 			}
 			if (line.startsWith("clock", Qt::CaseInsensitive) && readClock)
 			{
@@ -265,6 +268,13 @@ void printSystemInfo()
 				readClock = false;
 			}
 			#endif
+                        #if defined(__e2k__)
+			if (line.startsWith("vendor_id", Qt::CaseInsensitive) && !readVendorId)
+			{
+				vendor = line.split(":").last().trimmed();
+				readVendorId = true;
+			}
+                        #endif
 
 			// for PowerPC computers
 			if (line.startsWith("platform", Qt::CaseInsensitive))
@@ -291,7 +301,10 @@ void printSystemInfo()
 
 	if (cpuOK)
 	{
-                log(QString("CPU name: %1").arg(cpumodel));
+		if (readVendorId)
+			log(QString("CPU name: %1 %2").arg(vendor, cpumodel));
+		else
+			log(QString("CPU name: %1").arg(cpumodel));
 		if (!freq.isEmpty())
 			log(QString("CPU maximum speed: %1").arg(freq));
                 log(QString("CPU logical cores: %1").arg(ncpu));
@@ -299,7 +312,7 @@ void printSystemInfo()
                         log(QString("CPU hardware: %1").arg(hardware));
 		if (!platform.isEmpty())
                         log(QString("Platform: %1").arg(platform));
-		if (!model.isEmpty())
+		if (!model.isEmpty() && (!hardware.isEmpty() || !platform.isEmpty()))
 			log(QString("Model: %1").arg(model));
 		if (!machine.isEmpty())
 			log(QString("Machine: %1").arg(machine));
