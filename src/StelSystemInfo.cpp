@@ -230,7 +230,7 @@ void printSystemInfo()
 
 #ifdef Q_OS_LINUX
 	// CPU info
-	QString cpumodel = "unknown", freq = "", hardware = "", model = "", platform = "", machine = "", vendor = "";
+	QString cpumodel = "unknown", freq = "", hardware = "", model = "", platform = "", machine = "", vendor = "", systype = "";
 	int ncpu = 0;
 	bool cpuOK = false;
 	bool readVendorId = false;
@@ -269,15 +269,29 @@ void printSystemInfo()
 				readClock = false;
 			}
 			#endif
-                        #if defined(__e2k__)
+                        #if defined(__e2k__) || defined(__s390__) || defined(__s390x__)
 			if (line.startsWith("vendor_id", Qt::CaseInsensitive) && !readVendorId)
 			{
 				vendor = line.split(":").last().trimmed();
 				readVendorId = true;
 			}
                         #endif
+                        #if defined(__aarch64__) || defined(__arm__)
+			if (line.startsWith("Processor", Qt::CaseSensitive) && readCpuModel)
+			{
+				cpumodel = line.split(":").last().trimmed();
+				readCpuModel = false;
+			}
+                        #endif
+                        #if defined(__mips__)
+			if (line.startsWith("cpu model", Qt::CaseSensitive) && readCpuModel)
+			{
+				cpumodel = line.split(":").last().trimmed();
+				readCpuModel = false;
+			}
+                        #endif
 
-			// for PowerPC computers
+			// for PowerPC/MIPS computers
 			if (line.startsWith("platform", Qt::CaseInsensitive))
 				platform = line.split(":").last().trimmed();
 			if (line.startsWith("machine", Qt::CaseInsensitive))
@@ -288,6 +302,10 @@ void printSystemInfo()
 				hardware = line.split(":").last().trimmed();
 			if (line.startsWith("model", Qt::CaseInsensitive))
 				model = line.split(":").last().trimmed();
+
+			// for MIPS computers
+			if (line.startsWith("system type", Qt::CaseInsensitive))
+				systype = line.split(":").last().trimmed();
 		}
 		infoFile.close();
 	}
@@ -311,6 +329,8 @@ void printSystemInfo()
                 log(QString("CPU logical cores: %1").arg(ncpu));
 		if (!hardware.isEmpty())
                         log(QString("CPU hardware: %1").arg(hardware));
+		if (!systype.isEmpty())
+			log(QString("System type: %1").arg(systype));
 		if (!platform.isEmpty())
                         log(QString("Platform: %1").arg(platform));
 		if (!model.isEmpty() && (!hardware.isEmpty() || !platform.isEmpty()))
@@ -351,9 +371,16 @@ void printSystemInfo()
 
 	int64_t freq = 0;
 	len = sizeof(freq);
-	sysctlbyname("machdep.tsc_freq", &freq, &len, nullptr, 0);
-	if (freq>0)
-		log(QString("CPU speed: %1 MHz").arg(freq/1000000));
+	if (sysctlbyname("machdep.tsc_freq", &freq, &len, nullptr, 0) != -1)
+		log(QString("CPU speed: %1 MHz").arg(freq/1000000)); // FreeBSD and NetBSD (i386/amd64 by default)
+	else if (sysctlbyname("hw.clockrate", &freq, &len, nullptr, 0) != -1)
+		log(QString("CPU speed: %1 MHz").arg(freq)); // FreeBSD/amd64
+	else if (sysctlbyname("hw.freq.cpu", &freq, &len, nullptr, 0) != -1)
+		log(QString("CPU speed: %1 MHz").arg(freq)); // FreeBSD/sparc64
+	else if (sysctlbyname("dev.cpu.0.freq", &freq, &len, nullptr, 0) != -1)
+		log(QString("CPU speed: %1 MHz").arg(freq)); // FreeBSD/powerpc64
+	else if (sysctlbyname("hw.cpu0.clock_frequency", &freq, &len, nullptr, 0) != -1)
+		log(QString("CPU speed: %1 MHz").arg(freq/1000000)); // NetBSD/sparc64
 
 	int ncpu = 0;
 	len = sizeof(ncpu);
@@ -403,6 +430,22 @@ void printSystemInfo()
 	len = sizeof(totalRAM);
 	sysctl(mib, 2, &totalRAM, &len, NULL, 0);
 	log(QString("Total physical memory: %1 MB").arg(totalRAM/(1024<<10)));
+
+	// extra info
+	mib[0] = CTL_HW;
+	mib[1] = HW_VENDOR;
+	sysctl(mib, 2, model.data(), &len, NULL, 0);
+	model.resize(len);
+	QString vendor = model.data();
+
+	mib[0] = CTL_HW;
+	mib[1] = HW_PRODUCT;
+	sysctl(mib, 2, model.data(), &len, NULL, 0);
+	model.resize(len);
+	if (vendor.isEmpty())
+		log(QString("Machine: %1").arg(model.data()));
+	else
+		log(QString("Machine: %1 %2").arg(vendor, model.data()));
 #endif
 
 #ifdef Q_OS_SOLARIS
