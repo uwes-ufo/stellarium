@@ -178,79 +178,78 @@ def update_cultures_pot(sclist, pot):
                 else:
                     byname = None
 
-                comment = f'{sc_name} {obj_type}'
-                if native:
-                    comment += f', native: {native}'
+                def get_comment(what_to_skip):
+                    comment = f'{sc_name} {obj_type}'
+                    if native and what_to_skip != 'native':
+                        comment += f', native: {native}'
 
-                if pronounce:
-                    comment += ', pronounce: ' + name['pronounce']
+                    if pronounce and what_to_skip != 'pronounce':
+                        comment += ', pronounce: ' + name['pronounce']
 
-                if english:
-                    comment += ', english: ' + name['english']
+                    if english and what_to_skip != 'english':
+                        comment += ', English: ' + name['english']
 
-                if byname:
-                    comment += ', byname: ' + name['byname']
+                    if byname and what_to_skip != 'byname':
+                        comment += ', byname: ' + name['byname']
 
-                if 'translators_comments' in name:
-                    comment += '\n' + name['translators_comments']
+                    if 'translators_comments' in name:
+                        comment += '\n' + name['translators_comments']
+                    return comment
 
                 context = None
                 if 'context' in name:
                     context = name['context']
 
-
-                # Extract 'english' string for translation (with context for uniqueness) 
+                # Extract 'english' string for translation (with context for uniqueness)
                 if english:
                     # Don't extract items that are already translated in other places
-                    if not english in common_names:
-
+                    if context or not english in common_names:
                         cons_ast_names.add(english)
 
-                        entry = polib.POEntry(comment = comment, msgid = english, msgstr = "", msgctxt = context)
+                        entry = polib.POEntry(comment = get_comment('english'), msgid = english, msgstr = "", msgctxt = context)
                         if entry in pot:
                             prev_entry = pot.find(entry.msgid, msgctxt = context)
                             assert prev_entry
-                            prev_entry.comment += '\n' + comment
+                            prev_entry.comment += '\n' + get_comment('english')
                         else:
                             pot.append(entry)
                 else:
                     print(f'{sky_culture}: warning: common_name property in {obj_type} "{obj_id}" has no English name', file=sys.stderr)
 
-                # Extract 'pronounce' string for translation (with context for uniqueness)                     
+                # Extract 'pronounce' string for translation (with context for uniqueness)
                 if pronounce:
                     # Don't extract items that are already translated in other places
                     if not pronounce in common_names:
-                        
                         cons_ast_names.add(pronounce)
 
-                        entry = polib.POEntry(comment = comment, msgid = pronounce, msgstr = "", msgctxt = context)
+                        entry = polib.POEntry(comment = "Pronounce entry for " + get_comment('pronounce'),
+                                              msgid = pronounce, msgstr = "", msgctxt = context)
                         if entry in pot:
                             prev_entry = pot.find(entry.msgid, msgctxt = context)
                             assert prev_entry
-                            prev_entry.comment += '\n' + comment
+                            prev_entry.comment += '\n' + get_comment('pronounce')
                         else:
                             pot.append(entry)
                 #else:
                 #    print(f'{sky_culture}: info: common_name property in {obj_type} "{obj_id}" has no pronounce element', file=sys.stderr)
-                    
-                # Extract 'byname' string for translation (with context for uniqueness)                     
+
+                # Extract 'byname' string for translation (with context for uniqueness)
                 if byname:
                     # Don't extract items that are already translated in other places
                     if not byname in common_names:
 
                         cons_ast_names.add(byname)
 
-                        entry = polib.POEntry(comment = comment, msgid = byname, msgstr = "", msgctxt = context)
+                        entry = polib.POEntry(comment = "Byname for " + get_comment('byname'), msgid = byname,
+                                              msgstr = "", msgctxt = context)
                         if entry in pot:
                             prev_entry = pot.find(entry.msgid, msgctxt = context)
                             assert prev_entry
-                            prev_entry.comment += '\n' + comment
+                            prev_entry.comment += '\n' + get_comment('byname')
                         else:
                             pot.append(entry)
                 #else:
                 #    print(f'{sky_culture}: info: common_name property in {obj_type} "{obj_id}" has no byname element', file=sys.stderr)
-                    
-                    
             else:
                 print(f'{sky_culture}: warning: no common_name key in {obj_type} "{obj_id}"', file=sys.stderr)
 
@@ -310,9 +309,19 @@ def update_cultures_pot(sclist, pot):
                 chinese_name_cleaned = False
                 if "chinese" in sc_name.lower():
                     cleaned = english
-                    cleaned = re.sub(' Added', '', cleaned)
+
+                    # Handle the names like "Royal Guards Added III" and "Celestial Hook Added IX*"
+                    # TODO: also handle cases like "Celestial Farmland Added IV (In Horn Mansion)".
+                    # Currently we don't handle the parenthesized part in the end. This change will
+                    # also need a supporting change in the C++ code.
+                    cleaned = re.sub(' Added [MDCLXVI]+[*?]*$', '', cleaned)
                     has_added = cleaned != english
+
+                    # Handle the names like "Celestial Ramparts I" and "Persia VII*"
+                    # TODO: similarly to the above, we also need to handle cases like
+                    # "Pestle III (In Rooftop Mansion)" with a corresponding change in the C++ code.
                     cleaned = re.sub(' [MDCLXVI]+[*?]*$', '', cleaned)
+
                     chinese_name_cleaned = cleaned != english
                     english = cleaned
 
@@ -348,8 +357,6 @@ def update_cultures_pot(sclist, pot):
                         prev_entry.comment += '\n' + comment
                 else:
                     pot.append(entry)
-                    
-                # TODO: Add translation of pronounce tag!
 
     def process_extra_names(objects, pot, sc_name):
         if 'context' in objects:
@@ -386,7 +393,7 @@ def update_cultures_pot(sclist, pot):
             else:
                 pot.append(entry)
 
-            # pronounce is language dependent! The element is optional. 
+            # pronounce is language dependent! The element is optional.
             if 'pronounce' in name:
                 pronounce = name['pronounce']
                 if len(pronounce) == 0:
