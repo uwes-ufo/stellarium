@@ -13589,7 +13589,7 @@ msgstr "Aqr_42"
 #. السمكة الجنوبية
 #. Greek (Almagest) name for HIP 113368
 msgid "The star at the end of the water and on the mouth of Piscis Austrinus"
-msgstr "Stjärnan i slutet av vattnet och på mynningen av Piscis Austrinus"
+msgstr "Stjärnan i slutet av vattnet och på Piscis Austrinus mun"
 
 #. Arabic (Al-Sufi) name for HIP 113368, native: الضفدع الأول
 msgid "The first frog"
@@ -40825,7 +40825,7 @@ msgstr "Guden Eridanus (Floden)"
 #. Greek (Leiden Aratea + Almagest) constellation, native: Canis Minor,
 #. Πρόκυνος
 msgid "Procyon/ Little Dog"
-msgstr "Procyon/Lilla hunden"
+msgstr "Procyon/Liten hund"
 
 #. Abbreviation of constellation in Greek (Leiden Aratea + Almagest) sky
 #. culture
