@@ -16293,7 +16293,7 @@ msgstr "Den nya elden"
 
 #. Aztec constellation, native: Tianquiztli
 msgid "The Market"
-msgstr "Matmarknad"
+msgstr "Marknad"
 
 #. Aztec constellation, native: Citlaltlachtli
 msgid "The ball game of the stars"
@@ -19661,7 +19661,7 @@ msgstr "Zhang Xiu"
 #. Chinese Song Dynasty Sky constellation, native: 轸宿, pronounce: Zhen Xiu
 #. Modern (Chinese) asterism
 msgid "Chariot"
-msgstr "Vagn"
+msgstr "Stridsvagn"
 
 #. Pronounce entry for Chinese constellation, native: 轸宿, English: Chariot
 #. Chinese Song Dynasty Sky constellation, native: 轸宿, English: Chariot
@@ -20231,7 +20231,7 @@ msgstr "Chu(Wei Xiu)"
 #. Sha
 #. Modern (Chinese) asterism
 msgid "Changsha (Vassal of Chariot)"
-msgstr "Changsha (vasall i Stridsvagnen)"
+msgstr "Changsha (vasall i Stridsvagn)"
 
 #. Pronounce entry for Chinese constellation, native: 长沙(附官), English:
 #. Changsha (Vassal of Chariot)
@@ -20331,7 +20331,7 @@ msgstr "Da Jiao"
 #. Chinese Song Dynasty Sky constellation, native: 大理, pronounce: Da Li
 #. Modern (Chinese) asterism
 msgid "Chief Judge"
-msgstr "Överdomare"
+msgstr "Chefsdomare"
 
 #. Pronounce entry for Chinese constellation, native: 大理, English: Chief Judge
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 大理, English:
@@ -20608,7 +20608,7 @@ msgstr "071"
 #. Chinese Song Dynasty Sky constellation, native: 坟墓(附危宿), pronounce: Fen Mu
 #. Modern (Chinese) asterism
 msgid "Tomb (Vassal of Rooftop)"
-msgstr "Grav (vasall i Taknock)"
+msgstr "Gravkammare (vasall i Taknock)"
 
 #. Pronounce entry for Chinese constellation, native: 坟墓(附官), English: Tomb
 #. (Vassal of Rooftop)
@@ -20929,7 +20929,7 @@ msgstr "083"
 #. Qian
 #. Modern (Chinese) asterism
 msgid "Lock (Vassal of Room)"
-msgstr "Lås (vasall i Rummet)"
+msgstr "Lås (vasall i Rum)"
 
 #. Pronounce entry for Chinese constellation, native: 钩钤(附官), English: Lock
 #. (Vassal of Room)
@@ -22158,7 +22158,7 @@ msgstr "124"
 #. Chinese Song Dynasty Sky constellation, native: 军市, pronounce: Jun Shi
 #. Modern (Chinese) asterism
 msgid "Market for Soldiers"
-msgstr "Soldatmarknad"
+msgstr "Marknad för soldater"
 
 #. Pronounce entry for Chinese constellation, native: 军市, English: Market for
 #. Soldiers
@@ -22457,7 +22457,7 @@ msgstr "134"
 #. Chinese Song Dynasty Sky constellation, native: 垒壁阵, pronounce: Lei Bi Zhen
 #. Modern (Chinese) asterism
 msgid "Line of Ramparts"
-msgstr "Vallrad"
+msgstr "Fästningsvallslinje"
 
 #. Pronounce entry for Chinese constellation, native: 垒壁阵, English: Line of
 #. Ramparts
@@ -22481,7 +22481,7 @@ msgstr "135"
 #. Chinese Song Dynasty Sky constellation, native: 离宫(附室宿), pronounce: Li Gong
 #. Modern (Chinese) asterism
 msgid "Resting Palace (Vassal of Encampment)"
-msgstr "Vilopalats (vasall i Lägerplatsen)"
+msgstr "Vilopalats (vasall i Lägerplats)"
 
 #. Pronounce entry for Chinese constellation, native: 离宫(附官), English: Resting
 #. Palace (Vassal of Encampment)
@@ -23409,7 +23409,7 @@ msgstr "167"
 #. Modern (Chinese) asterism
 #. Modern (Chinese) name for HIP 74376
 msgid "Chariots and Cavalry General"
-msgstr "Kavallerigeneral och stridsvagnar"
+msgstr "Stridsvagnar och kavallerigeneral"
 
 #. Pronounce entry for Chinese constellation, native: 骑阵将军, English: Chariots
 #. and Cavalry General
@@ -23885,7 +23885,7 @@ msgstr "184"
 #. Gong
 #. Modern (Chinese) asterism
 msgid "Changing Room (Vassal of Tail)"
-msgstr "Omklädningsrum (vasall i Svansen)"
+msgstr "Omklädningsrum (vasall i Svans)"
 
 #. Pronounce entry for Chinese constellation, native: 神宫(附官), English:
 #. Changing Room (Vassal of Tail)
@@ -25515,7 +25515,7 @@ msgstr "235"
 #. Cheng
 #. Modern (Chinese) asterism
 msgid "Celestial Ramparts"
-msgstr "Himmelska vallar"
+msgstr "Himmelska fästningsvallar"
 
 #. Pronounce entry for Chinese constellation, native: 天垒城, English: Celestial
 #. Ramparts
@@ -25543,7 +25543,7 @@ msgstr "236"
 #. Chinese Song Dynasty Sky constellation, native: 天理, pronounce: Tian Li
 #. Modern (Chinese) asterism
 msgid "Judge for Nobility"
-msgstr "Adelsdomare"
+msgstr "Domare åt adel"
 
 #. Pronounce entry for Chinese constellation, native: 天理, English: Judge for
 #. Nobility
@@ -26521,7 +26521,7 @@ msgstr "265"
 #. Chinese Song Dynasty Sky constellation, native: 五车, pronounce: Wu Che
 #. Modern (Chinese) asterism
 msgid "Five Chariots"
-msgstr "Fem vagnar"
+msgstr "Fem stridsvagnar"
 
 #. Pronounce entry for Chinese constellation, native: 五车, English: Five
 #. Chariots
@@ -26730,7 +26730,7 @@ msgstr "272"
 #. Chinese Song Dynasty Sky constellation, native: 咸池, pronounce: Xian Chi
 #. Modern (Chinese) asterism
 msgid "Pool of Harmony"
-msgstr "Harmonipool"
+msgstr "Harmonidamm"
 
 #. Pronounce entry for Chinese constellation, native: 咸池, English: Pool of
 #. Harmony
@@ -26980,7 +26980,7 @@ msgstr "279"
 #. Chinese Song Dynasty Sky constellation, native: 钺(井宿), pronounce: Yue
 #. Modern (Chinese) asterism
 msgid "Battle Axe (Vassal of Well)"
-msgstr "Stridsyxa (vasall i Brunnen)"
+msgstr "Stridsyxa (vasall i Brunn)"
 
 #. Pronounce entry for Chinese constellation, native: 钺(附官), English: Battle
 #. Axe (Vassal of Well)
@@ -27412,7 +27412,7 @@ msgstr "293"
 #. Chinese Song Dynasty Sky constellation, native: 附耳(附毕宿), pronounce: Fu Er
 #. Modern (Chinese) asterism
 msgid "Whisper (Vassal of Net)"
-msgstr "Viskning (vasall i Nätet)"
+msgstr "Viskning (vasall i Nät)"
 
 #. Pronounce entry for Chinese constellation, native: 附耳(附官), English: Whisper
 #. (Vassal of Net)
@@ -27663,7 +27663,7 @@ msgstr "302"
 #. Chinese Song Dynasty Sky constellation, native: 右辖(附轸宿), pronounce: You Xia
 #. Modern (Chinese) asterism
 msgid "Right linchpin (Vassal of Chariot)"
-msgstr "Höger stift (vasall i Stridsvagnen)"
+msgstr "Höger stift (vasall i Stridsvagn)"
 
 #. Pronounce entry for Chinese constellation, native: 右辖(附官), English: Right
 #. linchpin (Vassal of Chariot)
@@ -27716,7 +27716,7 @@ msgstr "304"
 #. Chinese Song Dynasty Sky constellation, native: 左辖(附轸宿), pronounce: Zuo Xia
 #. Modern (Chinese) asterism
 msgid "Left linchpin (Vassal of Chariot)"
-msgstr "Vänster stift (vasall i Stridsvagnen)"
+msgstr "Vänster stift (vasall i Stridsvagn)"
 
 #. Pronounce entry for Chinese constellation, native: 左辖(附官), English: Left
 #. linchpin (Vassal of Chariot)
@@ -28625,7 +28625,7 @@ msgstr "Mǎo"
 #. Needs confirmation, then remove edges (edges_type=none)
 msgctxt "chinese lunar mansion"
 msgid "Net"
-msgstr "Netto"
+msgstr "Nät"
 
 #. Name of zodiac sign or name of lunar mansion in Chinese sky culture
 #. Needs confirmation, then remove edges (edges_type=none)
@@ -30127,7 +30127,7 @@ msgstr "Himmelsk jordbruksmark II (i Oxens hus)"
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 103226
 msgid "Yue State (In Twelve States)"
-msgstr "Yue State (I tolv stater)"
+msgstr "Yue-staten (i Tolv stater)"
 
 #. Chinese name for HIP 103527, native: 司非增二
 #. Pinyin transliteration
@@ -30150,24 +30150,24 @@ msgstr "Gudomlig domare över rätt och fel "
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 103616
 msgid "Zheng State (In Twelve States)"
-msgstr "Zheng State (I tolv stater)"
+msgstr "Zheng-staten (i Tolv stater)"
 
 #. Chinese name for HIP 103703, native: 周二
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 103703
 msgid "Zhou State II (In Twelve States)"
-msgstr "Zhou State II (I tolv stater)"
+msgstr "Zhou-staten II (i Tolv stater)"
 
 #. Chinese name for HIP 104019, native: 周一
 #. Modern (Chinese) name for HIP 104019
 msgid "Zhou State I (In Twelve States)"
-msgstr "Zhou State I (I tolv stater)"
+msgstr "Zhou-staten I (i Tolv stater)"
 
 #. Chinese name for HIP 104139, native: 秦一
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 104139
 msgid "Qin State I (In Twelve States)"
-msgstr "Qin State I (I tolv stater)"
+msgstr "Qin-staten I (i Tolv stater)"
 
 #. Chinese name for HIP 104234, native: 天田三[牛宿]
 #. Pinyin transliteration
@@ -30179,19 +30179,19 @@ msgstr "Himmelsk jordbruksmark III (i Oxens hus)"
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 104365
 msgid "Qi State (In Twelve States)"
-msgstr "Qi-staten (i tolv stater)"
+msgstr "Qi-staten (i Tolv stater)"
 
 #. Chinese name for HIP 104429, native: 赵一
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 104429
 msgid "Zhao State I (In Twelve States)"
-msgstr "Zhao State I (I tolv stater)"
+msgstr "Zhao-staten I (i Tolv stater)"
 
 #. Chinese name for HIP 104452, native: 赵二
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 104452
 msgid "Zhao State II (In Twelve States)"
-msgstr "Zhao State II (I tolv stater)"
+msgstr "Zhao-staten II (i Tolv stater)"
 
 #. Chinese name for HIP 104750, native: 天田一[牛宿]
 #. Modern (Chinese) name for HIP 104750
@@ -30202,61 +30202,61 @@ msgstr "Himmelsk jordbruksmark I (i Oxens hus)"
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 104963
 msgid "Chu State (In Twelve States)"
-msgstr "Chu State (i tolv delstater)"
+msgstr "Chu-staten (i Tolv stater)"
 
 #. Chinese name for HIP 105143, native: 秦二
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 105143
 msgid "Qin State II (In Twelve States)"
-msgstr "Qin State II (I tolv stater)"
+msgstr "Qin-staten II (i Tolv stater)"
 
 #. Chinese name for HIP 105515, native: 代一
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 105515
 msgid "Dai State I (In Twelve States)"
-msgstr "Dai State I (I tolv stater)"
+msgstr "Dai-staten I (i Tolv stater)"
 
 #. Chinese name for HIP 105665, native: 魏
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 105665
 msgid "Wei State (In Twelve States)"
-msgstr "Wei State (i tolv delstater)"
+msgstr "Wei-staten (i Tolv stater)"
 
 #. Chinese name for HIP 105881, native: 燕
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 105881
 msgid "Yan State (In Twelve States)"
-msgstr "Yan State (i tolv delstater)"
+msgstr "Yan-staten (i Tolv stater)"
 
 #. Chinese name for HIP 105928, native: 韩
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 105928
 msgid "Han State (In Twelve States)"
-msgstr "Han State (i tolv delstater)"
+msgstr "Han-staten (i Tolv stater)"
 
 #. Chinese name for HIP 106039, native: 晋
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 106039
 msgid "Jin State (In Twelve States)"
-msgstr "Jin State (i tolv delstater)"
+msgstr "Jin-staten (i Tolv stater)"
 
 #. Chinese name for HIP 106559, native: 代增一
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 106559
 msgid "Dai State Added I (In Twelve States)"
-msgstr "Dai-stat tillagd I (i Tolv stater)"
+msgstr "Dai-staten tillagd I (i Tolv stater)"
 
 #. Chinese name for HIP 106568, native: 代二
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 106568
 msgid "Dai State II (In Twelve States)"
-msgstr "Dai State II (I tolv stater)"
+msgstr "Dai-staten II (i Tolv stater)"
 
 #. Chinese name for HIP 107128, native: 代增二
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 107128
 msgid "Dai State Added II (In Twelve States)"
-msgstr "Dai-stat tillagd I (i Tolv stater)"
+msgstr "Dai-staten tillagd II (i Tolv stater)"
 
 #. Chinese name for HIP 109056, native: 杵三[危宿]
 #. Pinyin transliteration
@@ -30553,7 +30553,7 @@ msgstr "P18"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 杠(附华盖),
 #. pronounce: Gang
 msgid "Canopy Support (Adjunct to the Canopy)"
-msgstr "Canopy Support (tillägg till baldakinen)"
+msgstr "Canopy Support (bihang till Sänghimmel)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -31362,7 +31362,7 @@ msgstr "04A"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 钩钤(附房),
 #. pronounce: Gou Qian
 msgid "Lock (Adjunct of Room)"
-msgstr "Lås (tillägg till rum)"
+msgstr "Lås (bihang till Rum)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -32070,7 +32070,7 @@ msgstr "12A"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 坟墓(附危),
 #. pronounce: Fen Mu
 msgid "Tomb (Adjunct to Wei)"
-msgstr "Tomb (Adjungerad till Wei)"
+msgstr "Gravkammare (bihang till Wei)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -32167,7 +32167,7 @@ msgstr "13A"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 离宫(附室),
 #. pronounce: Li Gong
 msgid "Resting Palace (Adjunct to Ying Shi)"
-msgstr "Vilopalatset (i anslutning till Ying Shi)"
+msgstr "Vilopalats (bihang till Ying Shi)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -32581,7 +32581,7 @@ msgstr "19A"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 附耳(附毕),
 #. pronounce: Fu Er
 msgid "Whisper (Adjunct to Net)"
-msgstr "Whisper (Adjungerad till Net)"
+msgstr "Viskning (bihang till Nät)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -32750,7 +32750,7 @@ msgstr "21A"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 伐(附参), pronounce:
 #. Fa
 msgid "Attack (Adjunct to the Three Stars)"
-msgstr "Attack (tillägg till de tre stjärnorna)"
+msgstr "Attack (bihang till De tre stjärnorna)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -32824,7 +32824,7 @@ msgstr "22A"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 钺(附东井),
 #. pronounce: Yue
 msgid "Battle Axe (Adjunct to Eastern Well)"
-msgstr "Stridsyxa (tillägg till Eastern Well)"
+msgstr "Stridsyxa (bihang till Östlig brunn)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -33147,7 +33147,7 @@ msgstr "28A"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 长沙(附轸),
 #. pronounce: Chang Sha
 msgid "Changsha (Adjunct to Chariot)"
-msgstr "Changsha (ansluten till Chariot)"
+msgstr "Changsha (bihang till Vagn)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -33159,7 +33159,7 @@ msgstr "28B"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 左辖(附轸),
 #. pronounce: Zuo Xia
 msgid "Left linchpin (Adjunct to Chariot)"
-msgstr "Vänster linchpin (Adjunct till Chariot)"
+msgstr "Vänster linchpin (bihang till Vagn)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -33171,7 +33171,7 @@ msgstr "28C"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 右辖(附轸),
 #. pronounce: You Xia
 msgid "Right linchpin (Adjunct to Chariot)"
-msgstr "Höger linchpin (Adjunct till Chariot)"
+msgstr "Höger linchpin (bihang till Vagn)"
 
 #. Abbreviation of constellation in Chinese Chenzhuo Sky (3rd Century) sky
 #. culture
@@ -33337,7 +33337,7 @@ msgstr "Rak grind"
 #. Chinese Chenzhuo Sky (3rd Century) name for HIP 48319, native: 司中
 #. Chinese Song Dynasty Sky name for HIP 46853, native: 司中
 msgid "Deified Judge of Disaster"
-msgstr "Avgudad domare i katastrofsituationer"
+msgstr "Gudomlig domare över katastrof"
 
 #. Chinese Chenzhuo Sky (3rd Century) name for HIP 49669, native: 女主
 #. Chinese Song Dynasty Sky name for HIP 44471, native: 女主
@@ -34037,11 +34037,11 @@ msgstr "Mindre kejserlig gemål"
 
 #. Chinese Song Dynasty Sky name for HIP 44504, native: 司寇
 msgid "Supreme Judge"
-msgstr "Högsta domaren"
+msgstr "Högste domare"
 
 #. Chinese Song Dynasty Sky name for HIP 46853, native: 司隶
 msgid "Senior Judge"
-msgstr "Senior domare"
+msgstr "Äldre domare"
 
 #. Chinese Song Dynasty Sky name for HIP 48402, native: 贵相
 msgid "Distinguished Primer"
@@ -42570,7 +42570,7 @@ msgstr "13"
 #. Japanese Yasui Map constellation, native: NamameBoshi
 msgctxt "Japanese constellation name"
 msgid "Wall"
-msgstr "Vägg"
+msgstr "Mur"
 
 #. Abbreviation of constellation in Japanese Yasui Map sky culture
 msgctxt "abbreviation"
@@ -42923,7 +42923,7 @@ msgstr "Drottninghus"
 
 #. Korean constellation, native: JinGeo
 msgid "Ancient Chariot"
-msgstr "Antik vagn"
+msgstr "Antik stridsvagn"
 
 #. Korean constellation, native: CheonPouk
 msgid "Carriage for King"
@@ -43092,7 +43092,7 @@ msgstr "Hovdam"
 
 #. Korean constellation, native: SaaBii
 msgid "Judge Fault"
-msgstr "Döma fel"
+msgstr "Domares fel"
 
 #. Korean constellation, native: SaaWii
 msgid "Amend Fault"
@@ -43120,7 +43120,7 @@ msgstr "Snyftning"
 
 #. Korean constellation, native: CheonRuSeong
 msgid "Castle with Rampart"
-msgstr "Fästning med skyddsmur"
+msgstr "Fästning med skyddsvall"
 
 #. Korean constellation, native: Guu
 msgid "Hook for Dress"
@@ -43132,7 +43132,7 @@ msgstr "Brudgum"
 
 #. Korean constellation, native: GeoBuu
 msgid "Office for Chariots"
-msgstr "Vagnsofficer"
+msgstr "Stridsvagnsofficer"
 
 #. Korean constellation, native: iinSeong
 msgid "Human"
@@ -43209,7 +43209,7 @@ msgstr "Väg"
 
 #. Korean constellation, native: WaangRaang
 msgid "Charioteer of the Emperor"
-msgstr "Vagnförare för kejsaren"
+msgstr "Stridsvagnsförare för kejsaren"
 
 #. Korean constellation, native: BuRo
 msgid "Side Road"
@@ -43307,7 +43307,7 @@ msgstr "Foder"
 
 #. Korean constellation, native: OoGeo
 msgid "Garage for Chariot"
-msgstr "Vagnsgarage"
+msgstr "Stridsvagnsgarage"
 
 #. Korean constellation, native: HaamJii
 msgid "Pond for Fish"
@@ -43438,7 +43438,7 @@ msgstr "Vilda fåglar"
 
 #. Korean constellation, native: GuunShii
 msgid "Market for Army"
-msgstr "Armémarknad"
+msgstr "Marknad för armé"
 
 #. Korean constellation, native: Soun
 msgid "Grandchildren"
@@ -43522,7 +43522,7 @@ msgstr "Östlig keramik"
 
 #. Korean constellation, native: Jin
 msgid "Chariot of Emperor"
-msgstr "Kejserlig vagn"
+msgstr "Kejserlig stridsvagn"
 
 #. Korean constellation, native: JangSaa
 msgid "Sand for Life"
@@ -43746,7 +43746,7 @@ msgstr "Familjeofficer"
 
 #. Korean constellation, native: ShiRuu
 msgid "Tower in Market"
-msgstr "Marknadstorn"
+msgstr "Torn på marknad"
 
 #. Korean constellation, native: Gok
 msgid "Measure Cereal"
@@ -43758,7 +43758,7 @@ msgstr "Spannmålsmåttsregel"
 
 #. Korean constellation, native: GeoSaa
 msgid "Officer for Chariots"
-msgstr "Vagnsofficer"
+msgstr "Stridsvagnsofficer"
 
 #. Korean constellation, native: BaekTaak
 msgid "Measure Amount"
@@ -49777,7 +49777,7 @@ msgstr "Nebulosan Eta Carinae"
 
 #. Modern (IAU) name for NGC3918, native: Blue Planetary
 msgid "Blue Planetary"
-msgstr "Blå planetarisk"
+msgstr "Blåa planetariska"
 
 #. Modern (IAU) name for NGC4676, native: The Mice
 msgid "The Mice"
@@ -49785,7 +49785,7 @@ msgstr "Mössen"
 
 #. Modern (IAU) name for NGC6826, native: Blinking Planetary
 msgid "Blinking Planetary"
-msgstr "Blinkande planetarisk"
+msgstr "Blinkande planetariska"
 
 #. Modern (IAU) name for PNG064.7+05.0, native: Campbell's Hydrogen Star
 msgid "Campbell's Hydrogen Star"
