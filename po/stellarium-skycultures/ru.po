@@ -21091,7 +21091,7 @@ msgstr "Сетка"
 #. Chinese Song Dynasty Sky constellation, native: 壁宿, English: Wall
 #. Chinese Song Dynasty Sky constellation, native: 毕宿, English: Net
 msgid "Bì Xiù"
-msgstr "Bì Сю"
+msgstr "Би Сю"
 
 #. Chinese constellation, native: 壁宿, pronounce: Bì Xiù
 #. Pinyin transliteration
@@ -21226,7 +21226,7 @@ msgstr "Корень"
 #. Pronounce entry for Chinese constellation, native: 氐宿, English: Root
 #. Chinese Song Dynasty Sky constellation, native: 氐宿, English: Root
 msgid "Dī Xiù"
-msgstr "Dī Сю"
+msgstr "Ди Сю"
 
 #. Chinese constellation, native: 斗宿, pronounce: Dǒu Xiù
 #. Pinyin transliteration
@@ -21318,7 +21318,7 @@ msgstr "Веяльная корзина"
 #. Chinese Song Dynasty Sky constellation, native: 箕宿, English: Winnowing
 #. Basket
 msgid "Jī Xiù"
-msgstr "Jī Сю"
+msgstr "Цзи Сю"
 
 #. Chinese constellation, native: 角宿, pronounce: Jiǎo Xiù
 #. Pinyin transliteration
@@ -21603,7 +21603,7 @@ msgstr "Девушка"
 #. Pronounce entry for Chinese constellation, native: 女宿, English: Girl
 #. Chinese Song Dynasty Sky constellation, native: 女宿, English: Girl
 msgid "Nǚ Xiù"
-msgstr "Nǚ Сю"
+msgstr "Нюй Сю"
 
 #. Chinese constellation, native: 室宿, pronounce: Shì Xiù
 #. Pinyin transliteration
@@ -21844,7 +21844,7 @@ msgstr "Пустота"
 #. Pronounce entry for Chinese constellation, native: 虚宿, English: Emptiness
 #. Chinese Song Dynasty Sky constellation, native: 虚宿, English: Emptiness
 msgid "Xū Xiù"
-msgstr "Xū Сю"
+msgstr "Сюй Сю"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Emptiness
 #. Abbreviation of constellation in Egyptian sky culture, name: Stars of Water
@@ -21888,7 +21888,7 @@ msgstr "Крылья"
 #. Pronounce entry for Chinese constellation, native: 翼宿, English: Wings
 #. Chinese Song Dynasty Sky constellation, native: 翼宿, English: Wings
 msgid "Yì Xiù"
-msgstr "Yì Сю"
+msgstr "И Сю"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Wings
 #. Abbreviation of constellation in Korean sky culture, name: Chamberlain
@@ -21956,7 +21956,7 @@ msgstr "Пурпурная запретная правая стена"
 #. Pronounce entry for Chinese constellation, native: 紫微右垣, English: Purple
 #. Forbidden Right Wall
 msgid "Zǐ Wēi Yòu Yuán"
-msgstr "Zǐ Вэй Ю Юань"
+msgstr "Цзы Вэй Ю Юань"
 
 #. Chinese constellation, native: 紫微左垣, pronounce: Zǐ Wēi Zuǒ Yuán
 #. Pinyin transliteration
@@ -21973,7 +21973,7 @@ msgstr "Пурпурная запретная левая стена"
 #. Pronounce entry for Chinese constellation, native: 紫微左垣, English: Purple
 #. Forbidden Left Wall
 msgid "Zǐ Wēi Zuǒ Yuán"
-msgstr "Zǐ Вэй Цзо Юань"
+msgstr "Цзы Вэй Цзо Юань"
 
 #. Chinese constellation, native: 觜宿, pronounce: Zī Xiù
 #. Pinyin transliteration
@@ -21986,7 +21986,7 @@ msgstr "Клюв черепахи"
 #. Pronounce entry for Chinese constellation, native: 觜宿, English: Turtle Beak
 #. Chinese Song Dynasty Sky constellation, native: 觜宿, English: Turtle Beak
 msgid "Zī Xiù"
-msgstr "Zī Сю"
+msgstr "Цзы Сю"
 
 #. Chinese constellation, native: 八谷, pronounce: Bā Gǔ
 #. Pinyin transliteration
@@ -22042,7 +22042,7 @@ msgstr "Восемь видов культур"
 #. Chinese Song Dynasty Sky constellation, native: 八谷, English: Eight Kinds of
 #. Crops
 msgid "Bā Gǔ"
-msgstr "Bā Gǔ"
+msgstr "Ба Гу"
 
 #. Chinese constellation, native: 八魁, pronounce: Bā Kuí
 #. Pinyin transliteration
@@ -22062,7 +22062,7 @@ msgstr "Сеть для ловли птиц"
 #. Chinese Song Dynasty Sky constellation, native: 八魁, English: Net for
 #. Catching Birds
 msgid "Bā Kuí"
-msgstr "Bā Куй"
+msgstr "Ба Куй"
 
 #. Chinese constellation, native: 败瓜, pronounce: Bài Guā
 #. Pinyin transliteration
@@ -22142,7 +22142,7 @@ msgstr "Северная река"
 #. Pronounce entry for Chinese constellation, native: 北河, English: North River
 #. Chinese Song Dynasty Sky constellation, native: 北河, English: North River
 msgid "Běi Hé"
-msgstr "Бэй Hé"
+msgstr "Бэй Хэ"
 
 #. Chinese constellation, native: 北极, pronounce: Běi Jí
 #. Pinyin transliteration
@@ -22160,7 +22160,7 @@ msgstr "Северный полюс"
 #. Pole
 #. Chinese Song Dynasty Sky constellation, native: 北极, English: Northern Pole
 msgid "Běi Jí"
-msgstr "Бэй Jí"
+msgstr "Бэй Цзи"
 
 #. Chinese constellation, native: 北落师门, pronounce: Běi Luò Shī Mén
 #. Chinese name for HIP 113368, native: 北落师门
@@ -22237,7 +22237,7 @@ msgstr "Персия"
 
 #. Pronounce entry for Chinese constellation, native: 波斯, English: Persia
 msgid "Bō Sī"
-msgstr "Bō Sī"
+msgstr "Бо Сы"
 
 #. Chinese constellation, native: 帛度, pronounce: Bó Dù
 #. Pinyin transliteration
@@ -22255,7 +22255,7 @@ msgstr "Правитель текстиля"
 #. Ruler
 #. Chinese Song Dynasty Sky constellation, native: 帛度, English: Textile Ruler
 msgid "Bó Dù"
-msgstr "Bó Dù"
+msgstr "Бо Ду"
 
 #. Chinese constellation, native: 参旗, pronounce: Cān Qí
 #. Pinyin transliteration
@@ -22288,7 +22288,7 @@ msgstr "Знамя трёх звёзд"
 #. Pronounce entry for Chinese constellation, native: 参旗, English: Banner of
 #. Three Stars
 msgid "Cān Qí"
-msgstr "Цань Qí"
+msgstr "Цань Ци"
 
 #. Chinese constellation, native: 厕, pronounce: Cè
 #. Pinyin transliteration
@@ -22404,7 +22404,7 @@ msgstr "Большой двор для колесниц"
 #. Chinese Song Dynasty Sky constellation, native: 车府, English: Big Yard for
 #. Chariots
 msgid "Chē Fǔ"
-msgstr "Чэ Fǔ"
+msgstr "Чэ Фу"
 
 #. Chinese constellation, native: 车骑, pronounce: Chē Qí
 #. Pinyin transliteration
@@ -22421,7 +22421,7 @@ msgstr "Колесницы и кавалерия"
 #. Chinese Song Dynasty Sky constellation, native: 车骑, English: Chariots and
 #. Cavalry
 msgid "Chē Qí"
-msgstr "Чэ Qí"
+msgstr "Чэ Ци"
 
 #. Chinese constellation, native: 车肆, pronounce: Chē Sì
 #. Pinyin transliteration
@@ -22439,7 +22439,7 @@ msgstr "Товарный рынок"
 #. Chinese Song Dynasty Sky constellation, native: 车肆, English: Commodity
 #. Market
 msgid "Chē Sì"
-msgstr "Чэ Sì"
+msgstr "Чэ Сы"
 
 #. Chinese constellation, native: 刍藁, pronounce: Chú Gǎo
 #. Pinyin transliteration
@@ -22475,7 +22475,7 @@ msgstr "Пестик (в доме веяльной корзины)"
 #. Chinese Song Dynasty Sky constellation, native: 杵(箕宿), English: Pestle (In
 #. Winnowing Basket Mansion)
 msgid "Chǔ(Jī Xiù)"
-msgstr "Чу(Jī Сю)"
+msgstr "Чу(Цзи Сю)"
 
 #. Chinese constellation, native: 杵(危宿), pronounce: Chǔ(Wēi Xiù)
 #. Chinese Song Dynasty Sky constellation, native: 杵(危宿), pronounce: Chǔ(Wēi
@@ -22579,7 +22579,7 @@ msgstr "Большой рог"
 #. Pronounce entry for Chinese constellation, native: 大角, English: Great Horn
 #. Chinese Song Dynasty Sky constellation, native: 大角, English: Great Horn
 msgid "Dà Jiǎo"
-msgstr "Dà Цзяо"
+msgstr "Да Цзяо"
 
 #. Chinese constellation, native: 大理, pronounce: Dà Lǐ
 #. Pinyin transliteration
@@ -22594,7 +22594,7 @@ msgstr "Главный судья"
 #. Pronounce entry for Chinese constellation, native: 大理, English: Chief Judge
 #. Chinese Song Dynasty Sky constellation, native: 大理, English: Chief Judge
 msgid "Dà Lǐ"
-msgstr "Dà Lǐ"
+msgstr "Да Ли"
 
 #. Chinese constellation, native: 大陵, pronounce: Dà Líng
 #. Pinyin transliteration
@@ -22635,7 +22635,7 @@ msgstr "Мавзолей"
 #. Pronounce entry for Chinese constellation, native: 大陵, English: Mausoleum
 #. Chinese Song Dynasty Sky constellation, native: 大陵, English: Mausoleum
 msgid "Dà Líng"
-msgstr "Dà Лин"
+msgstr "Да Лин"
 
 #. Chinese constellation, native: 天庙, pronounce: Tiān Miào
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 天庙, pronounce:
@@ -22665,7 +22665,7 @@ msgstr "Матрас императора"
 #. Chinese Song Dynasty Sky constellation, native: 帝席, English: Mattress of
 #. the Emperor
 msgid "Dì Xí"
-msgstr "Dì Xí"
+msgstr "Ди Си"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Mattress of the
 #. Emperor
@@ -22692,7 +22692,7 @@ msgstr "Место императора"
 #. Seat
 #. Chinese Song Dynasty Sky constellation, native: 帝座, English: Emperor's Seat
 msgid "Dì Zuò"
-msgstr "Dì Цзо"
+msgstr "Ди Цзо"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Emperor's Seat
 #. Abbreviation of constellation in Korean sky culture, name: Storage for Lady
@@ -22865,7 +22865,7 @@ msgstr "Летучая рыба"
 
 #. Pronounce entry for Chinese constellation, native: 飞鱼, English: Flying Fish
 msgid "Fēi Yú"
-msgstr "Фэй Yú"
+msgstr "Фэй Юй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Flying Fish
 #. Abbreviation of constellation in Korean sky culture, name: Empty House
@@ -22885,7 +22885,7 @@ msgstr "Гробница (Вассал крыши)"
 #. Chinese Song Dynasty Sky constellation, native: 坟墓(附危宿), English: Tomb
 #. (Vassal of Rooftop)
 msgid "Fén Mù"
-msgstr "Фэнь Mù"
+msgstr "Фэнь Му"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Tomb (Vassal of
 #. Rooftop)
@@ -22912,7 +22912,7 @@ msgstr "Топор"
 #. Pronounce entry for Chinese constellation, native: 𫓧钺, English: Axe
 #. Chinese Song Dynasty Sky constellation, native: 𫓧钺, English: Axe
 msgid "Fū Yuè"
-msgstr "Fū Юэ"
+msgstr "Фу Юэ"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Axe
 #. Abbreviation of constellation in Korean sky culture, name: Sob
@@ -22936,7 +22936,7 @@ msgstr "Серп"
 #. Pronounce entry for Chinese constellation, native: 𫓧锧, English: Sickle
 #. Chinese Song Dynasty Sky constellation, native: 𫓧锧, English: Sickle
 msgid "Fū Zhì"
-msgstr "Fū Чжи"
+msgstr "Фу Чжи"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Sickle
 #. Abbreviation of constellation in Korean sky culture, name: Castle with
@@ -22969,7 +22969,7 @@ msgstr "Корзина для листьев тутового дерева"
 #. Chinese Song Dynasty Sky constellation, native: 扶筐, English: Basket for
 #. Mulberry Leaves
 msgid "Fú Kuāng"
-msgstr "Fú Куан"
+msgstr "Фу Куан"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Basket for
 #. Mulberry Leaves
@@ -22989,7 +22989,7 @@ msgstr "Рядом с белыми заплатками"
 #. Pronounce entry for Chinese constellation, native: 附白, English: White
 #. Patched Nearby
 msgid "Fù Bái"
-msgstr "Fù Бай"
+msgstr "Фу Бай"
 
 #. Abbreviation of constellation in Chinese sky culture, name: White Patched
 #. Nearby
@@ -23016,7 +23016,7 @@ msgstr "Объездная дорога"
 #. Road
 #. Chinese Song Dynasty Sky constellation, native: 附路, English: Auxiliary Road
 msgid "Fù Lù"
-msgstr "Fù Lù"
+msgstr "Фу Лу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Auxiliary Road
 #. Abbreviation of constellation in Korean sky culture, name: Office for
@@ -23045,7 +23045,7 @@ msgstr "Фу Юэ"
 #. Pronounce entry for Chinese constellation, native: 傅说, English: Fu Yue
 #. Chinese Song Dynasty Sky constellation, native: 傅说, English: Fu Yue
 msgid "Fù Yuè"
-msgstr "Fù Юэ"
+msgstr "Фу Юэ"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Fu Yue
 #. Abbreviation of constellation in Korean sky culture, name: Human
@@ -23066,7 +23066,7 @@ msgstr "Кровельные работы"
 #. Pronounce entry for Chinese constellation, native: 盖屋, English: Roofing
 #. Chinese Song Dynasty Sky constellation, native: 盖屋, English: Roofing
 msgid "Gài Wū"
-msgstr "Гай Wū"
+msgstr "Гай У"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Roofing
 #. Abbreviation of constellation in Korean sky culture, name: Inner Pestle
@@ -23146,7 +23146,7 @@ msgstr "Летающий коридор"
 #. Chinese Song Dynasty Sky constellation, native: 阁道, English: Flying
 #. Corridor
 msgid "Gé Dào"
-msgstr "Gé Дао"
+msgstr "Гэ Дао"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Flying Corridor
 #. Abbreviation of constellation in Korean sky culture, name: Warehouse of Sky
@@ -23176,7 +23176,7 @@ msgstr "Небесная пика"
 #. Chinese Song Dynasty Sky constellation, native: 梗河, English: Celestial
 #. Lance
 msgid "Gěng Hé"
-msgstr "Гэн Hé"
+msgstr "Гэн Хэ"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial Lance
 #. Abbreviation of constellation in Korean sky culture, name: Tomb
@@ -23500,7 +23500,7 @@ msgstr "Барабан у реки"
 #. Chinese Song Dynasty Sky constellation, native: 河鼓, English: Drum at the
 #. River
 msgid "Hé Gǔ"
-msgstr "Hé Gǔ"
+msgstr "Хэ Гу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Drum at the
 #. River
@@ -23675,7 +23675,7 @@ msgstr "Лук и стрела"
 #. Arrow
 #. Chinese Song Dynasty Sky constellation, native: 弧矢, English: Bow and Arrow
 msgid "Hú Shǐ"
-msgstr "Hú Ши"
+msgstr "Ху Ши"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Bow and Arrow
 #. Abbreviation of constellation in Korean sky culture, name: Thunderbolts
@@ -23740,7 +23740,7 @@ msgstr "Телохранитель императора"
 #. Chinese Song Dynasty Sky constellation, native: 虎贲, English: Emperor's
 #. Bodyguard
 msgid "Hǔ Bēn"
-msgstr "Hǔ Бэнь"
+msgstr "Ху Бэнь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Emperor's
 #. Bodyguard
@@ -23774,7 +23774,7 @@ msgstr "Хорошая тыква"
 #. Pronounce entry for Chinese constellation, native: 瓠瓜, English: Good Gourd
 #. Chinese Song Dynasty Sky constellation, native: 瓠瓜, English: Good Gourd
 msgid "Hù Guā"
-msgstr "Hù Гуа"
+msgstr "Ху Гуа"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Good Gourd
 #. Abbreviation of constellation in Korean sky culture, name: Whip
@@ -23882,7 +23882,7 @@ msgstr "Совокупные трупы"
 #. Pronounce entry for Chinese constellation, native: 积尸(鬼宿), English:
 #. Cumulative Corpses
 msgid "Jī Shī(Guǐ Xiù)"
-msgstr "Jī Ши(Гуй Сю)"
+msgstr "Цзи Ши(Гуй Сю)"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Cumulative
 #. Corpses
@@ -23910,7 +23910,7 @@ msgstr "Куча трупов"
 #. Chinese Song Dynasty Sky constellation, native: 积尸(胃宿), English: Heap of
 #. Corpses
 msgid "Jī Shī(Wèi Xiù)"
-msgstr "Jī Ши(Вэй Сю)"
+msgstr "Цзи Ши(Вэй Сю)"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Heap of Corpses
 #. Abbreviation of constellation in Korean sky culture, name: Outer Folding
@@ -23933,7 +23933,7 @@ msgstr "Запасённая вода"
 #. Chinese Song Dynasty Sky constellation, native: 积水(胃宿), English: Stored
 #. water
 msgid "Jī Shuǐ(Wèi Xiù)"
-msgstr "Jī Шуй(Вэй Сю)"
+msgstr "Цзи Шуй(Вэй Сю)"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Stored water
 #. Abbreviation of constellation in Korean sky culture, name: Toilet of Sky
@@ -23963,7 +23963,7 @@ msgstr "Куча дров"
 #. Chinese Song Dynasty Sky constellation, native: 积薪, English: Pile of
 #. Firewood
 msgid "Jī Xīn"
-msgstr "Jī Синь"
+msgstr "Цзи Синь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Pile of
 #. Firewood
@@ -23990,7 +23990,7 @@ msgstr "Группа солдат"
 #. Chinese Song Dynasty Sky constellation, native: 积卒, English: Group of
 #. Soldiers
 msgid "Jī Zú"
-msgstr "Jī Zú"
+msgstr "Цзи Цзу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Group of
 #. Soldiers
@@ -24114,7 +24114,7 @@ msgstr "Дверной болт"
 #. Pronounce entry for Chinese constellation, native: 键闭, English: Door Bolt
 #. Chinese Song Dynasty Sky constellation, native: 键闭, English: Door Bolt
 msgid "Jiàn Bì"
-msgstr "Цзянь Bì"
+msgstr "Цзянь Би"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Door Bolt
 #. Abbreviation of constellation in Korean sky culture, name: Storehouse of
@@ -24136,7 +24136,7 @@ msgstr "Золотая рыбка"
 
 #. Pronounce entry for Chinese constellation, native: 金鱼, English: Goldfish
 msgid "Jīn Yú"
-msgstr "Цзинь Yú"
+msgstr "Цзинь Юй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Goldfish
 #. Abbreviation of constellation in Korean sky culture, name: Stack of Cereals
@@ -24200,7 +24200,7 @@ msgstr "Накопленная вода"
 #. Chinese Song Dynasty Sky constellation, native: 积水(井宿), English:
 #. Accumulated Water
 msgid "Jī Shuǐ(Jǐng Xiù)"
-msgstr "Jī Шуй(Цзин Сю)"
+msgstr "Цзи Шуй(Цзин Сю)"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Accumulated
 #. Water
@@ -24369,7 +24369,7 @@ msgstr "Знамя винного магазина"
 #. Chinese Song Dynasty Sky constellation, native: 酒旗, English: Banner of Wine
 #. Shop
 msgid "Jiǔ Qí"
-msgstr "Цзю Qí"
+msgstr "Цзю Ци"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Banner of Wine
 #. Shop
@@ -24676,7 +24676,7 @@ msgstr "Арсенал"
 #. Pronounce entry for Chinese constellation, native: 库楼, English: Arsenal
 #. Chinese Song Dynasty Sky constellation, native: 库楼, English: Arsenal
 msgid "Kù Lóu"
-msgstr "Kù Лоу"
+msgstr "Ку Лоу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Arsenal
 #. Abbreviation of constellation in Chinese Song Dynasty Sky sky culture,
@@ -24838,7 +24838,7 @@ msgstr "Линия крепостных валов"
 #. Chinese Song Dynasty Sky constellation, native: 垒壁阵, English: Line of
 #. Ramparts
 msgid "Lěi Bì Zhèn"
-msgstr "Лэй Bì Чжэнь"
+msgstr "Лэй Би Чжэнь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Line of
 #. Ramparts
@@ -24866,7 +24866,7 @@ msgstr "Дворец отдыха (Вассал лагеря)"
 #. Chinese Song Dynasty Sky constellation, native: 离宫(附室宿), English: Resting
 #. Palace (Vassal of Encampment)
 msgid "Lí Gōng"
-msgstr "Lí Гун"
+msgstr "Ли Гун"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Resting Palace
 #. (Vassal of Encampment)
@@ -24894,7 +24894,7 @@ msgstr "Украшение из нефрита на женской одежде"
 #. Chinese Song Dynasty Sky constellation, native: 离瑜, English: Jade Ornament
 #. on Ladies' Wear
 msgid "Lí Yú"
-msgstr "Lí Yú"
+msgstr "Ли Юй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Jade Ornament
 #. on Ladies' Wear
@@ -24922,7 +24922,7 @@ msgstr "Жемчуг на женской одежде"
 #. Chinese Song Dynasty Sky constellation, native: 离珠, English: Pearls on
 #. Ladies' Wear
 msgid "Lí Zhū"
-msgstr "Lí Чжу"
+msgstr "Ли Чжу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Pearls on
 #. Ladies' Wear
@@ -24948,7 +24948,7 @@ msgstr "Брусок"
 #. Pronounce entry for Chinese constellation, native: 砺石, English: Whetstone
 #. Chinese Song Dynasty Sky constellation, native: 砺石, English: Whetstone
 msgid "Lì Shí"
-msgstr "Lì Ши"
+msgstr "Ли Ши"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Whetstone
 #. Abbreviation of constellation in Korean sky culture, name: Village of Sky
@@ -24974,7 +24974,7 @@ msgstr "Ювелирный рынок"
 #. Market
 #. Chinese Song Dynasty Sky constellation, native: 列肆, English: Jewel Market
 msgid "Liè Sì"
-msgstr "Ле Sì"
+msgstr "Ле Сы"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Jewel Market
 #. Abbreviation of constellation in Korean sky culture, name: Belvedere of Sky
@@ -25082,7 +25082,7 @@ msgstr "Живот лошади"
 #. Pronounce entry for Chinese constellation, native: 马腹, English: Horse's
 #. Abdomen
 msgid "Mǎ Fù"
-msgstr "Mǎ Fù"
+msgstr "Ма Фу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Horse's Abdomen
 #. Abbreviation of constellation in Korean sky culture, name: Nine Territory
@@ -25102,7 +25102,7 @@ msgstr "Конский хвост"
 #. Pronounce entry for Chinese constellation, native: 马尾, English: Horse's
 #. Tail
 msgid "Mǎ Wěi"
-msgstr "Mǎ Вэй"
+msgstr "Ма Вэй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Horse's Tail
 #. Abbreviation of constellation in Korean sky culture, name: Garden of Sky
@@ -25122,7 +25122,7 @@ msgstr "Пчела"
 
 #. Pronounce entry for Chinese constellation, native: 蜜蜂, English: Bee
 msgid "Mì Fēng"
-msgstr "Mì Фэн"
+msgstr "Ми Фэн"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Bee
 #. Abbreviation of constellation in Korean sky culture, name: Settled Flag
@@ -25212,7 +25212,7 @@ msgstr "Южная река"
 #. Pronounce entry for Chinese constellation, native: 南河, English: South River
 #. Chinese Song Dynasty Sky constellation, native: 南河, English: South River
 msgid "Nán Hé"
-msgstr "Нань Hé"
+msgstr "Нань Хэ"
 
 #. Abbreviation of constellation in Chinese sky culture, name: South River
 #. Abbreviation of constellation in Korean sky culture, name: Saam
@@ -25231,7 +25231,7 @@ msgstr "Донгу"
 #. Pronounce entry for Chinese constellation, native: 东瓯, English: Dongou
 #. Chinese Song Dynasty Sky constellation, native: 东瓯, English: Dongou
 msgid "Dōng Ōu"
-msgstr "Дун Ōu"
+msgstr "Дун Оу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Dongou
 #. Abbreviation of constellation in Korean sky culture, name: Expeditionary
@@ -25487,7 +25487,7 @@ msgstr "Женская кровать"
 #. Pronounce entry for Chinese constellation, native: 女床, English: Woman's Bed
 #. Chinese Song Dynasty Sky constellation, native: 女床, English: Woman's Bed
 msgid "Nǚ Chuáng"
-msgstr "Nǚ Чуан"
+msgstr "Нюй Чуан"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Woman's Bed
 #. Abbreviation of constellation in Korean sky culture, name: Five Lords
@@ -25514,7 +25514,7 @@ msgstr "Женский протокол"
 #. Chinese Song Dynasty Sky constellation, native: 女史, English: Female
 #. Protocol
 msgid "Nǚ Shǐ"
-msgstr "Nǚ Ши"
+msgstr "Нюй Ши"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Female Protocol
 #. Abbreviation of constellation in Korean sky culture, name: Wine Glass of
@@ -25548,7 +25548,7 @@ msgstr "Удар молнии"
 #. Pronounce entry for Chinese constellation, native: 霹雳, English: Thunderbolt
 #. Chinese Song Dynasty Sky constellation, native: 霹雳, English: Thunderbolt
 msgid "Pī Lì"
-msgstr "Pī Lì"
+msgstr "Пи Ли"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Thunderbolt
 #. Abbreviation of constellation in Korean sky culture, name: Eastern Well
@@ -25661,7 +25661,7 @@ msgstr "Семь превосходительств"
 #. Chinese Song Dynasty Sky constellation, native: 七公, English: Seven
 #. Excellencies
 msgid "Qī Gōng"
-msgstr "Qī Гун"
+msgstr "Ци Гун"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Seven
 #. Excellencies
@@ -25684,7 +25684,7 @@ msgstr "Дом для музыкальных инструментов"
 #. Chinese Song Dynasty Sky constellation, native: 器府, English: House for
 #. Musical Instruments
 msgid "Qì Fǔ"
-msgstr "Qì Fǔ"
+msgstr "Ци Фу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: House for
 #. Musical Instruments
@@ -25740,7 +25740,7 @@ msgstr "Имперская гвардия"
 #. Chinese Song Dynasty Sky constellation, native: 骑官, English: Imperial
 #. Guards
 msgid "Qí Guān"
-msgstr "Qí Гуань"
+msgstr "Ци Гуань"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Imperial Guards
 #. Abbreviation of constellation in Korean sky culture, name: Bow
@@ -25768,7 +25768,7 @@ msgstr "Колесницы и кавалерийский генерал"
 #. Chinese Song Dynasty Sky constellation, native: 骑阵将军, English: Chariots and
 #. Cavalry General
 msgid "Qí Zhèn Jiāng Jūn"
-msgstr "Qí Чжэнь Цзян Цзюнь"
+msgstr "Ци Чжэнь Цзян Цзюнь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Chariots and
 #. Cavalry General
@@ -25822,7 +25822,7 @@ msgstr "Небесные злаки"
 #. Chinese Song Dynasty Sky constellation, native: 天稷, English: Celestial
 #. Cereals
 msgid "Tiān Jì"
-msgstr "Тянь Jì"
+msgstr "Тянь Цзи"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial
 #. Cereals
@@ -25989,7 +25989,7 @@ msgstr "Три превосходительства (за пурпурной з�
 #. Chinese Song Dynasty Sky constellation, native: 三公(紫微垣), English: Three
 #. Excellencies (In Purple Forbidden Enclosure)
 msgid "Sān Gōng(Zǐ Wēi Yuán)"
-msgstr "Сань Гун(Zǐ Вэй Юань)"
+msgstr "Сань Гун(Цзы Вэй Юань)"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Three
 #. Excellencies (In Purple Forbidden Enclosure)
@@ -26156,7 +26156,7 @@ msgstr "Живот змеи"
 #. Pronounce entry for Chinese constellation, native: 蛇腹, English: Snake's
 #. Abdomen
 msgid "Shé Fù"
-msgstr "Шэ Fù"
+msgstr "Шэ Фу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Snake's Abdomen
 #. Abbreviation of constellation in Korean sky culture, name: Flag of Wine
@@ -26240,7 +26240,7 @@ msgstr "Двенадцать государств"
 #. Pronounce entry for Chinese constellation, native: 十二国, English: Twelve
 #. States
 msgid "Shí Èr Guó"
-msgstr "Ши Èr Го"
+msgstr "Ши Эр Го"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Twelve States
 #. Abbreviation of constellation in Korean sky culture, name: Capital of Sky
@@ -26261,7 +26261,7 @@ msgstr "Крест"
 
 #. Pronounce entry for Chinese constellation, native: 十字架, English: Cross
 msgid "Shí Zì Jià"
-msgstr "Ши Zì Цзя"
+msgstr "Ши Цзы Цзя"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Cross
 #. Abbreviation of constellation in Korean sky culture, name: Chief of Farming
@@ -26406,7 +26406,7 @@ msgstr "Надзиратель за ирригациями"
 #. Chinese Song Dynasty Sky constellation, native: 水府, English: Official for
 #. Irrigation
 msgid "Shuǐ Fǔ"
-msgstr "Шуй Fǔ"
+msgstr "Шуй Фу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Official for
 #. Irrigation
@@ -26487,7 +26487,7 @@ msgstr "Обожествленный судья верного и неверно
 #. Chinese Song Dynasty Sky constellation, native: 司非, English: Deified Judge
 #. of Right and Wrong
 msgid "Sī Fēi"
-msgstr "Sī Фэй"
+msgstr "Сы Фэй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Deified Judge
 #. of Right and Wrong
@@ -26523,7 +26523,7 @@ msgstr "Божество монстров"
 #. Chinese Song Dynasty Sky constellation, native: 司怪, English: Deity in
 #. Charge of Monsters
 msgid "Sī Guài"
-msgstr "Sī Гуай"
+msgstr "Сы Гуай"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Deity in Charge
 #. of Monsters
@@ -26551,7 +26551,7 @@ msgstr "Обожествленный судья ранга"
 #. Chinese Song Dynasty Sky constellation, native: 司禄, English: Deified Judge
 #. of Rank
 msgid "Sī Lù"
-msgstr "Sī Lù"
+msgstr "Сы Лу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Deified Judge
 #. of Rank
@@ -26577,7 +26577,7 @@ msgstr "Обожествленный судья жизни"
 #. Chinese Song Dynasty Sky constellation, native: 司命, English: Deified Judge
 #. of Life
 msgid "Sī Mìng"
-msgstr "Sī Мин"
+msgstr "Сы Мин"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Deified Judge
 #. of Life
@@ -26602,7 +26602,7 @@ msgstr "Обожествленный судья катастрофы и удач
 #. Chinese Song Dynasty Sky constellation, native: 司危, English: Deified Judge
 #. of Disaster and Good Fortune
 msgid "Sī Wēi"
-msgstr "Sī Вэй"
+msgstr "Сы Вэй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Deified Judge
 #. of Disaster and Good Fortune
@@ -26636,7 +26636,7 @@ msgstr "Четыре канала"
 #. Channels
 #. Chinese Song Dynasty Sky constellation, native: 四渎, English: Four Channels
 msgid "Sì Dú"
-msgstr "Sì Dú"
+msgstr "Сы Ду"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Four Channels
 #. Abbreviation of constellation in Korean sky culture, name: SangJiin
@@ -26661,7 +26661,7 @@ msgstr "Четыре советника"
 #. Advisors
 #. Chinese Song Dynasty Sky constellation, native: 四辅, English: Four Advisors
 msgid "Sì Fǔ"
-msgstr "Sì Fǔ"
+msgstr "Сы Фу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Four Advisors
 #. Abbreviation of constellation in Korean sky culture, name: Low Fence
@@ -26742,7 +26742,7 @@ msgstr "Первый великий"
 #. Chinese Song Dynasty Sky constellation, native: 太乙, English: First Great
 #. One
 msgid "Tài Yǐ"
-msgstr "Тай Yǐ"
+msgstr "Тай И"
 
 #. Abbreviation of constellation in Chinese sky culture, name: First Great One
 #. Abbreviation of constellation in Korean sky culture, name: Nine Lords
@@ -26776,7 +26776,7 @@ msgstr "Наследник престола"
 #. Prince
 #. Chinese Song Dynasty Sky constellation, native: 太子, English: Crown Prince
 msgid "Tài Zǐ"
-msgstr "Тай Zǐ"
+msgstr "Тай Цзы"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Crown Prince
 #. Abbreviation of constellation in Korean sky culture, name: Dung of Tiger
@@ -26801,7 +26801,7 @@ msgstr "Члены королевской семьи"
 #. Pronounce entry for Chinese constellation, native: 太尊, English: Royals
 #. Chinese Song Dynasty Sky constellation, native: 太尊, English: Royals
 msgid "Tài Zūn"
-msgstr "Тай Zūn"
+msgstr "Тай Цзунь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Royals
 #. Abbreviation of constellation in Korean sky culture, name: Crown Prince
@@ -26887,7 +26887,7 @@ msgstr "Небесный свод"
 #. Chinese Song Dynasty Sky constellation, native: 天阿, English: Celestial
 #. Concave
 msgid "Tiān Ē"
-msgstr "Тянь Ē"
+msgstr "Тянь Э"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial
 #. Concave
@@ -27188,7 +27188,7 @@ msgstr "Великий небесный полководец"
 #. Chinese Song Dynasty Sky constellation, native: 天大将军, English: Great
 #. General of Heaven
 msgid "Tiān Dà Jiāng Jūn"
-msgstr "Тянь Dà Цзян Цзюнь"
+msgstr "Тянь Да Цзян Цзюнь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Great General
 #. of Heaven
@@ -27220,7 +27220,7 @@ msgstr "Небесный барабан"
 #. Chinese Song Dynasty Sky constellation, native: 天桴, English: Celestial
 #. Drumstick
 msgid "Tiān Fú"
-msgstr "Тянь Fú"
+msgstr "Тянь Фу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial
 #. Drumstick
@@ -27300,7 +27300,7 @@ msgstr "Небесная высокая терраса"
 #. Chinese Song Dynasty Sky constellation, native: 天高, English: Celestial High
 #. Terrace
 msgid "Tiān Gāo"
-msgstr "Тянь Gāo"
+msgstr "Тянь Гао"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial High
 #. Terrace
@@ -27438,7 +27438,7 @@ msgstr "Великий император небес"
 #. Chinese Song Dynasty Sky constellation, native: 天皇大帝, English: Great
 #. Emperor of Heaven
 msgid "Tiān Huáng Dà Dì"
-msgstr "Тянь Хуан Dà Dì"
+msgstr "Тянь Хуан Да Ди"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Great Emperor
 #. of Heaven
@@ -27500,7 +27500,7 @@ msgstr "Небесный свинарник"
 #. Chinese Song Dynasty Sky constellation, native: 天溷, English: Celestial
 #. Pigsty
 msgid "Tiān Hùn"
-msgstr "Тянь Hùn"
+msgstr "Тянь Хунь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial
 #. Pigsty
@@ -27527,7 +27527,7 @@ msgstr "Небесный петух"
 #. Cock
 #. Chinese Song Dynasty Sky constellation, native: 天鸡, English: Celestial Cock
 msgid "Tiān Jī"
-msgstr "Тянь Jī"
+msgstr "Тянь Цзи"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial Cock
 #. Abbreviation of constellation in Korean sky culture, name: Minister
@@ -27686,7 +27686,7 @@ msgstr "Небесное число"
 #. Chinese Song Dynasty Sky constellation, native: 天节, English: Celestial
 #. Tally
 msgid "Tiān Jié"
-msgstr "Тянь Jié"
+msgstr "Тянь Цзе"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial Tally
 #. Abbreviation of constellation in Korean sky culture, name: Spear of Sky
@@ -27842,7 +27842,7 @@ msgstr "Небесная тюрьма"
 #. Chinese Song Dynasty Sky constellation, native: 天牢, English: Celestial
 #. Prison
 msgid "Tiān Láo"
-msgstr "Тянь Láo"
+msgstr "Тянь Лао"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial
 #. Prison
@@ -27908,7 +27908,7 @@ msgstr "Судья для дворянства"
 #. Chinese Song Dynasty Sky constellation, native: 天理, English: Judge for
 #. Nobility
 msgid "Tiān Lǐ"
-msgstr "Тянь Lǐ"
+msgstr "Тянь Ли"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Judge for
 #. Nobility
@@ -27938,7 +27938,7 @@ msgstr "Небесные продукты питания"
 #. Chinese Song Dynasty Sky constellation, native: 天廪, English: Celestial
 #. Foodstuff
 msgid "Tiān Lǐn"
-msgstr "Тянь Lǐn"
+msgstr "Тянь Линь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial
 #. Foodstuff
@@ -28091,7 +28091,7 @@ msgstr "Круглый небесный амбар"
 #. Chinese Song Dynasty Sky constellation, native: 天囷, English: Circular
 #. Celestial Granary
 msgid "Tiān Qūn"
-msgstr "Тянь Qūn"
+msgstr "Тянь Цюнь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Circular
 #. Celestial Granary
@@ -28122,7 +28122,7 @@ msgstr "Небесное молоко"
 #. Milk
 #. Chinese Song Dynasty Sky constellation, native: 天乳, English: Celestial Milk
 msgid "Tiān Rǔ"
-msgstr "Тянь Rǔ"
+msgstr "Тянь Жу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial Milk
 #. Abbreviation of constellation in Korean sky culture, name: Maid
@@ -28268,7 +28268,7 @@ msgstr "Небесный великий"
 #. Chinese Song Dynasty Sky constellation, native: 天乙, English: Celestial
 #. Great One
 msgid "Tiān Yǐ"
-msgstr "Тянь Yǐ"
+msgstr "Тянь И"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial Great
 #. One
@@ -28301,7 +28301,7 @@ msgstr "Небесная сила Инь"
 #. Chinese Song Dynasty Sky constellation, native: 天阴, English: Celestial Yin
 #. Force
 msgid "Tiān Yīn"
-msgstr "Тянь Yīn"
+msgstr "Тянь Инь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial Yin
 #. Force
@@ -28328,7 +28328,7 @@ msgstr "Кучки зерна"
 #. Grain
 #. Chinese Song Dynasty Sky constellation, native: 天庾, English: Ricks of Grain
 msgid "Tiān Yǔ"
-msgstr "Тянь Yǔ"
+msgstr "Тянь Юй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Ricks of Grain
 #. Abbreviation of constellation in Korean sky culture, name: Thread Straw
@@ -28523,7 +28523,7 @@ msgstr "Небесный столб"
 #. Chinese Song Dynasty Sky constellation, native: 天柱, English: Celestial
 #. Pillar
 msgid "Tiān Zhù"
-msgstr "Тянь Zhù"
+msgstr "Тянь Чжу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial
 #. Pillar
@@ -28558,7 +28558,7 @@ msgstr "Небесный кубок вина"
 #. Chinese Song Dynasty Sky constellation, native: 天樽, English: Celestial Wine
 #. Cup
 msgid "Tiān Zūn"
-msgstr "Тянь Zūn"
+msgstr "Тянь Цзунь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Celestial Wine
 #. Cup
@@ -28586,7 +28586,7 @@ msgstr "Мясные магазины"
 #. Chinese Song Dynasty Sky constellation, native: 屠肆, English: Butcher's
 #. Shops
 msgid "Tú Sì"
-msgstr "Tú Sì"
+msgstr "Ту Сы"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Butcher's Shops
 #. Abbreviation of constellation in Korean sky culture, name: Record of Family
@@ -28621,7 +28621,7 @@ msgstr "Официальный строитель"
 #. Chinese Song Dynasty Sky constellation, native: 土公, English: Official for
 #. Earthworks and Buildings
 msgid "Tǔ Gōng"
-msgstr "Tǔ Гун"
+msgstr "Ту Гун"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Official for
 #. Earthworks and Buildings
@@ -28647,7 +28647,7 @@ msgstr "Официальный поставщик"
 #. Chinese Song Dynasty Sky constellation, native: 土公吏, English: Official for
 #. Materials Supply
 msgid "Tǔ Gōng Lì"
-msgstr "Tǔ Гун Lì"
+msgstr "Ту Гун Ли"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Official for
 #. Materials Supply
@@ -28672,7 +28672,7 @@ msgstr "Мастер строительства"
 #. Chinese constellation, native: 土司空(奎宿), English: Master of Constructions
 #. (In Legs Mansion)
 msgid "Tǔ Sī Kōng"
-msgstr "Tǔ Sī Кун"
+msgstr "Ту Сы Кун"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Master of
 #. Constructions
@@ -28714,7 +28714,7 @@ msgstr "Внешняя кухня"
 #. Kitchen
 #. Chinese Song Dynasty Sky constellation, native: 外厨, English: Outer Kitchen
 msgid "Wài Chú"
-msgstr "Wài Чу"
+msgstr "Вай Чу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Outer Kitchen
 #. Abbreviation of constellation in Korean sky culture, name: Cereal Measure
@@ -28757,7 +28757,7 @@ msgstr "Внешний забор"
 #. Pronounce entry for Chinese constellation, native: 外屏, English: Outer Fence
 #. Chinese Song Dynasty Sky constellation, native: 外屏, English: Outer Fence
 msgid "Wài Píng"
-msgstr "Wài Пин"
+msgstr "Вай Пин"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Outer Fence
 #. Abbreviation of constellation in Korean sky culture, name: Eunuch
@@ -28849,7 +28849,7 @@ msgstr "Административный центр"
 #. Chinese Song Dynasty Sky constellation, native: 文昌, English: Administrative
 #. Center
 msgid "Wén Chāng"
-msgstr "Wén Чан"
+msgstr "Вэнь Чан"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Administrative
 #. Center
@@ -28895,7 +28895,7 @@ msgstr "Пять колесниц"
 #. Chariots
 #. Chinese Song Dynasty Sky constellation, native: 五车, English: Five Chariots
 msgid "Wǔ Chē"
-msgstr "Wǔ Чэ"
+msgstr "У Чэ"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Five Chariots
 #. Abbreviation of constellation in Korean sky culture, name: Officer for
@@ -28925,7 +28925,7 @@ msgstr "Внутренние сиденья пяти императоров"
 #. Chinese Song Dynasty Sky constellation, native: 五帝内座, English: Interior
 #. Seats of the Five Emperors
 msgid "Wǔ Dì Nèi Zuò"
-msgstr "Wǔ Dì Нэй Цзо"
+msgstr "У Ди Нэй Цзо"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Interior Seats
 #. of the Five Emperors
@@ -28957,7 +28957,7 @@ msgstr "Сиденья пяти императоров"
 #. Chinese Song Dynasty Sky constellation, native: 五帝座, English: Seats of the
 #. Five Emperors
 msgid "Wǔ Dì Zuò"
-msgstr "Wǔ Dì Цзо"
+msgstr "У Ди Цзо"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Seats of the
 #. Five Emperors
@@ -28990,7 +28990,7 @@ msgstr "Пять феодальных королей "
 #. Chinese Song Dynasty Sky constellation, native: 五诸侯(井宿), English: Five
 #. Feudal Kings
 msgid "Wǔ Zhū Hóu(Jǐng Xiù)"
-msgstr "Wǔ Чжу Hóu(Цзин Сю)"
+msgstr "У Чжу Хоу(Цзин Сю)"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Five Feudal
 #. Kings
@@ -29025,7 +29025,7 @@ msgstr "Пять лордов"
 #. Chinese Song Dynasty Sky constellation, native: 五诸侯(太微垣), English: Five
 #. Lords
 msgid "Wǔ Zhū Hóu(Tài Wēi Yuán)"
-msgstr "Wǔ Чжу Hóu(Тай Вэй Юань)"
+msgstr "У Чжу Хоу(Тай Вэй Юань)"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Five Lords
 #. Abbreviation of constellation in Korean sky culture, name: Right Executor
@@ -29050,7 +29050,7 @@ msgstr "Западная дверь"
 #. Door
 #. Chinese Song Dynasty Sky constellation, native: 西咸, English: Western Door
 msgid "Xī Xián"
-msgstr "Xī Сянь"
+msgstr "Си Сянь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Western Door
 #. Abbreviation of constellation in Korean sky culture, name: Crossbeam for
@@ -29084,7 +29084,7 @@ msgstr "Си Чжун"
 #. Pronounce entry for Chinese constellation, native: 奚仲, English: Xi Zhong
 #. Chinese Song Dynasty Sky constellation, native: 奚仲, English: Xi Zhong
 msgid "Xī Zhòng"
-msgstr "Xī Чжун"
+msgstr "Си Чжун"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Xi Zhong
 #. Abbreviation of constellation in Korean sky culture, name: Threading Coins
@@ -29217,7 +29217,7 @@ msgstr "Храм"
 #. Pronounce entry for Chinese constellation, native: 虚梁, English: Temple
 #. Chinese Song Dynasty Sky constellation, native: 虚梁, English: Temple
 msgid "Xū Liáng"
-msgstr "Xū Лян"
+msgstr "Сюй Лян"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Temple
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Temple
@@ -29336,7 +29336,7 @@ msgstr "Мрачная пика"
 #. Lance
 #. Chinese Song Dynasty Sky constellation, native: 玄戈, English: Sombre Lance
 msgid "Xuán Gē"
-msgstr "Сюань Gē"
+msgstr "Сюань Гэ"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Sombre Lance
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Sombre
@@ -29421,7 +29421,7 @@ msgstr "Дикий петушок"
 #. Cockerel
 #. Chinese Song Dynasty Sky constellation, native: 野鸡, English: Wild Cockerel
 msgid "Yě Jī"
-msgstr "Yě Jī"
+msgstr "Е Цзи"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Wild Cockerel
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Wild
@@ -29449,7 +29449,7 @@ msgstr "Судебный пристав"
 #. Chinese Song Dynasty Sky constellation, native: 谒者, English: Usher to the
 #. Court
 msgid "Yè Zhě"
-msgstr "Yè Чжэ"
+msgstr "Е Чжэ"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Usher to the
 #. Court
@@ -29474,7 +29474,7 @@ msgstr "Экзотическая птица"
 
 #. Pronounce entry for Chinese constellation, native: 异雀, English: Exotic Bird
 msgid "Yì Què"
-msgstr "Yì Цюэ"
+msgstr "И Цюэ"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Exotic Bird
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Exotic Bird
@@ -29496,7 +29496,7 @@ msgstr "Скрытая добродетель"
 #. Virtue
 #. Chinese Song Dynasty Sky constellation, native: 阴德, English: Hidden Virtue
 msgid "Yīn Dé"
-msgstr "Yīn Dé"
+msgstr "Инь Дэ"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Hidden Virtue
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Hidden
@@ -29566,7 +29566,7 @@ msgstr "Правый флаг"
 #. Pronounce entry for Chinese constellation, native: 右旗, English: Right Flag
 #. Chinese Song Dynasty Sky constellation, native: 右旗, English: Right Flag
 msgid "Yòu Qí"
-msgstr "Ю Qí"
+msgstr "Ю Ци"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Right Flag
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Right Flag
@@ -29595,7 +29595,7 @@ msgstr "Правый проводник"
 #. Chinese Song Dynasty Sky constellation, native: 右摄提, English: Right
 #. Conductor
 msgid "Yòu Shè Tí"
-msgstr "Ю Шэ Tí"
+msgstr "Ю Шэ Ти"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Right Conductor
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Right
@@ -29704,7 +29704,7 @@ msgstr "Дворцовая охрана"
 #. Chinese Song Dynasty Sky constellation, native: 羽林军, English: Palace Guard
 #. Chinese Song Dynasty Sky constellation, native: 羽林军, English: Palace Guard
 msgid "Yǔ Lín Jūn"
-msgstr "Yǔ Lín Цзюнь"
+msgstr "Юй Линь Цзюнь"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Palace Guard
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Palace
@@ -29730,7 +29730,7 @@ msgstr "Нефритовый источник"
 #. Pronounce entry for Chinese constellation, native: 玉井, English: Jade Well
 #. Chinese Song Dynasty Sky constellation, native: 玉井, English: Jade Well
 msgid "Yù Jǐng"
-msgstr "Yù Цзин"
+msgstr "Юй Цзин"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Jade Well
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Jade Well
@@ -29759,7 +29759,7 @@ msgstr "Горничные в ожидании"
 #. Chinese Song Dynasty Sky constellation, native: 御女, English: Maids-in-
 #. waiting
 msgid "Yù Nǚ"
-msgstr "Yù Nǚ"
+msgstr "Юй Нюй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Maids-in-
 #. waiting
@@ -29798,7 +29798,7 @@ msgstr "Шепот (Вассал сети)"
 #. Chinese Song Dynasty Sky constellation, native: 附耳(附毕宿), English: Whisper
 #. (Vassal of Net)
 msgid "Fù Ěr"
-msgstr "Fù Ěr"
+msgstr "Фу Эр"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Whisper (Vassal
 #. of Net)
@@ -29833,7 +29833,7 @@ msgstr "Облако и дождь"
 #. Rain
 #. Chinese Song Dynasty Sky constellation, native: 云雨, English: Cloud and Rain
 msgid "Yún Yǔ"
-msgstr "Yún Yǔ"
+msgstr "Юнь Юй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Cloud and Rain
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Cloud and
@@ -29862,7 +29862,7 @@ msgstr "Цзаофу"
 #. Pronounce entry for Chinese constellation, native: 造父, English: Zaofu
 #. Chinese Song Dynasty Sky constellation, native: 造父, English: Zaofu
 msgid "Zào Fù"
-msgstr "Zào Fù"
+msgstr "Цзао Фу"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Zaofu
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Zaofu
@@ -29938,7 +29938,7 @@ msgstr "Мерцающий индикатор"
 #. Chinese Song Dynasty Sky constellation, native: 招摇, English: Twinkling
 #. Indicator
 msgid "Zhāo Yáo"
-msgstr "Чжао Yáo"
+msgstr "Чжао Яо"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Twinkling
 #. Indicator
@@ -29998,7 +29998,7 @@ msgstr "Казни"
 #. Pronounce entry for Chinese constellation, native: 折威, English: Executions
 #. Chinese Song Dynasty Sky constellation, native: 折威, English: Executions
 msgid "Zhé Wēi"
-msgstr "Zhé Вэй"
+msgstr "Чжэ Вэй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Executions
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Executions
@@ -30043,7 +30043,7 @@ msgstr "Правая чека колеса (Вассал колесницы)"
 #. Chinese Song Dynasty Sky constellation, native: 右辖(附轸宿), English: Right
 #. linchpin (Vassal of Chariot)
 msgid "Yòu Xiá"
-msgstr "Ю Xiá"
+msgstr "Ю Ся"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Right linchpin
 #. (Vassal of Chariot)
@@ -30075,7 +30075,7 @@ msgstr "Ткущая девушка"
 #. Girl
 #. Chinese Song Dynasty Sky constellation, native: 织女, English: Weaving Girl
 msgid "Zhī Nǚ"
-msgstr "Zhī Nǚ"
+msgstr "Чжи Нюй"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Weaving Girl
 #. Abbreviation of asterism in Modern (Chinese) sky culture, name: Weaving
@@ -30095,7 +30095,7 @@ msgstr "Левая чека колеса (Вассал колесницы)"
 #. Chinese Song Dynasty Sky constellation, native: 左辖(附轸宿), English: Left
 #. linchpin (Vassal of Chariot)
 msgid "Zuǒ Xiá"
-msgstr "Цзо Xiá"
+msgstr "Цзо Ся"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Left linchpin
 #. (Vassal of Chariot)
@@ -30180,7 +30180,7 @@ msgstr "Столбы (в доме сети)"
 #. Chinese Song Dynasty Sky constellation, native: 柱(毕宿), English: Pillars (In
 #. Net Mansion)
 msgid "Zhù(Bì Xiù)"
-msgstr "Zhù(Bì Сю)"
+msgstr "Чжу(Би Сю)"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Pillars (In Net
 #. Mansion)
@@ -30218,7 +30218,7 @@ msgstr "Столбы (в доме рога)"
 #. Chinese Song Dynasty Sky constellation, native: 柱(角宿), English: Pillars (In
 #. Horn Mansion)
 msgid "Zhù(Jiǎo Xiù)"
-msgstr "Zhù(Цзяо Сю)"
+msgstr "Чжу(Цзяо Сю)"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Pillars (In
 #. Horn Mansion)
@@ -30247,7 +30247,7 @@ msgstr "Официальный Королевский архив"
 #. Chinese Song Dynasty Sky constellation, native: 柱史, English: Official of
 #. Royal Archives
 msgid "Zhù Shǐ"
-msgstr "Zhù Ши"
+msgstr "Чжу Ши"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Official of
 #. Royal Archives
@@ -30442,7 +30442,7 @@ msgstr "Левый флаг"
 #. Pronounce entry for Chinese constellation, native: 左旗, English: Left Flag
 #. Chinese Song Dynasty Sky constellation, native: 左旗, English: Left Flag
 msgid "Zuǒ Qí"
-msgstr "Цзо Qí"
+msgstr "Цзо Ци"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Left Flag
 msgctxt "abbreviation"
@@ -30468,7 +30468,7 @@ msgstr "Левый проводник"
 #. Chinese Song Dynasty Sky constellation, native: 左摄提, English: Left
 #. Conductor
 msgid "Zuǒ Shè Tí"
-msgstr "Цзо Шэ Tí"
+msgstr "Цзо Шэ Ти"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Left Conductor
 msgctxt "abbreviation"
@@ -30505,7 +30505,7 @@ msgstr "Флажки для сидений"
 #. Pronounce entry for Chinese constellation, native: 座旗, English: Seat Flags
 #. Chinese Song Dynasty Sky constellation, native: 座旗, English: Seat Flags
 msgid "Zuò Qí"
-msgstr "Цзо Qí"
+msgstr "Цзо Ци"
 
 #. Abbreviation of constellation in Chinese sky culture, name: Seat Flags
 msgctxt "abbreviation"
@@ -41035,7 +41035,7 @@ msgstr "Земная звезда"
 #. Chinese name for NAME Saturn, native: 土星
 #. Pinyin transliteration
 msgid "Tǔxīng"
-msgstr "Tǔxīng"
+msgstr "Тусин"
 
 #. Chinese name for NAME Sun, native: 太阳
 #. Pinyin transliteration
@@ -41075,26 +41075,26 @@ msgstr "Цзиньсин"
 #. Chinese name for NAME Venus, native: 启明
 #. Chinese Song Dynasty Sky name for NAME Venus, native: 启明
 msgid "Daybreak Star"
-msgstr "Daybreak Star"
+msgstr "Рассветная звезда"
 
 #. Pronounce entry for Chinese name for NAME Venus
 #. Chinese name for NAME Venus, native: 启明
 #. Pronounce entry for Chinese Song Dynasty Sky name for NAME Venus
 #. Chinese Song Dynasty Sky name for NAME Venus, native: 启明
 msgid "Qǐmíng"
-msgstr "Qǐmíng"
+msgstr "Цимин"
 
 #. Chinese name for NAME Venus, native: 长庚
 #. Chinese Song Dynasty Sky name for NAME Venus, native: 长庚
 msgid "Long Twilight Star"
-msgstr "Long Twilight Star"
+msgstr "Долгая сумеречная звезда"
 
 #. Pronounce entry for Chinese name for NAME Venus
 #. Chinese name for NAME Venus, native: 长庚
 #. Pronounce entry for Chinese Song Dynasty Sky name for NAME Venus
 #. Chinese Song Dynasty Sky name for NAME Venus, native: 长庚
 msgid "Chánggēng"
-msgstr "Чанgēng"
+msgstr "Чангэн"
 
 #. Pronounce entry for Chinese name for NAME Venus
 #. Chinese name for NAME Venus, native: 晨星
@@ -41103,14 +41103,14 @@ msgstr "Чанgēng"
 #. Pronounce entry for Chinese Song Dynasty Sky name for NAME Venus
 #. Chinese Song Dynasty Sky name for NAME Venus, native: 晨星
 msgid "Chénxīng"
-msgstr "Чэньxīng"
+msgstr "Чэньсин"
 
 #. Pronounce entry for Chinese name for NAME Venus
 #. Chinese name for NAME Venus, native: 昏星
 #. Pronounce entry for Chinese Song Dynasty Sky name for NAME Venus
 #. Chinese Song Dynasty Sky name for NAME Venus, native: 昏星
 msgid "Hūnxīng"
-msgstr "Hūnxīng"
+msgstr "Нуньсин"
 
 #. Pronounce entry for Chinese Chenzhuo Sky (3rd Century) constellation,
 #. native: 北极, English: Northern Pole
@@ -46697,7 +46697,7 @@ msgstr "Пурпурная запретная восточная стена"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 紫微垣东蕃,
 #. English: Purple Forbidden East Wall
 msgid "Zǐ Wēi Yuán Dōng Fān"
-msgstr "Zǐ Вэй Юань Дун Fān"
+msgstr "Цзы Вэй Юань Дун Фань"
 
 #. Chinese Song Dynasty Sky constellation, native: 紫微垣西蕃, pronounce: Zǐ Wēi
 #. Yuán Xī Fān
@@ -46707,7 +46707,7 @@ msgstr "Пурпурная запретная западная стена"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 紫微垣西蕃,
 #. English: Purple Forbidden West Wall
 msgid "Zǐ Wēi Yuán Xī Fān"
-msgstr "Zǐ Вэй Юань Xī Fān"
+msgstr "Цзы Вэй Юань Си Фань"
 
 #. Chinese Song Dynasty Sky constellation, native: 太微垣东蕃, pronounce: Tài Wēi
 #. Yuán Dōng Fān
@@ -46717,7 +46717,7 @@ msgstr "Восточная стена величайшего дворца"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 太微垣东蕃,
 #. English: Supreme Palace East Wall
 msgid "Tài Wēi Yuán Dōng Fān"
-msgstr "Тай Вэй Юань Дун Fān"
+msgstr "Тай Вэй Юань Дун Фань"
 
 #. Chinese Song Dynasty Sky constellation, native: 太微垣西蕃, pronounce: Tài Wēi
 #. Yuán Xī Fān
@@ -46727,7 +46727,7 @@ msgstr "Западная стена величайшего дворца"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 太微垣西蕃,
 #. English: Supreme Palace West Wall
 msgid "Tài Wēi Yuán Xī Fān"
-msgstr "Тай Вэй Юань Xī Fān"
+msgstr "Тай Вэй Юань Си Фань"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 三台(上台),
 #. English: Three Steps (Upper Step)
@@ -46737,12 +46737,12 @@ msgstr "Сань Тай (Шан Тай)"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 三台(中台),
 #. English: Three Steps (Middle Step)
 msgid "Sān Tái (Zhōng Tái)"
-msgstr "Сань Тай (Zhōng Тай)"
+msgstr "Сань Тай (Чжун Тай)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 三台(下台),
 #. English: Three Steps (Lower Step)
 msgid "Sān Tái (Xià Tái)"
-msgstr "Сань Тай (Xià Тай)"
+msgstr "Сань Тай (Ся Тай)"
 
 #. Chinese Song Dynasty Sky constellation, native: 天市垣东蕃, pronounce: Tiān Shì
 #. Yuán Dōng Fān
@@ -46752,7 +46752,7 @@ msgstr "Восточная стена небесного рынка"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 天市垣东蕃,
 #. English: Heavenly Market East Wall
 msgid "Tiān Shì Yuán Dōng Fān"
-msgstr "Тянь Ши Юань Дун Fān"
+msgstr "Тянь Ши Юань Дун Фань"
 
 #. Chinese Song Dynasty Sky constellation, native: 天市垣西蕃, pronounce: Tiān Shì
 #. Yuán Xī Fān
@@ -46762,7 +46762,7 @@ msgstr "Западная стена небесного рынка"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 天市垣西蕃,
 #. English: Heavenly Market West Wall
 msgid "Tiān Shì Yuán Xī Fān"
-msgstr "Тянь Ши Юань Xī Fān"
+msgstr "Тянь Ши Юань Си Фань"
 
 #. Abbreviation of constellation in Chinese Song Dynasty Sky sky culture,
 #. name: Imperial Guards
@@ -46815,62 +46815,62 @@ msgstr "06B"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(赵),
 #. English: Twelve States (Zhao State)
 msgid "Shí Èr Guó (Zhào)"
-msgstr "Ши Èr Го (Zhào)"
+msgstr "Ши Эр Го (Чжао)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(越),
 #. English: Twelve States (Yue State)
 msgid "Shí Èr Guó (Yuè)"
-msgstr "Ши Èr Го (Юэ)"
+msgstr "Ши Эр Го (Юэ)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(周),
 #. English: Twelve States (Zhou State)
 msgid "Shí Èr Guó (Zhōu)"
-msgstr "Ши Èr Го (Чжоу)"
+msgstr "Ши Эр Го (Чжоу)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(齐),
 #. English: Twelve States (Qi State)
 msgid "Shí Èr Guó (Qí)"
-msgstr "Ши Èr Го (Qí)"
+msgstr "Ши Эр Го (Ци)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(郑),
 #. English: Twelve States (Zheng State)
 msgid "Shí Èr Guó (Zhèng)"
-msgstr "Ши Èr Го (Чжэн)"
+msgstr "Ши Эр Го (Чжэн)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(楚),
 #. English: Twelve States (Chu State)
 msgid "Shí Èr Guó (Chǔ)"
-msgstr "Ши Èr Го (Чу)"
+msgstr "Ши Эр Го (Чу)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(秦),
 #. English: Twelve States (Qin State)
 msgid "Shí Èr Guó (Qín)"
-msgstr "Ши Èr Го (Qín)"
+msgstr "Ши Эр Го (Цинь)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(燕),
 #. English: Twelve States (Yan State)
 msgid "Shí Èr Guó (Yān)"
-msgstr "Ши Èr Го (Yān)"
+msgstr "Ши Эр Го (Янь)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(魏),
 #. English: Twelve States (Wei State)
 msgid "Shí Èr Guó (Wèi)"
-msgstr "Ши Èr Го (Вэй)"
+msgstr "Ши Эр Го (Вэй)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(代),
 #. English: Twelve States (Dai State)
 msgid "Shí Èr Guó (Dài)"
-msgstr "Ши Èr Го (Dài)"
+msgstr "Ши Эр Го (Дай)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(晋),
 #. English: Twelve States (Jin State)
 msgid "Shí Èr Guó (Jìn)"
-msgstr "Ши Èr Го (Цзинь)"
+msgstr "Ши Эр Го (Цзинь)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 十二国(韩),
 #. English: Twelve States (Han State)
 msgid "Shí Èr Guó (Hán)"
-msgstr "Ши Èr Го (Hán)"
+msgstr "Ши Эр Го (Хань)"
 
 #. Abbreviation of constellation in Chinese Song Dynasty Sky sky culture,
 #. name: Palace Guard
@@ -46953,17 +46953,17 @@ msgstr "13Z"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native:
 #. 土司空(奎宿), English: Master of Constructions (In Legs Mansion)
 msgid "Tǔ Sī Kōng(Kuí Xiù)"
-msgstr "Tǔ Sī Кун(Куй Сю)"
+msgstr "Ту Сы Кун(Куй Сю)"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 刍藁,
 #. English: Hay
 msgid "Chú Hǎo"
-msgstr "Чу Hǎo"
+msgstr "Чу Хао"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 参旗,
 #. English: Banner of Three Stars
 msgid "Shēn Qí"
-msgstr "Шэнь Qí"
+msgstr "Шэнь Ци"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 狼,
 #. English: Wolf
@@ -46975,12 +46975,12 @@ msgstr "Лан"
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 积尸气,
 #. English: Cumulative Corpse Gas
 msgid "Jī Shī Qì"
-msgstr "Jī Ши Qì"
+msgstr "Цзи Ши Ци"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native:
 #. 土司空(轸宿), English: Master of Constructions (In Chariot Mansion)
 msgid "Tǔ Sī Kōng(Zhěn Xiù)"
-msgstr "Tǔ Sī Кун(Чжэn Сю)"
+msgstr "Ту Сы Кун(Чжэнь Сю)"
 
 #. Chinese Song Dynasty Sky name for HIP 746, native: 距星
 #. Chinese Song Dynasty Sky name for HIP 813, native: 距星
@@ -47691,7 +47691,7 @@ msgstr "Определяющая звезда"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 115738
 #. Chinese Song Dynasty Sky name for HIP 115738, native: 距星
 msgid "Jùxīng"
-msgstr "Jùxīng"
+msgstr "Цзюйсин"
 
 #. Chinese Song Dynasty Sky name for HIP 2920, native: 天驷
 #. Chinese Song Dynasty Sky name for HIP 3179, native: 天驷
@@ -47709,7 +47709,7 @@ msgstr "Небесный конь"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 4427
 #. Chinese Song Dynasty Sky name for HIP 4427, native: 天驷
 msgid "Tiānsì"
-msgstr "Тяньsì"
+msgstr "Тяньсы"
 
 #. Chinese Song Dynasty Sky name for HIP 3693, native: 天豕目
 msgid "Celestial Pig's Eye"
@@ -47718,7 +47718,7 @@ msgstr "Глаз Небесной свиньи"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 3693
 #. Chinese Song Dynasty Sky name for HIP 3693, native: 天豕目
 msgid "Tiānshǐmù"
-msgstr "Тяньshǐmù"
+msgstr "Тяньшиму"
 
 #. Chinese Song Dynasty Sky name for HIP 11767, native: 元始
 msgid "The Origin of All Things"
@@ -47727,7 +47727,7 @@ msgstr "Происхождение всего"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 11767
 #. Chinese Song Dynasty Sky name for HIP 11767, native: 元始
 msgid "Yuánshǐ"
-msgstr "Юаньshǐ"
+msgstr "Юаньши"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 13879
 #. Chinese Song Dynasty Sky name for HIP 13879, native: 积尸[胃宿]
@@ -47737,27 +47737,27 @@ msgstr "Цзиши"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 15696
 #. Chinese Song Dynasty Sky name for HIP 15696, native: 天阿
 msgid "Tiān’ē"
-msgstr "Тянь’ē"
+msgstr "Тянь’э"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 21421
 #. Chinese Song Dynasty Sky name for HIP 21421, native: 边将
 msgid "Biānjiàng"
-msgstr "Biānjiàng"
+msgstr "Бяньцзян"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 21683
 #. Chinese Song Dynasty Sky name for HIP 21683, native: 附耳
 msgid "Fù’ěr"
-msgstr "Fù’ěr"
+msgstr "Фу’эр"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 24436
 #. Chinese Song Dynasty Sky name for HIP 24436, native: 右足
 msgid "Yòuzú"
-msgstr "Юzú"
+msgstr "Юцзу"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 25336
 #. Chinese Song Dynasty Sky name for HIP 25336, native: 右肩
 msgid "Yòujiān"
-msgstr "Юjiān"
+msgstr "Юцзянь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 25930
 #. Chinese Song Dynasty Sky name for HIP 25930, native: 衡石
@@ -47766,44 +47766,44 @@ msgstr "Юjiān"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 26727
 #. Chinese Song Dynasty Sky name for HIP 26727, native: 衡石
 msgid "Héngshí"
-msgstr "Héngshí"
+msgstr "Хэнши"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 27366
 #. Chinese Song Dynasty Sky name for HIP 27366, native: 左足
 msgid "Zuǒzú"
-msgstr "Цзоzú"
+msgstr "Цзоцзу"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 27989
 #. Chinese Song Dynasty Sky name for HIP 27989, native: 左肩
 msgid "Zuǒjiān"
-msgstr "Цзоjiān"
+msgstr "Цзоцзянь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 30438
 #. Chinese Song Dynasty Sky name for HIP 30438, native: 南极老人
 msgid "Nánjílǎorén"
-msgstr "Наньjílǎorén"
+msgstr "Наньцзяожень"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 33018
 #. Chinese Song Dynasty Sky name for HIP 33018, native: 帝师
 msgid "Dìshī"
-msgstr "Dìshī"
+msgstr "Диши"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 34693
 #. Chinese Song Dynasty Sky name for HIP 34693, native: 帝友
 msgid "Dìyǒu"
-msgstr "Dìyǒu"
+msgstr "Дию"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 36962
 #. Chinese Song Dynasty Sky name for HIP 36962, native: 博士
 msgid "Bóshì"
-msgstr "Bóshì"
+msgstr "Боши"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 37740
 #. Chinese Song Dynasty Sky name for HIP 37740, native: 太史
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 44901
 #. Chinese Song Dynasty Sky name for HIP 44901, native: 太史
 msgid "Tàishǐ"
-msgstr "Тайshǐ"
+msgstr "Тайши"
 
 #. Chinese Song Dynasty Sky name for HIP 44127, native: 天子
 msgid "Son of Heaven"
@@ -47812,7 +47812,7 @@ msgstr "Сын небес"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 44127
 #. Chinese Song Dynasty Sky name for HIP 44127, native: 天子
 msgid "Tiānzǐ"
-msgstr "Тяньzǐ"
+msgstr "Тяньцзы"
 
 #. Chinese Song Dynasty Sky name for HIP 44248, native: 次妃
 #. Chinese Song Dynasty Sky name for HIP 44700, native: 次妃
@@ -47851,14 +47851,14 @@ msgstr "Несовершеннолетний император-супруг"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 50335
 #. Chinese Song Dynasty Sky name for HIP 50335, native: 次妃
 msgid "Cìfēi"
-msgstr "Cìfēi"
+msgstr "Цыфэй"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 44471
 #. Chinese Song Dynasty Sky name for HIP 44471, native: 女主
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 49669
 #. Chinese Song Dynasty Sky name for HIP 49669, native: 女主
 msgid "Nǚzhǔ"
-msgstr "Nǚzhǔ"
+msgstr "Нюйчжу"
 
 #. Chinese Song Dynasty Sky name for HIP 44504, native: 司寇
 msgid "Supreme Judge"
@@ -47867,7 +47867,7 @@ msgstr "Верховный судья"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 44504
 #. Chinese Song Dynasty Sky name for HIP 44504, native: 司寇
 msgid "Sīkòu"
-msgstr "Sīkòu"
+msgstr "Сыкоу"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 46733
 #. Chinese Song Dynasty Sky name for HIP 46733, native: 上将
@@ -47876,12 +47876,12 @@ msgstr "Sīkòu"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 78104
 #. Chinese Song Dynasty Sky name for HIP 78104, native: 上将
 msgid "Shàngjiàng"
-msgstr "Шанjiàng"
+msgstr "Шанцзян"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 46853
 #. Chinese Song Dynasty Sky name for HIP 46853, native: 司中
 msgid "Sīzhōng"
-msgstr "Sīzhōng"
+msgstr "Сычжун"
 
 #. Chinese Song Dynasty Sky name for HIP 46853, native: 司隶
 msgid "Senior Judge"
@@ -47890,12 +47890,12 @@ msgstr "Старший судья"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 46853
 #. Chinese Song Dynasty Sky name for HIP 46853, native: 司隶
 msgid "Sīlì"
-msgstr "Sīlì"
+msgstr "Сыли"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 47508
 #. Chinese Song Dynasty Sky name for HIP 47508, native: 大民
 msgid "Dàmín"
-msgstr "Dàmín"
+msgstr "Даминь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 48319
 #. Chinese Song Dynasty Sky name for HIP 48319, native: 次将
@@ -47904,7 +47904,7 @@ msgstr "Dàmín"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 78265
 #. Chinese Song Dynasty Sky name for HIP 78265, native: 次将
 msgid "Cìjiàng"
-msgstr "Cìjiàng"
+msgstr "Сыцзян"
 
 #. Chinese Song Dynasty Sky name for HIP 48402, native: 贵相
 msgid "Distinguished Primer"
@@ -47913,12 +47913,12 @@ msgstr "Отличительный грунт"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 48402
 #. Chinese Song Dynasty Sky name for HIP 48402, native: 贵相
 msgid "Guìxiàng"
-msgstr "Guìxiàng"
+msgstr "Гуйсян"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 48402
 #. Chinese Song Dynasty Sky name for HIP 48402, native: 太常
 msgid "Tàicháng"
-msgstr "Тайcháng"
+msgstr "Тайчан"
 
 #. Chinese Song Dynasty Sky name for HIP 49583, native: 夫人
 msgid "Highest-ranking Imperial Consort"
@@ -47927,7 +47927,7 @@ msgstr "Император-супруг высшего ранга"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 49583
 #. Chinese Song Dynasty Sky name for HIP 49583, native: 夫人
 msgid "Fūrén"
-msgstr "Fūrén"
+msgstr "Фужень"
 
 #. Chinese Song Dynasty Sky name for HIP 50372, native: 诸侯三公
 msgid "Feudal Kings and Three Excellencies"
@@ -47936,7 +47936,7 @@ msgstr "Феодальные короли и три превосходитель
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 50372
 #. Chinese Song Dynasty Sky name for HIP 50372, native: 诸侯三公
 msgid "Zhūhóusāngōng"
-msgstr "Чжуhóusāngōng"
+msgstr "Чжухоусаньгун"
 
 #. Chinese Song Dynasty Sky name for HIP 50583, native: 妃
 #. Chinese Song Dynasty Sky name for HIP 82514, native: 妃
@@ -47963,27 +47963,27 @@ msgstr "Высокие министры и дворяне"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 50801
 #. Chinese Song Dynasty Sky name for HIP 50801, native: 卿大夫
 msgid "Qīngdàfū"
-msgstr "Цинdàfū"
+msgstr "Циндафу"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 51624
 #. Chinese Song Dynasty Sky name for HIP 51624, native: 少民
 msgid "Shàomín"
-msgstr "Shàomín"
+msgstr "Шаоминь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 53910
 #. Chinese Song Dynasty Sky name for HIP 53910, native: 巨门
 msgid "Jùmén"
-msgstr "Jùmén"
+msgstr "Цзуймэнь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 53910
 #. Chinese Song Dynasty Sky name for HIP 53910, native: 法
 msgid "Fǎ"
-msgstr "Fǎ"
+msgstr "Фа"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 54061
 #. Chinese Song Dynasty Sky name for HIP 54061, native: 贪狼
 msgid "Tānláng"
-msgstr "Tānláng"
+msgstr "Таньлан"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 54539
 #. Chinese Song Dynasty Sky name for HIP 54539, native: 太尊
@@ -47997,7 +47997,7 @@ msgstr "Обычные люди"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 55203
 #. Chinese Song Dynasty Sky name for HIP 55203, native: 庶人
 msgid "Shùrén"
-msgstr "Shùrén"
+msgstr "Шужень"
 
 #. Chinese Song Dynasty Sky name for HIP 55219, native: 士
 msgid "Gentry"
@@ -48006,39 +48006,39 @@ msgstr "Дворянство"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 57320
 #. Chinese Song Dynasty Sky name for HIP 57320, native: 白帝
 msgid "Báidì"
-msgstr "Байdì"
+msgstr "Байди"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 57632
 #. Chinese Song Dynasty Sky name for HIP 57632, native: 黄帝座
 msgid "Huángdìzuò"
-msgstr "Хуанdìzuò"
+msgstr "Хуандицзо"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 57646
 #. Chinese Song Dynasty Sky name for HIP 57646, native: 黑帝
 msgid "Hēidì"
-msgstr "Hēidì"
+msgstr "Хэйди"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 57779
 #. Chinese Song Dynasty Sky name for HIP 57779, native: 赤帝
 msgid "Chìdì"
-msgstr "Chìdì"
+msgstr "Чиди"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 58001
 #. Chinese Song Dynasty Sky name for HIP 58001, native: 禄存
 msgid "Lùcún"
-msgstr "Lùcún"
+msgstr "Луцунь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 58001
 #. Chinese Song Dynasty Sky name for HIP 58001, native: 令
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 93506
 #. Chinese Song Dynasty Sky name for HIP 93506, native: 令
 msgid "Lìng"
-msgstr "Lìng"
+msgstr "Лин"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 58159
 #. Chinese Song Dynasty Sky name for HIP 58159, native: 苍帝
 msgid "Cāngdì"
-msgstr "Цанdì"
+msgstr "Цанди"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 58858
 #. Chinese Song Dynasty Sky name for HIP 58858, native: 幸臣
@@ -48048,12 +48048,12 @@ msgstr "Синчэнь"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 59199
 #. Chinese Song Dynasty Sky name for HIP 59199, native: 右辖
 msgid "Yòuxiá"
-msgstr "Юxiá"
+msgstr "Юся"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 59774
 #. Chinese Song Dynasty Sky name for HIP 59774, native: 文曲
 msgid "Wénqǔ"
-msgstr "Wénqǔ"
+msgstr "Вэньцюй"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 60172
 #. Chinese Song Dynasty Sky name for HIP 60172, native: 谒者
@@ -48063,12 +48063,12 @@ msgstr "Ечжэ"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 62572
 #. Chinese Song Dynasty Sky name for HIP 62572, native: 纽星
 msgid "Niǔxīng"
-msgstr "Niǔxīng"
+msgstr "Нюсин"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 62956
 #. Chinese Song Dynasty Sky name for HIP 62956, native: 廉贞
 msgid "Liánzhēn"
-msgstr "Liánzhēn"
+msgstr "Ляньчжэнь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 62956
 #. Chinese Song Dynasty Sky name for HIP 62956, native: 杀
@@ -48078,7 +48078,7 @@ msgstr "Ша"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 65378
 #. Chinese Song Dynasty Sky name for HIP 65378, native: 武曲
 msgid "Wǔqǔ"
-msgstr "Wǔqǔ"
+msgstr "Уцюй"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 65378
 #. Chinese Song Dynasty Sky name for HIP 65378, native: 危
@@ -48088,12 +48088,12 @@ msgstr "Вэй"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 67301
 #. Chinese Song Dynasty Sky name for HIP 67301, native: 破军
 msgid "Pòjūn"
-msgstr "Pòjūn"
+msgstr "Поцзюнь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 67301
 #. Chinese Song Dynasty Sky name for HIP 67301, native: 部
 msgid "Bù"
-msgstr "Bù"
+msgstr "Бу"
 
 #. Chinese Song Dynasty Sky name for HIP 72622, native: 适
 #. Chinese Song Dynasty Sky name for HIP 74785, native: 适
@@ -48116,22 +48116,22 @@ msgstr "Несовершеннолетняя наложница"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 85927
 #. Chinese Song Dynasty Sky name for HIP 85927, native: 妾
 msgid "Qiè"
-msgstr "Qiè"
+msgstr "Це"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 78401
 #. Chinese Song Dynasty Sky name for HIP 78401, native: 次相
 msgid "Cìxiàng"
-msgstr "Cìxiàng"
+msgstr "Цысян"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 78820
 #. Chinese Song Dynasty Sky name for HIP 78820, native: 上相
 msgid "Shàngxiàng"
-msgstr "Шанxiàng"
+msgstr "Шансян"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 80331
 #. Chinese Song Dynasty Sky name for HIP 80331, native: 少宰
 msgid "Shǎozǎi"
-msgstr "Шаоzǎi"
+msgstr "Шаоцзай"
 
 #. Chinese Song Dynasty Sky name for HIP 80763, native: 天王
 msgid "Celestial King"
@@ -48140,7 +48140,7 @@ msgstr "Небесный король"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 80763
 #. Chinese Song Dynasty Sky name for HIP 80763, native: 天王
 msgid "Tiānwáng"
-msgstr "Тяньwáng"
+msgstr "Тяньван"
 
 #. Chinese Song Dynasty Sky name for HIP 80763, native: 明堂
 msgid "Cosmological Temple"
@@ -48163,17 +48163,17 @@ msgstr "Императорская наложница"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 87073
 #. Chinese Song Dynasty Sky name for HIP 87073, native: 嫔
 msgid "Pín"
-msgstr "Pín"
+msgstr "Пинь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 86974
 #. Chinese Song Dynasty Sky name for HIP 86974, native: 九河
 msgid "Jiǔhé"
-msgstr "Цзюhé"
+msgstr "Цзюхэ"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 89341
 #. Chinese Song Dynasty Sky name for HIP 89341, native: 七杀
 msgid "Qīshā"
-msgstr "Qīshā"
+msgstr "Циша"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 89341
 #. Chinese Song Dynasty Sky name for HIP 89341, native: 将
@@ -48183,49 +48183,49 @@ msgstr "Цзян"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 89908
 #. Chinese Song Dynasty Sky name for HIP 89908, native: 少弼
 msgid "Shǎobì"
-msgstr "Шаоbì"
+msgstr "Шаоби"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 90496
 #. Chinese Song Dynasty Sky name for HIP 90496, native: 印
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 93864
 #. Chinese Song Dynasty Sky name for HIP 93864, native: 荫
 msgid "Yìn"
-msgstr "Yìn"
+msgstr "Инь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 91262
 #. Chinese Song Dynasty Sky name for HIP 91262, native: 织女
 msgid "Zhīnǚ"
-msgstr "Zhīnǚ"
+msgstr "Чжинюй"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 92041
 #. Chinese Song Dynasty Sky name for HIP 92041, native: 天同
 msgid "Tiāntóng"
-msgstr "Тяньtóng"
+msgstr "Тяньтон"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 92041
 #. Chinese Song Dynasty Sky name for HIP 92041, native: 福
 msgid "Fú"
-msgstr "Fú"
+msgstr "Фу"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 92855
 #. Chinese Song Dynasty Sky name for HIP 92855, native: 善
 msgid "Shàn"
-msgstr "Shàn"
+msgstr "Шань"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 93506
 #. Chinese Song Dynasty Sky name for HIP 93506, native: 天府
 msgid "Tiānfǔ"
-msgstr "Тяньfǔ"
+msgstr "Тяньфу"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 93747
 #. Chinese Song Dynasty Sky name for HIP 93747, native: 吴越
 msgid "Wúyuē"
-msgstr "Wúyuē"
+msgstr "Уюэ"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 93864
 #. Chinese Song Dynasty Sky name for HIP 93864, native: 天梁
 msgid "Tiānliáng"
-msgstr "Тяньliáng"
+msgstr "Тяньлан"
 
 #. Chinese Song Dynasty Sky name for HIP 97278, native: 右将军
 msgid "Right General"
@@ -48234,7 +48234,7 @@ msgstr "Правый полководец"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 97278
 #. Chinese Song Dynasty Sky name for HIP 97278, native: 右将军
 msgid "Yòujiāngjūn"
-msgstr "Юjiāngjūn"
+msgstr "Юцзянцзюнь"
 
 #. Chinese Song Dynasty Sky name for HIP 97649, native: 大将军
 msgid "Supreme General"
@@ -48243,12 +48243,12 @@ msgstr "Верховный полководец"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 97649
 #. Chinese Song Dynasty Sky name for HIP 97649, native: 大将军
 msgid "Dàjiāngjūn"
-msgstr "Dàjiāngjūn"
+msgstr "Дацзянцзюнь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 97649
 #. Chinese Song Dynasty Sky name for HIP 97649, native: 牵牛
 msgid "Qiānniú"
-msgstr "Qiānniú"
+msgstr "Цяньню"
 
 #. Chinese Song Dynasty Sky name for HIP 98036, native: 左将军
 msgid "Left General"
@@ -48257,24 +48257,24 @@ msgstr "Левый полководец"
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 98036
 #. Chinese Song Dynasty Sky name for HIP 98036, native: 左将军
 msgid "Zuǒjiāngjūn"
-msgstr "Цзоjiāngjūn"
+msgstr "Цзоцзянцзюнь"
 
 #. Chinese Song Dynasty Sky name for HIP 102014, native: 越
 msgid "Yue State"
-msgstr "Yue State"
+msgstr "Провинция Юэ"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 102014
 #. Chinese Song Dynasty Sky name for HIP 102014, native: 越
 msgid "Yuē"
-msgstr "Yuē"
+msgstr "Юэ"
 
 #. Chinese Song Dynasty Sky name for HIP 102831, native: 齐
 msgid "Qi State"
-msgstr "Qi State"
+msgstr "Провинция Ци"
 
 #. Chinese Song Dynasty Sky name for HIP 103738, native: 郑
 msgid "Zheng State"
-msgstr "Zheng State"
+msgstr "Провинция Чжэн"
 
 #. Chinese Song Dynasty Sky name for HIP 103777, native: 楚
 msgid "Chu State"
@@ -48282,29 +48282,29 @@ msgstr "Chu State"
 
 #. Chinese Song Dynasty Sky name for HIP 104174, native: 燕
 msgid "Yan State"
-msgstr "Yan State"
+msgstr "Провинция Янь"
 
 #. Chinese Song Dynasty Sky name for HIP 104234, native: 魏
 msgid "Wei State"
-msgstr "Wei State"
+msgstr "Провинция Вэй"
 
 #. Chinese Song Dynasty Sky name for HIP 104750, native: 韩
 msgid "Han State"
-msgstr "Han State"
+msgstr "Провинция Хань"
 
 #. Chinese Song Dynasty Sky name for HIP 105140, native: 晋
 msgid "Jin State"
-msgstr "Jin State"
+msgstr "Провинция Цзинь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for HIP 111056
 #. Chinese Song Dynasty Sky name for HIP 111056, native: 少卫
 msgid "Shǎowèi"
-msgstr "Шаоwèi"
+msgstr "Шаовэй"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for M 44
 #. Chinese Song Dynasty Sky name for M 44, native: 积尸气
 msgid "Jīshīqì"
-msgstr "Jīshīqì"
+msgstr "Цзишици"
 
 #. Chinese Song Dynasty Sky name for M 45, native: 旄头
 msgid "Ancient Flag with Yak's Tail"
@@ -48313,32 +48313,32 @@ msgstr "Древний флаг с хвостом яка"
 #. Pronounce entry for Chinese Song Dynasty Sky name for M 45
 #. Chinese Song Dynasty Sky name for M 45, native: 旄头
 msgid "Máotōu"
-msgstr "Máotōu"
+msgstr "Маотоу"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for NAME Jupiter
 #. Chinese Song Dynasty Sky name for NAME Jupiter, native: 岁星
 msgid "Sùixīng"
-msgstr "Sùixīng"
+msgstr "Суйсин"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for NAME Mars
 #. Chinese Song Dynasty Sky name for NAME Mars, native: 荧惑
 msgid "Yínghuò"
-msgstr "Yínghuò"
+msgstr "Инхо"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for NAME Moon
 #. Chinese Song Dynasty Sky name for NAME Moon, native: 太阴
 msgid "Tàiyīn"
-msgstr "Тайyīn"
+msgstr "Тайинь"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for NAME Saturn
 #. Chinese Song Dynasty Sky name for NAME Saturn, native: 填星
 msgid "Zhènxing"
-msgstr "Чжэньxing"
+msgstr "Чжэньсин"
 
 #. Pronounce entry for Chinese Song Dynasty Sky name for NAME Venus
 #. Chinese Song Dynasty Sky name for NAME Venus, native: 太白
 msgid "Tàibái"
-msgstr "Тайbái"
+msgstr "Тайбай"
 
 #. Egyptian constellation
 msgid "Bull's Foreleg"
