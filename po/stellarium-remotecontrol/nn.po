@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# cardinot <mcardinot@gmail.com>, 2022
-# राजಐயர், 2025
+# Alexander V. Wolf <alex.v.wolf@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
@@ -14,12 +13,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: stellarium@googlegroups.com\n"
 "POT-Creation-Date: 2025-10-01 11:51+0700\n"
 "PO-Revision-Date: 2022-10-05 14:25+0000\n"
-"Last-Translator: राजಐயர், 2025\n"
-"Language-Team: Hindi (https://app.transifex.com/stellarium/teams/80998/hi/)\n"
+"Last-Translator: Alexander V. Wolf <alex.v.wolf@gmail.com>, 2025\n"
+"Language-Team: Norwegian Nynorsk (https://app.transifex.com/stellarium/teams/80998/nn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hi\n"
+"Language: nn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: plugins/RemoteControl/webroot/js/api/actions.js:60
@@ -341,7 +340,7 @@ msgstr ""
 
 #: index.html:304 tablet7in.html:369
 msgid "Include nutation"
-msgstr "शिखावर्तन समावेशित करें"
+msgstr ""
 
 #: index.html:306 tablet7in.html:371
 msgid "Include parallax"
@@ -349,15 +348,15 @@ msgstr ""
 
 #: index.html:311 tablet7in.html:376
 msgid "Include aberration"
-msgstr "विचलन समावेशित करें"
+msgstr ""
 
 #: index.html:319 tablet7in.html:390
 msgid "Show planet markers"
-msgstr "ग्रहों के चिन्ह देखें"
+msgstr "Vis planetmerke"
 
 #: index.html:320 tablet7in.html:391
 msgid "Show planet orbits"
-msgstr "ग्रहों की कक्षा देखें"
+msgstr "Vis planetbanar"
 
 #: index.html:321 tablet7in.html:392
 msgid "Show planet orbits only"
@@ -401,7 +400,7 @@ msgstr ""
 
 #: index.html:382 tablet7in.html:460
 msgid "Extinction Coefficient:"
-msgstr ""
+msgstr "Ekstinksjonskoeffisient:"
 
 #: index.html:383 tablet7in.html:461
 msgid "Only extinction/refraction, no blue skylight"
@@ -492,15 +491,15 @@ msgstr ""
 
 #: index.html:665 tablet7in.html:736
 msgid "Limit angular size (arcmin):"
-msgstr "अस्रीय आकार सीमित करें ( चाप कला ) : "
+msgstr ""
 
 #: index.html:677 tablet7in.html:750
 msgid "Use associated planet and position"
-msgstr "सम्बंधित ग्रह व स्थान दिखाएँ"
+msgstr "Bruk planeten og posisjonen som høyrer til"
 
 #: index.html:687 tablet7in.html:758
 msgid "Show landscape labels"
-msgstr "दिखाएँ भूदृश्य नामसूचक"
+msgstr ""
 
 #: index.html:688 tablet7in.html:759
 msgid "Show illumination"
@@ -532,7 +531,7 @@ msgstr ""
 
 #: index.html:724 tablet7in.html:797
 msgid "Show art in brightness"
-msgstr "दिखाएँ चित्रकला चमक युक्त"
+msgstr ""
 
 #: index.html:728 tablet7in.html:801
 msgid "Show boundaries with thickness"
@@ -704,7 +703,7 @@ msgstr ""
 
 #: tablet7in.html:282
 msgid "Andromeda Galaxy"
-msgstr ""
+msgstr "Andromedagalaksen"
 
 #: tablet7in.html:283
 msgid "Hercules Cluster"
@@ -712,7 +711,7 @@ msgstr ""
 
 #: tablet7in.html:284
 msgid "Orion Nebula"
-msgstr ""
+msgstr "Orion-tåka"
 
 #: tablet7in.html:285
 msgid "Eta Carinae Nebula"
