@@ -8,6 +8,9 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
 
+env:
+  parallel_processes: 4
+
 jobs:
 
   launch_ufo:
