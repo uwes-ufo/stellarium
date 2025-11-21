@@ -15,10 +15,12 @@ jobs:
 
     steps:
 
+    - run: echo "DATE=$(date +%F)" >> $GITHUB_ENV
+
     - uses: actions/cache@v4
       with:
         path: ./
-        key: cache-2
+        key: cache-${{ env.DATE }}
         restore-keys: cache
 
     - uses: actions/checkout@v5
