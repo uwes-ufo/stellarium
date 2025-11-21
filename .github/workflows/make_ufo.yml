@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  parallel_processes: 4
+  parallel_processes: 16
 
 jobs:
 
