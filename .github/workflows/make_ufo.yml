@@ -12,13 +12,12 @@ jobs:
 
   launch_ufo:
     runs-on: windows-latest
-    #if: "!contains(github.event.head_commit.message, '[ci skip]') && !contains(github.event.head_commit.message, '[skip ci]') && !contains(github.actor, 'transifex')"
 
     steps:
 
     - uses: actions/cache@v4
       with:
-        path: ./
+        path: ./../
         key: cache-0
         restore-keys: cache
 
@@ -40,5 +39,5 @@ jobs:
 
     - run: cmake --build build --config RelWithDebInfo -j ${{env.parallel_processes}} --target install
     
-    - run: ls ./..
+    - run: ls ./../
         
