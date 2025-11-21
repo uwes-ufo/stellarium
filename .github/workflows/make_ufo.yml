@@ -10,12 +10,18 @@ concurrency:
 
 jobs:
 
-  ci-windows-qt6:
-    #name: "Windows (x86_64; qt6)"
+  build_ufo:
     runs-on: windows-latest
     #if: "!contains(github.event.head_commit.message, '[ci skip]') && !contains(github.event.head_commit.message, '[skip ci]') && !contains(github.actor, 'transifex')"
 
     steps:
+
+    - uses: actions/cache@v4
+      with:
+        path: ./
+        key: cache-0
+        restore-keys: cache
+
     - uses: actions/checkout@v5
 
     - uses: jurplel/install-qt-action@v4
@@ -33,12 +39,5 @@ jobs:
       run: cmake -B build -S "${{ github.workspace }}" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DSTELLARIUM_RELEASE_BUILD=Off -DENABLE_TESTING=On -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
 
     #- run: cmake --build build --config RelWithDebInfo -j ${{env.parallel_processes}} --target install
-    - run: |
-        dir c:\
-        dir d:\
-        dir d:\a\
-        dir .\
-        dir ~\
-        ls ./
-        ls ~/
+    - run: ls ./
         
