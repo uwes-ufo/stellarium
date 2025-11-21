@@ -18,7 +18,7 @@ jobs:
     - uses: actions/cache@v4
       with:
         path: ./
-        key: cache-1
+        key: cache-2
         restore-keys: cache
 
     - uses: actions/checkout@v5
