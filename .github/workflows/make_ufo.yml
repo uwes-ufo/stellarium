@@ -25,8 +25,7 @@ jobs:
 
     - uses: jurplel/install-qt-action@v4
       with:
-        aqtversion: '==3.3.*'
-        version: '6.8.3'
+        version: '6.10.0'
         host: 'windows'
         target: 'desktop'
         cache: true
@@ -39,5 +38,10 @@ jobs:
 
     - run: cmake --build build --config RelWithDebInfo -j ${{env.parallel_processes}} --target install
     
-    - run: ls ./stellarium-bin
+    - run: ls stellarium-bin
+    
+    - uses: actions/upload-artifact@v4
+      with:
+         path: stellarium-bin
+         retention-days: 2 
         
