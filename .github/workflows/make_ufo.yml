@@ -16,7 +16,7 @@ jobs:
     steps:
 
     - shell: bash 
-      run: echo "DATE=$(date +%F_%R)" >> $GITHUB_ENV
+      run: echo "DATE=$(date +%F)" >> $GITHUB_ENV
 
     - uses: jurplel/install-qt-action@v4
       with:
