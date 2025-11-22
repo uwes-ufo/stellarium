@@ -16,7 +16,7 @@ jobs:
     steps:
 
     - shell: bash 
-      run: echo "DATE=$(date +%F-%H)" >> $GITHUB_ENV
+      run: echo "DATE=$(date +%F-%R)" >> $GITHUB_ENV
 
     - uses: jurplel/install-qt-action@v4
       with:
@@ -29,7 +29,7 @@ jobs:
 
     - uses: actions/cache@v4
       with:
-        path: ./build
+        path: ../build
         key: cache-${{ env.DATE }}
         restore-keys: cache
 
@@ -37,9 +37,9 @@ jobs:
 
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
-      #run: cmake -B build -S "${{ github.workspace }}" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DSTELLARIUM_RELEASE_BUILD=Off -DENABLE_TESTING=On -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
+      run: cmake -B ../build -S "${{ github.workspace }}" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DSTELLARIUM_RELEASE_BUILD=Off -DENABLE_TESTING=On -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
 
-      run: cmake --build build --config RelWithDebInfo -j --target install
+    - run: cmake --build ../build --config RelWithDebInfo -j --target install
     
     - run: ls stellarium-bin
     
