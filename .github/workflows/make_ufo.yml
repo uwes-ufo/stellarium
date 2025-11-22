@@ -16,7 +16,7 @@ jobs:
     steps:
 
     - shell: bash 
-      run: echo "DATE=$(date +%F-%R)" >> $GITHUB_ENV
+      run: echo "DATE=$(date +%F_%R)" >> $GITHUB_ENV
 
     - uses: jurplel/install-qt-action@v4
       with:
@@ -28,6 +28,7 @@ jobs:
         modules: 'qtcharts qtimageformats qtlocation qtmultimedia qtpositioning qtscxml qtsensors qtserialbus qtserialport qtvirtualkeyboard qtwebchannel qtwebengine qtwebsockets qtwebview debug_info qt5compat qtquicktimeline qtshadertools'
 
     - uses: actions/cache@v4
+      id: cache
       with:
         path: D:\a\stellarium\build
         key: cache-${{ env.DATE }}
@@ -37,11 +38,14 @@ jobs:
 
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
-      run: cmake -B ../build -S "${{ github.workspace }}" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DSTELLARIUM_RELEASE_BUILD=Off -DENABLE_TESTING=On -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: /install.shrun: cmake -B ../build -DCMAKE_BUILD_TYPE=RelWithDebInfo -DSTELLARIUM_RELEASE_BUILD=Off -DENABLE_TESTING=On -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
 
     - run: cmake --build ../build --config RelWithDebInfo -j --target install
     
     - run: ls stellarium-bin
+
+    - run: ls ../
     
     - uses: actions/upload-artifact@v4
       with:
