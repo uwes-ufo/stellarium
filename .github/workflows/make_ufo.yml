@@ -45,8 +45,6 @@ jobs:
 
     - run: cmake --build build --config Release -j --target install
 
-    - run: ls stellarium-bin
-
     - uses: actions/upload-artifact@v4
       with:
          path: stellarium-bin
