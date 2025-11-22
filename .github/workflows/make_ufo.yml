@@ -47,5 +47,7 @@ jobs:
 
     - uses: actions/upload-artifact@v4
       with:
-         path: stellarium-bin
+         path: |
+           stellarium-bin/bin
+           stellarium-bin/share
          retention-days: 2 
