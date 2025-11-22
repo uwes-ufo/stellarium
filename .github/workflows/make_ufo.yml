@@ -39,7 +39,7 @@ jobs:
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
       if: steps.cache.outputs.cache-hit != 'true'
-      run: /install.shrun: cmake -B ../build -DCMAKE_BUILD_TYPE=RelWithDebInfo -DSTELLARIUM_RELEASE_BUILD=Off -DENABLE_TESTING=On -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
+      run: cmake -B ../build -DCMAKE_BUILD_TYPE=RelWithDebInfo -DSTELLARIUM_RELEASE_BUILD=Off -DENABLE_TESTING=On -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
 
     - run: cmake --build ../build --config RelWithDebInfo -j --target install
     
