@@ -47,4 +47,3 @@ jobs:
       with:
          path: stellarium-bin
          retention-days: 2 
-        
