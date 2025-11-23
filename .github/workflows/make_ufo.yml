@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
 
-  launch_ufo:
+  ufo:
     strategy:
       max-parallel: 7
       fail-fast: false
