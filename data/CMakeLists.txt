@@ -12,11 +12,11 @@ INSTALL(DIRECTORY shaders/ DESTINATION ${SDATALOC}/data/shaders FILES_MATCHING
 	PATTERN "planet*")
 
 # install splash
-IF(STELLARIUM_RELEASE_BUILD)
+#IF(STELLARIUM_RELEASE_BUILD)
 	INSTALL(FILES splash.png DESTINATION ${SDATALOC}/data)
-ELSE()
-	INSTALL(FILES splash-gray.png DESTINATION ${SDATALOC}/data RENAME splash.png)
-ENDIF()
+#ELSE()
+#	INSTALL(FILES splash-gray.png DESTINATION ${SDATALOC}/data RENAME splash.png)
+#ENDIF()
 
 # install icon
 IF(APPLE)
@@ -27,11 +27,11 @@ IF(APPLE)
 	ENDIF()
 	INSTALL(FILES Info.plist PkgInfo DESTINATION .)
 ELSE()
-	IF(STELLARIUM_RELEASE_BUILD)
+#	IF(STELLARIUM_RELEASE_BUILD)
 		INSTALL(FILES stellarium.ico DESTINATION ${SDATALOC}/data)
-	ELSE()
-		INSTALL(FILES stellarium-gray.ico DESTINATION ${SDATALOC}/data RENAME stellarium.ico)
-	ENDIF()
+#	ELSE()
+#		INSTALL(FILES stellarium-gray.ico DESTINATION ${SDATALOC}/data RENAME stellarium.ico)
+#	ENDIF()
 ENDIF()
 
 # install Scenery3d shaders

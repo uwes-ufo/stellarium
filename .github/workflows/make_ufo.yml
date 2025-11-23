@@ -43,11 +43,7 @@ jobs:
       if: steps.cache.outputs.cache-hit == ''
       run: cmake -B build -DCMAKE_BUILD_TYPE=Release -DSTELLARIUM_RELEASE_BUILD=Off -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
 
-    - run: |
-        cmake --build build --config Release -j --target install
-        cp util/spout2/x64/SpoutLibrary.dll stellarium-bin/bin
-        cp data/splash.png stellarium-bin/share/stellarium/data
-        cp data/stellarium.ico stellarium-bin/share/stellarium/data
+    - run: cmake --build build --config Release -j --target install
 
     - uses: actions/upload-artifact@v4
       with:
