@@ -35,7 +35,7 @@ jobs:
       with:
         path: ./
         key: cache-${{ matrix.qt }}-${{ env.DATE }}
-        restore-keys: cache
+        restore-keys: cache-${{ matrix.qt }}
 
     - uses: jurplel/install-qt-action@v4
       with:
