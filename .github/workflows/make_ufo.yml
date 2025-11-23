@@ -49,17 +49,20 @@ jobs:
         cp data/splash.png stellarium-bin/share/stellarium/data
         cp data/stellarium.ico stellarium-bin/share/stellarium/data
 
-    - uses: actions/upload-artifact@v4
+    - name: bin
+      uses: actions/upload-artifact@v4
       with:
          path: stellarium-bin/bin
          retention-days: 2
 
-    - uses: actions/upload-artifact@v4
+    - name: share
+      uses: actions/upload-artifact@v4
       with:
          path: stellarium-bin/share
          retention-days: 2
 
-    - uses: actions/upload-artifact@v4
+    - name: qt-stuff
+      uses: actions/upload-artifact@v4
       with:
          path: stellarium-bin/qt-stuff
          retention-days: 2
