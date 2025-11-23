@@ -15,7 +15,7 @@ jobs:
       max-parallel: 7
       fail-fast: false
       matrix:
-        qt: ["6.7.3", "6.8.3", "6.9.3"]	#, "6.10.1"]
+        qt: ["6.8.3", "6.9.3"]	#, "6.10.1"]
     runs-on: windows-latest
 
     steps:
