@@ -1,3 +1,5 @@
+name: ufo
+
 on:
   push:
   workflow_dispatch:
