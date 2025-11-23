@@ -51,7 +51,15 @@ jobs:
 
     - uses: actions/upload-artifact@v4
       with:
-         path: |
-           stellarium-bin/bin
-           stellarium-bin/share
-         retention-days: 2 
+         path: stellarium-bin/bin
+         retention-days: 2
+
+    - uses: actions/upload-artifact@v4
+      with:
+         path: stellarium-bin/share
+         retention-days: 2
+
+    - uses: actions/upload-artifact@v4
+      with:
+         path: stellarium-bin/qt-stuff
+         retention-days: 2
