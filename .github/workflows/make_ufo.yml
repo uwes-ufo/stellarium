@@ -17,8 +17,8 @@ jobs:
     
     - run: echo "CLEAN=true" >> $GITHUB_ENV
 
-    - shell: bash 
-      run: echo "DATE=$(date +%F)" >> $GITHUB_ENV
+    - shell: bash
+      run: [ ${{ env.CLEAN }} == 'true' ] && echo "DATE=$(date +%F_%R)" >> $GITHUB_ENV || echo "DATE=$(date +%F)" >> $GITHUB_ENV
 
     - uses: jurplel/install-qt-action@v4
       with:
