@@ -25,6 +25,13 @@ jobs:
         [ $CLEAN == false ] && DATE=$(date +%F) || DATE=$(date +%F_%R)
         echo DATE=$DATE >> $GITHUB_ENV
 
+    - uses: actions/cache@v4
+      id: cache
+      with:
+        path: ./
+        key: cache-${{ env.DATE }}
+        restore-keys: cache
+
     - uses: jurplel/install-qt-action@v4
       with:
         version: '6.10.0'
@@ -33,13 +40,6 @@ jobs:
         cache: true
         arch: 'win64_msvc2022_64'
         modules: 'qtcharts qtimageformats qtlocation qtmultimedia qtpositioning qtscxml qtsensors qtserialbus qtserialport qtvirtualkeyboard qtwebchannel qtwebengine qtwebsockets qtwebview debug_info qt5compat qtquicktimeline qtshadertools'
-
-    - uses: actions/cache@v4
-      id: cache
-      with:
-        path: ./
-        key: cache-${{ env.DATE }}
-        restore-keys: cache
 
     - uses: actions/checkout@v6
       with:
