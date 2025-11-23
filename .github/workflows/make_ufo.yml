@@ -45,6 +45,8 @@ jobs:
 
     - run: cmake --build build --config Release -j --target install
 
+    - run: cp util\spout2\x64\SpoutLibrary.dll stellarium-bin/bin
+
     - uses: actions/upload-artifact@v4
       with:
          path: |
