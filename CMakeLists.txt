@@ -878,11 +878,11 @@ IF(WIN32)
      ### Generate icon file name
      #######################################################
 
-     IF(STELLARIUM_RELEASE_BUILD)
+#     IF(STELLARIUM_RELEASE_BUILD)
           SET(PACKAGE_ICON "stellarium")
-     ELSE()
-          SET(PACKAGE_ICON "stellarium-gray")
-     ENDIF()
+#     ELSE()
+#          SET(PACKAGE_ICON "stellarium-gray")
+#     ENDIF()
 
      #######################################################
      ### Generate a VersionInfo file
