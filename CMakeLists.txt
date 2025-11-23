@@ -480,7 +480,7 @@ IF(ENABLE_SPOUT)
 
      # try to find the .dll for automatic copy
      GET_FILENAME_COMPONENT(SPOUT_LIBRARY_DIR ${SPOUT_LIBRARY} DIRECTORY)
-     SET(SPOUT_LIBRARY_DLL ${SPOUT_LIBRARY_DIR}/SpoutLibrary.dll CACHE FILEPATH "The path to the Spout .dll file")
+     SET(SPOUT_LIBRARY_DLL ${SPOUT_PATH_HINT}/SpoutLibrary.dll CACHE FILEPATH "The path to the Spout .dll file")
      SET(SPOUT_LIBRARY_LICENCE ${CMAKE_SOURCE_DIR}/util/spout2/licence.txt CACHE FILEPATH "The path to the Spout licence file")
 
      IF(NOT EXISTS ${SPOUT_LIBRARY_DLL})
