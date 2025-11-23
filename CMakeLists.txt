@@ -480,7 +480,7 @@ IF(ENABLE_SPOUT)
 
      # try to find the .dll for automatic copy
      GET_FILENAME_COMPONENT(SPOUT_LIBRARY_DIR ${SPOUT_LIBRARY} DIRECTORY)
-     SET(SPOUT_LIBRARY_DLL ${SPOUT_PATH_HINT}/SpoutLibrary.dll CACHE FILEPATH "The path to the Spout .dll file")
+     SET(SPOUT_LIBRARY_DLL ${SPOUT_LIBRARY_DIR}/SpoutLibrary.dll CACHE FILEPATH "The path to the Spout .dll file")
      SET(SPOUT_LIBRARY_LICENCE ${CMAKE_SOURCE_DIR}/util/spout2/licence.txt CACHE FILEPATH "The path to the Spout licence file")
 
      IF(NOT EXISTS ${SPOUT_LIBRARY_DLL})
@@ -834,7 +834,8 @@ IF(ENABLE_XLSX)
           MESSAGE(STATUS "Using system-provided QXlsx ${QXlsx_VERSION}")
      ELSE()
           CPMAddPackage(NAME QXlsxQt${QT_VERSION_MAJOR}
-               URL http://codeload.github.com/QtExcel/QXlsx/tar.gz/refs/heads/master
+               URL https://github.com/QtExcel/QXlsx/archive/refs/tags/v1.5.0.tar.gz
+               URL_HASH SHA256=4461bb0fc9b88b6a970520e8b32eb7d2fc391a1a5c326b139a0af836278cdb09
                EXCLUDE_FROM_ALL ON
                SOURCE_SUBDIR QXlsx)
      ENDIF()
@@ -877,11 +878,11 @@ IF(WIN32)
      ### Generate icon file name
      #######################################################
 
-#     IF(STELLARIUM_RELEASE_BUILD)
+     IF(STELLARIUM_RELEASE_BUILD)
           SET(PACKAGE_ICON "stellarium")
-#     ELSE()
-#          SET(PACKAGE_ICON "stellarium-gray")
-#     ENDIF()
+     ELSE()
+          SET(PACKAGE_ICON "stellarium-gray")
+     ENDIF()
 
      #######################################################
      ### Generate a VersionInfo file
@@ -985,13 +986,13 @@ IF(GENERATE_PACKAGE_TARGET)
      SET(CPACK_PACKAGE_VERSION_MINOR "${STELLARIUM_MINOR}")
      SET(CPACK_PACKAGE_VERSION_PATCH "${STELLARIUM_PATCH}")
      SET(CPACK_PACKAGE_INSTALL_DIRECTORY "stellarium")
-#     IF(STELLARIUM_RELEASE_BUILD)
+     IF(STELLARIUM_RELEASE_BUILD)
 	  SET(CPACK_SOURCE_PACKAGE_FILE_NAME "stellarium-${STELLARIUM_PUBLIC_VERSION}")
           SET(CPACK_PACKAGE_ICON "${CMAKE_CURRENT_SOURCE_DIR}/data/icons/512x512/stellarium.png")
-#     ELSE()
-#	  SET(CPACK_SOURCE_PACKAGE_FILE_NAME "stellarium-${STELLARIUM_PUBLIC_VERSION}-${GIT_REVISION}")
-#          SET(CPACK_PACKAGE_ICON "${CMAKE_CURRENT_SOURCE_DIR}/data/icons/512x512/stellarium-gray.png")
-#     ENDIF()
+     ELSE()
+	  SET(CPACK_SOURCE_PACKAGE_FILE_NAME "stellarium-${STELLARIUM_PUBLIC_VERSION}-${GIT_REVISION}")
+          SET(CPACK_PACKAGE_ICON "${CMAKE_CURRENT_SOURCE_DIR}/data/icons/512x512/stellarium-gray.png")
+     ENDIF()
      SET(CPACK_SOURCE_GENERATOR "TBZ2;TXZ;TGZ;ZIP")
      SET(CPACK_GENERATOR "TBZ2;TXZ;TGZ;ZIP")
      SET(CPACK_PACKAGE_CHECKSUM "SHA256")
