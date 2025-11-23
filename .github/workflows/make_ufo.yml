@@ -15,10 +15,10 @@ jobs:
 
     steps:
     
-      run: echo "CLEAN=true" >> $GITHUB_ENV
+    - run: echo "CLEAN=true" >> $GITHUB_ENV
         
     - shell: bash
-	  env:
+      env:
         CLEAN: ${{ env.CLEAN }}
       run: |
         [ $CLEAN == 'true' ] && FMT='+%F_%R' || FMT='+%F'
