@@ -16,7 +16,7 @@ jobs:
     steps:
     
     - shell: bash
-      run: echo CLEAN=false >> $GITHUB_ENV
+      run: echo CLEAN=true >> $GITHUB_ENV
         
     - shell: bash
       env:
