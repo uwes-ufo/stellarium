@@ -492,7 +492,6 @@ IF(ENABLE_SPOUT)
      IF(NOT SPOUT_LIBRARY_DLL)
           MESSAGE(WARNING "Could not find SpoutLibrary.dll, you may have to manually copy it to the binary directory.\
                            Try setting SPOUT_LIBRARY_DLL. Note that this is necessary for correct installer generation.")
-     SET(SPOUT_LIBRARY_DLL ${CMAKE_SOURCE_DIR}/util/spout2/x64/Spoutlibrary.dll CACHE FILEPATH "The path to the Spout .dll file (x64)")
      ENDIF()
      MARK_AS_ADVANCED(SPOUT_LIBRARY_DLL)
 ENDIF(ENABLE_SPOUT)
