@@ -16,7 +16,7 @@ jobs:
     steps:
     
     - shell: bash
-      run: echo CLEAN=true >> $GITHUB_ENV
+      run: echo CLEAN=false >> $GITHUB_ENV
         
     - shell: bash
       env:
@@ -34,7 +34,7 @@ jobs:
 
     - uses: jurplel/install-qt-action@v4
       with:
-        version: '6.10.1'
+        version: '6.9.3'
         host: 'windows'
         target: 'desktop'
         cache: true
