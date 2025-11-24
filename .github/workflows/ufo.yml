@@ -59,7 +59,7 @@ jobs:
     
     - run: cp util\spout2\x64\SpoutLibrary.dll stellarium-bin/bin
 
-    - run: cmake --build build/msvc --target stellarium-installer
+    - run: cmake --build build --target stellarium-installer
 
     - uses: actions/upload-artifact@v4
       with:
