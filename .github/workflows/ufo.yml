@@ -56,16 +56,8 @@ jobs:
       run: cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
 
     - run: cmake --build build --config Release -j --target install
-    
+
     - run: cp util\spout2\x64\SpoutLibrary.dll stellarium-bin/bin
-
-    - run: cmake --build build --target stellarium-installer
-
-    - uses: actions/upload-artifact@v4
-      with:
-        name: installers-${{ matrix.qt }}
-        path: installers
-        retention-days: 2
 
     - uses: actions/upload-artifact@v4
       with:
@@ -73,20 +65,10 @@ jobs:
         path: stellarium-bin/bin
         retention-days: 2
 
-    - uses: actions/upload-artifact@v4
-      with:
-        name: share-${{ matrix.qt }}
-        path: stellarium-bin/share
-        retention-days: 2
+    - run: cmake --build build --target stellarium-installer
 
     - uses: actions/upload-artifact@v4
       with:
-        name: qtstuff-${{ matrix.qt }}
-        path: stellarium-bin/qtstuff
-        retention-days: 2
-        
-    - uses: actions/upload-artifact@v4
-      with:
-        name: stellarium-bin-${{ matrix.qt }}
-        path: stellarium-bin
+        name: installers-${{ matrix.qt }}
+        path: installers
         retention-days: 2
