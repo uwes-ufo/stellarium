@@ -76,3 +76,9 @@ jobs:
         name: qtstuff-${{ matrix.qt }}
         path: stellarium-bin/qtstuff
         retention-days: 2
+        
+    - uses: actions/upload-artifact@v4
+      with:
+        name: stellarium-bin-${{ matrix.qt }}
+        path: stellarium-bin
+        retention-days: 2
