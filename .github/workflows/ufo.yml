@@ -61,15 +61,10 @@ jobs:
 
     - run: cmake --build build --target stellarium-installer
 
-    - run: |
-        ls -l .
-        ls -l installers
-        ls -l build
-
     - uses: actions/upload-artifact@v4
       with:
-        name: installer-${{ matrix.qt }}
-        path: stellarium-installer
+        name: installers-${{ matrix.qt }}
+        path: installers
         retention-days: 2
 
     - uses: actions/upload-artifact@v4
