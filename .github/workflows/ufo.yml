@@ -56,6 +56,8 @@ jobs:
       run: cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
 
     - run: cmake --build build --config Release -j --target install
+    
+    - run: ls -l build
 
     - run: cp util\spout2\x64\SpoutLibrary.dll stellarium-bin/bin
 
