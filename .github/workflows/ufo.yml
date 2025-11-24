@@ -61,7 +61,10 @@ jobs:
 
     - run: cmake --build build --target stellarium-installer
 
-    - run: ls -l .
+    - run: |
+        ls -l .
+        ls -l installers
+        ls -l build
 
     - uses: actions/upload-artifact@v4
       with:
