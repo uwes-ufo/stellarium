@@ -21,14 +21,7 @@ jobs:
     steps:
     
     - shell: bash
-      run: echo CLEAN=false >> $GITHUB_ENV
-        
-    - shell: bash
-      env:
-        CLEAN: ${{ env.CLEAN }}
-      run: |
-        [ $CLEAN == false ] && DATE=$(date +%F) || DATE=$(date +%F_%R)
-        echo DATE=$DATE >> $GITHUB_ENV
+      run: echo DATE=$(date +%F) >> $GITHUB_ENV
 
     - uses: actions/cache@v4
       id: cache
@@ -36,13 +29,6 @@ jobs:
         path: ./
         key: cache-${{ matrix.qt }}-${{ env.DATE }}
         restore-keys: cache-${{ matrix.qt }}
-
-    - shell: bash
-      run: ls -al ./
-    - shell: bash
-      run: ls -al ls -al build
-    - shell: bash
-      run: ls -al ls -al build/*
 
     - uses: jurplel/install-qt-action@v4
       with:
@@ -55,7 +41,7 @@ jobs:
 
     - uses: actions/checkout@v6
       with:
-        clean: ${{ env.CLEAN }}
+        clean: false
 
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
