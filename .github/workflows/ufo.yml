@@ -27,8 +27,15 @@ jobs:
       env:
         CLEAN: ${{ env.CLEAN }}
       run: |
-        [ $CLEAN == false ] && DATE=$(date +%F%R) || DATE=$(date +%F_%R)
+        [ $CLEAN == false ] && DATE=$(date +%F) || DATE=$(date +%F_%R)
         echo DATE=$DATE >> $GITHUB_ENV
+
+    - uses: actions/cache@v4
+      id: cache
+      with:
+        path: ./
+        key: cache-${{ matrix.qt }}-${{ env.DATE }}
+        restore-keys: cache-${{ matrix.qt }}
 
     - uses: jurplel/install-qt-action@v4
       with:
@@ -43,21 +50,6 @@ jobs:
       with:
         clean: ${{ env.CLEAN }}
 
-    - uses: actions/cache@v4
-      id: cache
-      with:
-        path: |
-          build
-          stellarium-bin
-        key: cache-${{ matrix.qt }}-${{ env.DATE }}
-        restore-keys: cache-${{ matrix.qt }}
-
-    - uses: actions/cache@v4
-      with:
-        path: installers
-        key: installers-${{ matrix.qt }}-${{ env.DATE }}
-        restore-keys: installers-${{ matrix.qt }}
-
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
       if: ${{ env.CLEAN != 'false' || steps.cache.outputs.cache-hit == '' }} 
@@ -66,8 +58,6 @@ jobs:
     - run: cmake --build build --config Release -j --target install
 
     - run: cp util\spout2\x64\SpoutLibrary.dll stellarium-bin/bin
-
-    - run: ls -l ./
 
     - uses: actions/upload-artifact@v4
       with:
