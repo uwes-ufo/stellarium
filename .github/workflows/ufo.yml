@@ -33,7 +33,7 @@ jobs:
     - uses: actions/cache@v4
       id: cache
       with:
-        #path: ./
+        path: ./
         key: cache-${{ matrix.qt }}-${{ env.DATE }}
         restore-keys: cache-${{ matrix.qt }}
 
@@ -58,6 +58,8 @@ jobs:
     - run: cmake --build build --config Release -j --target install
 
     - run: cp util\spout2\x64\SpoutLibrary.dll stellarium-bin/bin
+
+    - run: ls -l ./
 
     - uses: actions/upload-artifact@v4
       with:
