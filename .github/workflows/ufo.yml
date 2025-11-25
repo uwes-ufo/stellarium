@@ -50,6 +50,10 @@ jobs:
       with:
         clean: ${{ env.CLEAN }}
 
+    - run: ls -al ./
+    - run: ls -al build
+    - run: ls -al build/*
+
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
       if: ${{ env.CLEAN != 'false' || steps.cache.outputs.cache-hit == '' }} 
