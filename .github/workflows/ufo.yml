@@ -12,7 +12,6 @@ jobs:
 
   ufo:
     strategy:
-      max-parallel: 7
       fail-fast: false
       matrix:
         qt: ["6.8.3", "6.9.3", "6.10.1"]
