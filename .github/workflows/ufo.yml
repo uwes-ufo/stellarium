@@ -37,6 +37,13 @@ jobs:
         key: cache-${{ matrix.qt }}-${{ env.DATE }}
         restore-keys: cache-${{ matrix.qt }}
 
+    - shell: bash
+      run: ls -al ./
+    - shell: bash
+      run: ls -al ls -al build
+    - shell: bash
+      run: ls -al ls -al build/*
+
     - uses: jurplel/install-qt-action@v4
       with:
         version: ${{ matrix.qt }}
@@ -49,12 +56,6 @@ jobs:
     - uses: actions/checkout@v6
       with:
         clean: ${{ env.CLEAN }}
-
-    - shell: bash
-      run: |
-        ls -al ./
-        ls -al build
-        ls -al build/*
 
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
