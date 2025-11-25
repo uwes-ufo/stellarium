@@ -53,7 +53,7 @@ jobs:
         path: stellarium-bin/bin
         retention-days: 2
 
-    - run: cmake --build build -j --target stellarium-installer
+    - run: cmake --build build --target stellarium-installer
 
     - uses: actions/upload-artifact@v4
       with:
