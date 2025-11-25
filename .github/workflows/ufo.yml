@@ -30,17 +30,6 @@ jobs:
         [ $CLEAN == false ] && DATE=$(date +%F) || DATE=$(date +%F_%R)
         echo DATE=$DATE >> $GITHUB_ENV
 
-    - run: mkdir build
-    
-    - uses: actions/cache@v4
-      id: cache
-      with:
-        path: |
-          build
-          stellarium-bin
-        key: cache-${{ matrix.qt }}-${{ env.DATE }}
-        restore-keys: cache-${{ matrix.qt }}
-
     - uses: jurplel/install-qt-action@v4
       with:
         version: ${{ matrix.qt }}
@@ -53,6 +42,15 @@ jobs:
     - uses: actions/checkout@v6
       with:
         clean: ${{ env.CLEAN }}
+
+    - uses: actions/cache@v4
+      id: cache
+      with:
+        path: |
+          build
+          stellarium-bin
+        key: cache-${{ matrix.qt }}-${{ env.DATE }}
+        restore-keys: cache-${{ matrix.qt }}
 
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
