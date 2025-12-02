@@ -630,7 +630,7 @@ Vec4f AtmosphereShowMySky::getMeanPixelValue()
 
 bool AtmosphereShowMySky::dynamicResolution(StelProjectorP prj, Vec3d &currPos, int width, int height)
 {
-	if (!flagDynamicResolution)                                     // There's nothing to do here, we're drawing the atmosphere
+	if (!flagDynamicResolution)                                     // There's nothing to do here, we're drawing
 		return false;                                               // in full resolution and full frame rate.
 
 	// If the scene is rendered in real time and is practically static,
