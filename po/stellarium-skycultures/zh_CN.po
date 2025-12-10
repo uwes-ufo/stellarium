@@ -1061,6 +1061,7 @@ msgstr "Ser"
 #. Arabic (Al-Sufi) constellation, native: السهم, pronounce: al-Sahm
 #. Babylonian (MUL.APIN) constellation, native: 𒆕𒋛𒁲, pronounce: KAK.SI.SA2
 #. (Shukudu)
+#. Balinese constellation, native: ᬭᬸ, pronounce: Ru
 #. Chinese Chenzhuo Sky (3rd Century) name for HIP 33977, native: 矢
 #. Chinese Song Dynasty Sky name for HIP 33977, native: 矢
 #. Greek (Almagest) constellation, native: ʾΟιστός, pronounce: Oistos
@@ -18681,6 +18682,7 @@ msgstr "025"
 
 #. Babylonian (MUL.APIN) constellation, native: 𒀲𒆳𒊏, pronounce: ANŠE.KUR.RA
 #. (Sisu)
+#. Balinese constellation, native: ᬓᬸᬤ, pronounce: Kuda
 #. Greek (Almagest) constellation, native: ʿˊΙππος, pronounce: Hippos
 #. Greek (Farnese + Almagest) constellation, native: ʿˊΙππος, pronounce:
 #. Hippos
@@ -19247,14 +19249,14 @@ msgid "052"
 msgstr "052"
 
 #. Babylonian (MUL.APIN) constellation, native: 𒂗𒋼𒈾𒁇𒈝, pronounce:
-#. N.TE.NA.BAR.GUZ (Ḫabaṣīrānu)
+#. EN.TE.NA.BAR.GUZ (Ḫabaṣīrānu)
 msgid "Habasiranu Demon"
 msgstr "恶魔Habasiranu"
 
 #. Pronounce entry for Babylonian (MUL.APIN) constellation, native: 𒂗𒋼𒈾𒁇𒈝,
 #. English: Habasiranu Demon
-msgid "N.TE.NA.BAR.GUZ (Ḫabaṣīrānu)"
-msgstr "N.TE.NA.BAR.GUZ (Ḫabaṣīrānu)"
+msgid "EN.TE.NA.BAR.GUZ (Ḫabaṣīrānu)"
+msgstr "EN.TE.NA.BAR.GUZ (Ḫabaṣīrānu)"
 
 #. Abbreviation of constellation in Babylonian (MUL.APIN) sky culture, name:
 #. Habasiranu Demon
@@ -20481,7 +20483,7 @@ msgstr "鹰之亮星"
 
 #. Babylonian (Seleucid) name for HIP 98032
 msgid "(the star of) Pabilsag which is above the Barge"
-msgstr "驳船上方的Pabilsag（之星）"
+msgstr "驳船上方的Pabilsag（星）"
 
 #. Babylonian (Seleucid) name for HIP 100345
 msgid "The Horn of the Goat-Fish"
@@ -20506,6 +20508,480 @@ msgstr "kakkab Tsalbatanu"
 #. Babylonian (Seleucid) name for NAME Venus, native: mul.DILBAT
 msgid "MUL.DILBAT"
 msgstr "MUL.DILBAT"
+
+#. Balinese constellation, native: ᬓᬮᬲᬸᬗ᭄ᬲᬂ, pronounce: Kala Sungsang
+msgid "Upside-down Demon"
+msgstr "倒立的恶魔"
+
+#. Pronounce entry for Balinese constellation, native: ᬓᬮᬲᬸᬗ᭄ᬲᬂ, English:
+#. Upside-down Demon
+msgid "Kala Sungsang"
+msgstr "Kala Sungsang"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Upside-down
+#. Demon
+msgctxt "abbreviation"
+msgid "KaSu"
+msgstr "KaSu"
+
+#. Balinese constellation, native: ᬕᬚᬄ, pronounce: Gajah
+msgid "An Elephant"
+msgstr "大象"
+
+#. Pronounce entry for Balinese constellation, native: ᬕᬚᬄ, English: An
+#. Elephant
+msgid "Gajah"
+msgstr "Gajah"
+
+#. Abbreviation of constellation in Balinese sky culture, name: An Elephant
+msgctxt "abbreviation"
+msgid "Gaj"
+msgstr "Gaj"
+
+#. Balinese constellation, native: ᬢᭂᬗ᭄ᬕᬮ, pronounce: Těnggala
+msgid "A Plough"
+msgstr "犁具"
+
+#. Pronounce entry for Balinese constellation, native: ᬢᭂᬗ᭄ᬕᬮ, English: A
+#. Plough
+msgid "Těnggala"
+msgstr "Těnggala"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A Plough
+msgctxt "abbreviation"
+msgid "Teng"
+msgstr "Teng"
+
+#. Balinese constellation, native: ᬓ᭄ᬮᬧᬲᬸᬦ᭄ᬤ, pronounce: Klapa Sunda
+msgid "A Leaning Coconut Tree"
+msgstr "倾斜的椰子树"
+
+#. Pronounce entry for Balinese constellation, native: ᬓ᭄ᬮᬧᬲᬸᬦ᭄ᬤ, English: A
+#. Leaning Coconut Tree
+msgid "Klapa Sunda"
+msgstr "Klapa Sunda"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A Leaning
+#. Coconut Tree
+msgctxt "abbreviation"
+msgid "KlSu"
+msgstr "KlSu"
+
+#. Balinese constellation, native: ᬳᬸᬮᬜ᭄ᬚᬃ, pronounce: Hulanjar
+msgid "A Widow"
+msgstr "寡妇"
+
+#. Pronounce entry for Balinese constellation, native: ᬳᬸᬮᬜ᭄ᬚᬃ, English: A
+#. Widow
+msgid "Hulanjar"
+msgstr "Hulanjar"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A Widow
+msgctxt "abbreviation"
+msgid "Hul"
+msgstr "Hul"
+
+#. Balinese constellation, native: ᬍᬫ᭄ᬩᬸ, pronounce: Lěmbu
+msgid "A White Ox"
+msgstr "白牛"
+
+#. Pronounce entry for Balinese constellation, native: ᬍᬫ᭄ᬩᬸ, English: A White
+#. Ox
+msgid "Lěmbu"
+msgstr "Lěmbu"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A White Ox
+msgctxt "abbreviation"
+msgid "Lem"
+msgstr "Lem"
+
+#. Balinese constellation, native: ᬧᭂᬤᬢᬶᬲᬸᬳᬸᬂ, pronounce: Pědati Suung
+msgid "An Empty Horse Cart"
+msgstr "空马车"
+
+#. Pronounce entry for Balinese constellation, native: ᬧᭂᬤᬢᬶᬲᬸᬳᬸᬂ, English: An
+#. Empty Horse Cart
+msgid "Pědati Suung"
+msgstr "Pědati Suung"
+
+#. Abbreviation of constellation in Balinese sky culture, name: An Empty Horse
+#. Cart
+msgctxt "abbreviation"
+msgid "PeSu"
+msgstr "PeSu"
+
+#. Balinese constellation, native: ᬳᬲᬸ, pronounce: Asu
+msgid "A Dog"
+msgstr "狗"
+
+#. Pronounce entry for Balinese constellation, native: ᬳᬲᬸ, English: A Dog
+msgid "Asu"
+msgstr "Asu"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A Dog
+msgctxt "abbreviation"
+msgid "Asu"
+msgstr "Asu"
+
+#. Balinese constellation, native: ᬲᬶᬤᬫᬮᬸᬂ, pronounce: Sidamalung
+msgid "A Pig"
+msgstr "猪"
+
+#. Pronounce entry for Balinese constellation, native: ᬲᬶᬤᬫᬮᬸᬂ, English: A Pig
+msgid "Sidamalung"
+msgstr "Sidamalung"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A Pig
+msgctxt "abbreviation"
+msgid "Sida"
+msgstr "Sida"
+
+#. Balinese constellation, native: ᬕᬚᬳ᭄ᬫᬶᬦ, pronounce: Gajahmina
+msgid "Elephantfish"
+msgstr "象头鱼"
+
+#. Pronounce entry for Balinese constellation, native: ᬕᬚᬳ᭄ᬫᬶᬦ, English:
+#. Elephantfish
+msgid "Gajahmina"
+msgstr "Gajahmina"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Elephantfish
+msgctxt "abbreviation"
+msgid "GaMi"
+msgstr "GaMi"
+
+#. Balinese constellation, native: ᬮᬸᬫ᭄ᬩᬸᬂ, pronounce: Lumbung
+msgid "Granary (Paddy Storage)"
+msgstr "稻仓"
+
+#. Pronounce entry for Balinese constellation, native: ᬮᬸᬫ᭄ᬩᬸᬂ, English:
+#. Granary (Paddy Storage)
+msgid "Lumbung"
+msgstr "Lumbung"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Granary (Paddy
+#. Storage)
+msgctxt "abbreviation"
+msgid "Lum"
+msgstr "Lum"
+
+#. Balinese constellation, native: ᬓᬃᬢᬶᬓ, pronounce: Kartika
+#. Chinese constellation, native: 星宿, pronounce: Xīng Xiù
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Pinyin transliteration
+#. Chinese Song Dynasty Sky constellation, native: 星宿, pronounce: Xīng Xiù
+#. Modern (Chinese) asterism
+msgid "Star"
+msgstr "星宿"
+
+#. Pronounce entry for Balinese constellation, native: ᬓᬃᬢᬶᬓ, English: Star
+msgid "Kartika"
+msgstr "Kartika"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Star
+msgctxt "abbreviation"
+msgid "Kar"
+msgstr "Kar"
+
+#. Balinese constellation, native: ᬲᬗ᭄ᬓᬢᬶᬓᭂᬮ᭄, pronounce: Sangkatikěl
+msgid "A Broken Hoe"
+msgstr "破锄头"
+
+#. Pronounce entry for Balinese constellation, native: ᬲᬗ᭄ᬓᬢᬶᬓᭂᬮ᭄, English: A
+#. Broken Hoe
+msgid "Sangkatikěl"
+msgstr "Sangkatikěl"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A Broken Hoe
+msgctxt "abbreviation"
+msgid "SaTi"
+msgstr "SaTi"
+
+#. Balinese constellation, native: ᬲᬮᬄᬳᬸᬓᬸᬃ, pronounce: Salah Ukur
+msgid "Error Measurement"
+msgstr "测量错误"
+
+#. Pronounce entry for Balinese constellation, native: ᬲᬮᬄᬳᬸᬓᬸᬃ, English:
+#. Error Measurement
+msgid "Salah Ukur"
+msgstr "Salah Ukur"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Error
+#. Measurement
+msgctxt "abbreviation"
+msgid "SalU"
+msgstr "SalU"
+
+#. Balinese constellation, native: ᬓᬸᬫ᭄ᬩ, pronounce: Kumba
+msgid "An Earthen Vessel"
+msgstr "陶器"
+
+#. Pronounce entry for Balinese constellation, native: ᬓᬸᬫ᭄ᬩ, English: An
+#. Earthen Vessel
+msgid "Kumba"
+msgstr "Kumba"
+
+#. Abbreviation of constellation in Balinese sky culture, name: An Earthen
+#. Vessel
+msgctxt "abbreviation"
+msgid "Kum"
+msgstr "Kum"
+
+#. Balinese constellation, native: ᬦᬕ, pronounce: Naga
+msgid "A Dragon"
+msgstr "龙"
+
+#. Pronounce entry for Balinese constellation, native: ᬦᬕ, English: A Dragon
+msgid "Naga"
+msgstr "Naga"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A Dragon
+msgctxt "abbreviation"
+msgid "Naga"
+msgstr "Naga"
+
+#. Balinese constellation, native: ᬧ᭄ᬭᬳᬸᬧᭂᬕᬢ᭄, pronounce: Prahu Pěgat
+msgid "A Broken Ship"
+msgstr "破船"
+
+#. Pronounce entry for Balinese constellation, native: ᬧ᭄ᬭᬳᬸᬧᭂᬕᬢ᭄, English: A
+#. Broken Ship
+msgid "Prahu Pěgat"
+msgstr "Prahu Pěgat"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A Broken Ship
+msgctxt "abbreviation"
+msgid "PrPe"
+msgstr "PrPe"
+
+#. Balinese constellation, native: ᬳᬸᬤᬂ, pronounce: Udang
+msgid "A Prawn"
+msgstr "虾"
+
+#. Pronounce entry for Balinese constellation, native: ᬳᬸᬤᬂ, English: A Prawn
+msgid "Udang"
+msgstr "Udang"
+
+#. Abbreviation of constellation in Balinese sky culture, name: A Prawn
+msgctxt "abbreviation"
+msgid "Uda"
+msgstr "Uda"
+
+#. Balinese constellation, native: ᬧᬸᬯᬸᬄᬳᬢᬭᬸᬂ, pronounce: Puwuh Atarung
+msgid "Battling Quails"
+msgstr "争斗的鹌鹑"
+
+#. Pronounce entry for Balinese constellation, native: ᬧᬸᬯᬸᬄᬳᬢᬭᬸᬂ, English:
+#. Battling Quails
+msgid "Puwuh Atarung"
+msgstr "Puwuh Atarung"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Battling
+#. Quails
+msgctxt "abbreviation"
+msgid "PuAt"
+msgstr "PuAt"
+
+#. Balinese constellation, native: ᬮᬭᬸᬂᬧᬕ᭄ᬮᬗᬦ᭄, pronounce: Larung Paglangan
+msgid "Throwing Ashes"
+msgstr "抛撒骨灰"
+
+#. Pronounce entry for Balinese constellation, native: ᬮᬭᬸᬂᬧᬕ᭄ᬮᬗᬦ᭄, English:
+#. Throwing Ashes
+msgid "Larung Paglangan"
+msgstr "Larung Paglangan"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Throwing Ashes
+msgctxt "abbreviation"
+msgid "LaPa"
+msgstr "LaPa"
+
+#. Balinese constellation, native: ᬧᬢᬺᬫ᭄, pronounce: Patrem
+msgid "Keris (Indigenous Dagger)"
+msgstr " Keris （印尼传统匕首）"
+
+#. Pronounce entry for Balinese constellation, native: ᬧᬢᬺᬫ᭄, English: Keris
+#. (Indigenous Dagger)
+msgid "Patrem"
+msgstr "Patrem"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Keris
+#. (Indigenous Dagger)
+#. Abbreviation of constellation in Greek (Farnese + Almagest) sky culture,
+#. name: special feature: unclear
+msgctxt "abbreviation"
+msgid "Pat"
+msgstr "Pat"
+
+#. Pronounce entry for Balinese constellation, native: ᬓᬸᬤ, English: Horse
+msgid "Kuda"
+msgstr "Kuda"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Horse
+msgctxt "abbreviation"
+msgid "Kuda"
+msgstr "Kuda"
+
+#. Balinese constellation, native: ᬬᬸᬬᬸ, pronounce: Yuyu
+msgid "Freshwater Crab"
+msgstr "淡水蟹"
+
+#. Pronounce entry for Balinese constellation, native: ᬬᬸᬬᬸ, English:
+#. Freshwater Crab
+msgid "Yuyu"
+msgstr "Yuyu"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Freshwater
+#. Crab
+msgctxt "abbreviation"
+msgid "Yuyu"
+msgstr "Yuyu"
+
+#. Balinese constellation, native: ᬧ᭄ᬭᬳᬸᬲᬭᬢ᭄, pronounce: Prahu Sarat
+msgid "Overloaded Ship"
+msgstr "超载船"
+
+#. Pronounce entry for Balinese constellation, native: ᬧ᭄ᬭᬳᬸᬲᬭᬢ᭄, English:
+#. Overloaded Ship
+msgid "Prahu Sarat"
+msgstr "Prahu Sarat"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Overloaded
+#. Ship
+msgctxt "abbreviation"
+msgid "PrSa"
+msgstr "PrSa"
+
+#. Balinese constellation, native: ᬢᬗᬶᬲ᭄, pronounce: Tangis
+msgid "Tears (Mourning the Dead)"
+msgstr "眼泪（哀悼死者）"
+
+#. Pronounce entry for Balinese constellation, native: ᬢᬗᬶᬲ᭄, English: Tears
+#. (Mourning the Dead)
+msgid "Tangis"
+msgstr "Tangis"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Tears
+#. (Mourning the Dead)
+msgctxt "abbreviation"
+msgid "Tang"
+msgstr "Tang"
+
+#. Balinese constellation, native: ᬳᬢᬶᬯ​ᬢᬶᬯ, pronounce: Atiwa-tiwa
+msgid "Bringing Corpse to Cremation"
+msgstr "尸体火化"
+
+#. Pronounce entry for Balinese constellation, native: ᬳᬢᬶᬯ​ᬢᬶᬯ, English:
+#. Bringing Corpse to Cremation
+msgid "Atiwa-tiwa"
+msgstr "Atiwa-tiwa"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Bringing
+#. Corpse to Cremation
+msgctxt "abbreviation"
+msgid "Ati"
+msgstr "Ati"
+
+#. Balinese constellation, native: ᬩᬤᬾ, pronounce: Bade
+msgid "Funeral Bier"
+msgstr "灵柩台"
+
+#. Pronounce entry for Balinese constellation, native: ᬩᬤᬾ, English: Funeral
+#. Bier
+msgid "Bade"
+msgstr "Bade"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Funeral Bier
+msgctxt "abbreviation"
+msgid "Bade"
+msgstr "Bade"
+
+#. Pronounce entry for Balinese constellation, native: ᬭᬸ, English: Arrow
+msgid "Ru"
+msgstr "Ru"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Arrow
+msgctxt "abbreviation"
+msgid "Ru"
+msgstr "Ru"
+
+#. Balinese constellation, native: ᬫᬕᭂᬮᬸᬢ᭄, pronounce: Magělut
+msgid "Quarrel over Debt"
+msgstr "债务纠纷"
+
+#. Pronounce entry for Balinese constellation, native: ᬫᬕᭂᬮᬸᬢ᭄, English:
+#. Quarrel over Debt
+msgid "Magělut"
+msgstr "Magělut"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Quarrel over
+#. Debt
+msgctxt "abbreviation"
+msgid "Mag"
+msgstr "Mag"
+
+#. Balinese constellation, native: ᬩᬜᬓ᭄ᬳᬗᬺᬫ᭄, pronounce: Banyak Angrěm
+msgid "The Brooding Goose"
+msgstr "孵蛋的鹅"
+
+#. Pronounce entry for Balinese constellation, native: ᬩᬜᬓ᭄ᬳᬗᬺᬫ᭄, English: The
+#. Brooding Goose
+msgid "Banyak Angrěm"
+msgstr "Banyak Angrěm"
+
+#. Abbreviation of constellation in Balinese sky culture, name: The Brooding
+#. Goose
+msgctxt "abbreviation"
+msgid "BAng"
+msgstr "BAng"
+
+#. Balinese constellation, native: ᬩᬸᬩᬸᬩᭀᬮᭀᬂ, pronounce: Bubu Bolong
+#. Balinese name for coalsack nebula, native: ᬩᬸᬩᬸᬩᭀᬮᭀᬂ
+msgid "Leaky Fish Trap"
+msgstr "有漏洞的鱼篓"
+
+#. Pronounce entry for Balinese constellation, native: ᬩᬸᬩᬸᬩᭀᬮᭀᬂ, English:
+#. Leaky Fish Trap
+msgid "Bubu Bolong"
+msgstr "Bubu Bolong"
+
+#. Abbreviation of constellation in Balinese sky culture, name: Leaky Fish
+#. Trap
+msgctxt "abbreviation"
+msgid "BuBo"
+msgstr "BuBo"
+
+#. Balinese name for NAME Sun, native: ᬲᬸᬗᬾᬗᬾ
+msgid "The Sun"
+msgstr "太阳"
+
+#. Pronounce entry for Balinese name for NAME Sun
+#. Balinese name for NAME Sun, native: ᬲᬸᬗᬾᬗᬾ
+msgid "Sungenge"
+msgstr "Sungenge"
+
+#. Pronounce entry for Balinese name for coalsack nebula
+#. Balinese name for coalsack nebula, native: ᬩᬸᬩᬸᬩᭀᬮᭀᬂ
+msgid "Bubu bolong"
+msgstr "Bubu bolong"
 
 #. Belarusian constellation, native: Illyouo voz
 msgid "Elias's Cart"
@@ -21724,32 +22200,6 @@ msgstr "心宿"
 #. Chinese Song Dynasty Sky constellation, native: 心宿, English: Heart
 msgid "Xīn Xiù"
 msgstr "Xīn Xiù"
-
-#. Chinese constellation, native: 星宿, pronounce: Xīng Xiù
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Pinyin transliteration
-#. Chinese Song Dynasty Sky constellation, native: 星宿, pronounce: Xīng Xiù
-#. Modern (Chinese) asterism
-msgid "Star"
-msgstr "星宿"
 
 #. Pronounce entry for Chinese constellation, native: 星宿, English: Star
 #. Chinese Song Dynasty Sky constellation, native: 星宿, English: Star
@@ -54990,12 +55440,6 @@ msgstr "HaR"
 #. Greek (Farnese + Almagest) constellation, native: [unknown]
 msgid "special feature: unclear"
 msgstr "特点：不明"
-
-#. Abbreviation of constellation in Greek (Farnese + Almagest) sky culture,
-#. name: special feature: unclear
-msgctxt "abbreviation"
-msgid "Pat"
-msgstr "Pat"
 
 #. Greek (Farnese + Almagest) name for M 44
 #. Greek (Leiden Aratea + Almagest) name for M 44

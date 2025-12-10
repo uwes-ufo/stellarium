@@ -61,6 +61,6 @@ jobs:
 
     - uses: actions/upload-artifact@v4
       with:
-        name: installers-${{ matrix.qt }}
+        name: installers-${{ matrix.qt }}-${{ github.sha }}
         path: installers
         retention-days: 2

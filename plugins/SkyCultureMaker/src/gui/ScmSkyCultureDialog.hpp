@@ -42,6 +42,7 @@ class ScmSkyCultureDialog : public StelDialogSeparate
 {
 protected:
 	void createDialogContent() override;
+	bool eventFilter(QObject *obj, QEvent *event) override;
 
 public:
 	ScmSkyCultureDialog(SkyCultureMaker *maker);
@@ -118,11 +119,57 @@ private:
 	QString makeConstellationsSection() const;
 
 	/**
+	 * @brief Clears the references list and resets the helper buttons.
+	 */
+	void resetReferences();
+
+	/**
+	 * @brief Adds a new reference to the list and initiates editing it.
+	 */
+	void addNewReference();
+
+	/**
+	 * @brief Removes selected reference from the list.
+	 */
+	void removeReference();
+
+	/**
+	 * @brief Updates states of the buttons controlling the references list.
+	 */
+	void updateReferencesButtons();
+
+	/**
+	 * @brief Moves the selected reference above the previous reference, renumerating all references.
+	 */
+	void moveCurrentReferenceUp();
+
+	/**
+	 * @brief Moves the selected reference below the next reference, renumerating all references.
+	 */
+	void moveCurrentReferenceDown();
+
+	/**
+	 * @brief Updates reference numbers as shown in the list.
+	 */
+	void updateReferencesNumeration();
+
+	/**
 	 * @brief Gets the description from the text edit.
 	 *
 	 * @return The description from the text edit.
 	 */
 	scm::Description getDescriptionFromTextEdit() const;
+
+	/**
+	 * @brief Compiles the References section from all the references in the list.
+	 */
+	QString makeReferencesSection() const;
+
+	/**
+	 * @brief Opens the constellation dialog with data for a given constellation.
+	 * @param constellationId The ID of the constellation to open the dialog for.
+	 */
+	void openConstellationDialog(const QString &constellationId);
 };
 
 #endif // SCM_SKY_CULTURE_DIALOG_HPP

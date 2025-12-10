@@ -215,6 +215,7 @@ msgstr ""
 #. Arabic (Al-Sufi) sky culture license section in markdown format
 #. Babylonian (MUL.APIN) sky culture license section in markdown format
 #. Babylonian (Seleucid) sky culture license section in markdown format
+#. Balinese sky culture license section in markdown format
 #. Egyptian (Dendera) sky culture license section in markdown format
 #. Greek (Almagest) sky culture license section in markdown format
 #. Greek (Dante) sky culture license section in markdown format
@@ -1766,6 +1767,306 @@ msgid ""
 "<p><em>Susanne M Hoffmann:   service@uhura-uraniae.com </em></p>"
 msgstr ""
 
+#. Balinese sky culture name
+msgid "Balinese"
+msgstr ""
+
+#. Balinese sky culture introduction section in markdown format
+msgid ""
+"Balinese people have had a strong connection to the cosmos since ancient "
+"times. They rely on the cosmos because they believe that every celestial "
+"body has power and will impact what they will or have done. Therefore, in "
+"carrying out all activities, from social to civil and ritual, they must know"
+" the right time to do so, guided by the celestial conditions."
+msgstr ""
+
+#. Balinese sky culture description section in markdown format
+msgid ""
+"Bali, one of the provinces in Indonesia, is a strategic island for cultural exchange, as the island is located between Java and Lombok Island. Most people recognize Bali as a tourist island; meanwhile, this refers to Bali Island, not Bali Province. Aside from Bali Island, Bali province has other small islands nearby, namely Nusa Penida, Nusa Lembongan, Nusa Ceningan, Serangan, and Menjangan. The majority of Bali's population is Balinese Hindus, who are slightly different from Indian Hindus. They also have their own language, Balinese. Bali utilizes its territory as a primary source of income through tourism. However, before the 18th century, its inhabitants made their living in agriculture and fishing. Through the original lifestyle, they have a system for determining the right time to do rituals and live by interpreting the sky.\n"
+"\n"
+"From its location, Balinese sky culture is one of the unique sky cultures in Indonesia due to its mixture of cultures. This sky culture has a mixture of influences from China and India through the religion transmission, Hindu-Buddhist, and trade. Polynesian influence existed earlier, given that Polynesians were accustomed to seafaring. Furthermore, it is known that most of the ancestors of Indonesians were sailors, which is supported by the fact that Indonesia is an archipelago.\n"
+"\n"
+"<img width=\"900\" src=\"illustrations/descr_pics/Map.png\"/>\n"
+"\n"
+"<i>Cultural Map that influences Balinese Sky Culture</i>\n"
+"\n"
+"In written form, Balinese sky culture is preserved in lontar or leaves of Borassus flabellifer or palmyra which is dried and used as a material for manuscript and antique crafts. This sky culture is related to Balinese calendar, and this system is Palelintangan. Palelintangan is a set of 35 asterisms that has a deep connection between cosmic movement and human life. Basically, they rely their daily activities based on which palelintangan is appear in that time. They believe each lintang of palelintangan has their own cosmos power to handle their work.\n"
+"\n"
+"Palelintangan is formed by combining seven-day cycle (from Redite/Sunday to Saniscara/Saturday) and five-day cycle (from Umanis to Kliwon). Palelintangan adopted Nakṣatra system and combining with the earlier existing concept in Bali. From all 35-lintang, four of them could not be considered as constellation. They are lintang Laweyan, lintang Děpat, lintang Dupa and lintang Srengenge. \n"
+"\n"
+"### Sky\n"
+"\n"
+"This sky culture has one small lintang system called \"Kartika\". You can see it clearly if you zoom into the Pleiades. \n"
+"Balinese people are gifted in art. They use art to admire the cosmos and the gods who guard it. Consequently, the constellations depicted in this culture are found not only on palm-leaf manuscripts but also on textiles sold in the marketplace. Furthermore, they also depict them on buildings such as the Floating Pavilion, used for royal gatherings, receiving guests, and ceremonial purposes.\n"
+"\n"
+"### Moon and Sun\n"
+"\n"
+"Bali has two distinct calendars: the Pawukon calendar and the Balinese Saka calendar.\n"
+"\n"
+"The Pawukon calendar is a purely arithmetic calendar with a 210-day cycle, divided into 30 seven-day units called wuku. This calendar does not have a new year but begins with the Sinta wuku. This calendar is related to the Palelintangan system. Furthermore, most feast days in Bali are determined based on the Pawukon calendar.\n"
+"\n"
+"Next is the Balinese Saka calendar, a Balinese Hindu lunisolar calendar with a normal year consisting of 12 months. The beginning of each month is determined by the new moon (called Tilem). The waxing phase of the moon is called Penanggal, and the waning phase is called Panglong. The difference in the number of days in the solar and lunar years results in an intercalation of 11 days, which is then added to form the 13th month every three years. The New Year is called Nyepi (Silence Day), the first day of the 10th month (Sasi Kadasa). It always falls on the day after Tilem, which is closest to (but after) the March equinox. Coupled with intercalation regulations, Nyepi is kept in the mid-March to mid-April Gregorian calendar.\n"
+"\n"
+"For the civil calendar, in Indonesia, all regions are required to follow the national calendar. However, Bali has its calendars for religious rituals. The Balinese government eventually took the initiative to combine various calendar systems and adapt all Indonesian holidays to the one civil Balinese calendar. As a result, this calendar circulating in the community has become a complex one, consisting of the Saka Balinese calendar, the Pawukon calendar, the Saka Javanese calendar, the Chinese calendar, and the Japanese calendar. Therefore, a single date contains information from various calendar systems used in Bali.\n"
+"\n"
+"### Other Celestial Objects\n"
+"\n"
+"The Balinese consider comets to be stars, calling them lintang Dupa. Dupa is an incense. They think that comets are similar to incense. Furthermore, lintang Laweyan and lintang Děpat are unique. These two lintangs are related to the story of Kalau Rau, a powerful demon who stole the holy water (tirta amerta) that can make anybody immortality. His actions were discovered by the Sun God and Moon God. One of their weapons split the demon's head and body. His head is called lintang Laweyan, which in Vedic concept is associated with Rahu.  Meanwhile, his body is called lintang Děpat, which in Vedic concept is associated with Ketu. In astronomical concept, lintang Laweyan is the lunar ascending node, and the descending node is lintang Děpat."
+msgstr ""
+
+#. Description of Balinese constellation Upside-down Demon
+msgid ""
+"Kala Sungsang is an upside-down demon. Sungsang itself is inverted. Kala also means time. So the duty of this demon is to remind people who forget or even neglect the time.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Ra_U.jpg\"/>"
+msgstr ""
+
+#. Description of Balinese constellation An Elephant
+msgid ""
+"Gajah is an elephant. In Hinduism, the elephant has a connection with deities. On the one hand, an elephant is a vehicle of the God Indra; together they eradicate the forces of evil. On the other hand, God Ganesha is a god who has an elephant’s head with a human body. \n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Ra_Pa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Keris (Indigenous Dagger)
+msgid ""
+"Patrem is keris (indigenous dagger). A royal spy code or women use this kind of dagger.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Ra_Po.jpg\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A Plough
+msgid ""
+"Těnggala is a plough. Betelgeuse is the red pain of the farmer. Bellatrix is the farmer's eye. Orion's belt is the plough. Rigel and other stars to the west are the animals (cow).\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Ra_Wa.jpg\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A Leaning Coconut Tree
+msgid ""
+"Klapa Sunda is a leaning coconut tree. There is a man in the coconut tree. He can't climb because there are two ants fighting on his foot.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Ca_U.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A Widow
+msgid ""
+"Hulanjar is a widow.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Ca_Po.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A White Ox
+msgid ""
+"Lěmbu is a white ox or a white cow. Lembu is a sacred animal in Bali.  Lembu are used in agricultural rituals such as traditional ploughing of fields, which contains the meaning of respect for nature. In addition, the majority of Hindus do not eat cows because cows are the mounts of the god Shiva.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Ca_Wa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation An Empty Horse Cart
+msgid ""
+"Pědati Suung is an empty horse cart.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Ca_Kli.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Horse
+msgid ""
+"Kuda is a horse. In Bali, horses are closely related to the possessions of high-caste people. because horses are considered a luxury item that not everyone can have.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/A_U.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Freshwater Crab
+msgid ""
+"Yuyu is freshwater crab. In Bali, yuyu can be found in rice fields. However, yuyu are considered pests in rice fields because they often make holes in the ground. In addition, sometimes Balinese people make cetik using yuyu. Cetik is a traditional Balinese poison that has been legendary for hundreds of years.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/A_Pa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A Dog
+msgid ""
+"Asu is a dog. It is not a usual dog, but Balinese dog. Balinese dogs are Proto-dogs or street dogs.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/A_Po.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Overloaded Ship
+msgid ""
+"Prahu Sarat is an overloaded ship and about to sink.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/A_Wa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A Pig
+msgid ""
+"Sidamalung is a pig or wild boar. Pigs are animals that are almost always present in various traditional and religious ceremonies, such as odalan, ngaben, and usaba.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/A_Kli.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Tears (Mourning the Dead)
+msgid ""
+"Tangis is tears of mourning person because a loved one died.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Bu_U.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Elephantfish
+msgid ""
+"Gajahmina is an elephantfish. A sea-creature that have elephant head and fish body. It is a supranatural creature and helps the inhabitants. \n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Bu_Pa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Granary (Paddy Storage)
+msgid ""
+"Lumbung is granary or paddy storage. Lumbung is considered sacred by the Balinese people because it is related to the success of the harvest and the presence of Dewi Sri, the goddess of rice or the goddess of fertility.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Bu_Po.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Star
+msgid ""
+"Kartika is a star and also refering to Vedic Nakṣatra Kṛttika (Krittika).\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Bu_Wa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Bringing Corpse to Cremation
+msgid ""
+"Atiwa-tiwa is bringing corpse to cremation. This is the stage when the corpse has been purified and the people bring the corpse to the cremation place.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Bu_Kli.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A Broken Hoe
+msgid ""
+"Sangkatikěl is a broken hoe.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Wra_U.jpg\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Error Measurement
+msgid ""
+"Salah Ukur is an error measurement. The man with keris tries to fight a big animal. The unbalance of the human size and the big animal stands for this lintang. \n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Wra_Pa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Funeral Bier
+msgid ""
+"Bade is funeral bier. The name for corpse tower in Hindu Bali rituals. Bade has different levels depending on the caste and size of the event.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Wra_Po.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation An Earthen Vessel
+msgid ""
+"Kumba is an earthen vessel. This vessel contains holy water. Kumba is used in the manusa yadnya (ceremony for humans).\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Wra_Wa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A Dragon
+msgid ""
+"Naga is a dragon. Naga are mystical creatures with special powers. The famous Naga Basuki, in particular, is the one that connected to the Bali Strait. \n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Wra_Kli.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation The Brooding Goose
+msgid ""
+"Banyak Angrěm is the brooding Goose. In some areas, this aves is believed to bring peace to those who keep it. They are usually closely related to Hindu religious ceremonies in Bali. They are vehicle for the God Brahma and the magic of the Goddess Saraswati as a symbol of widya which can filter to separate from impurities or things that can lead astray in science.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Su_U.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Leaky Fish Trap
+msgid ""
+"Bubu Bolong is a leaky fish trap. Bubu is a traditional tool made of woven bamboo to catch fish and shrimp. Bubu is a traditional fishing tool where the structure allows fish to enter the bubu easily, but cannot get out again. While bosor is leaking. Using bubu has caught a lot of fish which means big profits, but if the bubu has holes or leaking so that it can release the catch easily. This is one of the shortcomings of bubu.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Su_Pa.jpg\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A Broken Ship
+msgid ""
+"Prahu Pěgat is a broken ship\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Su_Po.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Quarrel over Debt
+msgid ""
+"Magělut is quarrel over debt.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Su_Wa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation A Prawn
+msgid ""
+"Udang is a prawn or a shrimp.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Su_Kli.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Arrow
+msgid ""
+"Ru is an arrow, but basically bow and arrow.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Sa_Pa.jpg\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Battling Quails
+msgid ""
+"Puwuh Atarung is a battling quails.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Sa_Wa.png\"/>"
+msgstr ""
+
+#. Description of Balinese constellation Throwing Ashes
+msgid ""
+"Larung Paglangan means throwing ashes. Cremation will produce the ashes. Here the family needs to throw the ashes to the sea.\n"
+"\n"
+"<img width=\"255\" src=\"illustrations/descr_pics/Sa_Kli.png\"/>"
+msgstr ""
+
+#. Balinese sky culture references section in markdown format
+msgid ""
+" - [#1]: Maaß, Alfred, “Astrologische Kalender der Balinesen — Astrologische Kalender der Balinesen,” in Koninklijk Bataviaasch Genootschap van Kunsten en Wetenschappen, Feestbundel bij gelegenheid van zijn 150 jarig bestaan 1778-1928, 2 vols. (Weltevreden, 1929), Vol. 2, 126-157.\n"
+" - [#2]: Pengkaji Museum Bali, \"Kajian Palelintangan\", (Denpasar, 2019).\n"
+" - [#3]: [Museum Bali](https://museumbali.org/)\n"
+" - [#4]: [Kerta Gosa Museum](https://e-museum.klungkungkab.go.id/kerta-gosa/)"
+msgstr ""
+
+#. Balinese sky culture authors section in markdown format
+msgid ""
+"The Balinese sky culture were compiled and added to Stellarium by <em> Youla A Azkarrula: youlaafifahrvvl@gmail.com </em>. She is a researcher from Bali, Indonesia. She worked for this project based on her pre-doctoral research under supervision of Dr. Dr. Susanne M Hoffmann.\n"
+"\n"
+"The paintings were repainted by: <em>Jessica Gullberg </em>. She is a great artist and illustrator, created numerous original pencil drawings, watercolor paintings, and illustrations of archaeological sites, cultural artifacts, and astronomical interpretations.\n"
+"\n"
+"### About\n"
+"\n"
+"This celestial culture is essentially already partially reflected in the Balinese calendar, which is published annually by the government. Later, in a seminar held by the Bali Museum, previous research by German ethnologist and explorer Alfred Maaß was presented.\n"
+"\n"
+"Alfred Maaß made a report about his journey into an article titled \"Astrologische Kalender der Balinesen\"[#1]. In his article, he gave a description of each lintang in the Palelangan in the form of \"Position in the Sky\". But there are 10 lintangs that are not explained.\n"
+"\n"
+"Then a team from the Bali Museum continued to study deeper about the Palelintangan for the ritual. Furthermore, they mentioned a little about lintang in the form of asterism. They explained that the X-star constellation was similar to the constellation Y (the constellation set by IAU).\n"
+"\n"
+"With an explanation from the two main sources, we began to form Contellation Lines using Sky Culture Maker (SCM) from the description given, composed and triangulation. We have adjusted the full form of Contellation Lines to the images given by each lintang.\n"
+"\n"
+"In anchoring the artwork, we chose to use the re-paint image from the existing sources with the condition that using older images and in accordance with the description given by the resource persons in the Maaß article. Based on the interviews we conducted with several people, namely Hindu Religious Instructors, Chair of the Bali Dharma Hindu Association and the seminar from Balinese astronomers, that the information contained in the Maaß manuscript can be used as a reference because this information comes from traditional leaders in Klungkung. \n"
+"\n"
+"### Acknowledgements\n"
+"\n"
+"The positioning of the Balinese terms in the sky and the drawing of the stick figures for Stellarium had been done by Youla A Azkarrula.\n"
+"As an astronomer she thanks for the help of several scholar and her professor.\n"
+" - Dr. Dr. Susanne M. Hoffmann (Secretary Commission C5 Cultural Astronomy, IAU; FSU, Jena)\n"
+" - Ir I Made Suatjana (Balinese Astronomer)\n"
+" - I Gede Marayana (Balinese Astronomer)\n"
+" - Gede Ketut Sulistyadi (Head of Pesamuan Alit Parisada Hindu Dharma (PHDI) Tabanan Regency)"
+msgstr ""
+
 #. Belarusian sky culture name
 msgid "Belarusian"
 msgstr ""
@@ -2510,68 +2811,77 @@ msgstr ""
 #. Chinese Song Dynasty Sky sky culture introduction section in markdown
 #. format
 msgid ""
-"This sky culture is based on the observation data of Huangyou four years "
-"(1052 AD), and presents the medieval Chinese sky map as faithfully as "
-"possible. This sky culture includes 283 Xingguans (星官, Chinese "
-"Constellations) and 1464 stars (including clusters M7, M44) of the "
-"*Xinyixiangfayao Star Map*. And the determinative star is marked for each "
-"Xingguan that can determine the determinative star. The boundaries of "
-"Twenty-eight Lunar Mansions are based on 1052 AD."
+"This sky culture is based on the observation data from the 4th year of the "
+"Huangyou era (1052 AD), and aims to faithfully reconstruct the star map of "
+"China during the Song Dynasty. This sky culture comprises 283 Xingguans (星官,"
+" Chinese Constellations) and 1464 stars (including clusters M7, M44) from "
+"the *Xinyixiangfayao Star Map*."
 msgstr ""
 
 #. Chinese Song Dynasty Sky sky culture description section in markdown format
 msgid ""
-"### Medieval Xingguans\n"
+"###  Xingguan System\n"
 "\n"
-"From the Three Kingdoms Period to the Ming Dynasty, covering the whole of the Middle Ages, China's star map is similar.\n"
+"The Chinese system of Xingguans originated in antiquity. During the Warring States period (475–221 BC), astronomers Gan De (甘德) and Shi Shen (石申) established independent systems. Another system was attributed to the legendary figure Wuxian (巫咸) of the Shang Dynasty  (16th century BC–1046 BC), though modern scholarship suggests it was likely compiled by later generations in his name. In the Three Kingdoms period (220–280 AD), astronomer Chen Zhuo (陈卓) synthesized these three systems into a unified one, defining 283 Xingguans and 1464 stars. This framework became the standard and was later immortalized in the *Song of the Sky Pacers (步天歌)*, a Tang Dynasty astronomical text written in verse. It remained largely stable until the introduction of Western astronomy in the 17th century.\n"
 "\n"
-"The Xingguans originated in ancient times. Wuxian (巫咸) of Shang Dynasty(16th century BC-1046 BC), Gan De (甘德) and Shi Shen (石申) of The Warring States Period (475–221 BC), created their own Xingguan system respectively. During the Three Kingdoms period (220–280 AD), Chen Zhuo (陈卓) summarized the Xingguans system of Gan De, Shi Shen and Wuxian, including 283 Xingguans and 1464 stars. Since then, Xingguan system has been basically defined, and after a thousand years, there has not been much change. Since the 17th century, Western astronomy has had an impact on Chinese astronomy, and the shape and number of Xingguans have changed significantly. Only about half of the constellations maintained the medieval style.\n"
+"An important concept within this system is the *determinative star*. Before the 17th century, Chinese astronomers generally did not assign names to individual stars; instead, they designated a primary star—though not necessarily the brightest—within each Xingguan as its determinative star. Astronomical observations primarily documented the coordinates of these determinative stars, though in particularly important or special Xingguans, additional stars could also be selected for observation and recording, or even assigned names. For each Xingguan from which a determinative star can be identified, we have marked its determinative star.\n"
 "\n"
-"Determinative star is an important concept. In the Middle Ages, Chinese astronomers did not name all stars, and each Xingguans was chosen as a major star called determinative star. In ancient China, astronomical measurements measured its coordinate position, and other stars in the Xingguan were rarely mentioned. However, some important constellations will be selected more stars for observation and recording. In ancient China, astronomers used mansion distance degrees (determinative star distance) and polar distance degrees to record the position of stars. **In ancient China, the determinative stars of Twenty-eight Lunar Mansions was the benchmark for determining the longitude of the equatorial coordinate system**.\n"
+"**The determinative stars of the Twenty-eight Lunar Mansions were of particular importance, forming—together with the North Celestial Pole—the fundamental reference framework for the ancient Chinese equatorial coordinate system.** \n"
 "\n"
-"The *Song of the Sky Pacers* (步天歌) is an early Chinese star catalogue in the form of poem in heptasyllabic verse, enumerating the names of stars.\n"
+"Due to precession, the determinative stars of the Twenty-Eight Lunar Mansions have varied across different historical periods. A notable example involves the mansions of Turtle Beak and Three Stars. During the Song Dynasty and earlier periods, the determinative star for Turtle Beak was φ¹ Ori, while for Three Stars it was δ Ori. By the 13th century, however, precession had caused φ¹ Ori to shift to a position east of δ Ori, resulting in the phenomenon known as \"Turtle Beak lying within Three Stars,\" which contradicted the traditional sequence of the Twenty-Eight Mansions. This discrepancy became increasingly pronounced by the Qing Dynasty, leading the Imperial Observatory to redefine the determinative stars: for Three Stars, it was changed from δ Ori to ζ Ori, and for Turtle Beak, from φ¹ Ori to λ Ori.\n"
 "\n"
-"Below is *Xinyixiangfayao Star Map* from Su Song(苏颂, 1020-1101 AD).\n"
+"\n"
+"In ancient China, the *Du* (度, Chinese degree) served as the fundamental angular unit for measuring celestial coordinates. It was defined as the mean daily distance traveled by the Sun along the ecliptic. Accordingly, the full celestial circumference was divided into 365.25 *Du*. Historical records note that the radius of the celestial equator measured “slightly more than 91 *Du*” from the North Celestial Pole. Evidently, the *Du* is slightly smaller than the modern degree, equivalent to approximately 0.9856°. Unlike modern angular units, there were no precise subdivisions below the Du (such as arcminutes or arcseconds). Instead, a set of descriptive terms was used to roughly approximate divisions of one Du, either into quarters or tenths.\n"
+"\n"
+"Another angular unit used in traditional Chinese astronomy was the *Chen* (辰). One *Chen* corresponds to a 30-degree segment, and the celestial circle was divided into twelve such units. Thus, one *Chen* equals 30 modern degrees—or slightly less than 30 *Du*, though *Chen* was generally not converted into *Du* in practice. Due to its relatively large scale, the *Chen* was seldom used for precise angular measurement. In later periods, it became more common as a unit of time, dividing one full day into twelve *Chen*, each equivalent to two modern hours.\n"
+"\n"
+"Below is *Xinyixiangfayao Star Map* from Su Song (苏颂, 1020-1101 AD).\n"
 "\n"
 "![](illustrations/xyxfy.png)\n"
+"Xinyixiangfayao Star Map (1088 AD)\n"
+"{: .img_and_caption }\n"
 "\n"
-"*Xinyixiangfayao Star Map(1088 AD)*\n"
+"### Reconstruction of the Sky Map\n"
 "\n"
-"### Restore Sky Map\n"
+"The Imperial Observatory of the Song Dynasty conducted several large-scale stellar observations with remarkable accuracy, surpassing all previous eras in precision. The data from the 4th year of the Huangyou era (1052 AD) is the most complete set that survives today. Based on these records, two significant star charts were produced: the *Xinyixiangfayao Star Map* (based on observational data from 1052 AD, created in 1088 AD) and the *Suzhou Star Map* (based on observational data from 1078 to 1085 AD, carved in 1247 AD).\n"
 "\n"
-"The sky map of the Song dynasty is typical of the Chinese medieval sky map. In 1052 AD, the Song Dynasty official conducted accurate stellar measurements, leaving a lot of data.\n"
+"The historian of astronomy Pan Nai (潘鼐) systematically compiled the observational data from the Huangyou era into the *Huangyou Star Catalog*. By cross-referencing it with the *Xinyixiangfayao Star Map* in his work *The History of Stellar Observation in China*[#1], he reconstructed most of the Song Dynasty Xingguans, serving as the primary reference for this project.\n"
 "\n"
-"Pan Nai(潘鼐) collated these astronomical observations data and based on the *Xinyixiangfayao Star Map*, he restored most of the Song Dynasty's Xingguan in his masterpiece *The History of Stellar Observation in China*, which is the most important reference book. Qi Rui (齐锐) and Wan Haoyi (万昊宜) also restored the Xingguans of the Song Dynasty in the book *Roving China Heavens*, which is also an important reference book.\n"
+"In their work *Roving China Heavens*[#2], Qi Rui (齐锐) and Wan Haoyi (万昊宜) also reconstructed the Song Dynasty Xingguans. Their research primarily referenced the *Suzhou Star Map* . Since the observational data used for this star map dates from slightly later than 1052 AD, *Roving China Heavens* serves as supplementary reference material for this study.\n"
 "\n"
-"Due to the limitation of observation conditions in Song Dynasty, combined with instruments, circulated errors and other reasons, different scholars restored the sky map is somewhat different.\n"
+"Due to the limitations of observational technology and potential errors in transmission, different scholarly reconstructions may vary slightly. Based on the aforementioned works, Stellarium faithfully reconstructs the Chinese night sky of 1052 AD.\n"
 "\n"
-"Based on these books, Stellarium can almost truly present the Chinese medieval sky map of Huangyou four years (1052 AD).\n"
+"### The Milky Way\n"
 "\n"
-"### Planets\n"
+"The Chinese imagine the Milky Way as a river. During the Song Dynasty in China, the official name for the Milky Way was \"天汉\" (pinyin: Tiānhàn), meaning \"river in the heavens.\" It was also referred to as \"银河\" (pinyin: Yínhé)—which remains the modern Chinese official name for the Milky Way—meaning \"silver river.\" In traditional Chinese culture, the Milky Way has also been referred to as \"天河\" (pinyin: Tiānhé), similarly meaning \"river in the heavens\"; \"银汉\" (pinyin: Yínhàn), also meaning \"silvery river\"; \"河汉\" (pinyin: Héhàn), meaning \"river in the sky\"; \"星河\" (pinyin: Xīnghé) or \"星汉\" (pinyin: Xīnghàn), meaning \"river of stars\"; and \"云汉\" (pinyin: Yúnhàn), meaning \"cloud-like river.\"\n"
 "\n"
-"Taiyang (太阳), Sun. The name comes from yin and yang, meaning a lot of yang,\n"
+"### Seven Luminaries\n"
 "\n"
-"Taiyin (太阴), Moon. The name comes from yin and yang, meaning a lot of Yin,\n"
+"The Sun, the Moon, and the five major planets are collectively referred to as the *Seven Luminaries*. The sun and moon are named after *yin and yang*, while the pictographic characters \"日\" (the Sun, pinyin: Rì) and \"月\" (the Moon, pinyin: Yuè) are also used. The five major planets represent the *five elements*, but the following names were the most orthodox designations at the time. Similar to other civilizations around the world, Venus also had additional names depending on whether it appeared in the morning or the evening.\n"
 "\n"
-"Chen Star (辰星), Mercury. Chen is an angle unit, which refers to about 30 degrees. Mercury is always within 30 degrees of the sun.\n"
+"Great Yang (太阳, pinyin: Tàiyáng): The Sun. In Chinese philosophy, it represents the pinnacle of Yang energy.\n"
 "\n"
-"Taibai (太白), Venus. Taibai means big and white.\n"
+"Great Yin (太阴, pinyin: Tàiyīn): The Moon. It represents the pinnacle of Yin energy.\n"
 "\n"
-"Yinghuo (荧惑), Mars. The colors of Mars are like fire, and movement is confusing.\n"
+"Division Star (辰星, pinyin: Chénxīng): Mercury. From Earth, Mercury's angular distance from the Sun never exceeds 28 degrees, remaining within one *Chen* (a 30-degree unit, see discussion of *Chen* above), and thus it is historically known as *Division Star*.\n"
 "\n"
-"Sui Star (岁星), Jupiter. It means the old star. Jupiter travels around the celestial sphere for a week every 12 years. The ancients took Jupiter's position as the standard of the chronology.\n"
+"Grand White (太白, pinyin: Tàibái): Venus. It is named for its extremely high brightness and pure white color.\n"
 "\n"
-"Zhen Star (填星), Saturn. Zhen, means passing Lunar Mansions. Saturn travels around the celestial sphere about every 28 years. Saturn will pass through a Lunar Mansion every year."
+"Spark-Weaver (荧惑, pinyin: Yínghuò): Mars. It is named for its fiery red color and its erratic, unpredictable orbit.\n"
+"\n"
+"Year Star (岁星, pinyin: Suìxīng): Jupiter. Jupiter's orbital period of approximately 12 years was used by the ancients to mark the cycle of years, hence its name.\n"
+"\n"
+"Stabilizer Star (填星, pinyin: Zhènxīng): Saturn. In traditional theory, Saturn was believed to take about 28 years to orbit the heavens, *guarding* or *filling* one lunar mansion each year."
 msgstr ""
 
 #. Chinese Song Dynasty Sky sky culture references section in markdown format
 msgid ""
-" - [#1]: Pan Nai. The History of Stellar Observation in China\n"
-" - [#2]: Qi Rui and Wan Haoyi. Roving China Heavens\n"
-" - [#3]: Su Song. *Xinyixiangfayao Star Map*\n"
-" - [#4]: *Records of the Grand Historian*\n"
-" - [#5]: *Book of Sui*\n"
-" - [#6]: *History of Song*\n"
+" - [#1]: Pan Nai. *Zhongguo Hengxing Guance Shi [The History of Stellar Observation in China]*. Shanghai: Xuelin Publishing House, 2009.\n"
+" - [#2]: Qi Rui, Wan Haoyi. *Manbu Zhongguo Xingkong [Roving China Heavens]*. Beijing: Science Popularization Press, 2014.\n"
+" - [#3]: Su Song (Song Dynasty). *Xinyixiangfayao Yizhu [Annotated Translation of Xinyixiangfayao]*. Translated and annotated by Lu Jingyan and Qian Xueying. Shanghai: Shanghai Ancient Books Publishing House, 2008.\n"
+" - [#4]: Sima Qian (Han Dynasty). *Shiji [Records of the Grand Historian]*. Compiled with commentary by Pei Yin (Liu Song Dynasty), indexed by Sima Zhen (Tang  Dynasty), and annotated by Zhang Shoujie (Tang  Dynasty). Beijing: Zhonghua Book Company, 2014.\n"
+" - [#5]: Wei Zheng, et al. (Tang Dynasty). *Suishu [Book of Sui]* Beijing: Zhonghua Book Company, 1997.\n"
+" - [#6]: Tuotuo, et al. (Yuan Dynasty). *Songshi [History of Song]*. Beijing: Zhonghua Book Company, 1985.\n"
 "\n"
 "### External links\n"
 "\n"
@@ -5373,6 +5683,108 @@ msgid ""
 "However, there are also a few original Greek words like the red star \"Antares\", the counterpart of Ares (Mars), and even a few original Babylonian terms like \"Shargaz\", the Sting, in Scorpius. Our modern, most recent IAU star names [#45] are a renewed mixture, also with influences or even politically wanted additions of star names from the non-Ptolemaic sky cultures, e.g. the traditional Pingsing, a Chinese star name for a star in Hydra (its meaning is only \"star\", a reminescence to his lonely position), or newly adopted star names from Polynesian, Hawaiian, or Aboriginal cultures for names of stars with exoplanets.\n"
 "\n"
 "The IAU is the only scientifically accepted authority to assign new names to stars. Commercial exploits like \"star name registries\", who sell stars for commemorative purposes or as gifts, only sell printed pieces of paper. These names are not approved and never used by scientists."
+msgstr ""
+
+#. Description of Modern constellation Cassiopeia
+msgid ""
+"Shown as the Seated Queen, Cassiopeia had boasted about her beauty, so much "
+"as to enrage Poseidon. The latter sent the sea monster Cetus which ravaged "
+"the coast of Ethiopia. An oracle promised Cetus would only go away when "
+"Princess Andromeda would be sacrificed to Cetus."
+msgstr ""
+
+#. Description of Modern constellation Cepheus
+msgid ""
+"King Kepheus of Ethiopia was husband of Cassiopeia and father of Andromeda. "
+"After his wife had enraged Poseidon, he had to order that his daughter, "
+"Princess Andromeda, should be sacrificed to Cetus, the sea monster."
+msgstr ""
+
+#. Description of Modern constellation Pegasus
+msgid ""
+"The Winged Horse carried Perseus on his way to rescue Princess Andromeda "
+"from being sacrificed to Cetus."
+msgstr ""
+
+#. Description of Modern constellation Perseus
+msgid ""
+"The hero Perseus came in flying on Pegasus to rescue Andromeda from being "
+"sacrificed. In his hand he carries Medusa's head with the variable star "
+"Algol, which he presented to the sea monster Cetus just as it was about to "
+"devour Andromeda. Its magic caused Cetus to immediately turn to a rock. "
+"Before freeing Andromeda from her chains, he dropped the sack with Medusa's "
+"head to the beach. When the surf opened the sack, nearby algae were "
+"petrified into corals."
+msgstr ""
+
+#. Description of Modern constellation Orion
+msgid ""
+"The famous hunter Orion was killed by a Scorpion, but was transferred into one of the most prominent constellations, notably just opposite of Scorpius. He is accompanied by the Greater and Lesser Dogs.  \n"
+"\n"
+"Orion is host of one of the most spectacular star-forming regions, the Great Orion Nebula, Messier 42."
+msgstr ""
+
+#. Description of Modern constellation Greater Dog
+msgid ""
+"The Greater Dog is one of Orion's hunting companions. Its main star, "
+"*Sirius*, is the brightest of the fixed stars."
+msgstr ""
+
+#. Description of Modern constellation Lesser Dog
+msgid "The Lesser Dog is one of Orion's hunting companions."
+msgstr ""
+
+#. Description of Modern constellation Hercules
+msgid ""
+"Hercules, or the Kneeler, was a Greek hero, a son of Zeus with Alkmene. When his half-sister Athena tried to put him on Hera's breast, his biting caused Hera to push him away, and Hera's milk spilled all over the sky, creating the Milky Way. Hercules had to fulfill 12 major labours and countless other fights and adventures.  In the northern sky, he is actually upside-down, with his head, *Ras Algethi* next to the head of Ophiuchus, *Rasalhague*, and he is seen to trample on the head of Draco, the dragon. \n"
+"\n"
+"Hercules hosts the magnificent globular cluster Messier 13, and a smaller one, Messier 92."
+msgstr ""
+
+#. Description of Modern constellation Boötes
+msgid ""
+"This figure is described either as cow shepherd moving behind the seven oxen"
+" (*septemtriones*) according to the Romans, or in Greek tradition of "
+"*Arktophylax*, as figure related to the Greater Bear. Ptolemy described its "
+"brightest star, *Arcturus*, as not belonging to the actual shape but as "
+"bright star lying between his knees. Starting with the atlas of Polish "
+"astronomer Jan Hevelius in the 17th century, Boötes leads the Hunting Dogs "
+"on leashes."
+msgstr ""
+
+#. Description of Modern constellation Capricornus
+msgid ""
+"The Sea-Goat constellation is of Babylonian origin and is depicted, as the name says, as \"having horns like a goat\", with the back of the body in shape of a fish tail. In antiquity it used to stand along the southernmost part of the ecliptic which defines the Tropic of Capricorn. Precession has meanwhile moved the stars a full sign to the west, so that the Zodiacal First point of Capricorn lies near the eastern edge of Sagittarius.\n"
+"\n"
+"Capricornus includes one bright globular cluster, Messier 30."
+msgstr ""
+
+#. Description of Modern constellation Eridanus
+msgid ""
+"The large constellation of the river Eridanus flows from its origin near *Rigel* in a winding curve towards the south. When Phaethon, son of Helios, failed to control his father's Sun wagon, Zeus had to throw a thunderbolt and Phaethon plunged burning into the Eridanus river.\n"
+"\n"
+"The brightest star *Archernar* is too far south to have been observed from the Mediterranean, so usually *Acamar* used to be the final observable star of the river."
+msgstr ""
+
+#. Description of Modern constellation Phoenix
+msgid ""
+"The Phoenix is the largest of the four \"Southern Birds\" introduced by "
+"Petrus Plancius on a celestial globe from 1598, based on observations by "
+"Pieter Dirkszoon Keyser and Frederick de Houtman. The others are the "
+"Peacock, the Crane, and the Toucan."
+msgstr ""
+
+#. Description of Modern constellation Lynx
+msgid ""
+"The constellation of Lynx was introduced by Polish astronomer Jan Hevelius "
+"in the late 17th century. You need the eyes of a Lynx to see it."
+msgstr ""
+
+#. Description of Modern constellation Sculptor
+msgid ""
+"French astronomer Abbé Nicolas-Louis de la Caille created the _Apparatus Sculptoris_, the sculptor's studio in the 1750s, later shortened to Sculptor. \n"
+"\n"
+"While the constellation only hosts dim stars, deep-sky observers will enjoy galaxies: The Sculptor Galaxy (NGC 253), NGC 55 or even the Sculptor Dwarf galaxy."
 msgstr ""
 
 #. Modern sky culture references section in markdown format
