@@ -631,7 +631,17 @@ Vec4f AtmosphereShowMySky::getMeanPixelValue()
 bool AtmosphereShowMySky::dynamicResolution(StelProjectorP prj, Vec3d &currPos, int width, int height)
 {
 	if (!flagDynamicResolution)
+	{
+		// There's nothing to do here, we're drawing in full resolution and full frame rate.
 		return false;
+	}
+
+	// If the scene is rendered in real time and is practically static,
+	// Stellarium generates approximately 18 frames per second.
+	// We draw about one atmosphere per second at full resolution.
+	// For faster-moving scenes, Stellarium increases the frame rate to the maximum,
+	// perhaps 50 frames per second depending on the hardware's capabilities.
+	// We draw about 10 atmospheres per second in reduced resolution.
 
 	const auto currFov=prj->getFov(), currFad=fader.getInterstate();
 	Vec3d currSun;
@@ -660,7 +670,7 @@ bool AtmosphereShowMySky::dynamicResolution(StelProjectorP prj, Vec3d &currPos, 
 		qCDebug(Atmo) << "dynResTimer" << dynResTimer << "atmoRes" << atmoRes << "changeOfView" << changeOfView.norm() << changeOfView;
 	}
 	// At reduced resolution, we hurry to redraw - at full resolution, we have time.
-	dynResTimer=changed?5:17;
+	dynResTimer=changed?5:17;                                       // dynResTimer is like a clock divider.
 	prevRes=atmoRes;
 	prevFov=currFov;
 	prevFad=currFad;
