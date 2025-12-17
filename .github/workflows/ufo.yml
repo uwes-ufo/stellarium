@@ -51,15 +51,9 @@ jobs:
 
     - run: cp util\spout2\x64\SpoutLibrary.dll stellarium-bin/bin
 
-    - uses: actions/upload-artifact@v4
-      with:
-        name: bin-${{ matrix.qt }}
-        path: stellarium-bin/bin
-        retention-days: 2
-
     - run: cmake --build build --target stellarium-installer
 
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v6
       with:
         name: installers-${{ matrix.qt }}-${{ github.sha }}
         path: installers
