@@ -20,14 +20,14 @@ jobs:
     steps:
     
     - shell: bash
-      run: echo DATE=$(date +%F) >> $GITHUB_ENV
+      run: echo DATE=$(date +%F_%R) >> $GITHUB_ENV
 
     - uses: actions/cache@v5
       id: cache
       with:
         path: ./
         key: cache-${{ matrix.qt }}-${{ env.DATE }}
-        restore-keys: cache-${{ matrix.qt }}
+        # restore-keys: cache-${{ matrix.qt }}
 
     - uses: jurplel/install-qt-action@v4
       with:
