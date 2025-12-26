@@ -432,12 +432,14 @@ QString StarWrapper1::getInfoString(const StelCore *core, const InfoStringGroup&
 			{
 				if (wdsSep>60.f) // A wide binary star?
 					oss << QString("%1 (%4): %2\" (%3)").arg(
-									    q_("Separation"),
+									    // TRANSLATORS: This is about the angular separation between components of a binary star.
+									    q_("Component separation"),
 									    QString::number((binary_sep>0.f) ? binary_sep: wdsSep, 'f', 3),
 									    StelUtils::decDegToDmsStr(((binary_sep>0.f) ? binary_sep: wdsSep)/3600.f),
 									    (binary_sep>0.f) ? qc_("on date", "coordinates for current epoch"): QString::number(wdsObs)) << "<br />";
 				else
-					oss << QString("%1 (%3): %2\"").arg(q_("Separation"), QString::number(wdsSep, 'f', 3), QString::number(wdsObs)) << "<br />";
+					// TRANSLATORS: This is about the angular separation between components of a binary star.
+					oss << QString("%1 (%3): %2\"").arg(q_("Component separation"), QString::number(wdsSep, 'f', 3), QString::number(wdsObs)) << "<br />";
 			}
 		}
 	}
@@ -740,6 +742,7 @@ QString StarWrapper1::getNarration(const StelCore *core, const InfoStringGroup& 
 		if (vMm>0)
 		{
 			const QString mmStr = ebsFlag ? qc_("The duration fraction of an eclipse is %1, that is, %2.", "object narration") :
+							// TRANSLATORS: "Rising" here is not a rise above the horizon, but the growing stage of a stellar light curve
 							qc_("The rising time fraction is %1, that is, %2.", "object narration: light curve");
 
 			QString dms = StelUtils::daysFloatToDHMSnarration(vPeriod * vMm / 100.f);
@@ -755,12 +758,14 @@ QString StarWrapper1::getNarration(const StelCore *core, const InfoStringGroup& 
 			if (wdsSep>0.f && wdsSep<999.f) // A spectroscopic binary or not?
 			{
 				if (wdsSep>60.f) // A wide binary star?
-					oss << QString(qc_("Its Separation for %1 is %2 arc-seconds (%3). ", "object narration"))
+					// TRANSLATORS: This is about the angular separation between components of a binary star.
+					oss << QString(qc_("Its component separation for %1 is %2 arc-seconds (%3). ", "object narration"))
 					       .arg((binary_sep>0.f) ? qc_("current date", "coordinates for current epoch"): StelUtils::narrateDecimal(wdsObs, 1),
 						    StelUtils::narrateDecimal((binary_sep>0.f) ? binary_sep: wdsSep, 2),
 						    StelUtils::decDegToDmsNarration(((binary_sep>0.f) ? binary_sep: wdsSep)/3600.f));
 				else
-					oss << QString(qc_("Its Separation for %1 is %2 arc-seconds. ", "object narration"))
+					// TRANSLATORS: This is about the angular separation between components of a binary star.
+					oss << QString(qc_("Its component separation for %1 is %2 arc-seconds. ", "object narration"))
 					       .arg(StelUtils::narrateDecimal(wdsObs, 1), StelUtils::narrateDecimal(wdsSep, 2));
 				oss << " ";
 			}
@@ -1099,7 +1104,7 @@ QString StarWrapper2::getNarration(const StelCore *core, const InfoStringGroup& 
 	{
 		const QString objectTypeI18nStr = getObjectTypeI18n();
 		if (!varType.isEmpty())
-			oss << QString(qc_("Its type is %1 with variable type %2.", "object narration")).arg(objectTypeI18nStr, varType);
+			oss << QString(qc_("Its type is %1 with variability type %2.", "object narration")).arg(objectTypeI18nStr, varType);
 		else
 			oss << QString(qc_("Its type is %1.", "object narration")).arg(objectTypeI18nStr);
 		oss << ". ";
@@ -1216,6 +1221,7 @@ QString StarWrapper2::getNarration(const StelCore *core, const InfoStringGroup& 
 		if (vMm>0)
 		{
 			const QString mmStr = ebsFlag ? qc_("The duration fraction of an eclipse is %1, that is, %2.", "object narration") :
+							// TRANSLATORS: "Rising" here is not a rise above the horizon, but the growing stage of a stellar light curve
 							qc_("The rising time fraction is %1, that is, %2.", "object narration: light curve");
 
 			QString dms = StelUtils::daysFloatToDHMSnarration(vPeriod * vMm / 100.f);
@@ -1431,7 +1437,7 @@ QString StarWrapper3::getNarration(const StelCore *core, const InfoStringGroup& 
 	{
 		const QString objectTypeI18nStr = getObjectTypeI18n();
 		if (!varType.isEmpty())
-			oss << QString(qc_("Its type is %1 with variable type %2.", "object narration")).arg(objectTypeI18nStr, varType);
+			oss << QString(qc_("Its type is %1 with variability type %2.", "object narration")).arg(objectTypeI18nStr, varType);
 		else
 			oss << QString(qc_("Its type is %1.", "object narration")).arg(objectTypeI18nStr);
 		oss << ". ";
@@ -1504,6 +1510,7 @@ QString StarWrapper3::getNarration(const StelCore *core, const InfoStringGroup& 
 		if (vMm>0)
 		{
 			const QString mmStr = ebsFlag ? qc_("The duration fraction of an eclipse is %1, that is, %2.", "object narration") :
+							// TRANSLATORS: "Rising" here is not a rise above the horizon, but the growing stage of a stellar light curve
 							qc_("The rising time fraction is %1, that is, %2.", "object narration: light curve");
 
 			QString dms = StelUtils::daysFloatToDHMSnarration(vPeriod * vMm / 100.f);
