@@ -92,6 +92,7 @@ void StelToolTip::showToolTip(const QPoint& scenePos, const QString& text)
 
 	label->setText(text);
 	label->setMargin(3);
+	label->setWordWrap(true);
 	updateGeometry();
 	label->adjustSize();
 	// The shift s avoids clicking the tooltip instead of the control it's annotating
@@ -102,7 +103,6 @@ void StelToolTip::showToolTip(const QPoint& scenePos, const QString& text)
 	int y = Y+h+S < H ? Y+s+S : Y-h < 0 ? 0 : Y-h;
 	const QPoint pos(x, y);
 	setPos(pos);
-//	updateGeometry();
 	setVisible(!text.isEmpty());
 }
 
