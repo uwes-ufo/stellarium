@@ -1218,8 +1218,8 @@ void StelGui::setFlagShowFullscreenButton(bool b)
 				QPixmap pxmapGlow32x32(":/graphicGui/miscGlow32x32.png");
 				QPixmap pxmapOn(":/graphicGui/btFullScreen-on.png");
 				QPixmap pxmapOff(":/graphicGui/btFullScreen-off.png");
-				QPixmap pxmapExclusive(":/graphicGui/btFullScreen-managed.png");
-				buttonFullscreen = new StelButton(nullptr, pxmapOn, pxmapOff, pxmapExclusive, pxmapGlow32x32, "actionSet_Full_Screen_Global", false, false, "actionSet_Full_Screen_Exclusive");
+				QPixmap pxmapManaged(":/graphicGui/btFullScreen-managed.png");
+				buttonFullscreen = new StelButton(nullptr, pxmapOn, pxmapOff, pxmapManaged, pxmapGlow32x32, "actionSet_Full_Screen_Global", false, false, "actionSet_Full_Screen_Exclusive");
 			}
 			getButtonBar()->addButton(buttonFullscreen, "060-othersGroup");
 		} else {
