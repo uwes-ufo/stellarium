@@ -27,7 +27,7 @@ jobs:
       with:
         path: ./
         key: cache-${{ matrix.qt }}-${{ env.DATE }}
-        # restore-keys: cache-${{ matrix.qt }}
+        restore-keys: cache-${{ matrix.qt }}
 
     - uses: jurplel/install-qt-action@v4
       with:
@@ -41,6 +41,8 @@ jobs:
     - uses: actions/checkout@v6
       with:
         clean: false
+
+    - run: rm build\src\CMakeFiles\stelMain.dir\core\StelUtils.cpp.obj
 
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
