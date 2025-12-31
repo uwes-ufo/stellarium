@@ -42,7 +42,13 @@ jobs:
       with:
         clean: false
 
-    - run: rm build\src\CMakeFiles\stelMain.dir\core\StelUtils.cpp.obj
+    - run: |
+        ls build
+        ls build\src
+        ls build\src\CMakeFiles
+        ls build\src\CMakeFiles\stelMain.dir
+        ls build\src\CMakeFiles\stelMain.dir\core
+        rm build\src\CMakeFiles\stelMain.dir\core\StelUtils.cpp.obj
 
     - env: 
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
