@@ -29,9 +29,6 @@ jobs:
         key: cache-${{ matrix.qt }}-${{ env.DATE }}
         restore-keys: cache-${{ matrix.qt }}
 
-    - shell: bash
-      run: find build -name StelUtils.*
-
     - uses: jurplel/install-qt-action@v4
       with:
         version: ${{ matrix.qt }}
@@ -49,6 +46,8 @@ jobs:
         CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
       if: steps.cache.outputs.cache-hit == '' 
       run: cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
+
+    - run: rm build/src/stelMain.dir/Release/StelUtils.obj
 
     - run: cmake --build build --config Release -j --target install
 
