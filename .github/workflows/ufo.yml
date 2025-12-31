@@ -29,7 +29,8 @@ jobs:
         key: cache-${{ matrix.qt }}-${{ env.DATE }}
         restore-keys: cache-${{ matrix.qt }}
 
-    - run: find build -name StelUtils.cpp.obj
+    - shell: bash
+      run: find build -name StelUtils.cpp.obj
 
     - uses: jurplel/install-qt-action@v4
       with:
