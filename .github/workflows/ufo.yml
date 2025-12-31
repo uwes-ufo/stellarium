@@ -45,6 +45,7 @@ jobs:
     - run: |
         ls build\src\CMakeFiles\stelMain.dir\Release
         ls build\src\CMakeFiles\stelMain.dir\Release\core
+        find build -name StelUtils.cpp.obj
         rm build\src\CMakeFiles\stelMain.dir\Release\core\StelUtils.cpp.obj
 
     - env: 
