@@ -1,0 +1,58 @@
+name: ufo-incremental
+
+on:
+  push:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+
+  ufo:
+    strategy:
+      fail-fast: false
+      matrix:
+        qt: ["6.8.3", "6.9.3", "6.10.1"]
+    runs-on: windows-latest
+
+    steps:
+    
+    - shell: bash
+      run: echo DATE=$(date +%F_%R) >> $GITHUB_ENV
+
+    - uses: actions/cache@v5
+      id: cache
+      with:
+        path: ./
+        key: cache-${{ matrix.qt }}-${{ env.DATE }}
+        restore-keys: cache-${{ matrix.qt }}
+
+    - uses: jurplel/install-qt-action@v4
+      with:
+        version: ${{ matrix.qt }}
+        host: 'windows'
+        target: 'desktop'
+        cache: true
+        arch: 'win64_msvc2022_64'
+        modules: 'qtcharts qtimageformats qtlocation qtmultimedia qtpositioning qtscxml qtsensors qtserialbus qtserialport qtvirtualkeyboard qtwebchannel qtwebengine qtwebsockets qtwebview debug_info qt5compat qtquicktimeline qtshadertools'
+
+    - uses: actions/checkout@v6
+      with:
+        clean: false
+
+    - env: 
+        CMAKE_PREFIX_PATH: ${{env.QT_ROOT_DIR}}
+      if: steps.cache.outputs.cache-hit == '' 
+      run: cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=stellarium-bin -DSCM_SHOULD_ENABLE_CONVERTER=OFF -G "Visual Studio 17 2022" -A x64
+
+    - run: cmake --build build --config Release -j --target install
+
+    - run: cp util\spout2\x64\SpoutLibrary.dll stellarium-bin/bin
+
+    - uses: actions/upload-artifact@v6
+      with:
+        name: bin-${{ matrix.qt }}-${{ github.sha }}
+        path: stellarium-bin/bin
+        retention-days: 2
