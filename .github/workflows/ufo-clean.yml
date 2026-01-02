@@ -1,4 +1,4 @@
-name: ufo-incremental
+name: ufo-clean
 
 on:
   push:
