@@ -839,7 +839,7 @@ IF(ENABLE_XLSX)
           CPMAddPackage(NAME QXlsxQt${QT_VERSION_MAJOR}
 #               URL https://github.com/QtExcel/QXlsx/archive/refs/tags/v1.5.0.tar.gz
 #               URL_HASH SHA256=4461bb0fc9b88b6a970520e8b32eb7d2fc391a1a5c326b139a0af836278cdb09
-               URL http://codeload.github.com/QtExcel/QXlsx/tar.gz/refs/heads/master
+                URL https://github.com/QtExcel/QXlsx/archive/refs/heads/master.zip
                EXCLUDE_FROM_ALL ON
                SOURCE_SUBDIR QXlsx)
      ENDIF()
@@ -882,11 +882,11 @@ IF(WIN32)
      ### Generate icon file name
      #######################################################
 
-#     IF(STELLARIUM_RELEASE_BUILD)
+     IF(STELLARIUM_RELEASE_BUILD)
           SET(PACKAGE_ICON "stellarium")
-#     ELSE()
-#          SET(PACKAGE_ICON "stellarium-gray")
-#     ENDIF()
+     ELSE()
+          SET(PACKAGE_ICON "stellarium-gray")
+     ENDIF()
 
      #######################################################
      ### Generate a VersionInfo file
