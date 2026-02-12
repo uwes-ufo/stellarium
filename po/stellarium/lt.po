@@ -11450,12 +11450,12 @@ msgstr "Žemės ir Marso didžiausios elongacijos ir tranzitai iš Kalisto"
 #. TRANSLATORS: Name of script
 #: src/translations.h:526
 msgid "Tycho's Supernova"
-msgstr "Tycho's Supernova"
+msgstr "Tycho Supernova"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:528
 msgid "Earth and other Planets from Ceres"
-msgstr "Žemė ir kitos planetos nuo Cereros"
+msgstr "Žemė ir kitos planetos iš Cereros"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:530
@@ -11480,7 +11480,7 @@ msgstr "Didžiausių žinomų žvaigždžių sąrašas"
 #. TRANSLATORS: Name of script
 #: src/translations.h:538
 msgid "Herschel 400 Tour"
-msgstr "Herschel 400 Turas"
+msgstr "Heršelio 400 Turas"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:540
@@ -11490,7 +11490,7 @@ msgstr "Binosky: Giliojo kosmoso objektų stebėjimas binokliu"
 #. TRANSLATORS: Name of script
 #: src/translations.h:542
 msgid "The Jack Bennett Catalog"
-msgstr "Jacko Beneto katalogas"
+msgstr "Džeko Beneto katalogas"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:544
@@ -11550,7 +11550,7 @@ msgstr "Urano analema"
 #. TRANSLATORS: Name of script
 #: src/translations.h:566
 msgid "Messier Marathon"
-msgstr "Messier Maratono"
+msgstr "Messier Maratonas"
 
 #. TRANSLATORS: Name of script
 #: src/translations.h:568
@@ -11729,7 +11729,7 @@ msgid ""
 "Flash of the supernova observed by Tycho Brahe in 1572. The Historical "
 "Supernovae plugin has to be enabled."
 msgstr ""
-"Tycho Brahe 1572 m. pastebėtas supernovos mirksnis. Įjunkite istorinių "
+"Tycho Brahės 1572 m. pastebėtas supernovos mirksnis. Įjunkite istorinių "
 "supernovų įskiepį."
 
 #: src/translations.h:598
@@ -11792,7 +11792,7 @@ msgstr ""
 
 #: src/translations.h:605
 msgid "A tour around objects from the Herschel 400 Catalogue"
-msgstr "Herschel 400 katalogo objektų turas"
+msgstr "Heršelio 400 katalogo objektų turas"
 
 #: src/translations.h:606
 msgid ""
