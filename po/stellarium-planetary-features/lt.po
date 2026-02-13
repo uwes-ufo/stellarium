@@ -61633,7 +61633,7 @@ msgstr "Džordžas Džonstonas; airių fizikas (1826-1911)."
 #: data/nomenclature.fab:11018
 msgctxt "crater"
 msgid "Stratton"
-msgstr "Stratton"
+msgstr "Stratonas"
 
 #: data/nomenclature.fab:11018 data/nomenclature.fab:12814
 #: data/nomenclature.fab:23700 data/nomenclature.fab:24764
@@ -61649,7 +61649,7 @@ msgstr ""
 #: data/nomenclature.fab:11020
 msgctxt "crater"
 msgid "Street"
-msgstr "Street"
+msgstr "Stryt"
 
 #: data/nomenclature.fab:11020 data/nomenclature.fab:12668
 #: data/nomenclature.fab:12670 data/nomenclature.fab:24378
@@ -61691,7 +61691,7 @@ msgstr ""
 #: data/nomenclature.fab:11024
 msgctxt "crater"
 msgid "Strömgren"
-msgstr "Strömgren"
+msgstr "Striomgrenas"
 
 #: data/nomenclature.fab:11024 data/nomenclature.fab:24432
 #: data/nomenclature.fab:24436
@@ -61703,7 +61703,7 @@ msgstr " Elis; danų astronomas (1870-1947)."
 #: data/nomenclature.fab:11026
 msgctxt "crater"
 msgid "Stöfler"
-msgstr "Stöfler"
+msgstr "Stiofleris"
 
 #: data/nomenclature.fab:11026 data/nomenclature.fab:12630
 #: data/nomenclature.fab:12662 data/nomenclature.fab:12752
@@ -61735,7 +61735,7 @@ msgstr "Michailas Fiodorovičius; sovietų astronomas (1893-1966)."
 #: data/nomenclature.fab:11030
 msgctxt "crater"
 msgid "Sverdrup"
-msgstr "Sverdrup"
+msgstr "Sverdrupas"
 
 #: data/nomenclature.fab:11030
 msgctxt "origin"
@@ -61747,7 +61747,7 @@ msgstr " Otas; Norvegijos poliarinis tyrinėtojas (1855-1930)."
 #: data/nomenclature.fab:11032
 msgctxt "crater"
 msgid "Swann"
-msgstr "Swann"
+msgstr "Svenas"
 
 #: data/nomenclature.fab:11032 data/nomenclature.fab:24926
 #: data/nomenclature.fab:24928
@@ -61760,7 +61760,7 @@ msgstr "Viljamas Frencis Grėjus, anglų ir amerikiečių fizikas (1884-1962)."
 #: data/nomenclature.fab:11034
 msgctxt "crater"
 msgid "Störmer"
-msgstr "Störmer"
+msgstr "Stiormeris"
 
 #: data/nomenclature.fab:11034 data/nomenclature.fab:24858
 #: data/nomenclature.fab:24860 data/nomenclature.fab:24862
@@ -61786,7 +61786,7 @@ msgstr "Edvardas; austrų geologas (1831-1914)."
 #: data/nomenclature.fab:11038
 msgctxt "crater"
 msgid "Sylvester"
-msgstr "Sylvester"
+msgstr "Silvesteris"
 
 #: data/nomenclature.fab:11038 data/nomenclature.fab:24930
 msgctxt "origin"
@@ -62018,7 +62018,7 @@ msgstr "Nikola; serbų kilmės amerikiečių mokslininkas (1856-1943)."
 #: data/nomenclature.fab:11072
 msgctxt "crater"
 msgid "Thales"
-msgstr "Thales"
+msgstr "Talis"
 
 #: data/nomenclature.fab:11072 data/nomenclature.fab:25116
 #: data/nomenclature.fab:25152 data/nomenclature.fab:25154
@@ -62036,7 +62036,7 @@ msgstr ""
 #: data/nomenclature.fab:11074
 msgctxt "crater"
 msgid "Thebit"
-msgstr "Thebitas"
+msgstr "Tebitas"
 
 #: data/nomenclature.fab:11074 data/nomenclature.fab:24906
 #: data/nomenclature.fab:24908 data/nomenclature.fab:24910
@@ -62056,7 +62056,7 @@ msgstr ""
 #: data/nomenclature.fab:11076
 msgctxt "crater"
 msgid "Theiler"
-msgstr "Theileris"
+msgstr "Teileris"
 
 #: data/nomenclature.fab:11076
 msgctxt "origin"
@@ -62107,7 +62107,7 @@ msgstr "Graikų astronomas (nežinoma - 412 m. po Kr.)."
 #: data/nomenclature.fab:11084
 msgctxt "crater"
 msgid "Thiessen"
-msgstr "Thiessen"
+msgstr "Tysenas"
 
 #: data/nomenclature.fab:11084 data/nomenclature.fab:25228
 #: data/nomenclature.fab:25230
@@ -62120,7 +62120,7 @@ msgstr "Georgas Heinrichas; vokiečių astronomas (1914-1961)."
 #: data/nomenclature.fab:11086
 msgctxt "crater"
 msgid "Thomson"
-msgstr "Thomson"
+msgstr "Tomsonas"
 
 #: data/nomenclature.fab:11086 data/nomenclature.fab:24360
 #: data/nomenclature.fab:25232 data/nomenclature.fab:25234
@@ -62140,7 +62140,7 @@ msgstr "Gavrilas Adrianovičius; sovietų astronomas (1875-1960)."
 #: data/nomenclature.fab:11090
 msgctxt "crater"
 msgid "Warner"
-msgstr "Warner"
+msgstr "Vorneris"
 
 #: data/nomenclature.fab:11090
 msgctxt "origin"
@@ -62151,7 +62151,7 @@ msgstr "Vorčesteris Ridas; amerikiečių išradėjas (1846-1929)."
 #: data/nomenclature.fab:11092
 msgctxt "crater"
 msgid "Tiling"
-msgstr "Tiling"
+msgstr "Tilingas"
 
 #: data/nomenclature.fab:11092 data/nomenclature.fab:25254
 #: data/nomenclature.fab:25258 data/nomenclature.fab:25260
@@ -62202,7 +62202,7 @@ msgstr "Germanas Stepanovičius; sovietų kosmonautas (1935-2000)."
 #: data/nomenclature.fab:11100
 msgctxt "crater"
 msgid "Tolansky"
-msgstr "Tolansky"
+msgstr "Tolanskis"
 
 #: data/nomenclature.fab:11100
 msgctxt "origin"
@@ -62275,7 +62275,7 @@ msgstr "Konstantinas E.; sovietų fizikas (1857-1935)."
 #: data/nomenclature.fab:11116
 msgctxt "crater"
 msgid "Tsinger (Zinger)"
-msgstr "Cingeris (Zinger)"
+msgstr "Cingeris (Zingeris)"
 
 #: data/nomenclature.fab:11116 data/nomenclature.fab:25340
 #: data/nomenclature.fab:25344
