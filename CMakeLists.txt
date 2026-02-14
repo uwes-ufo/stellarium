@@ -449,12 +449,10 @@ ENDIF()
 # SPOUT allows relaying the Stellarium OpenGL framebuffer as DirectX texture in other programs.
 # It exists on Windows only. Syphon is a similar system for MacOS, this might be added by a Mac developer.
 IF(WIN32)
-     IF(${CMAKE_SYSTEM_PROCESSOR} MATCHES "AMD64") # for x86_64 desktop
-          SET(STELLARIUM_BUILD_ARM64 0 CACHE BOOL "Build for Windows on ARM")
-     ELSEIF(${CMAKE_SYSTEM_PROCESSOR} MATCHES "ARM64") # for Surface etc.
+     # On AMD64 systems it should be enough to just not set this variable.
+     # To cross-compile, call with cmake -DSTELLARIUM_BUILD_ARM64
+     IF(${CMAKE_SYSTEM_PROCESSOR} MATCHES "ARM64") # for Surface etc.
           SET(STELLARIUM_BUILD_ARM64 1 CACHE BOOL "Build for Windows on ARM")
-     ELSE()
-          message(FATAL_ERROR "Unknown System Architecture: ${CMAKE_SYSTEM_PROCESSOR}")
      ENDIF()
 
      IF(${CMAKE_SYSTEM_VERSION} LESS 6.1 ) # Need Windows 7 or later to enable support of Spout
