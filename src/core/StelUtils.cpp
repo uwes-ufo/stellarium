@@ -94,7 +94,7 @@ QString getOperatingSystemInfo()
 	if (uname(&buff) != -1)
 	{
 		QString revision = QString("%1").arg(buff.version).split(" ").first();
-		OS = QString("%1 R%2 (%3)").arg(buff.sysname, buff.release, revision);
+		OS = QString("%1 %2 (%3)").arg(buff.sysname, buff.release, revision);
 	}
 #endif
 
