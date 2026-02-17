@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: stellarium@googlegroups.com\n"
-"POT-Creation-Date: 2026-01-14 22:14+0700\n"
+"POT-Creation-Date: 2026-02-17 19:37+0700\n"
 "PO-Revision-Date: 2022-10-05 14:25+0000\n"
 "Last-Translator: Gediminas Tauras, 2026\n"
 "Language-Team: Lithuanian (https://app.transifex.com/stellarium/teams/80998/lt/)\n"
@@ -4461,190 +4461,198 @@ msgid "Add 1 synodic month"
 msgstr "Pridėti 1 sinodinį mėnesį"
 
 #: src/core/StelCore.cpp:334
+msgid "Add 1 Metonic cycle"
+msgstr "Pridėti 1 Metono ciklą"
+
+#: src/core/StelCore.cpp:335
 msgid "Add 1 saros"
 msgstr "Pridėti 1 sarą"
 
-#: src/core/StelCore.cpp:335
+#: src/core/StelCore.cpp:336
 msgid "Add 1 draconic month"
 msgstr "Pridėti 1 drakoniškąjį mėnesį"
 
-#: src/core/StelCore.cpp:336
+#: src/core/StelCore.cpp:337
 msgid "Add 1 draconic year"
 msgstr "Pridėti 1 drakoniškuosius metus"
 
-#: src/core/StelCore.cpp:337
+#: src/core/StelCore.cpp:338
 msgid "Add 1 anomalistic month"
 msgstr "Pridėti 1 anomalųjį mėnesį"
 
-#: src/core/StelCore.cpp:338
+#: src/core/StelCore.cpp:339
 msgid "Add 1 anomalistic year"
 msgstr "Pridėti 1 anomalistinius metus"
 
-#: src/core/StelCore.cpp:339
+#: src/core/StelCore.cpp:340
 msgid "Add 100 anomalistic years"
 msgstr "Pridėti 100 anomalistinių metų"
 
-#: src/core/StelCore.cpp:340
+#: src/core/StelCore.cpp:341
 msgid "Add 1 mean tropical month"
 msgstr "Pridėti 1 vidutinį atogrąžinį mėnesį"
 
-#: src/core/StelCore.cpp:341
+#: src/core/StelCore.cpp:342
 msgid "Add 1 mean tropical year"
 msgstr "Pridėti 1 vidutinus atogrąžinius metus"
 
-#: src/core/StelCore.cpp:342
+#: src/core/StelCore.cpp:343
 msgid "Add 100 mean tropical years"
 msgstr "Pridėti 100 vidutinių atogrąžinių metų"
 
-#: src/core/StelCore.cpp:343
+#: src/core/StelCore.cpp:344
 msgid "Add 1 tropical year"
 msgstr "Pridėti 1 atogrąžinius metus"
 
-#: src/core/StelCore.cpp:344
+#: src/core/StelCore.cpp:345
 msgid "Add 1 Julian year"
 msgstr "Pridėkite 1 metus pagal Julijų"
 
-#: src/core/StelCore.cpp:345
+#: src/core/StelCore.cpp:346
 msgid "Add 1 Julian century"
 msgstr "Pridėkite 1 šimtmetį pagal Julijų"
 
-#: src/core/StelCore.cpp:346
+#: src/core/StelCore.cpp:347
 msgid "Add 1 Gaussian year"
 msgstr "Pridėkite 1 metus pagal Gausą"
 
-#: src/core/StelCore.cpp:347
+#: src/core/StelCore.cpp:348
 msgid "Add 1 calendar month"
 msgstr "Pridėkite 1 kalendorinį mėnesį"
 
-#: src/core/StelCore.cpp:348
+#: src/core/StelCore.cpp:349
 msgid "Add 1 calendar year"
 msgstr "Pridėti 1 kalendorinius metus"
 
-#: src/core/StelCore.cpp:349
+#: src/core/StelCore.cpp:350
 msgid "Add 10 calendar years"
 msgstr "Pridėti 10 kalendorinių metų"
 
-#: src/core/StelCore.cpp:350
+#: src/core/StelCore.cpp:351
 msgid "Add 100 calendar years"
 msgstr "Pridėti 100 kalendorinių metų"
 
-#: src/core/StelCore.cpp:351
+#: src/core/StelCore.cpp:352
 msgid "Add 1 Great year"
 msgstr "Pridėti 1 didžiuosius metus"
 
-#: src/core/StelCore.cpp:352
+#: src/core/StelCore.cpp:353
 msgid "Subtract 1 sidereal day"
 msgstr "Atimti 1 žvaigždinę dieną"
 
-#: src/core/StelCore.cpp:353
+#: src/core/StelCore.cpp:354
 msgid "Subtract 7 sidereal days"
 msgstr "Atimti 7 žvaigždines dienas"
 
-#: src/core/StelCore.cpp:354
+#: src/core/StelCore.cpp:355
 msgid "Subtract 1 sidereal year"
 msgstr "Atimti 1 žvaigždinius metus"
 
-#: src/core/StelCore.cpp:355
+#: src/core/StelCore.cpp:356
 msgid "Subtract 100 sidereal years"
 msgstr "Atimti 100 žvaigždinių metų"
 
-#: src/core/StelCore.cpp:356
+#: src/core/StelCore.cpp:357
 msgid "Subtract 1 synodic month"
 msgstr "Atimti 1 sinodinį mėnesį"
 
-#: src/core/StelCore.cpp:357
+#: src/core/StelCore.cpp:358
+msgid "Subtract 1 Metonic cycle"
+msgstr "Atimti 1 Metono ciklą"
+
+#: src/core/StelCore.cpp:359
 msgid "Subtract 1 saros"
 msgstr "Atimti 1 sarą"
 
-#: src/core/StelCore.cpp:358
+#: src/core/StelCore.cpp:360
 msgid "Subtract 1 draconic month"
 msgstr "Atimti 1 drakoniškąjį mėnesį"
 
-#: src/core/StelCore.cpp:359
+#: src/core/StelCore.cpp:361
 msgid "Subtract 1 draconic year"
 msgstr "Atimti 1 drakoniškuosius metus"
 
-#: src/core/StelCore.cpp:360
+#: src/core/StelCore.cpp:362
 msgid "Subtract 1 anomalistic month"
 msgstr "Atimti 1 anomalųjį mėnesį"
 
-#: src/core/StelCore.cpp:361
+#: src/core/StelCore.cpp:363
 msgid "Subtract 1 anomalistic year"
 msgstr "Atimti 1 anomalistinius metus"
 
-#: src/core/StelCore.cpp:362
+#: src/core/StelCore.cpp:364
 msgid "Subtract 100 anomalistic years"
 msgstr "Atimti 100 anomalistinių metų"
 
-#: src/core/StelCore.cpp:363
+#: src/core/StelCore.cpp:365
 msgid "Subtract 1 mean tropical month"
 msgstr "Atimti 1 vidutinį atogrąžinį mėnesį"
 
-#: src/core/StelCore.cpp:364
+#: src/core/StelCore.cpp:366
 msgid "Subtract 1 mean tropical year"
 msgstr "Atimti 1 vidutinius atogrąžinius metus"
 
-#: src/core/StelCore.cpp:365
+#: src/core/StelCore.cpp:367
 msgid "Subtract 100 mean tropical years"
 msgstr "Atimti 100 vidutinių atogrąžinių metų"
 
-#: src/core/StelCore.cpp:366
+#: src/core/StelCore.cpp:368
 msgid "Subtract 1 tropical year"
 msgstr "Atimti 1  atogrąžinius metus"
 
-#: src/core/StelCore.cpp:367
+#: src/core/StelCore.cpp:369
 msgid "Subtract 1 Julian year"
 msgstr "Atimkite 1 metus pagal Julijų"
 
-#: src/core/StelCore.cpp:368
+#: src/core/StelCore.cpp:370
 msgid "Subtract 1 Julian century"
 msgstr "Atimkite 1 amžių pagal Julijų"
 
-#: src/core/StelCore.cpp:369
+#: src/core/StelCore.cpp:371
 msgid "Subtract 1 Gaussian year"
 msgstr "Atimkite 1 metus pagal Gausą."
 
-#: src/core/StelCore.cpp:370
+#: src/core/StelCore.cpp:372
 msgid "Subtract 1 calendar month"
 msgstr "Atimti 1 kalendorinį mėnesį"
 
-#: src/core/StelCore.cpp:371
+#: src/core/StelCore.cpp:373
 msgid "Subtract 1 calendar year"
 msgstr "Atimti 1 kalendorinius metus"
 
-#: src/core/StelCore.cpp:372
+#: src/core/StelCore.cpp:374
 msgid "Subtract 10 calendar years"
 msgstr "Atimti 10 kalendorinių metų"
 
-#: src/core/StelCore.cpp:373
+#: src/core/StelCore.cpp:375
 msgid "Subtract 100 calendar years"
 msgstr "Atimti 100 kalendorinių metų"
 
-#: src/core/StelCore.cpp:374
+#: src/core/StelCore.cpp:376
 msgid "Subtract 1 Great year"
 msgstr "atimti 1 didžiuosius metus"
 
-#: src/core/StelCore.cpp:376
+#: src/core/StelCore.cpp:378
 msgid "Set home planet to selected planet"
 msgstr "Parinktą planetą nustatyti namų planeta"
 
-#: src/core/StelCore.cpp:377
+#: src/core/StelCore.cpp:379
 msgid "Go to home"
 msgstr "Grįžti į pradžią"
 
-#: src/core/StelCore.cpp:379
+#: src/core/StelCore.cpp:381
 msgid "Flip scene horizontally"
 msgstr "Apversti vaizdą horizontaliai"
 
-#: src/core/StelCore.cpp:380
+#: src/core/StelCore.cpp:382
 msgid "Flip scene vertically"
 msgstr "Apversti vaizdą vertikaliai"
 
-#: src/core/StelCore.cpp:2690
+#: src/core/StelCore.cpp:2704
 msgid "Correction is disabled. Use only if you know what you are doing!"
 msgstr "Taisymas atjungtas. Naudokite tik jei žinote, ką darote!"
 
-#: src/core/StelCore.cpp:2693
+#: src/core/StelCore.cpp:2707
 #, qt-format
 msgid ""
 "This historical formula was obtained by C. Schoch in 1931 and was used by G."
@@ -4655,7 +4663,7 @@ msgstr ""
 "Henriksson straipsnyje <em>Einšteino reliatyvumo teorija patvirtinta "
 "senovinių saulės užtemimų</em> (%1). Daugiau informacijos %2čia%3."
 
-#: src/core/StelCore.cpp:2696
+#: src/core/StelCore.cpp:2710
 #, qt-format
 msgid ""
 "This empirical equation was published by G. M. Clemence in the article "
@@ -4664,7 +4672,7 @@ msgstr ""
 "Ši empirinė lygtis buvo paskelbta G. M. Clemence straipsnyje <em>Apie "
 "astronominių konstantų sistemą</em> (%1)."
 
-#: src/core/StelCore.cpp:2699
+#: src/core/StelCore.cpp:2713
 #, qt-format
 msgid ""
 "This formula is based on a study of post-1650 observations of the Sun, the "
@@ -4677,7 +4685,7 @@ msgstr ""
 "<em>Astronominėse formulėse skaičiuotuvams</em>. Ji taip paat naudojama "
 "kompiuterinėje programoje SunTracker Pro."
 
-#: src/core/StelCore.cpp:2703
+#: src/core/StelCore.cpp:2717
 msgid ""
 "This is a slightly modified version of the IAU (1952) formula which was "
 "adopted in the <em>Astronomical Ephemeris</em> and in the <em>Canon of Solar"
@@ -4687,7 +4695,7 @@ msgstr ""
 "Mucke ir Meeus <em>Astronominėse efemeridėse</em> ir <em>Saulės užtemimų "
 "kanone</em> (1983)."
 
-#: src/core/StelCore.cpp:2707
+#: src/core/StelCore.cpp:2721
 msgid ""
 "The tables of Tuckerman (1962, 1964) list the positions of the Sun, the Moon"
 " and the planets at 5- and 10-day intervals from 601 BCE to 1649 CE. The "
@@ -4699,7 +4707,7 @@ msgstr ""
 "santykis taip pat buvo panaudotas Goldstine (1973) sizigijų (trijų kūnų "
 "išsidėstymo vienoje linijoje) lentelėse."
 
-#: src/core/StelCore.cpp:2711
+#: src/core/StelCore.cpp:2725
 #, qt-format
 msgid ""
 "This equation was published by P. M. Muller and F. R. Stephenson in the "
@@ -4710,7 +4718,7 @@ msgstr ""
 "<em>Žemės ir Mėnulio pagreičiai, remiantis ankstyvaisiais astronominiais "
 "stebėjimais</em> (%1)."
 
-#: src/core/StelCore.cpp:2714
+#: src/core/StelCore.cpp:2728
 #, qt-format
 msgid ""
 "This equation was published by F. R. Stephenson in the article <em>Pre-"
@@ -4719,7 +4727,7 @@ msgstr ""
 "Ši lygtis buvo publikuota F. R. Stephenson straipsnyje <em>Ikiteleskopiniai "
 "astronominiai stebėjimai</em> (%1)."
 
-#: src/core/StelCore.cpp:2717
+#: src/core/StelCore.cpp:2731
 #, qt-format
 msgid ""
 "This 12th-order polynomial equation (outdated and superseded by Schmadel & "
@@ -4733,7 +4741,7 @@ msgstr ""
 "1800-1975 laikotarpiu</em> (%1) kaip Brouwer (1952) paskelbtų duomenų "
 "aproksimacija."
 
-#: src/core/StelCore.cpp:2720
+#: src/core/StelCore.cpp:2734
 msgid ""
 "This algorithm was adopted in P. Bretagnon & L. Simon's <em>Planetary "
 "Programs and Tables from -4000 to +2800</em> (1986) and in the PC "
@@ -4743,7 +4751,7 @@ msgstr ""
 "programos ir lentelės nuo -4000 iki +2800 metų</em> (1986) ir kompiuterinėje"
 " planetariumo programoje RedShift."
 
-#: src/core/StelCore.cpp:2723
+#: src/core/StelCore.cpp:2737
 #, qt-format
 msgid ""
 "This formula was published by F. R. Stephenson and L. V. Morrison in the "
@@ -4755,7 +4763,7 @@ msgstr ""
 "(Long-term changes in the rotation of the earth - 700 B.C. to A.D. 1980 - "
 "angl.)</em> (%1)."
 
-#: src/core/StelCore.cpp:2726
+#: src/core/StelCore.cpp:2740
 #, qt-format
 msgid ""
 "This algorithm was published by F. R. Stephenson and M. A. Houlden in the "
@@ -4766,7 +4774,7 @@ msgstr ""
 "<em>Atlas of Historical Eclipse Maps</em> (%1). Šis algoritmas naudojamas PC"
 " planetariumo programoje Guide 7."
 
-#: src/core/StelCore.cpp:2729
+#: src/core/StelCore.cpp:2743
 msgid ""
 "This algorithm was given by F. Espenak in his <em>Fifty Year Canon of Solar "
 "Eclipses: 1986-2035</em> (1987) and in his <em>Fifty Year Canon of Lunar "
@@ -4778,7 +4786,7 @@ msgstr ""
 "penkiasdešimties metų kanonas: 1986-2035 (Fifty Year Canon of Lunar "
 "Eclipses: 1986-2035 - angl.)</em> (1989)"
 
-#: src/core/StelCore.cpp:2732
+#: src/core/StelCore.cpp:2746
 #, qt-format
 msgid ""
 "This formula was obtained by K.M. Borkowski (%1) from an analysis of 31 "
@@ -4787,7 +4795,7 @@ msgstr ""
 "Šią formulę išgavo K.M. Borkowski (%1) iš 31 saulės užtemimų įrašų, darytų "
 "nuo 2137 pr. Kr. iki 1715, analizės."
 
-#: src/core/StelCore.cpp:2735
+#: src/core/StelCore.cpp:2749
 #, qt-format
 msgid ""
 "This 12th-order polynomial equation was published by L. D. Schmadel and G. "
@@ -4800,7 +4808,7 @@ msgstr ""
 "1800-1988</em> (%1) kaip duomenų pritaikymas, remiantis Stephenson & "
 "Morrison (1984) pateiktomis reikšmėmis."
 
-#: src/core/StelCore.cpp:2738
+#: src/core/StelCore.cpp:2752
 msgid ""
 "This formula was adopted by M. Chapront-Touze & J. Chapront in the shortened"
 " version of the ELP 2000-85 lunar theory in their <em>Lunar Tables and "
@@ -4810,7 +4818,7 @@ msgstr ""
 "2000-85 mėnulio teorijos versijoje jų knygos   <em>\"Lunar Tables and "
 "Programs from 4000 B.C. to A.D. 8000\" </em>(1991)."
 
-#: src/core/StelCore.cpp:2741
+#: src/core/StelCore.cpp:2755
 #, qt-format
 msgid ""
 "This equation was published by F. R. Stephenson and L. V. Morrison in the "
@@ -4821,7 +4829,7 @@ msgstr ""
 "<em>Ilgo laikotarpio Žemės sukimosi svyravimai: nuo 700 pr. Kr. iki 1990 m. "
 "e.</em> (%1)."
 
-#: src/core/StelCore.cpp:2744
+#: src/core/StelCore.cpp:2758
 #, qt-format
 msgid ""
 "F. R. Stephenson published this formula in his book <em>Historical Eclipses "
@@ -4830,7 +4838,7 @@ msgstr ""
 "F. R. Stephenson paskelbė šią formulę savo knygoje <em>Historical Eclipses "
 "and Earth's Rotation</em> (%1)."
 
-#: src/core/StelCore.cpp:2747
+#: src/core/StelCore.cpp:2761
 msgid ""
 "From J. Meeus, <em>Astronomical Algorithms</em> (2nd ed., 1998), and widely "
 "used. Table for 1620..2000, and includes a variant of Chapront, Chapront-"
@@ -4840,7 +4848,7 @@ msgstr ""
 " plačiai naudojamas. Lentelė nuo 1620 iki 2000 metų ir apima Chapront, "
 "Chapront-Touze & Francou (1997) variantą datoms už 1620..2000 ribų."
 
-#: src/core/StelCore.cpp:2750
+#: src/core/StelCore.cpp:2764
 #, qt-format
 msgid ""
 "The JPL Solar System Dynamics Group of the NASA Jet Propulsion Laboratory "
@@ -4849,7 +4857,7 @@ msgstr ""
 "JPL Saulės sistemos dinamikos grupė NASA Reaktyvinės traukos laboratorijoje "
 "naudoja šią formulę savo interaktyvioje svetainėje %1JPL Horizons%2."
 
-#: src/core/StelCore.cpp:2753
+#: src/core/StelCore.cpp:2767
 #, qt-format
 msgid ""
 "This polynome was published by J. Meeus and L. Simons in article "
@@ -4858,7 +4866,7 @@ msgstr ""
 "Šis daugianaris buvo paskelbtas J. Meeus ir L. Simons straipsnyje "
 "<em>Daugianarės delta T aproksimacijos, 1620-2000 m.e.</em> (%1)."
 
-#: src/core/StelCore.cpp:2756
+#: src/core/StelCore.cpp:2770
 msgid ""
 "The fourth edition of O. Montenbruck & T. Pfleger's <em>Astronomy on the "
 "Personal Computer</em> (2000) provides simple 3rd-order polynomial data fits"
@@ -4868,7 +4876,7 @@ msgstr ""
 " kompiuteryje\" </em> (2000) leidimas suteikia paprastus 3-osios eilės "
 "polinominius duomenų pritaikymus nesenai praeičiai."
 
-#: src/core/StelCore.cpp:2759
+#: src/core/StelCore.cpp:2773
 msgid ""
 "E. M. Reingold & N. Dershowitz present this polynomial data fit in "
 "<em>Calendrical Calculations</em> (4th ed. 2018) and in their "
@@ -4880,7 +4888,7 @@ msgstr ""
 "Tabulations</em> (2002). Tai pagrįsta Jean Meeus' <em>Astronomical "
 "Algorithms</em> (1991)."
 
-#: src/core/StelCore.cpp:2762
+#: src/core/StelCore.cpp:2776
 #, qt-format
 msgid ""
 "This important solution was published by L. V. Morrison and F. R. Stephenson"
@@ -4891,7 +4899,7 @@ msgstr ""
 "straipsnyje <em>\"Istorinės žemės laikrodžio klaidos dydžiai %1T ir užtemimų"
 " skaičiavimas\" </em>(%2) su priedu (%3)."
 
-#: src/core/StelCore.cpp:2765
+#: src/core/StelCore.cpp:2779
 #, qt-format
 msgid ""
 "From the Length of Day (LOD; as determined by Stephenson & Morrison (%2)), "
@@ -4904,7 +4912,7 @@ msgstr ""
 "kvadratinės funkcijos pagalba. Tai pagrįsta galima periodiškumu, aprašytu "
 "Stephenson (%2). Daugiau informacijos žr. %3čia%4."
 
-#: src/core/StelCore.cpp:2768
+#: src/core/StelCore.cpp:2782
 #, qt-format
 msgid ""
 "This solution by F. Espenak and J. Meeus, based on Morrison & Stephenson "
@@ -4922,7 +4930,7 @@ msgstr ""
 "iki 2500</em> (2014). Ši formulė taip pat naudojama saulės, mėnulio ir "
 "planetų efemeridės programoje SOLEX."
 
-#: src/core/StelCore.cpp:2771
+#: src/core/StelCore.cpp:2785
 msgid ""
 "This solution is modified from F. Espenak and J. Meeus, based on Morrison & "
 "Stephenson (2004) and a polynomial fit through tabulated values for "
@@ -4935,15 +4943,15 @@ msgstr ""
 "pastebėjimų ir prognozių, kurias pateikia IERS Greitojo Serviso/Prognozavimo"
 " centras."
 
-#: src/core/StelCore.cpp:2771
+#: src/core/StelCore.cpp:2785
 msgid "Used by default."
 msgstr "Naudojama pagal nutylėjimą."
 
-#: src/core/StelCore.cpp:2774
+#: src/core/StelCore.cpp:2788
 msgid "PATCHED VERSION WITHOUT ADDITIONAL LUNAR ACCELERATION."
 msgstr "PATAISYTA VERSIJA BE PAPILDOMO MĖNULIO PAGREITINIMO."
 
-#: src/core/StelCore.cpp:2774
+#: src/core/StelCore.cpp:2788
 msgid ""
 "This solution by F. Espenak and J. Meeus, based on Morrison & Stephenson "
 "(2004) and a polynomial fit through tabulated values for 1600-2000."
@@ -4952,7 +4960,7 @@ msgstr ""
 " (2004) ir polinomų priderinimo per lentelės reikšmes nuo 1600 iki 2000 "
 "metų."
 
-#: src/core/StelCore.cpp:2777
+#: src/core/StelCore.cpp:2791
 #, qt-format
 msgid ""
 "This solution by B. Banjevic, based on Stephenson & Morrison (1984), was "
@@ -4963,7 +4971,7 @@ msgstr ""
 "(1984), buvo paskelbtas straipsnyje <em>Senoviniai užtemimai ir Babilono "
 "žlugimo datavimas</em> (%1)."
 
-#: src/core/StelCore.cpp:2780
+#: src/core/StelCore.cpp:2794
 #, qt-format
 msgid ""
 "This solution by S. Islam, M. Sadiq and M. S. Qureshi, based on Meeus & "
@@ -4975,7 +4983,7 @@ msgstr ""
 " Polynomial Approximation of DeltaT</em> (%1) ir peržiūrėtas Sana Islam 2013"
 " metais."
 
-#: src/core/StelCore.cpp:2783
+#: src/core/StelCore.cpp:2797
 #, qt-format
 msgid ""
 "This polynomial approximation with 0.6 seconds of accuracy by M. Khalid, "
@@ -4986,7 +4994,7 @@ msgstr ""
 " Sultana ir Faheem Zaidi, buvo paskelbtas knygoje <em>Delta T: Polynomial "
 "Approximation of Time Period 1620-2013</em> (%1)."
 
-#: src/core/StelCore.cpp:2786
+#: src/core/StelCore.cpp:2800
 #, qt-format
 msgid ""
 "This solution by F. R. Stephenson, L. V. Morrison and C. Y. Hohenkerk (2016)"
@@ -5005,7 +5013,7 @@ msgstr ""
 "intervalo ribų (modeliuojant splaino priderinimu) jis pateikia vertes iš "
 "artimiausios parabolės."
 
-#: src/core/StelCore.cpp:2789
+#: src/core/StelCore.cpp:2803
 #, qt-format
 msgid ""
 "This solution by G. Henriksson was published in the article <em>The "
@@ -5016,7 +5024,7 @@ msgstr ""
 "<em>Mėnulio ir Visatos pagreitis - Gravitono masė</em> (%1) ir remiasi C. "
 "Schoch formule (1931) ."
 
-#: src/core/StelCore.cpp:2792
+#: src/core/StelCore.cpp:2806
 #, qt-format
 msgid ""
 "This is a quadratic formula for calculation of %1T with coefficients defined"
@@ -5025,7 +5033,7 @@ msgstr ""
 "Tai yra kvadratinė formulė %1T skaičiavimui, kurios koeficientai apibrėžiami"
 " naudotojo."
 
-#: src/core/StelCore.cpp:2795 src/core/SimbadSearcher.cpp:187
+#: src/core/StelCore.cpp:2809 src/core/SimbadSearcher.cpp:187
 #: src/gui/ObsListDialog.cpp:87 src/gui/ObsListDialog.cpp:981
 #: src/gui/ObsListDialog.cpp:1005 src/gui/ObsListDialog.cpp:1054
 #: src/gui/ObsListDialog.cpp:1070 src/gui/ObsListDialog.cpp:1111
@@ -5036,7 +5044,7 @@ msgstr ""
 msgid "Error"
 msgstr "Klaida"
 
-#: src/core/StelCore.cpp:2803
+#: src/core/StelCore.cpp:2817
 #, qt-format
 msgid ""
 "The solution's value of %1 for %2 (secular acceleration of the Moon) "
@@ -5045,16 +5053,16 @@ msgstr ""
 "Sprendimo %1 reikšmę %2 (Mėnulio amžinasis pagreitis) reikia pritaikyti, "
 "plačiau žr. vadovą."
 
-#: src/core/StelCore.cpp:2847
+#: src/core/StelCore.cpp:2861
 msgid "with zero values outside this range"
 msgstr "su nulio reikšmėmis už šio intervalo ribų "
 
-#: src/core/StelCore.cpp:2850
+#: src/core/StelCore.cpp:2864
 msgid "with a typical 1-second accuracy and zero values outside this range"
 msgstr ""
 "su tipišku 1 sekundės tikslumu ir nulio reikšmėmis už šio intervalo ribų"
 
-#: src/core/StelCore.cpp:2853
+#: src/core/StelCore.cpp:2867
 msgid ""
 "with a mean error of less than one second, max. error 1.9s, and values for "
 "the limit years outside this range"
@@ -5062,16 +5070,16 @@ msgstr ""
 "su vidutine klaida mažesne nei viena sekundė, maksimali klaida 1,9 s, ir "
 "reikšmės ribiniams metams už šio intervalo"
 
-#: src/core/StelCore.cpp:2860
+#: src/core/StelCore.cpp:2874
 msgid "with values for the limit years outside this range"
 msgstr "su ribinių metų vertėmis už šio intervalo ribų"
 
-#: src/core/StelCore.cpp:2870
+#: src/core/StelCore.cpp:2884
 #, qt-format
 msgid "Valid range of usage: between years %1 and %2, %3."
 msgstr "Galimas panaudojimo diapazonas: tarp %1 ir %2 metų, %3."
 
-#: src/core/StelCore.cpp:2872
+#: src/core/StelCore.cpp:2886
 #, qt-format
 msgid "Valid range of usage: between years %1 and %2."
 msgstr "Galimas panaudojimo diapazonas: tarp %1 ir %2 metų."
@@ -24820,7 +24828,7 @@ msgstr ""
 msgid "Import orbital elements in MPC format..."
 msgstr "Importuoti orbitinius elementus MPC formatu..."
 
-#: plugins/SolarSystemEditor/src/SolarSystemEditor.cpp:766
+#: plugins/SolarSystemEditor/src/SolarSystemEditor.cpp:772
 msgid "Anonymous"
 msgstr "Anonimškai"
 
@@ -26778,7 +26786,7 @@ msgstr "Žvaigždės spindulys Saulės spinduliais"
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:261
 msgid "Detection method of exoplanet"
-msgstr "Aptikimo metodas egzoplanetoms"
+msgstr "Egzoplanetų aptikimo  metodas"
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:287
 msgid "Exoplanets Plug-in"
@@ -26938,8 +26946,8 @@ msgid ""
 msgstr ""
 "Planetos gyvenamumo zonoje, kurių spindulys mažesnis nei 1,5 žemės spindulys"
 " arba minimali masė mažesnė nei 5 žemės masės. Tai geriausi kandidatai į "
-"planetas, kurios gali būti uolėtos ir palaikyti paviršiaus skystą vandenį. "
-"Jie taip pat žinomi kaip šilti teranos."
+"planetas, kurios gali būti uolėtos ir išlaikyti paviršiaus skystą vandenį. "
+"Jie taip pat žinomi kaip šilti teranai."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:342
 msgid "Optimistic Sample"
@@ -27001,7 +27009,7 @@ msgstr ""
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:350
 msgid "Fafnir was a Norse mythological dwarf who turned into a dragon."
-msgstr "Fafnyras buvo skandinaviškas mitologinis nykštukas,pavirtęs drakonu."
+msgstr "Fafnyras buvo skandinaviškas mitologinis nykštukas, pavirtęs drakonu."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:351
 msgid ""
@@ -27069,7 +27077,8 @@ msgstr ""
 "Galilėo Galilėjus (1564-1642) buvo italų astronomas ir fizikas, dažnai "
 "vadinamas <em>stebėjimo astronomijos tėvu</em> ir <em>moderniosios fizikos "
 "tėvu</em>. Naudodamas teleskopą, jis atrado keturis didžiausius Jupiterio "
-"palydovus ir pirmą kartą aprašė Veneros fazes teleskopu, ir kitų atradimų."
+"palydovus ir pirmą kartą stebėjo Veneros fazes teleskopu, ir padarė kitų "
+"atradimų."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:359
 msgid ""
@@ -27080,8 +27089,8 @@ msgid ""
 msgstr ""
 "Tycho Brahe (1546-1601) buvo danų astronomas ir kilmingas asmuo, kuris "
 "užfiksavo tikslų astronominių stebėjimų apie žvaigždes ir planetas. Šie "
-"stebėjimai buvo kritiški Keplerio formulavimui jo trijų planetų judėjimo "
-"įstatymų."
+"stebėjimai buvo kritiški Keplerio trijų planetų judėjimo taisyklių "
+"formulavimui ."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:360
 msgid ""
@@ -27203,8 +27212,8 @@ msgid ""
 "Miguel de Cervantes Saavedra (1547-1616) was a famous Spanish writer and "
 "author of <em>El Ingenioso Hidalgo Don Quixote de la Mancha</em>."
 msgstr ""
-"Miguel de Cervantes Saavedra (1547-1616) buvo garsus Ispanijos rašytojas ir "
-"<em>El Ingenioso Hidalgo Don Quixote de la Mancha</em> autorius."
+"Migelis de Servantesas Saavedra (1547-1616) buvo garsus Ispanijos rašytojas "
+"ir <em>El Ingenioso Hidalgo Don Quixote de la Mancha</em> autorius."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:376
 msgid ""
@@ -27219,7 +27228,7 @@ msgid ""
 "Fictional character and love interest of Don Quijote (or Quixote) in "
 "Cervantes's <em>El Ingenioso Hidalgo Don Quixote de la Mancha</em>."
 msgstr ""
-"Fikcinis personažas ir Don Kichoto (arba Kikoto) meilės objektas Cervanteso "
+"Fikcinis personažas ir Don Kichoto (arba Kikoto) meilės objektas Servanteso "
 "knygoje <em>El Ingenioso Hidalgo Don Quixote de la Mancha</em>."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:378
@@ -27227,7 +27236,7 @@ msgid ""
 "Fictional horse of Don Quijote in Cervantes's <em>El Ingenioso Hidalgo Don "
 "Quixote de la Mancha</em>."
 msgstr ""
-"Fiktyvus Don Kichoto arklys Cervanteso knygoje <em>El Ingenioso Hidalgo Don "
+"Fiktyvus Don Kichoto arklys Servanteso knygoje <em>El Ingenioso Hidalgo Don "
 "Quixote de la Mancha</em>."
 
 #: plugins/Exoplanets/src/gui/ExoplanetsDialog.cpp:379
