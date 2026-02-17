@@ -29768,7 +29768,7 @@ msgid ""
 "When the Moon is selected, the program can compute the exact closest dates "
 "of the Moon's opposition to the Sun."
 msgstr ""
-"Kai pasirenkama Mėnulis, programa gali apskaičiuoti tiksliausias "
+"Kai pasirenkamas Mėnulis, programa gali apskaičiuoti tiksliausias "
 "artimiausias datas, kai Mėnulis yra Saulės opozicijoje."
 
 #: plugins/Observability/src/gui/ObservabilityDialog.cpp:216
