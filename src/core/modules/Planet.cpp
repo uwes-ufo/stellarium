@@ -3859,8 +3859,10 @@ void Planet::draw3dModel(StelCore* core, StelProjector::ModelViewTranformP trans
 	static SolarSystem* ssm = GETSTELMODULE(SolarSystem);
 
 	// Find extinction settings to change colors. The method is rather ad-hoc.
+	// drawOnlyRing is only ever used when observing the own planet's rings. In this case extinction of the own planet's mag is set to zero. (#4619)
+	// (In a more complete solution we should treat the ring as extended object and compute extinction per vertex.)
 	const float vMagnitude=getVMagnitude(core, solarEclipseFactor);
-	const float vMagnitudeWithExtinction=getVMagnitudeWithExtinction(core, vMagnitude);
+	const float vMagnitudeWithExtinction=(drawOnlyRing ? vMagnitude : getVMagnitudeWithExtinction(core, vMagnitude));
 
 	const float extinctedMag=vMagnitudeWithExtinction-vMagnitude; // this is net value of extinction, in mag.
 	const float magFactorGreen=powf(0.85f, 0.6f*extinctedMag);
@@ -4354,7 +4356,7 @@ void Planet::drawSphere(StelPainter* painter, float screenRd, bool drawOnlyRing)
 
 	// Draw the spheroid itself
 	// Adapt the number of facets according with the size of the sphere for optimization
-	const unsigned short int nb_facet = static_cast<unsigned short int>(qBound(10u, static_cast<uint>(screenRd * 40.f/50.f * sqrt(sphereScaleF)), 100u));	// 40 facets for 1024 pixels diameter on screen
+	const unsigned short int nb_facet = static_cast<unsigned short int>(qBound(20u, static_cast<uint>(screenRd * 40.f/50.f * sqrt(sphereScaleF)), 100u));	// 40 facets for 1024 pixels diameter on screen
 
 	// Generates the vertices
 	Planet3DModel model;
