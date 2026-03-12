@@ -1931,35 +1931,45 @@ QString Planet::getDiscoveryNarration() const
 	QString str;
 	if (!discoveryDate.isEmpty())
 	{
-		QString ddate; // = StelUtils::localeDiscoveryDateString(discoveryDate);
-		//QString ddate = discoveryDate; // YYYY
-		QStringList date = discoveryDate.split("-");
-		if (date.count()==3) // YYYY-MM-DD
-			// TRANSLATORS: 3-part date. %1=genitive month name, %2=day numeral (add a point in format string if your language makes ordinals), %3=year
-			ddate = QString(qc_("%1 %2, %3", "date narration")).arg(StelLocaleMgr::longGenitiveMonthName(date.at(1).toInt()), QString::number(date.at(2).toInt()), date.at(0));
-		else if (date.count()==2) // YYYY-MM
-			// TRANSLATORS: 2-part date. %1=month name, %2=year
-			ddate = QString(qc_("%1 %2", "date narration")).arg(StelLocaleMgr::longMonthName(date.at(1).toInt()), date.at(0));
-		else ddate = discoveryDate;
+		QStringList date = discoveryDate.split("-");			
 
 		if (discoverer.isEmpty())
 		{
-			// TRANSLATORS: Narration, only year of dicovery given in %1
-			str = QString(qc_("%1 was discovered in %1", "planet narration")).arg(getNameI18n(), ddate);
-			// TRANSLATORS: Narration, only year and month of dicovery given in %1
-			str = QString(qc_("%1 was discovered in %1", "planet narration")).arg(getNameI18n(), ddate);
-			// TRANSLATORS: Narration, day of dicovery given in %1
-			str = QString(qc_("%1 was discovered on %1", "planet narration")).arg(getNameI18n(), ddate);
+			if (date.count()==3)
+			{
+				// TRANSLATORS: Narration, %1=planet name, day of discovery given in %2=day number, %3=month name, %4=year. Many languages change from American word order used here!
+				str = QString(qc_("%1 was discovered on %3 %2, %4", "planet narration")).arg(getNameI18n(), date.at(2), StelLocaleMgr::longMonthName(date.at(1).toInt()), date.at(0));
+			}
+			else if (date.count()==2)
+			{
+				// TRANSLATORS: Narration, %1=planet name, only year and month of discovery given in %2
+				str = QString(qc_("%1 was discovered in %2 of %3", "planet narration")).arg(getNameI18n(), StelLocaleMgr::longMonthName(date.at(1).toInt()), date.at(0));
+			}
+			else
+			{
+				// TRANSLATORS: Narration, %1=planet name, only year of discovery given in %2
+				str = QString(qc_("%1 was discovered in %2", "planet narration")).arg(getNameI18n(), date.at(0));
+			}
 		}
 		else
 		{
-			// TRANSLATORS: Narration, only year of dicovery given in %1
-			str = QString(qc_("%1 was discovered in %1 by %2", "planet narration")).arg(getNameI18n(), ddate, discoverer);
-			// TRANSLATORS: Narration, only year and month of dicovery given in %1
-			str = QString(qc_("%1 was discovered in %1 by %2", "planet narration")).arg(getNameI18n(), ddate, discoverer);
-			// TRANSLATORS: Narration, day of dicovery given in %1
-			str = QString(qc_("%1 was discovered on %1 by %2", "planet narration")).arg(getNameI18n(), ddate, discoverer);
+			if (date.count()==3)
+			{
+				// TRANSLATORS: Narration, %1=planet name, day of discovery given in %2=day number, %3=month name, %4=year. Many languages change from American word order used here! %5 is discoverer name.
+				str = QString(qc_("%1 was discovered on %3 %2, %4 by %5", "planet narration")).arg(getNameI18n(), date.at(2), StelLocaleMgr::longMonthName(date.at(1).toInt()), date.at(0), discoverer);
+			}
+			else if (date.count()==2)
+			{
+				// TRANSLATORS: Narration, %1=planet name, only month %2 and year %3 of discovery given. %4 is discoverer name.
+				str = QString(qc_("%1 was discovered in %2 of %3 by %4", "planet narration")).arg(getNameI18n(), StelLocaleMgr::longMonthName(date.at(1).toInt()), date.at(0), discoverer);
+			}
+			else
+			{
+				// TRANSLATORS: Narration, %1=planet name, only year of discovery given in %2. %3 is discoverer name.
+				str = QString(qc_("%1 was discovered in %2 by %3", "planet narration")).arg(getNameI18n(), date.at(0), discoverer);
+			}
 		}
+		str.append(". ");
 	}
 	return str;
 }
