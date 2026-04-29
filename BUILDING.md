@@ -110,9 +110,9 @@ Ubuntu 22.04 comes with Qt5.15 and Qt6.2. To build with Qt6:
 sudo apt install build-essential cmake zlib1g-dev libgl1-mesa-dev libdrm-dev libglx-dev \
                  gcc g++ graphviz doxygen gettext git libxkbcommon-x11-dev libgps-dev \
                  gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-pulseaudio \
-                 gstreamer1.0-libav gstreamer1.0-vaapi qt6-image-formats-plugins qt6-svg-dev libqt6svgwidgets6 \
+                 gstreamer1.0-libav gstreamer1.0-vaapi qt6-image-formats-plugins libqt6svg6-dev \
                  qt6-base-private-dev qt6-multimedia-dev qt6-positioning-dev qt6-tools-dev \
-                 qt6-tools-dev-tools qt6-base-dev-tools qt6-qpa-plugins qt6-image-formats-plugins \
+                 qt6-tools-dev-tools qt6-base-dev-tools qt6-qpa-plugins libqt6svgwidgets6 \
                  qt6-l10n-tools qt6-webengine-dev qt6-webengine-dev-tools libqt6charts6-dev \
                  libqt6charts6 libqt6opengl6-dev libqt6positioning6-plugins libqt6serialport6-dev \
                  qt6-base-dev libqt6webenginecore6-bin libqt6webengine6-data \
@@ -305,9 +305,9 @@ https://github.com/Stellarium/stellarium/releases
 Do this command in a terminal (if you prefer, you might use arK or some other graphical archive tool): 
 
 ```
-$ tar zxf stellarium-25.4.tar.gz
+$ tar zxf stellarium-26.1.tar.gz
 ```
-You should now have a directory `stellarium-25.4` with the source code in it.
+You should now have a directory `stellarium-26.1` with the source code in it.
 
 
 ### Clone project from GitHub
@@ -346,7 +346,7 @@ GitHub by web.
 
 #### Windows specifics
 
-On Windows save the file (`master.zip` or `stellarium-25.4.tar.gz`) to the `C:/Devel` directory as 
+On Windows save the file (`master.zip` or `stellarium-26.1.tar.gz`) to the `C:/Devel` directory as 
 example. You will need a decompression program installed in Windows, for example [7-Zip](http://www.7-zip.org/). 
 The root of the source tree will be `C:/Devel/stellarium` for simplicity.
 
@@ -803,6 +803,16 @@ the default target - in our case, building Stellarium, its tests, the localizati
 | package_source | Create a source package for distributions
 | package        | Create a binary packages for distributions on linux/UNIX
 | installer      | Create a binary packages for distributions on Windows
+
+
+### GUI-less Stellarium 
+
+If you run Stellarium in an environment that should never show a GUI dialog or information text output panel to an auditorium, you can build a version without interface. 
+This is not intended to be controlled directly then, but by means of the RemoteControl Web interface, or just by scripting. 
+Note that even information text output requires the User Interface, but the information about the selected object will be displayed in the web interface.
+To build this lightweight version that also lacks a few GUI-heavy plugins, call any cmake run with the argument `STELLARIUM_GUI_MODE="None"`. 
+
+This is also starting point for experimenting with alternative GUI solutions.
 
 Thanks!
 

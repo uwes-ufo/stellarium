@@ -49,7 +49,10 @@
 #include "TrailGroup.hpp"
 #include "StelMovementMgr.hpp"
 
+#ifndef NO_GUI
 #include "AstroCalcDialog.hpp"
+#endif
+
 #include "StelObserver.hpp"
 
 #include <algorithm>
@@ -60,6 +63,7 @@
 #include <QString>
 #include <QStringList>
 #include <QMap>
+#include <QSet>
 #include <QMultiMap>
 #include <QMapIterator>
 #include <QDebug>
@@ -71,6 +75,11 @@
 #include <QOpenGLFunctions>
 #include <QOpenGLShaderProgram>
 #include <QOpenGLVertexArrayObject>
+#include <QFile>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonArray>
+#include <cmath>
 
 
 SolarSystem::SolarSystem() : StelObjectModule()
@@ -118,6 +127,15 @@ SolarSystem::SolarSystem() : StelObjectModule()
 	, ephemerisDataLimit(1)
 	, ephemerisSmartDatesDisplayed(true)
 	, ephemerisScaleMarkersDisplayed(false)
+	, ephemerisLabelYear(true)
+	, ephemerisLabelMonth(true)
+	, ephemerisLabelDay(true)
+	, ephemerisLabelHour(false)
+	, ephemerisLabelMinute(false)
+	, ephemerisLabelSecond(false)
+	, ephemerisFirstOfMonthOnly(false)
+	, ephemerisLabelAntiClutter(false)
+	, ephemerisLabelAntiClutterPx(20)
 	, ephemerisGenericMarkerColor(Vec3f(1.0f, 1.0f, 0.0f))
 	, ephemerisSecondaryMarkerColor(Vec3f(0.7f, 0.7f, 1.0f))
 	, ephemerisSelectedMarkerColor(Vec3f(1.0f, 0.7f, 0.0f))
@@ -126,6 +144,8 @@ SolarSystem::SolarSystem() : StelObjectModule()
 	, ephemerisMarsMarkerColor(Vec3f(1.0f, 0.0f, 0.0f))
 	, ephemerisJupiterMarkerColor(Vec3f(0.3f, 1.0f, 1.0f))
 	, ephemerisSaturnMarkerColor(Vec3f(0.0f, 1.0f, 0.0f))
+        , ephemerisUranusMarkerColor(Vec3f(0.2f, 0.5f, 0.3f))
+        , ephemerisNeptuneMarkerColor(Vec3f(0.2f, 0.3f, 0.5f))
 	, allTrails(Q_NULLPTR)
 	, conf(StelApp::getInstance().getSettings())
 	, extraThreads(0)
@@ -320,14 +340,25 @@ void SolarSystem::init()
 	setEphemerisDataStep(conf->value("astrocalc/ephemeris_data_step", 1).toInt());	
 	setFlagEphemerisSmartDates(conf->value("astrocalc/flag_ephemeris_smart_dates", true).toBool());
 	setFlagEphemerisScaleMarkers(conf->value("astrocalc/flag_ephemeris_scale_markers", false).toBool());
-	setEphemerisGenericMarkerColor( Vec3f(conf->value("color/ephemeris_generic_marker_color", "1.0,1.0,0.0").toString()));
-	setEphemerisSecondaryMarkerColor( Vec3f(conf->value("color/ephemeris_secondary_marker_color", "0.7,0.7,1.0").toString()));
-	setEphemerisSelectedMarkerColor(Vec3f(conf->value("color/ephemeris_selected_marker_color", "1.0,0.7,0.0").toString()));
-	setEphemerisMercuryMarkerColor( Vec3f(conf->value("color/ephemeris_mercury_marker_color", "1.0,1.0,0.0").toString()));
-	setEphemerisVenusMarkerColor(   Vec3f(conf->value("color/ephemeris_venus_marker_color", "1.0,1.0,1.0").toString()));
-	setEphemerisMarsMarkerColor(    Vec3f(conf->value("color/ephemeris_mars_marker_color", "1.0,0.0,0.0").toString()));
-	setEphemerisJupiterMarkerColor( Vec3f(conf->value("color/ephemeris_jupiter_marker_color", "0.3,1.0,1.0").toString()));
-	setEphemerisSaturnMarkerColor(  Vec3f(conf->value("color/ephemeris_saturn_marker_color", "0.0,1.0,0.0").toString()));
+	setFlagEphemerisLabelYear(conf->value("astrocalc/flag_ephemeris_label_year", true).toBool());
+	setFlagEphemerisLabelMonth(conf->value("astrocalc/flag_ephemeris_label_month", true).toBool());
+	setFlagEphemerisLabelDay(conf->value("astrocalc/flag_ephemeris_label_day", true).toBool());
+	setFlagEphemerisLabelHour(conf->value("astrocalc/flag_ephemeris_label_hour", false).toBool());
+	setFlagEphemerisLabelMinute(conf->value("astrocalc/flag_ephemeris_label_minute", false).toBool());
+	setFlagEphemerisLabelSecond(conf->value("astrocalc/flag_ephemeris_label_second", false).toBool());
+	setFlagEphemerisFirstOfMonthOnly(conf->value("astrocalc/flag_ephemeris_first_of_month", false).toBool());
+	setFlagEphemerisLabelAntiClutter(conf->value("astrocalc/flag_ephemeris_anticlutter", false).toBool());
+	setEphemerisLabelAntiClutterPx(conf->value("astrocalc/ephemeris_anticlutter_px", 20).toInt());
+	setEphemerisGenericMarkerColor(  Vec3f(conf->value("color/ephemeris_generic_marker_color",   "1.0,1.0,0.0").toString()));
+	setEphemerisSecondaryMarkerColor(Vec3f(conf->value("color/ephemeris_secondary_marker_color", "0.7,0.7,1.0").toString()));
+	setEphemerisSelectedMarkerColor( Vec3f(conf->value("color/ephemeris_selected_marker_color",  "1.0,0.7,0.0").toString()));
+	setEphemerisMercuryMarkerColor(  Vec3f(conf->value("color/ephemeris_mercury_marker_color",   "1.0,1.0,0.0").toString()));
+	setEphemerisVenusMarkerColor(    Vec3f(conf->value("color/ephemeris_venus_marker_color",     "1.0,1.0,1.0").toString()));
+	setEphemerisMarsMarkerColor(     Vec3f(conf->value("color/ephemeris_mars_marker_color",      "1.0,0.0,0.0").toString()));
+	setEphemerisJupiterMarkerColor(  Vec3f(conf->value("color/ephemeris_jupiter_marker_color",   "0.3,1.0,1.0").toString()));
+	setEphemerisSaturnMarkerColor(   Vec3f(conf->value("color/ephemeris_saturn_marker_color",    "0.0,1.0,0.0").toString()));
+	setEphemerisUranusMarkerColor(   Vec3f(conf->value("color/ephemeris_uranus_marker_color",    "0.2,0.5,0.3").toString()));
+	setEphemerisNeptuneMarkerColor(  Vec3f(conf->value("color/ephemeris_neptune_marker_color",   "0.2,0.3,0.5").toString()));
 
 	setOrbitsThickness(conf->value("astro/object_orbits_thickness", 1).toInt());
 	setTrailsThickness(conf->value("astro/object_trails_thickness", 1).toInt());
@@ -367,13 +398,21 @@ void SolarSystem::init()
 	addAction("actionShow_Planets_EnlargeSun", displayGroup, N_("Enlarge Sun"), "flagSunScale");
 	addAction("actionShow_Planets_ShowMinorBodyMarkers", displayGroup, N_("Mark minor bodies"), "flagMarkers");
 
+#ifndef NO_GUI
 	// Fill ephemeris dates
-	connect(this, SIGNAL(requestEphemerisVisualization()), this, SLOT(fillEphemerisDates()));
-	connect(this, SIGNAL(ephemerisDataStepChanged(int)), this, SLOT(fillEphemerisDates()));
-	connect(this, SIGNAL(ephemerisSkipDataChanged(bool)), this, SLOT(fillEphemerisDates()));
-	connect(this, SIGNAL(ephemerisSkipMarkersChanged(bool)), this, SLOT(fillEphemerisDates()));
-	connect(this, SIGNAL(ephemerisSmartDatesChanged(bool)), this, SLOT(fillEphemerisDates()));
-
+	connect(this, SIGNAL(requestEphemerisVisualization()),        this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisDataStepChanged(int)),          this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisSkipDataChanged(bool)),         this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisSkipMarkersChanged(bool)),      this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisSmartDatesChanged(bool)),       this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisLabelYearChanged(bool)),        this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisLabelMonthChanged(bool)),       this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisLabelDayChanged(bool)),         this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisLabelHourChanged(bool)),        this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisLabelMinuteChanged(bool)),      this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisLabelSecondChanged(bool)),      this, SLOT(fillEphemerisDates()));
+	connect(this, SIGNAL(ephemerisFirstOfMonthOnlyChanged(bool)), this, SLOT(fillEphemerisDates()));
+#endif
 
 	// Create shader program for mass drawing of asteroid markers
 	QOpenGLShader vshader(QOpenGLShader::Vertex);
@@ -498,10 +537,19 @@ void SolarSystem::setTextureForPlanet(const QString& planetName, const QString& 
 
 void SolarSystem::recreateTrails()
 {
+	const QMap<QString, Vec3f>colorMap={
+		{"Mercury", ephemerisMercuryMarkerColor},
+		{"Venus",   ephemerisVenusMarkerColor},
+		{"Mars",    ephemerisMarsMarkerColor},
+		{"Jupiter", ephemerisJupiterMarkerColor},
+		{"Saturn",  ephemerisSaturnMarkerColor},
+		{"Uranus",  ephemerisUranusMarkerColor},
+		{"Neptune", ephemerisNeptuneMarkerColor},
+	};
 	// Create a trail group containing all the planets orbiting the sun (not including satellites)
 	if (allTrails!=Q_NULLPTR)
 		delete allTrails;
-	allTrails = new TrailGroup(maxTrailTimeExtent * 365.f, maxTrailPoints);
+	allTrails = new TrailGroup(maxTrailTimeExtent * 365.f, maxTrailTimeExtent * maxTrailPoints);
 
 	unsigned long cnt = static_cast<unsigned long>(selectedSSO.size());
 	if (cnt>0 && getFlagIsolatedTrails())
@@ -512,7 +560,10 @@ void SolarSystem::recreateTrails()
 		for (unsigned long i=0; i<limit; i++)
 		{
 			if (selectedSSO[cnt - i - 1]->getPlanetType() != Planet::isObserver)
-				allTrails->addObject(static_cast<QSharedPointer<StelObject>>(selectedSSO[cnt - i - 1]), &trailsColor);
+			{
+				Vec3f trailColor=colorMap.value(selectedSSO[cnt - i - 1]->getEnglishName(), trailsColor);
+				allTrails->addObject(static_cast<QSharedPointer<StelObject>>(selectedSSO[cnt - i - 1]), &trailColor);
+			}
 		}
 	}
 	else
@@ -520,7 +571,10 @@ void SolarSystem::recreateTrails()
 		for (const auto& p : std::as_const(getSun()->satellites))
 		{
 			if (p->getPlanetType() != Planet::isObserver)
-				allTrails->addObject(static_cast<QSharedPointer<StelObject>>(p), &trailsColor);
+			{
+				Vec3f trailColor=colorMap.value(p->getEnglishName(), trailsColor);
+				allTrails->addObject(static_cast<QSharedPointer<StelObject>>(p), &trailColor);
+			}
 		}
 		// Add moons of current planet
 		StelCore *core=StelApp::getInstance().getCore();
@@ -738,6 +792,20 @@ void SolarSystem::loadPlanets()
 	for (const auto& planet : std::as_const(systemPlanets))
 		if(planet->parent != sun || !planet->satellites.isEmpty())
 			shadowPlanetCount++;
+
+	// Load extended multi-epoch asteroid ephemeris if available.
+	// findFileInAllPaths checks the user data directory first, then the
+	// installation directory, so a user-provided file overrides the bundled one.
+	// If no file is found at all, all asteroids fall back to their standard
+	// single-epoch KeplerOrbit from ssystem_minor.ini without any change in
+	// behaviour, and the Solar System Editor plugin continues to work normally.
+	const QStringList ephemFiles = StelFileMgr::findFileInAllPaths(
+	    "data/asteroid_elements.json");
+	if (!ephemFiles.isEmpty())
+		loadExtendedAsteroidElements(ephemFiles.first()); // first = user dir (highest priority)
+	else
+		qInfo() << "ExtendedElements: asteroid_elements.json not found"
+		        << "— asteroids using standard single-epoch orbits.";
 }
 
 unsigned char SolarSystem::BvToColorIndex(double bV)
@@ -1897,8 +1965,10 @@ struct biggerDistance : public StelUtils::binary_function<PlanetP, PlanetP, bool
 // We are supposed to be in heliocentric coordinate
 void SolarSystem::draw(StelCore* core)
 {
+#ifndef NO_GUI
 	// AstroCalcDialog
 	drawEphemerisItems(core);
+#endif
 
 	if (!flagShow)
 		return;
@@ -2013,6 +2083,7 @@ bool SolarSystem::drawAsteroidMarker(StelCore* core, StelPainter* sPainter, cons
 	return true;
 }
 
+#ifndef NO_GUI
 void SolarSystem::drawEphemerisItems(const StelCore* core)
 {
 	if (flagShow || (!flagShow && getFlagEphemerisAlwaysOn()))
@@ -2055,9 +2126,14 @@ void SolarSystem::drawEphemerisMarkers(const StelCore *core)
 	const bool showMagnitudes = getFlagEphemerisMagnitudes();
 	const bool showSkippedData = getFlagEphemerisSkipData();
 	const bool skipMarkers = getFlagEphemerisSkipMarkers();
+	const bool firstOfMonthOnly = getFlagEphemerisFirstOfMonthOnly();
 	const bool isNowVisible = getFlagEphemerisNow();
 	const int dataStep = getEphemerisDataStep();
 	const int sizeCoeff = getEphemerisLineThickness() - 1;
+	const bool antiClutter = getFlagEphemerisLabelAntiClutter();
+	const int antiClutterPx = getEphemerisLabelAntiClutterPx();
+	const float antiClutterDistSq = static_cast<float>(antiClutterPx * antiClutterPx);
+	QVector<Vec3f> drawnLabelPositions; // screen positions of already-drawn labels for anti-clutter
 	QString info = "";
 	Vec3d win;
 	Vec3f markerColor;
@@ -2118,9 +2194,33 @@ void SolarSystem::drawEphemerisMarkers(const StelCore *core)
 		if (skipMarkers && skipFlag)
 			continue;
 
+		// When "first of month only" is active, skip markers for points without a label
+		if (firstOfMonthOnly && AstroCalcDialog::EphemerisList[i].objDateStr.isEmpty())
+			continue;
+
 		Vec3f win;
 		if (prj->project(AstroCalcDialog::EphemerisList[i].coord, win))
 		{
+			// Anti-clutter — skip markers and labels that are too close
+			// to an already-drawn marker. Zooming in reveals all markers progressively.
+			if (antiClutter)
+			{
+				bool tooClose = false;
+				for (const auto& prev : drawnLabelPositions)
+				{
+					const float dx = win[0] - prev[0];
+					const float dy = win[1] - prev[1];
+					if ((dx*dx + dy*dy) < antiClutterDistSq)
+					{
+						tooClose = true;
+						break;
+					}
+				}
+				if (tooClose)
+					continue;
+				drawnLabelPositions.append(win);
+			}
+
 			float solarAngle=0.f; // Angle to possibly rotate the texture. Degrees.
 			if (isComet)
 			{
@@ -2206,6 +2306,13 @@ void SolarSystem::fillEphemerisDates()
 	static StelLocaleMgr* localeMgr = &StelApp::getInstance().getLocaleMgr();
 	static StelCore *core = StelApp::getInstance().getCore();
 	const bool showSmartDates = getFlagEphemerisSmartDates();
+	const bool showYear   = getFlagEphemerisLabelYear();
+	const bool showMonth  = getFlagEphemerisLabelMonth();
+	const bool showDay    = getFlagEphemerisLabelDay();
+	const bool showHour   = getFlagEphemerisLabelHour();
+	const bool showMinute = getFlagEphemerisLabelMinute();
+	const bool showSecond = getFlagEphemerisLabelSecond();
+	const bool firstOfMonthOnly = getFlagEphemerisFirstOfMonthOnly();
 	double JD = AstroCalcDialog::EphemerisList.first().objDate;
 	bool withTime = (fsize>1 && (AstroCalcDialog::EphemerisList[1].objDate-JD<1.0));
 
@@ -2220,6 +2327,29 @@ void SolarSystem::fillEphemerisDates()
 	const bool showSkippedData = getFlagEphemerisSkipData();
 	const int dataStep = getEphemerisDataStep();
 
+	// "First of month only" — find the closest ephemeris point to the 1st of each month.
+	// We build a set of indices that should get a label, even if the 1st isn't an exact data point.
+	QSet<int> firstOfMonthIndices;
+	if (firstOfMonthOnly)
+	{
+		// Map from "year*100+month" to (index, distance-in-days) of the closest point to the 1st
+		QMap<int, QPair<int, double>> closest;
+		for (int i = 0; i < fsize; i++)
+		{
+			int y, mo, d;
+			StelUtils::getDateFromJulianDay(AstroCalcDialog::EphemerisList[i].objDate + shift, &y, &mo, &d);
+			// JD of the 1st of this month at 0h local
+			double firstJD;
+			StelUtils::getJDFromDate(&firstJD, y, mo, 1, 0, 0, 0.0);
+			const double dist = std::abs(AstroCalcDialog::EphemerisList[i].objDate + shift - firstJD);
+			const int key = y * 100 + mo;
+			if (!closest.contains(key) || dist < closest[key].second)
+				closest[key] = qMakePair(i, dist);
+		}
+		for (auto it = closest.constBegin(); it != closest.constEnd(); ++it)
+			firstOfMonthIndices.insert(it.value().first);
+	}
+
 	for (int i = 0; i < fsize; i++)
 	{
 		const double JD = AstroCalcDialog::EphemerisList[i].objDate;
@@ -2228,8 +2358,23 @@ void SolarSystem::fillEphemerisDates()
 		if (showSkippedData && ((i + 1)%dataStep)!=1 && dataStep!=1)
 			continue;
 
+		// If "first of month only" is active, only label the closest point to the 1st
+		if (firstOfMonthOnly)
+		{
+			if (!firstOfMonthIndices.contains(i))
+			{
+				AstroCalcDialog::EphemerisList[i].objDateStr = QString();
+				continue;
+			}
+			// For first-of-month labels, show only the month (as Arabic number or abbreviated name)
+			// Use abbreviated locale month name for readability
+			AstroCalcDialog::EphemerisList[i].objDateStr = StelLocaleMgr::shortMonthName(fMonth);
+			continue;
+		}
+
 		if (showSmartDates)
 		{
+			// Original "smart dates" logic kept for backwards compatibility
 			if (sFlag)
 				info = QString("%1").arg(fYear);
 
@@ -2269,15 +2414,54 @@ void SolarSystem::fillEphemerisDates()
 		}
 		else
 		{
-			// OK, let's use standard formats for date and time (as defined for whole planetarium)
-			const double utcOffsetHrs = core->getUTCOffset(JD);
-			if (withTime)
-				AstroCalcDialog::EphemerisList[i].objDateStr = QString("%1 %2").arg(localeMgr->getPrintableDateLocal(JD, utcOffsetHrs), localeMgr->getPrintableTimeLocal(JD, utcOffsetHrs));
+			// Custom label component mode — build from selected components
+			// Check whether any component checkbox is enabled
+			const bool anyComponentEnabled = (showYear || showMonth || showDay || showHour || showMinute || showSecond);
+			if (!anyComponentEnabled)
+			{
+				// Fallback: use standard locale format (same as the old non-smart mode)
+				const double utcOffsetHrs = core->getUTCOffset(JD);
+				if (withTime)
+					AstroCalcDialog::EphemerisList[i].objDateStr = QString("%1 %2").arg(localeMgr->getPrintableDateLocal(JD, utcOffsetHrs), localeMgr->getPrintableTimeLocal(JD, utcOffsetHrs));
+				else
+					AstroCalcDialog::EphemerisList[i].objDateStr = localeMgr->getPrintableDateLocal(JD, utcOffsetHrs);
+			}
 			else
-				AstroCalcDialog::EphemerisList[i].objDateStr = localeMgr->getPrintableDateLocal(JD, utcOffsetHrs);
+			{
+				StelUtils::getTimeFromJulianDay(JD+shift, &h, &m, &s);
+				QStringList dateParts;
+				// Date components use "/" separator
+				if (showYear)
+					dateParts << QString::number(fYear);
+				if (showMonth)
+					dateParts << QString::number(fMonth);
+				if (showDay)
+					dateParts << QString::number(fDay);
+
+				QString dateStr = dateParts.join("/");
+
+				// Time components use ":" separator
+				QStringList timeParts;
+				if (showHour)
+					timeParts << QString::number(h).rightJustified(2, '0');
+				if (showMinute)
+					timeParts << QString::number(m).rightJustified(2, '0');
+				if (showSecond)
+					timeParts << QString::number(s).rightJustified(2, '0');
+
+				QString timeStr = timeParts.join(":");
+
+				if (!dateStr.isEmpty() && !timeStr.isEmpty())
+					AstroCalcDialog::EphemerisList[i].objDateStr = QString("%1 %2").arg(dateStr, timeStr);
+				else if (!dateStr.isEmpty())
+					AstroCalcDialog::EphemerisList[i].objDateStr = dateStr;
+				else
+					AstroCalcDialog::EphemerisList[i].objDateStr = timeStr;
+			}
 		}
 	}
 }
+#endif
 
 PlanetP SolarSystem::searchByEnglishName(const QString &planetEnglishName) const
 {
@@ -2730,6 +2914,17 @@ void SolarSystem::update(double deltaTime)
 	{
 		p->update(static_cast<int>(deltaTime*1000));
 	}
+
+	// Extended ephemeris: swap in interpolated KeplerOrbit when needed.
+	// Only acts on minor planets that have an epoch table loaded; the guard
+	// inside updateEpochOrbit() makes this negligible cost for the rest.
+	const double jde = StelApp::getInstance().getCore()->getJDE();
+	for (const auto& p : std::as_const(systemPlanets))
+	{
+		QSharedPointer<MinorPlanet> mp = p.dynamicCast<MinorPlanet>();
+		if (mp && mp->hasEpochElements())
+			mp->updateEpochOrbit(jde);
+	}
 	markerFader.update(deltaTime*1000);
 
 	// Dynamic Moon scaling: interpolate between 1× (at moonScaleMinFov) and moonScale (at moonScaleMaxFov).
@@ -2828,7 +3023,7 @@ QVector<QPair<QString,StelObjectP>> SolarSystem::listAllObjects(bool inEnglish) 
 			QSharedPointer<MinorPlanet> mp = p.dynamicCast<MinorPlanet>();
 			c = mp->getExtraDesignations();
 		}
-		for (const auto& name : c)
+		for (const auto& name : std::as_const(c))
 			map[name] = StelObjectP(p);
 	}
 	map.remove("");
@@ -2889,7 +3084,7 @@ QVector<QPair<QString,StelObjectP>> SolarSystem::listAllObjectsByType(const QStr
 				QSharedPointer<MinorPlanet> mp = p.dynamicCast<MinorPlanet>();
 				c = mp->getExtraDesignations();
 			}
-			for (const auto& name : c)
+			for (const auto& name : std::as_const(c))
 				map[name] = StelObjectP(p);
 		}
 	}
@@ -3095,6 +3290,141 @@ bool SolarSystem::getFlagEphemerisScaleMarkers() const
 	return ephemerisScaleMarkersDisplayed;
 }
 
+void SolarSystem::setFlagEphemerisLabelYear(bool b)
+{
+	if (b!=ephemerisLabelYear)
+	{
+		ephemerisLabelYear=b;
+		conf->setValue("astrocalc/flag_ephemeris_label_year", b);
+		emit ephemerisLabelYearChanged(b);
+	}
+}
+
+bool SolarSystem::getFlagEphemerisLabelYear() const
+{
+	return ephemerisLabelYear;
+}
+
+void SolarSystem::setFlagEphemerisLabelMonth(bool b)
+{
+	if (b!=ephemerisLabelMonth)
+	{
+		ephemerisLabelMonth=b;
+		conf->setValue("astrocalc/flag_ephemeris_label_month", b);
+		emit ephemerisLabelMonthChanged(b);
+	}
+}
+
+bool SolarSystem::getFlagEphemerisLabelMonth() const
+{
+	return ephemerisLabelMonth;
+}
+
+void SolarSystem::setFlagEphemerisLabelDay(bool b)
+{
+	if (b!=ephemerisLabelDay)
+	{
+		ephemerisLabelDay=b;
+		conf->setValue("astrocalc/flag_ephemeris_label_day", b);
+		emit ephemerisLabelDayChanged(b);
+	}
+}
+
+bool SolarSystem::getFlagEphemerisLabelDay() const
+{
+	return ephemerisLabelDay;
+}
+
+void SolarSystem::setFlagEphemerisLabelHour(bool b)
+{
+	if (b!=ephemerisLabelHour)
+	{
+		ephemerisLabelHour=b;
+		conf->setValue("astrocalc/flag_ephemeris_label_hour", b);
+		emit ephemerisLabelHourChanged(b);
+	}
+}
+
+bool SolarSystem::getFlagEphemerisLabelHour() const
+{
+	return ephemerisLabelHour;
+}
+
+void SolarSystem::setFlagEphemerisLabelMinute(bool b)
+{
+	if (b!=ephemerisLabelMinute)
+	{
+		ephemerisLabelMinute=b;
+		conf->setValue("astrocalc/flag_ephemeris_label_minute", b);
+		emit ephemerisLabelMinuteChanged(b);
+	}
+}
+
+bool SolarSystem::getFlagEphemerisLabelMinute() const
+{
+	return ephemerisLabelMinute;
+}
+
+void SolarSystem::setFlagEphemerisLabelSecond(bool b)
+{
+	if (b!=ephemerisLabelSecond)
+	{
+		ephemerisLabelSecond=b;
+		conf->setValue("astrocalc/flag_ephemeris_label_second", b);
+		emit ephemerisLabelSecondChanged(b);
+	}
+}
+
+bool SolarSystem::getFlagEphemerisLabelSecond() const
+{
+	return ephemerisLabelSecond;
+}
+
+void SolarSystem::setFlagEphemerisFirstOfMonthOnly(bool b)
+{
+	if (b!=ephemerisFirstOfMonthOnly)
+	{
+		ephemerisFirstOfMonthOnly=b;
+		conf->setValue("astrocalc/flag_ephemeris_first_of_month", b);
+		emit ephemerisFirstOfMonthOnlyChanged(b);
+	}
+}
+
+bool SolarSystem::getFlagEphemerisFirstOfMonthOnly() const
+{
+	return ephemerisFirstOfMonthOnly;
+}
+
+void SolarSystem::setFlagEphemerisLabelAntiClutter(bool b)
+{
+	if (b!=ephemerisLabelAntiClutter)
+	{
+		ephemerisLabelAntiClutter=b;
+		conf->setValue("astrocalc/flag_ephemeris_anticlutter", b);
+		emit ephemerisLabelAntiClutterChanged(b);
+	}
+}
+
+bool SolarSystem::getFlagEphemerisLabelAntiClutter() const
+{
+	return ephemerisLabelAntiClutter;
+}
+
+void SolarSystem::setEphemerisLabelAntiClutterPx(int v)
+{
+	if (v!=ephemerisLabelAntiClutterPx)
+	{
+		ephemerisLabelAntiClutterPx = v;
+		conf->setValue("astrocalc/ephemeris_anticlutter_px", v);
+		emit ephemerisLabelAntiClutterPxChanged(v);
+	}
+}
+
+int SolarSystem::getEphemerisLabelAntiClutterPx() const
+{
+	return ephemerisLabelAntiClutterPx;
+}
+
 void SolarSystem::setEphemerisDataStep(int step)
 {
 	ephemerisDataStep = step;
@@ -3242,6 +3572,36 @@ void SolarSystem::setEphemerisSaturnMarkerColor(const Vec3f& color)
 Vec3f SolarSystem::getEphemerisSaturnMarkerColor() const
 {
 	return ephemerisSaturnMarkerColor;
+}
+
+void SolarSystem::setEphemerisUranusMarkerColor(const Vec3f& color)
+{
+	if (color!=ephemerisUranusMarkerColor)
+	{
+		ephemerisUranusMarkerColor = color;
+		StelApp::immediateSave("color/ephemeris_uranus_marker_color", color.toStr());
+		emit ephemerisUranusMarkerColorChanged(color);
+	}
+}
+
+Vec3f SolarSystem::getEphemerisUranusMarkerColor() const
+{
+	return ephemerisUranusMarkerColor;
+}
+
+void SolarSystem::setEphemerisNeptuneMarkerColor(const Vec3f& color)
+{
+	if (color!=ephemerisNeptuneMarkerColor)
+	{
+		ephemerisNeptuneMarkerColor = color;
+		StelApp::immediateSave("color/ephemeris_neptune_marker_color", color.toStr());
+		emit ephemerisNeptuneMarkerColorChanged(color);
+	}
+}
+
+Vec3f SolarSystem::getEphemerisNeptuneMarkerColor() const
+{
+	return ephemerisNeptuneMarkerColor;
 }
 
 void SolarSystem::setFlagIsolatedTrails(bool b)
@@ -4332,4 +4692,123 @@ void SolarSystem::enableSurvey(const HipsSurveyP& colors, const HipsSurveyP& nor
 	if (!pl) return;
 
 	pl->setSurvey(colors, normals, horizons);
+}
+
+// Extended asteroid elements loader
+
+bool SolarSystem::loadExtendedAsteroidElements(const QString& filePath)
+{
+	QFile file(filePath);
+	if (!file.open(QIODevice::ReadOnly))
+	{
+		qWarning() << "ExtendedElements: cannot open" << filePath;
+		return false;
+	}
+
+	QJsonParseError parseError;
+	const QJsonDocument doc = QJsonDocument::fromJson(file.readAll(), &parseError);
+	file.close();
+
+	if (doc.isNull())
+	{
+		qWarning() << "ExtendedElements: JSON parse error in"
+		           << filePath << ":" << parseError.errorString();
+		return false;
+	}
+
+	const QJsonObject root = doc.object();
+
+	if (root.value("format").toString() != QLatin1String("stellarium_asteroid_elements"))
+	{
+		qWarning() << "ExtendedElements: unrecognised format in" << filePath;
+		return false;
+	}
+	if (root.value("version").toInt() != 1)
+	{
+		qWarning() << "ExtendedElements: unsupported version in" << filePath;
+		return false;
+	}
+
+	const QJsonArray asteroids = root.value("asteroids").toArray();
+	if (asteroids.isEmpty())
+	{
+		qWarning() << "ExtendedElements: no asteroids array in" << filePath;
+		return false;
+	}
+
+	// Pre-build a lookup map: bare english name -> MinorPlanet pointer.
+	// Stellarium stores names as e.g. "Ceres", "Pallas" — without number or
+	// IAU designation.  The JSON has "1 Ceres (A801 AA)"; we strip both ends.
+	// We also map "N Name" (no designation) in case some entries differ.
+	static const QRegularExpression reName(
+	    R"(^\d+\s+(.+?)(?:\s+\([^)]+\))?\s*$)");
+
+	QHash<QString, QSharedPointer<MinorPlanet>> nameMap;
+	for (const auto& p : std::as_const(systemPlanets))
+	{
+		QSharedPointer<MinorPlanet> mp = p.dynamicCast<MinorPlanet>();
+		if (mp)
+			nameMap.insert(mp->getCommonEnglishName(), mp);
+	}
+
+	int loaded  = 0;
+	int skipped = 0;
+
+	for (const QJsonValue& val : asteroids)
+	{
+		const QJsonObject ast = val.toObject();
+
+		// Extract bare name from e.g. "1 Ceres (A801 AA)" -> "Ceres"
+		const QString fullName = ast.value("name").toString();
+		const QRegularExpressionMatch m = reName.match(fullName);
+		const QString bareName = m.hasMatch() ? m.captured(1) : fullName;
+
+		QSharedPointer<MinorPlanet> mp = nameMap.value(bareName);
+		if (!mp)
+		{
+			++skipped;
+			continue;
+		}
+
+		const QJsonArray epochArray = ast.value("elements").toArray();
+		if (epochArray.isEmpty())
+			continue;
+
+		QVector<AsteroidEpochElements> elements;
+		elements.reserve(epochArray.size());
+
+		for (const QJsonValue& ev : epochArray)
+		{
+			const QJsonObject ep = ev.toObject();
+			AsteroidEpochElements e;
+			e.epochJDE           = ep.value("epoch_jde").toDouble();
+			e.pericenterDistance = ep.value("pericenter_distance").toDouble();
+			e.eccentricity       = ep.value("eccentricity").toDouble();
+			// JSON stores angles in degrees; KeplerOrbit wants radians
+			e.inclination        = ep.value("inclination").toDouble()      * M_PI / 180.0;
+			e.ascendingNode      = ep.value("ascending_node").toDouble()   * M_PI / 180.0;
+			e.argOfPericenter    = ep.value("arg_of_pericenter").toDouble()* M_PI / 180.0;
+			// Use mean_anomaly (degrees at epoch) rather than time_at_pericenter (JDE).
+			// Tp is ambiguous across multi-year brackets — it jumps by one full orbital
+			// period each time a perihelion passage falls between two epochs, making
+			// linear interpolation produce errors of many tens of degrees in position.
+			// MA has no such ambiguity; t0 is reconstructed inside interpolatedOrbit()
+			// as:  t0 = epochJDE - meanAnomalyAtEpoch / meanMotion
+			e.meanAnomalyAtEpoch = ep.value("mean_anomaly").toDouble()     * M_PI / 180.0;
+			// mean_motion in JSON is degrees/day; KeplerOrbit wants radians/day
+			e.meanMotion         = ep.value("mean_motion").toDouble()      * M_PI / 180.0;
+			elements.append(e);
+		}
+
+		// Sun-parented objects: all three VSOP87 rotation params are zero
+		mp->setEpochElements(elements, 0.0, 0.0, 0.0);
+		++loaded;
+	}
+
+	qInfo() << "ExtendedElements: loaded epoch tables for"
+	        << loaded << "asteroids from"
+	        << QDir::toNativeSeparators(filePath)
+	        << "(" << skipped << "not matched in ssystem_minor.ini)";
+
+	return loaded > 0;
 }

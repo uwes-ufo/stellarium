@@ -118,7 +118,9 @@ Satellites::Satellites()
 	#endif
 {
 	setObjectName("Satellites");
+#ifndef NO_GUI
 	configDialog = new SatellitesDialog();
+#endif
 }
 
 void Satellites::deinit()
@@ -130,7 +132,9 @@ void Satellites::deinit()
 
 Satellites::~Satellites()
 {
+#ifndef NO_GUI
 	delete configDialog;
+#endif
 }
 
 
@@ -173,6 +177,7 @@ void Satellites::init()
 		QString satGroup = N_("Satellites");
 		addAction("actionShow_Satellite_Hints", satGroup, N_("Artificial satellites"), "flagHintsVisible", "Ctrl+Z");
 		addAction("actionShow_Satellite_Labels", satGroup, N_("Satellite labels"), "flagLabelsVisible", "Alt+Shift+Z");
+#ifndef NO_GUI
 		addAction("actionShow_Satellite_ConfigDialog_Global", satGroup, N_("Show settings dialog"), configDialog, "visible", "Alt+Z");
 
 		// Gui toolbar button
@@ -188,13 +193,13 @@ void Satellites::init()
 						       "actionShow_Satellite_ConfigDialog_Global");
 			gui->getButtonBar()->addButton(toolbarButton, "065-pluginsGroup");
 		}
+#endif
 	}
 	catch (std::runtime_error &e)
 	{
 		qWarning() << "[Satellites] init error: " << e.what();
 		return;
 	}
-
 	// If the json file does not already exist, create it from the resource in the Qt resource
 	if(QFileInfo::exists(catalogPath))
 	{
@@ -635,9 +640,13 @@ QVector<QPair<QString,StelObjectP>> Satellites::listAllObjects(bool inEnglish) c
 
 bool Satellites::configureGui(bool show)
 {
+#ifdef NO_GUI
+	return false;
+#else
 	if (show)
 		configDialog->setVisible(true);
 	return true;
+#endif
 }
 
 void Satellites::restoreDefaults(void)
@@ -1395,7 +1404,7 @@ bool Satellites::add(const TleData& tleData)
 		}
 	}
 
-	QList<CommLink> comms = getCommunicationData(tleData);
+	const QList<CommLink> comms = getCommunicationData(tleData);
 	if (!comms.isEmpty())
 	{
 		QVariantList communications;
@@ -1520,15 +1529,12 @@ QPair<double, double> Satellites::getStdMagRCS(const TleData& tleData)
 
 QList<CommLink> Satellites::getCommunicationData(const QString &id)
 {
-	QList<CommLink> comms;
-
 	for (const auto& sat : std::as_const(satellites))
 	{
 		if (sat->initialized && sat->getID() == id)
-			comms = sat->comms;
+			return sat->comms;
 	}
-
-	return comms;
+	return QList<CommLink>();
 }
 
 QList<CommLink> Satellites::getCommunicationData(const TleData& tleData)
@@ -2458,7 +2464,7 @@ void Satellites::saveDownloadedUpdate(QNetworkReply* reply)
 	}
 	else
 	{
-		qWarning() << "[Satellites] FAILED to download" << reply->url().toString(QUrl::RemoveUserInfo) << "Error:" << reply->errorString();
+		qWarning().nospace() << "[Satellites] FAILED to download " << reply->url().toString(QUrl::RemoveUserInfo) << ". Error " << reply->error() << ": " << reply->errorString();
 		emit updateStateChanged(DownloadError);
 	}
 
@@ -2919,7 +2925,7 @@ void Satellites::draw(StelCore* core)
 	painter.setFont(font);
 	Satellite::hintBrightness = hintFader.getInterstate();
 
-	painter.setBlending(true, GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
+	painter.setBlending(true);
 	Satellite::hintTexture->bind();
 	Satellite::viewportHalfspace = painter.getProjector()->getBoundingCap();
 	for (const auto& sat : std::as_const(satellites))
@@ -2971,7 +2977,6 @@ void Satellites::drawCircles(StelCore* core, StelPainter &painter)
 {
 	StelProjectorP saveProj = painter.getProjector();
 	painter.setProjector(core->getProjection(StelCore::FrameHeliocentricEclipticJ2000, StelCore::RefractionAuto));
-	painter.setBlending(true, GL_ONE, GL_ONE);
 	painter.setLineSmooth(true);
 	QFont font=QGuiApplication::font();
 	font.setPixelSize(labelFontSize);
@@ -3011,7 +3016,7 @@ void Satellites::drawCircles(StelCore* core, StelPainter &painter)
 		rot.transfo(point);
 		umbra.vertex.append(pos+point);
 	}
-	painter.setColor(getUmbraColor(), 1.f);
+	painter.setColor(getUmbraColor(), hintFader.getInterstate());
 	painter.drawStelVertexArray(umbra, true);
 
 	// plot a center cross mark
@@ -3035,7 +3040,7 @@ void Satellites::drawCircles(StelCore* core, StelPainter &painter)
 			penumbra.vertex.append(pos+point);
 		}
 
-		painter.setColor(getPenumbraColor(), 1.f);
+		painter.setColor(getPenumbraColor(), hintFader.getInterstate());
 		painter.drawStelVertexArray(penumbra, true);
 	}
 	painter.setProjector(saveProj);

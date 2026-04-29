@@ -100,6 +100,18 @@ class SolarSystem : public StelObjectModule, protected QOpenGLFunctions
 	Q_PROPERTY(bool ephemerisScaleMarkersDisplayed	READ getFlagEphemerisScaleMarkers	WRITE setFlagEphemerisScaleMarkers	NOTIFY ephemerisScaleMarkersChanged)
 	Q_PROPERTY(bool ephemerisAlwaysOn		READ getFlagEphemerisAlwaysOn		WRITE setFlagEphemerisAlwaysOn		NOTIFY ephemerisAlwaysOnChanged)
 	Q_PROPERTY(bool ephemerisNow			READ getFlagEphemerisNow		WRITE setFlagEphemerisNow		NOTIFY ephemerisNowChanged)
+	// Ephemeris label component properties (which parts of the date to show)
+	Q_PROPERTY(bool ephemerisLabelYear		READ getFlagEphemerisLabelYear		WRITE setFlagEphemerisLabelYear		NOTIFY ephemerisLabelYearChanged)
+	Q_PROPERTY(bool ephemerisLabelMonth		READ getFlagEphemerisLabelMonth		WRITE setFlagEphemerisLabelMonth	NOTIFY ephemerisLabelMonthChanged)
+	Q_PROPERTY(bool ephemerisLabelDay		READ getFlagEphemerisLabelDay		WRITE setFlagEphemerisLabelDay		NOTIFY ephemerisLabelDayChanged)
+	Q_PROPERTY(bool ephemerisLabelHour		READ getFlagEphemerisLabelHour		WRITE setFlagEphemerisLabelHour		NOTIFY ephemerisLabelHourChanged)
+	Q_PROPERTY(bool ephemerisLabelMinute		READ getFlagEphemerisLabelMinute		WRITE setFlagEphemerisLabelMinute	NOTIFY ephemerisLabelMinuteChanged)
+	Q_PROPERTY(bool ephemerisLabelSecond		READ getFlagEphemerisLabelSecond		WRITE setFlagEphemerisLabelSecond	NOTIFY ephemerisLabelSecondChanged)
+	// Show labels only for 1st of each month
+	Q_PROPERTY(bool ephemerisFirstOfMonthOnly	READ getFlagEphemerisFirstOfMonthOnly	WRITE setFlagEphemerisFirstOfMonthOnly	NOTIFY ephemerisFirstOfMonthOnlyChanged)
+	// Anti-clutter: minimum screen distance (px) between labels
+	Q_PROPERTY(int ephemerisLabelAntiClutterPx	READ getEphemerisLabelAntiClutterPx	WRITE setEphemerisLabelAntiClutterPx	NOTIFY ephemerisLabelAntiClutterPxChanged)
+	Q_PROPERTY(bool ephemerisLabelAntiClutter	READ getFlagEphemerisLabelAntiClutter	WRITE setFlagEphemerisLabelAntiClutter	NOTIFY ephemerisLabelAntiClutterChanged)
 	// Great Red Spot (GRS) properties
 	Q_PROPERTY(int grsLongitude			READ getGrsLongitude			WRITE setGrsLongitude			NOTIFY grsLongitudeChanged)
 	Q_PROPERTY(double grsDrift			READ getGrsDrift			WRITE setGrsDrift			NOTIFY grsDriftChanged)
@@ -130,7 +142,7 @@ class SolarSystem : public StelObjectModule, protected QOpenGLFunctions
 	Q_PROPERTY(Vec3f saturnOrbitColor		READ getSaturnOrbitColor		WRITE setSaturnOrbitColor		NOTIFY saturnOrbitColorChanged)
 	Q_PROPERTY(Vec3f uranusOrbitColor		READ getUranusOrbitColor		WRITE setUranusOrbitColor		NOTIFY uranusOrbitColorChanged)
 	Q_PROPERTY(Vec3f neptuneOrbitColor		READ getNeptuneOrbitColor		WRITE setNeptuneOrbitColor		NOTIFY neptuneOrbitColorChanged)
-	// Ephemeris-related properties
+	// Ephemeris-related properties. The colors are used in AstroCalc, but also for Trails.
 	Q_PROPERTY(Vec3f ephemerisGenericMarkerColor	READ getEphemerisGenericMarkerColor	WRITE setEphemerisGenericMarkerColor	NOTIFY ephemerisGenericMarkerColorChanged)
 	Q_PROPERTY(Vec3f ephemerisSecondaryMarkerColor	READ getEphemerisSecondaryMarkerColor	WRITE setEphemerisSecondaryMarkerColor	NOTIFY ephemerisSecondaryMarkerColorChanged)
 	Q_PROPERTY(Vec3f ephemerisSelectedMarkerColor	READ getEphemerisSelectedMarkerColor	WRITE setEphemerisSelectedMarkerColor	NOTIFY ephemerisSelectedMarkerColorChanged)
@@ -139,6 +151,8 @@ class SolarSystem : public StelObjectModule, protected QOpenGLFunctions
 	Q_PROPERTY(Vec3f ephemerisMarsMarkerColor	READ getEphemerisMarsMarkerColor	WRITE setEphemerisMarsMarkerColor	NOTIFY ephemerisMarsMarkerColorChanged)
 	Q_PROPERTY(Vec3f ephemerisJupiterMarkerColor	READ getEphemerisJupiterMarkerColor	WRITE setEphemerisJupiterMarkerColor	NOTIFY ephemerisJupiterMarkerColorChanged)
 	Q_PROPERTY(Vec3f ephemerisSaturnMarkerColor	READ getEphemerisSaturnMarkerColor	WRITE setEphemerisSaturnMarkerColor	NOTIFY ephemerisSaturnMarkerColorChanged)
+	Q_PROPERTY(Vec3f ephemerisUranusMarkerColor	READ getEphemerisUranusMarkerColor	WRITE setEphemerisUranusMarkerColor	NOTIFY ephemerisUranusMarkerColorChanged)
+	Q_PROPERTY(Vec3f ephemerisNeptuneMarkerColor	READ getEphemerisNeptuneMarkerColor	WRITE setEphemerisNeptuneMarkerColor	NOTIFY ephemerisNeptuneMarkerColorChanged)
 	// Color style
 	Q_PROPERTY(QString orbitColorStyle		READ getOrbitColorStyle			WRITE setOrbitColorStyle		NOTIFY orbitColorStyleChanged)
 	Q_PROPERTY(QString apparentMagnitudeAlgorithmOnEarth	READ getApparentMagnitudeAlgorithmOnEarth	WRITE setApparentMagnitudeAlgorithmOnEarth	NOTIFY apparentMagnitudeAlgorithmOnEarthChanged)
@@ -856,6 +870,15 @@ signals:
 	void ephemerisDataLimitChanged(int s);
 	void ephemerisSmartDatesChanged(bool b);
 	void ephemerisScaleMarkersChanged(bool b);
+	void ephemerisLabelYearChanged(bool b);
+	void ephemerisLabelMonthChanged(bool b);
+	void ephemerisLabelDayChanged(bool b);
+	void ephemerisLabelHourChanged(bool b);
+	void ephemerisLabelMinuteChanged(bool b);
+	void ephemerisLabelSecondChanged(bool b);
+	void ephemerisFirstOfMonthOnlyChanged(bool b);
+	void ephemerisLabelAntiClutterPxChanged(int v);
+	void ephemerisLabelAntiClutterChanged(bool b);
 	void grsLongitudeChanged(int l);
 	void grsDriftChanged(double drift);
 	void grsJDChanged(double JD);
@@ -894,6 +917,8 @@ signals:
 	void ephemerisMarsMarkerColorChanged(const Vec3f & color);
 	void ephemerisJupiterMarkerColorChanged(const Vec3f & color);
 	void ephemerisSaturnMarkerColorChanged(const Vec3f & color);
+	void ephemerisUranusMarkerColorChanged(const Vec3f & color);
+	void ephemerisNeptuneMarkerColorChanged(const Vec3f & color);
 
 	void orbitColorStyleChanged(const QString &style);
 	void apparentMagnitudeAlgorithmOnEarthChanged(const QString &algorithm);
@@ -1045,6 +1070,37 @@ private slots:
 	//! Get the current value of the flag which allow scaling the ephemeris markers
 	bool getFlagEphemerisScaleMarkers() const;
 
+	//! @name Ephemeris label component flags (which parts of the date to show)
+	//! @{
+	void setFlagEphemerisLabelYear(bool b);
+	bool getFlagEphemerisLabelYear() const;
+	void setFlagEphemerisLabelMonth(bool b);
+	bool getFlagEphemerisLabelMonth() const;
+	void setFlagEphemerisLabelDay(bool b);
+	bool getFlagEphemerisLabelDay() const;
+	void setFlagEphemerisLabelHour(bool b);
+	bool getFlagEphemerisLabelHour() const;
+	void setFlagEphemerisLabelMinute(bool b);
+	bool getFlagEphemerisLabelMinute() const;
+	void setFlagEphemerisLabelSecond(bool b);
+	bool getFlagEphemerisLabelSecond() const;
+	//! @}
+
+	//! Set flag to show labels only for the 1st of each month
+	void setFlagEphemerisFirstOfMonthOnly(bool b);
+	//! Get the current value of the flag which show labels only for the 1st of each month
+	bool getFlagEphemerisFirstOfMonthOnly() const;
+
+	//! Set flag to enable anti-clutter filtering for ephemeris labels
+	void setFlagEphemerisLabelAntiClutter(bool b);
+	//! Get the current value of the anti-clutter flag
+	bool getFlagEphemerisLabelAntiClutter() const;
+
+	//! Set the minimum screen pixel distance for the anti-clutter filter
+	void setEphemerisLabelAntiClutterPx(int v);
+	//! Get the minimum screen pixel distance for the anti-clutter filter
+	int getEphemerisLabelAntiClutterPx() const;
+
 	//! Set the step of skip for date of ephemeris markers (and markers if it enabled)
 	void setEphemerisDataStep(int step);
 	//! Get the step of skip for date of ephemeris markers
@@ -1079,8 +1135,16 @@ private slots:
 	void setEphemerisSaturnMarkerColor(const Vec3f& c);
 	Vec3f getEphemerisSaturnMarkerColor(void) const;
 
+	void setEphemerisUranusMarkerColor(const Vec3f& c);
+	Vec3f getEphemerisUranusMarkerColor(void) const;
+
+	void setEphemerisNeptuneMarkerColor(const Vec3f& c);
+	Vec3f getEphemerisNeptuneMarkerColor(void) const;
+
+#ifndef NO_GUI
 	//! Taking the JD dates for each ephemeride and preparation the human readable dates according to the settings for dates
 	void fillEphemerisDates();
+#endif
 
 	//! When some aspect of orbit drawing changes, update their configuration
 	void reconfigureOrbits();
@@ -1099,14 +1163,16 @@ private:
 	//! Draw a nice animated pointer around the object.
 	void drawPointer(const StelCore* core);
 
+#ifndef NO_GUI
 	//! Draw ephemeris lines and markers
 	void drawEphemerisItems(const StelCore* core);
 
-	//! Draw a nice markers for ephemeris of objects.
+	//! Draw nice markers for ephemeris of objects.
 	void drawEphemerisMarkers(const StelCore* core);
 
-	//! Draw a line, who connected markers for ephemeris of objects.
+	//! Draw a line which connects markers for ephemeris of objects.
 	void drawEphemerisLine(const StelCore* core);
+#endif
 
 	//! Load planet data from the Solar System configuration files.
 	//! This function attempts to load every possible instance of the
@@ -1116,6 +1182,12 @@ private:
 
 	//! Load planet data from the given file
 	bool loadPlanets(const QString& filePath);
+
+	//! Load multi-epoch orbital element tables from the extended asteroid
+	//! ephemeris pack (asteroid_elements.json).  Called at the end of
+	//! loadPlanets() if the file exists in the user or installation data dir.
+	//! @returns true if at least one asteroid received an epoch table.
+	bool loadExtendedAsteroidElements(const QString& filePath);
 
 	Vec3f getEphemerisMarkerColor(int index) const;
 
@@ -1186,7 +1258,7 @@ private:
 	bool flagIsolatedTrails;
 	int numberIsolatedTrails;
 	int maxTrailPoints;                         // limit trails to a manageable size.
-	int maxTrailTimeExtent;
+	int maxTrailTimeExtent;                     // max age of trail points, years
 	int trailsThickness;
 	bool flagIsolatedOrbits;
 	bool flagPlanetsOrbits;				// Show orbits of the major planets, regardless of other orbit settings
@@ -1206,6 +1278,16 @@ private:
 	int ephemerisDataLimit;				// Number of celestial bodies in ephemeris data (how many celestial bodies was in computing of ephemeris)
 	bool ephemerisSmartDatesDisplayed;
 	bool ephemerisScaleMarkersDisplayed;
+	// Ephemeris label component flags
+	bool ephemerisLabelYear;
+	bool ephemerisLabelMonth;
+	bool ephemerisLabelDay;
+	bool ephemerisLabelHour;
+	bool ephemerisLabelMinute;
+	bool ephemerisLabelSecond;
+	bool ephemerisFirstOfMonthOnly;
+	bool ephemerisLabelAntiClutter;
+	int ephemerisLabelAntiClutterPx;
 	Vec3f ephemerisGenericMarkerColor;
 	Vec3f ephemerisSecondaryMarkerColor;
 	Vec3f ephemerisSelectedMarkerColor;
@@ -1214,11 +1296,13 @@ private:
 	Vec3f ephemerisMarsMarkerColor;
 	Vec3f ephemerisJupiterMarkerColor;
 	Vec3f ephemerisSaturnMarkerColor;
+	Vec3f ephemerisUranusMarkerColor;
+	Vec3f ephemerisNeptuneMarkerColor;
 
 	class TrailGroup* allTrails;
 	QSettings* conf;
 	LinearFader trailFader;
-	Vec3f trailsColor;
+	Vec3f trailsColor;                           // Generic trail color for non-planets
 	Vec3f pointerColor;
 
 	static const QMap<Planet::ApparentMagnitudeAlgorithm, QString> vMagAlgorithmMap;

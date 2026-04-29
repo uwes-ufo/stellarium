@@ -1174,7 +1174,11 @@ void StelApp::handleClick(QMouseEvent* inputEvent)
 	if (viewportEffect)
 		viewportEffect->distortXY(x, y);
 
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+	QMouseEvent event(inputEvent->type(), QPointF(x,y) * devicePixelsPerPixel, inputEvent->globalPosition() * devicePixelsPerPixel, inputEvent->button(), inputEvent->buttons(), inputEvent->modifiers());
+#else
 	QMouseEvent event(inputEvent->type(), QPoint(qRound(x*devicePixelsPerPixel), qRound(y*devicePixelsPerPixel)), inputEvent->button(), inputEvent->buttons(), inputEvent->modifiers());
+#endif
 	event.setAccepted(false);
 	
 	// Send the event to every StelModule
@@ -1581,8 +1585,10 @@ QString StelApp::getVersion() const
 
 void StelApp::enableBottomStelBarUpdates(bool enable)
 {
+#ifndef NO_GUI
 	StelGui *gui=dynamic_cast<StelGui*>(getGui());
 	gui->getButtonBar()->enableTopoCentricUpdate(enable);
+#endif
 }
 
 void StelApp::dumpFontInfo() const
