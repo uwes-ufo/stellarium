@@ -18,6 +18,8 @@
  */
 
 #ifdef ENABLE_SHOWMYSKY
+#include <QApplication>
+#if !QT_CONFIG(opengles2)
 
 #include "AtmosphereShowMySky.hpp"
 #include "StelUtils.hpp"
@@ -34,7 +36,6 @@
 #include <cassert>
 #include <cstring>
 
-#include <QApplication>
 #include <QDir>
 #include <QFile>
 #include <QDebug>
@@ -864,4 +865,5 @@ auto AtmosphereShowMySky::stepDataLoading() -> LoadingStatus
 	}
 }
 
-#endif // ENABLE_SHOWMYSKY
+#endif // !QT_CONFIG(opengles2)
+#endif // defined ENABLE_SHOWMYSKY
