@@ -23175,7 +23175,7 @@ msgstr "Бо Сы"
 #. Chinese Xianglin Star Chart constellation, native: 帛度, pronounce: Bó Dù
 #. Modern (Chinese) asterism
 msgid "Textile Ruler"
-msgstr "Правитель текстиля"
+msgstr "Текстильная линейка"
 
 #. Pronounce entry for Chinese constellation, native: 帛度, English: Textile
 #. Ruler
@@ -23708,7 +23708,7 @@ msgstr "Ди Си"
 #. Modern (Chinese) asterism
 #. Modern (Chinese) name for HIP 84345
 msgid "Emperor's Seat"
-msgstr "Место императора"
+msgstr "Резиденция императора"
 
 #. Pronounce entry for Chinese constellation, native: 帝座, English: Emperor's
 #. Seat
@@ -24188,7 +24188,7 @@ msgstr "079"
 #. Chinese Xianglin Star Chart constellation, native: 杠(附华盖), pronounce: Gàng
 #. Modern (Chinese) asterism
 msgid "Canopy Support (Vassal of Canopy of the Emperor)"
-msgstr "Поддержка навеса (Вассал навеса императора)"
+msgstr "Ручка полога (Вассал Полога императора)"
 
 #. Pronounce entry for Chinese constellation, native: 杠(附华盖), English: Canopy
 #. Support (Vassal of Canopy of the Emperor)
@@ -25022,7 +25022,7 @@ msgstr "100"
 #. Chinese Xianglin Star Chart constellation, native: 华盖, pronounce: Huá Gài
 #. Modern (Chinese) asterism
 msgid "Canopy of the Emperor"
-msgstr "Навес императора"
+msgstr "Полог императора"
 
 #. Pronounce entry for Chinese constellation, native: 华盖, English: Canopy of
 #. the Emperor
@@ -25062,7 +25062,7 @@ msgstr "101"
 #. Chinese Xianglin Star Chart constellation, native: 宦者, pronounce: Huàn Zhě
 #. Modern (Chinese) asterism
 msgid "Eunuch Official"
-msgstr "Официальный евнух"
+msgstr "Чиновник-евнух"
 
 #. Pronounce entry for Chinese constellation, native: 宦者, English: Eunuch
 #. Official
@@ -25397,7 +25397,7 @@ msgstr "111"
 #. Modern (Chinese) asterism
 #. Modern (Chinese) name for HIP 79374
 msgid "Door Bolt"
-msgstr "Дверной болт"
+msgstr "Дверной засов"
 
 #. Pronounce entry for Chinese constellation, native: 键闭, English: Door Bolt
 #. Chinese Manchu asterism, native: 键闭, English: Door Bolt
@@ -26850,7 +26850,7 @@ msgstr "152"
 #. Chinese Xianglin Star Chart constellation, native: 内阶, pronounce: Nèi Jiē
 #. Modern (Chinese) asterism
 msgid "Inner Steps"
-msgstr "Внутренние шаги"
+msgstr "Внутренние ступени"
 
 #. Pronounce entry for Chinese constellation, native: 内阶, English: Inner Steps
 #. Chinese Manchu asterism, native: 内阶, English: Inner Steps
@@ -27649,7 +27649,7 @@ msgstr "175"
 #. Gōng(Zǐ Wēi Yuán)
 #. Modern (Chinese) asterism
 msgid "Three Excellencies (In Purple Forbidden Enclosure)"
-msgstr "Три превосходительства (за пурпурной запретной стеной)"
+msgstr "Три превосходительства (за пурпурной запретной зоной)"
 
 #. Pronounce entry for Chinese constellation, native: 三公(紫微垣), English: Three
 #. Excellencies (In Purple Forbidden Enclosure)
@@ -27750,7 +27750,7 @@ msgstr "178"
 #. Korean constellation, native: SaamTae
 #. Modern (Chinese) asterism
 msgid "Three Steps"
-msgstr "Три шага"
+msgstr "Три ступени"
 
 #. Pronounce entry for Chinese constellation, native: 三台, English: Three Steps
 #. Chinese Manchu asterism, native: 三台, English: Three Steps
@@ -28048,7 +28048,7 @@ msgstr "188"
 #. Chinese Xianglin Star Chart constellation, native: 市楼, pronounce: Shì Lóu
 #. Modern (Chinese) asterism
 msgid "Municipal Office"
-msgstr "Городское управление"
+msgstr "Городская управа"
 
 #. Pronounce entry for Chinese constellation, native: 市楼, English: Municipal
 #. Office
@@ -31184,7 +31184,7 @@ msgstr "266"
 #. Nèi Zuò
 #. Modern (Chinese) asterism
 msgid "Interior Seats of the Five Emperors"
-msgstr "Внутренние сиденья пяти императоров"
+msgstr "Внутренние резиденции пяти императоров"
 
 #. Pronounce entry for Chinese constellation, native: 五帝内座, English: Interior
 #. Seats of the Five Emperors
@@ -31225,7 +31225,7 @@ msgstr "267"
 #. Zuò
 #. Modern (Chinese) asterism
 msgid "Seats of the Five Emperors"
-msgstr "Сиденья пяти императоров"
+msgstr "Резиденции пяти императоров"
 
 #. Pronounce entry for Chinese constellation, native: 五帝座, English: Seats of
 #. the Five Emperors
@@ -32503,7 +32503,7 @@ msgstr "301"
 #. Chinese Xianglin Star Chart constellation, native: 阵车, pronounce: Zhèn Chē
 #. Modern (Chinese) asterism
 msgid "Battle Chariots"
-msgstr "Битва колесниц"
+msgstr "Боевые колесницы"
 
 #. Pronounce entry for Chinese constellation, native: 阵车, English: Battle
 #. Chariots
@@ -32795,7 +32795,7 @@ msgstr "309"
 #. Modern (Chinese) asterism
 #. Modern (Chinese) name for HIP 89908
 msgid "Official of Royal Archives"
-msgstr "Официальный Королевский архив"
+msgstr "Сотрудник королевского архива"
 
 #. Pronounce entry for Chinese constellation, native: 柱史, English: Official of
 #. Royal Archives
@@ -32890,7 +32890,7 @@ msgstr "312"
 #. Chinese Xianglin Star Chart constellation, native: 宗人, pronounce: Zōng Rén
 #. Modern (Chinese) asterism
 msgid "Official of Religious Ceremonies"
-msgstr "Официальные религиозные церемонии"
+msgstr "Чиновник религиозных церемоний"
 
 #. Pronounce entry for Chinese constellation, native: 宗人, English: Official of
 #. Religious Ceremonies
@@ -32924,7 +32924,7 @@ msgstr "313"
 #. Zhèng
 #. Modern (Chinese) asterism
 msgid "Official for the Royal Clan"
-msgstr "Официальный Королевский клан"
+msgstr "Чиновник королевского клана"
 
 #. Pronounce entry for Chinese constellation, native: 宗正, English: Official
 #. for the Royal Clan
@@ -33108,7 +33108,7 @@ msgstr "317"
 #. Chinese Xianglin Star Chart constellation, native: 座旗, pronounce: Zuò Qí
 #. Modern (Chinese) asterism
 msgid "Seat Flags"
-msgstr "Флажки для сидений"
+msgstr "Флаги резиденций"
 
 #. Pronounce entry for Chinese constellation, native: 座旗, English: Seat Flags
 #. Chinese Manchu asterism, native: 座旗, English: Seat Flags
@@ -34960,7 +34960,7 @@ msgstr "Тяньдацзянцзюнь"
 #. Modern (Chinese) name for HIP 14862
 #. Modern (Chinese) name for HIP 17959
 msgid "Canopy Support"
-msgstr "Поддержка навеса"
+msgstr "Ручка полога"
 
 #. Pronounce entry for Chinese name for HIP 7083
 #. Pronounce entry for Chinese name for HIP 9007
@@ -37266,7 +37266,7 @@ msgstr "Цзисинь"
 #. Modern (Chinese) name for HIP 45290
 #. Modern (Chinese) name for HIP 46471
 msgid "Upper Steps"
-msgstr "Верхние шаги"
+msgstr "Верхняя ступень"
 
 #. Pronounce entry for Chinese name for HIP 38623
 #. Chinese name for HIP 38623, native: 上台增三
@@ -38013,7 +38013,7 @@ msgstr "Шаофу цзэн"
 #. Modern (Chinese) name for HIP 50687
 #. Modern (Chinese) name for HIP 50801
 msgid "Middle Steps"
-msgstr "Средние шаги"
+msgstr "Средняя ступень"
 
 #. Pronounce entry for Chinese name for HIP 48833
 #. Chinese name for HIP 48833, native: 中台增二
@@ -38599,7 +38599,7 @@ msgstr "Тянли"
 #. Modern (Chinese) name for HIP 56997
 #. Modern (Chinese) name for HIP 57029
 msgid "Lower Steps"
-msgstr "Нижние шаги"
+msgstr "Нижняя ступень"
 
 #. Pronounce entry for Chinese name for HIP 55203
 #. Chinese name for HIP 55203, native: 下台二
@@ -38792,7 +38792,7 @@ msgstr "Тайцзы"
 #. Chinese Xianglin Star Chart name for HIP 57757, native: 右执法
 #. Modern (Chinese) name for HIP 57757
 msgid "Right Law Administrator"
-msgstr "Правый юридический администратор"
+msgstr "Правый юрисконсульт"
 
 #. Pronounce entry for Chinese name for HIP 57757
 #. Chinese name for HIP 57757, native: 右执法
@@ -38997,7 +38997,7 @@ msgstr "Тяньцюань"
 #. Modern (Chinese) name for HIP 60030
 #. Modern (Chinese) name for HIP 60129
 msgid "Left Law Administrator"
-msgstr "Левый юридический администратор"
+msgstr "Левый юрисконсульт"
 
 #. Pronounce entry for Chinese name for HIP 60030
 #. Chinese name for HIP 60030, native: 左执法增一
@@ -39517,7 +39517,7 @@ msgstr "Тяньтянь цзэн"
 #. Pinyin transliteration
 #. Modern (Chinese) name for HIP 64906
 msgid "Three Excellencies III (In Purple Forbidden Enclosure)"
-msgstr "Три превосходительства III (за пурпурной запретной стеной)"
+msgstr "Три превосходительства III (за пурпурной запретной зоной)"
 
 #. Chinese name for HIP 65109, native: 柱十一[角宿]
 #. Pinyin transliteration
@@ -39635,7 +39635,7 @@ msgstr "Тяньтянь"
 #. Chinese name for HIP 66234, native: 三公二[紫微垣]
 #. Modern (Chinese) name for HIP 66234
 msgid "Three Excellencies II (In Purple Forbidden Enclosure)"
-msgstr "Три превосходительства II (за пурпурной запретной стеной)"
+msgstr "Три превосходительства II (за пурпурной запретной зоной)"
 
 #. Pronounce entry for Chinese name for HIP 66657
 #. Pronounce entry for Chinese name for HIP 71683
@@ -44478,7 +44478,7 @@ msgstr "P16"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 五帝内座, pronounce:
 #. Wu Di Nei Zuo
 msgid "Inner Seats of the Five Emperors"
-msgstr "Внутренние сиденья пяти императоров"
+msgstr "Внутренние резиденции пяти императоров"
 
 #. Pronounce entry for Chinese Chenzhuo Sky (3rd Century) constellation,
 #. native: 五帝内座, English: Inner Seats of the Five Emperors
@@ -44513,7 +44513,7 @@ msgstr "P18"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 杠(附华盖),
 #. pronounce: Gang
 msgid "Canopy Support (Adjunct to the Canopy)"
-msgstr "Поддержка навеса (дополнение к навесу)"
+msgstr "Ручка полога (дополнение к пологу)"
 
 #. Pronounce entry for Chinese Chenzhuo Sky (3rd Century) constellation,
 #. native: 杠(附华盖), English: Canopy Support (Adjunct to the Canopy)
@@ -44900,7 +44900,7 @@ msgstr "S03"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 三公内座, pronounce:
 #. San Gong Nei Zuo
 msgid "Inner Seats of Three Excellencies"
-msgstr "Внутренние сиденья трех превосходительств"
+msgstr "Внутренние резиденции трех превосходительств"
 
 #. Pronounce entry for Chinese Chenzhuo Sky (3rd Century) constellation,
 #. native: 三公内座, English: Inner Seats of Three Excellencies
@@ -44920,7 +44920,7 @@ msgstr "S04"
 #. Chinese Chenzhuo Sky (3rd Century) constellation, native: 九卿内座, pronounce:
 #. Jiu Qing Nei Zuo
 msgid "Inner Seats of Nine Senior Officers"
-msgstr "Внутренние сиденья девяти старших офицеров"
+msgstr "Внутренние резиденции девяти старших офицеров"
 
 #. Pronounce entry for Chinese Chenzhuo Sky (3rd Century) constellation,
 #. native: 九卿内座, English: Inner Seats of Nine Senior Officers
@@ -49818,7 +49818,7 @@ msgstr "Тайцзы"
 #. Chinese Chenzhuo Sky (3rd Century) name for HIP 57632, native: 黄帝座
 #. Chinese Song Dynasty Sky name for HIP 57632, native: 黄帝座
 msgid "Seat of Yellow Emperor"
-msgstr "Место желтого императора"
+msgstr "Резиденция Желтого императора"
 
 #. Pronounce entry for Chinese Chenzhuo Sky (3rd Century) name for HIP 57632
 #. Chinese Chenzhuo Sky (3rd Century) name for HIP 57632, native: 黄帝座
@@ -51088,7 +51088,7 @@ msgstr "Цзы Вэй Юань Си Фань"
 #. Chinese Xianglin Star Chart constellation, native: 太微垣东蕃, pronounce: Tài
 #. Wēi Yuán Dōng Fān
 msgid "Supreme Palace East Wall"
-msgstr "Восточная стена величайшего дворца"
+msgstr "Восточная стена Верховного дворца"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 太微垣东蕃,
 #. English: Supreme Palace East Wall
@@ -51102,7 +51102,7 @@ msgstr "Тай Вэй Юань Дун Фань"
 #. Chinese Xianglin Star Chart constellation, native: 太微垣西蕃, pronounce: Tài
 #. Wēi Yuán Xī Fān
 msgid "Supreme Palace West Wall"
-msgstr "Западная стена величайшего дворца"
+msgstr "Западная стена Верховного дворца"
 
 #. Pronounce entry for Chinese Song Dynasty Sky constellation, native: 太微垣西蕃,
 #. English: Supreme Palace West Wall
@@ -63026,7 +63026,7 @@ msgstr "Небесное копьё"
 
 #. Korean constellation, native: JaeSeok
 msgid "Seat for Longevity"
-msgstr "Место для долголетия"
+msgstr "Кресло для долголетия"
 
 #. Korean constellation, native: HangJii
 msgid "Oar for visitor"
@@ -63091,7 +63091,7 @@ msgstr "Западная дорога"
 
 #. Korean constellation, native: Shim
 msgid "Seat of Emperor"
-msgstr "Место императора"
+msgstr "Резиденция императора"
 
 #. Korean constellation, native: JeokJol
 msgid "Five Troops"
