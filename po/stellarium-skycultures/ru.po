@@ -24676,7 +24676,7 @@ msgstr "092"
 #. Chinese Xianglin Star Chart constellation, native: 河鼓, pronounce: Hé Gǔ
 #. Modern (Chinese) asterism
 msgid "Drum at the River"
-msgstr "Барабан у реки"
+msgstr "Барабан на реке"
 
 #. Pronounce entry for Chinese constellation, native: 河鼓, English: Drum at the
 #. River
@@ -26032,7 +26032,7 @@ msgstr "128"
 #. Chinese Xianglin Star Chart constellation, native: 哭, pronounce: Kū
 #. Modern (Chinese) asterism
 msgid "Crying"
-msgstr "Плач"
+msgstr "Плачущий"
 
 #. Pronounce entry for Chinese constellation, native: 哭, English: Crying
 #. Pronounce entry for Chinese name for HIP 109472
@@ -26209,7 +26209,7 @@ msgstr "133"
 #. Chinese Xianglin Star Chart constellation, native: 雷电, pronounce: Léi Diàn
 #. Modern (Chinese) asterism
 msgid "Thunder and Lightning"
-msgstr "Гром и молния "
+msgstr "Гром и молния"
 
 #. Pronounce entry for Chinese constellation, native: 雷电, English: Thunder and
 #. Lightning
@@ -27411,7 +27411,7 @@ msgstr "168"
 #. Chinese Xianglin Star Chart constellation, native: 泣, pronounce: Qì
 #. Modern (Chinese) asterism
 msgid "Weeping"
-msgstr "Рыдание"
+msgstr "Рыдающий"
 
 #. Pronounce entry for Chinese constellation, native: 泣, English: Weeping
 #. Pronounce entry for Chinese name for HIP 110003
@@ -28389,7 +28389,7 @@ msgstr "197"
 #. Chinese Xianglin Star Chart constellation, native: 司危, pronounce: Sī Wēi
 #. Modern (Chinese) asterism
 msgid "Deified Judge of Disaster and Good Fortune"
-msgstr "Обожествленный судья катастрофы и удачи"
+msgstr "Обожествленный судья бедствий и удачи"
 
 #. Pronounce entry for Chinese constellation, native: 司危, English: Deified
 #. Judge of Disaster and Good Fortune
@@ -29698,7 +29698,7 @@ msgstr "230"
 #. Chinese Xianglin Star Chart constellation, native: 天节, pronounce: Tiān Jié
 #. Modern (Chinese) asterism
 msgid "Celestial Tally"
-msgstr "Небесное число"
+msgstr "Небесный счёт"
 
 #. Pronounce entry for Chinese constellation, native: 天节, English: Celestial
 #. Tally
@@ -30826,7 +30826,7 @@ msgstr "257"
 #. Chinese Xianglin Star Chart constellation, native: 土公, pronounce: Tǔ Gōng
 #. Modern (Chinese) asterism
 msgid "Official for Earthworks and Buildings"
-msgstr "Официальный строитель"
+msgstr "Чиновник земляных работ и строительства"
 
 #. Pronounce entry for Chinese constellation, native: 土公, English: Official
 #. for Earthworks and Buildings
@@ -31910,7 +31910,7 @@ msgstr "285"
 #. Chinese Xianglin Star Chart constellation, native: 右更, pronounce: Yòu Gēng
 #. Modern (Chinese) asterism
 msgid "Official in Charge of Pasturing"
-msgstr "Официальный пастух"
+msgstr "Чиновник-пастух"
 
 #. Pronounce entry for Chinese constellation, native: 右更, English: Official in
 #. Charge of Pasturing
@@ -32101,7 +32101,7 @@ msgstr "289"
 #. Jūn
 #. Modern (Chinese) asterism
 msgid "Palace Guard"
-msgstr "Дворцовая охрана"
+msgstr "Дворцовая стража"
 
 #. Pronounce entry for Chinese constellation, native: 羽林军, English: Palace
 #. Guard
@@ -32148,7 +32148,7 @@ msgstr "290"
 #. Chinese Xianglin Star Chart constellation, native: 玉井, pronounce: Yù Jǐng
 #. Modern (Chinese) asterism
 msgid "Jade Well"
-msgstr "Нефритовый источник"
+msgstr "Нефритовый родник"
 
 #. Pronounce entry for Chinese constellation, native: 玉井, English: Jade Well
 #. Chinese Manchu asterism, native: 玉井, English: Jade Well
@@ -32572,7 +32572,7 @@ msgstr "303"
 #. Modern (Chinese) asterism
 #. Modern (Chinese) name for HIP 91262
 msgid "Weaving Girl"
-msgstr "Ткущая девушка"
+msgstr "Девушка-ткачиха"
 
 #. Pronounce entry for Chinese constellation, native: 织女, English: Weaving
 #. Girl
@@ -32964,7 +32964,7 @@ msgstr "314"
 #. Chinese Xianglin Star Chart constellation, native: 左更, pronounce: Zuǒ Gēng
 #. Modern (Chinese) asterism
 msgid "Official in Charge of the Forest"
-msgstr "Официальный лесник"
+msgstr "Чиновник-лесник"
 
 #. Pronounce entry for Chinese constellation, native: 左更, English: Official in
 #. Charge of the Forest
@@ -50221,7 +50221,7 @@ msgstr "Чжуши"
 #. Pronounce entry for Chinese Chenzhuo Sky (3rd Century) name for HIP 87261
 #. Chinese Chenzhuo Sky (3rd Century) name for HIP 87261, native: 傅说
 msgid "Fuyue"
-msgstr "Файю"
+msgstr "Фуюэ"
 
 #. Pronounce entry for Chinese Chenzhuo Sky (3rd Century) name for HIP 88550
 #. Chinese Chenzhuo Sky (3rd Century) name for HIP 88550, native: 糠
@@ -52830,7 +52830,7 @@ msgstr "Пин Син"
 
 #. Chinese Xianglin Star Chart constellation, native: 建星, pronounce: Jiàn Xīng
 msgid "Establishment Stars"
-msgstr "Звезды Учреждения"
+msgstr "Звезды учреждения"
 
 #. Pronounce entry for Chinese Xianglin Star Chart constellation, native: 建星,
 #. English: Establishment Stars

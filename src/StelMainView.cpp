@@ -429,6 +429,13 @@ public:
 	{
 		prepareGeometryChange();
 		rect.setSize(size);
+		if (StelApp::isInitialized())
+		{
+			const auto& app = StelApp::getInstance();
+			StelCore *core = app.getCore();
+			if (core && core->getJD()!=0.0)
+				core->setClearSkyOnce();
+		}
 	}
 
 	//! Set the sky background color. Everything else than black creates a work of art!

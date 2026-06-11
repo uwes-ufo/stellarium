@@ -58,6 +58,7 @@ QTextEdit,
 QPlainTextEdit,
 QListWidget,
 QTreeWidget,
+QTableWidget,
 QLineEdit {
 	background: rgb(30, 30, 31);
 	selection-background-color: rgb(253, 216, 134);
@@ -77,6 +78,7 @@ QLineEdit {
 QTextEdit:disabled,
 QListWidget:disabled,
 QTreeWidget:disabled,
+QTableWidget:disabled,
 QLineEdit:disabled {
 	background: rgb(90, 90, 90);
 }

@@ -23,6 +23,7 @@
 #include "LandscapeMgr.hpp"
 #include "Landscape.hpp"
 #include "AtmospherePreetham.hpp"
+#include "AtmosphereLightweight.hpp"
 #if !QT_CONFIG(opengles2)
 # include "AtmosphereShowMySky.hpp"
 #endif
@@ -64,6 +65,7 @@ constexpr char ATMOSPHERE_MODEL_PATH_CONFIG_KEY[]="landscape/atmosphere_model_pa
 constexpr char ATMOSPHERE_ECLIPSE_SIM_QUALITY_CONFIG_KEY[]="landscape/atmosphere_eclipse_simulation_quality";
 constexpr char ATMOSPHERE_MODEL_CONF_VAL_PREETHAM[]="preetham";
 constexpr char ATMOSPHERE_MODEL_CONF_VAL_SHOWMYSKY[]="showmysky";
+constexpr char ATMOSPHERE_MODEL_CONF_VAL_LIGHTWEIGHT[]="lightweight";
 constexpr char ATMOSPHERE_MODEL_CONF_VAL_DEFAULT[]="preetham";
 }
 
@@ -159,6 +161,9 @@ void Cardinals::setFadeDuration(float duration)
 // Handles special cases at poles
 void Cardinals::draw(const StelCore* core, double latitude) const
 {
+	if (!core->getFlagClearSky())
+		return;
+
 	// fun polar special cases: no cardinals!
 	if ((fabs(latitude - 90.0) < 1e-10) || (fabs(latitude + 90.0) < 1e-10))
 		return;
@@ -675,7 +680,7 @@ void LandscapeMgr::draw(StelCore* core)
 	QFont font=QGuiApplication::font();
 
 	// Draw the atmosphere
-	if (!getFlagAtmosphereNoScatter())
+	if (!getFlagAtmosphereNoScatter() && core->getFlagClearSky())
 	    atmosphere->draw(core);
 
 	// GZ 2016-01: When we draw the atmosphere with a low sun, it is possible that the glaring red ball is overpainted and thus invisible.
@@ -737,6 +742,10 @@ void LandscapeMgr::createAtmosphere()
 	if(modelConfig==ATMOSPHERE_MODEL_CONF_VAL_PREETHAM)
 	{
 		loadingAtmosphere.reset(new AtmospherePreetham(skylight));
+	}
+	else if(modelConfig==ATMOSPHERE_MODEL_CONF_VAL_LIGHTWEIGHT)
+	{
+		loadingAtmosphere.reset(new AtmosphereLightweight);
 	}
 #if defined ENABLE_SHOWMYSKY && !QT_CONFIG(opengles2)
 	else if(modelConfig==ATMOSPHERE_MODEL_CONF_VAL_SHOWMYSKY)
