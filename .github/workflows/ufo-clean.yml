@@ -19,7 +19,7 @@ jobs:
 
     steps:
     
-    - uses: jurplel/install-qt-action@v4
+    - uses: jurplel/install-qt-action@v4.3.1
       with:
         version: ${{ matrix.qt }}
         host: 'windows'
