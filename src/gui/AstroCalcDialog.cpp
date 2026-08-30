@@ -380,13 +380,13 @@ void AstroCalcDialog::createDialogContent()
 	connect(ui->solareclipseslocalCleanupButton,   &QPushButton::clicked, this, &AstroCalcDialog::cleanupSolarEclipsesLocal);
 	connect(ui->solareclipseslocalSaveButton,      &QPushButton::clicked, this, &AstroCalcDialog::saveSolarEclipsesLocal);
 	connect(ui->solareclipselocalTreeWidget,       &QTreeWidget::clicked, this, [this]{ enableSolarEclipsesLocalSingleEclipseButtons(true); });
-	connect(ui->solareclipselocalTreeWidget,       &QTreeWidget::doubleClicked, this, &AstroCalcDialog::selectCurrentSolarEclipseLocal);
+	connect(ui->solareclipselocalTreeWidget,       &QTreeWidget::itemDoubleClicked, this, &AstroCalcDialog::selectCurrentSolarEclipseLocal);
 	initListTransit();
 	enableTransitsButtons(buttonState);
 	connect(ui->transitsCalculateButton, &QPushButton::clicked, this, &AstroCalcDialog::generateTransits);
 	connect(ui->transitsCleanupButton,   &QPushButton::clicked, this, &AstroCalcDialog::cleanupTransits);
 	connect(ui->transitsSaveButton,      &QPushButton::clicked, this, &AstroCalcDialog::saveTransits);
-	connect(ui->transitTreeWidget,       &QTreeWidget::doubleClicked, this, &AstroCalcDialog::selectCurrentTransit);
+	connect(ui->transitTreeWidget,       &QTreeWidget::itemDoubleClicked, this, &AstroCalcDialog::selectCurrentTransit);
 
 	connect(ui->eclipseFilterTotal,     &QCheckBox::clicked, this, &AstroCalcDialog::saveEclipseFiltersState);
 	connect(ui->eclipseFilterHybrid,    &QCheckBox::clicked, this, &AstroCalcDialog::saveEclipseFiltersState);
@@ -3170,7 +3170,7 @@ void AstroCalcDialog::selectCurrentLunarEclipse(const QModelIndex& modelIndex)
 			positionAngle = eclipseData.positionAngle;
 			axisDistance = eclipseData.axisDistance;
 			phase = "G";
-			info  = q_("Maximum eclipse");
+			info  = q_("Greatest eclipse");
 			event = true;
 		}
 		else if (i==4 && uMag>=1.)
@@ -3660,19 +3660,12 @@ void AstroCalcDialog::setSolarEclipseLocalHeaderNames()
 	solareclipselocalHeader = QStringList({
 		q_("Date"),
 		q_("Type"),
-		// TRANSLATORS: The name of column in AstroCalc/Eclipses tool
-		qc_("Partial Eclipse Begins", "column name"),
-		// TRANSLATORS: The name of column in AstroCalc/Eclipses tool
-		qc_("Central Eclipse Begins", "column name"),
-		// TRANSLATORS: The name of column in AstroCalc/Eclipses tool
-		qc_("Maximum Eclipse", "column name"),
-		// TRANSLATORS: The name of column in AstroCalc/Eclipses tool
-		qc_("Eclipse Magnitude", "column name"),
-		// TRANSLATORS: The name of column in AstroCalc/Eclipses tool
-		qc_("Central Eclipse Ends", "column name"),
-		// TRANSLATORS: The name of column in AstroCalc/Eclipses tool
-		qc_("Partial Eclipse Ends", "column name"),
-		// TRANSLATORS: The name of column in AstroCalc/Eclipses tool
+		"P1",
+		"U1",
+		"G",
+		"M",
+		"U4",
+		"P4",
 		qc_("Duration", "column name")});
 	ui->solareclipselocalTreeWidget->setHeaderLabels(solareclipselocalHeader);
 
@@ -3739,7 +3732,7 @@ void AstroCalcDialog::generateSolarEclipsesLocal()
 				{
 					double magLocal = 0., altitudeMideclipse = 0.;
 
-					// Find time of maximum eclipse for current location
+					// Find time of greatest eclipse for current location
 					double dt = 1.;
 					int iteration = 0;
 					LocalSEparams eclipseData = localSolarEclipse(JD,0,false);
@@ -3810,7 +3803,7 @@ void AstroCalcDialog::generateSolarEclipsesLocal()
 								{
 									// Eclipse begins at Sunrise, after Mid-eclipse
 									JD1 = JD; // time of first contact at Sunrise
-									JDmax = JD; // time of maximum eclipse
+									JDmax = JD; // time of greatest eclipse
 									magLocal = eclipseData.magnitude;
 									magStr = QString::number(magLocal, 'f', 3);
 								}
@@ -3835,7 +3828,7 @@ void AstroCalcDialog::generateSolarEclipsesLocal()
 									{
 										// Eclipse ends at Sunset before Mid-eclipse
 										JD4 = JD; // time of last contact at Sunset
-										JDmax = JD; // time of maximum eclipse
+										JDmax = JD; // time of greatest eclipse
 										magLocal = eclipseData.magnitude;
 										magStr = QString::number(magLocal, 'f', 3);
 									}
@@ -3918,26 +3911,49 @@ void AstroCalcDialog::generateSolarEclipsesLocal()
 								treeItem->setText(SolarEclipseLocalType, eclipseTypeStr);
 								treeItem->setText(SolarEclipseLocalFirstContact, localeMgr->getPrintableTimeLocal(JD1, core->getUTCOffset(JD1)));
 								if (centraleclipse && JD2<JD1) // central eclipse  in progress at Sunrise
+								{
 									treeItem->setText(SolarEclipseLocalFirstContact, dash);
-								treeItem->setToolTip(SolarEclipseLocalFirstContact, q_("The time of first contact"));
+									treeItem->setData(SolarEclipseLocalFirstContact, Qt::UserRole, invalidJD);
+								}
+								else
+									treeItem->setData(SolarEclipseLocalFirstContact, Qt::UserRole, JD1);
+								treeItem->setToolTip(SolarEclipseLocalFirstContact, q_("Partial eclipse begins"));
 
 								if (centraleclipse)
+								{
 									treeItem->setText(SolarEclipseLocal2ndContact, localeMgr->getPrintableTimeLocal(JD2, core->getUTCOffset(JD2)));
+									treeItem->setData(SolarEclipseLocal2ndContact, Qt::UserRole, JD2);
+								}
 								else
+								{
 									treeItem->setText(SolarEclipseLocal2ndContact, dash);
-								treeItem->setToolTip(SolarEclipseLocal2ndContact, q_("The time of second contact"));
+									treeItem->setData(SolarEclipseLocal2ndContact, Qt::UserRole, invalidJD);
+								}
+								treeItem->setToolTip(SolarEclipseLocal2ndContact, q_("Umbral total or annular eclipse begins"));
 								treeItem->setText(SolarEclipseLocalMaximum, localeMgr->getPrintableTimeLocal(JDmax, core->getUTCOffset(JDmax)));
-								treeItem->setToolTip(SolarEclipseLocalMaximum, q_("The time of greatest eclipse"));
+								treeItem->setToolTip(SolarEclipseLocalMaximum, q_("Greatest eclipse"));
 								treeItem->setText(SolarEclipseLocalMagnitude, magStr);
+								treeItem->setToolTip(SolarEclipseLocalMagnitude, q_("Eclipse magnitude"));
 								if (centraleclipse)
+								{
 									treeItem->setText(SolarEclipseLocal3rdContact, localeMgr->getPrintableTimeLocal(JD3, core->getUTCOffset(JD3)));
+									treeItem->setData(SolarEclipseLocal3rdContact, Qt::UserRole, JD3);
+								}
 								else
+								{
 									treeItem->setText(SolarEclipseLocal3rdContact, dash);
-								treeItem->setToolTip(SolarEclipseLocal3rdContact, q_("The time of third contact"));
+									treeItem->setData(SolarEclipseLocal3rdContact, Qt::UserRole, invalidJD);
+								}
+								treeItem->setToolTip(SolarEclipseLocal3rdContact, q_("Umbral total or annular eclipse ends"));
 								treeItem->setText(SolarEclipseLocalLastContact, localeMgr->getPrintableTimeLocal(JD4, core->getUTCOffset(JD4)));
 								if (centraleclipse && JD3>JD4) // central eclipse in progress at Sunset
+								{
 									treeItem->setText(SolarEclipseLocalLastContact, dash);
-								treeItem->setToolTip(SolarEclipseLocalLastContact, q_("The time of fourth contact"));
+									treeItem->setData(SolarEclipseLocalLastContact, Qt::UserRole, invalidJD);
+								}
+								else
+									treeItem->setData(SolarEclipseLocalLastContact, Qt::UserRole, JD4);
+								treeItem->setToolTip(SolarEclipseLocalLastContact, q_("Partial eclipse ends"));
 								if (centraleclipse)
 									treeItem->setText(SolarEclipseLocalDuration, durationStr);
 								else
@@ -4094,12 +4110,12 @@ void AstroCalcDialog::selectCurrentSolarEclipse(const QModelIndex& modelIndex)
 			{
 				case 0:
 					treeItem->setText(SolarEclipseContactPhase, "P1");
-					treeItem->setText(SolarEclipseContactInfo, q_("Eclipse begins; first contact with Earth"));
+					treeItem->setText(SolarEclipseContactInfo, q_("Partial eclipse begins"));
 					treeItem->setData(SolarEclipseContactInfo, Qt::UserRole, false);
 					break;
 				case 1:
 					treeItem->setText(SolarEclipseContactPhase, "U1");
-					treeItem->setText(SolarEclipseContactInfo, q_("Beginning of center line; central eclipse begins"));
+					treeItem->setText(SolarEclipseContactInfo, q_("Umbral total or annular eclipse begins"));
 					treeItem->setData(SolarEclipseContactInfo, Qt::UserRole, false);
 					break;
 				case 2:
@@ -4109,12 +4125,12 @@ void AstroCalcDialog::selectCurrentSolarEclipse(const QModelIndex& modelIndex)
 					break;
 				case 3:
 					treeItem->setText(SolarEclipseContactPhase, "U4");
-					treeItem->setText(SolarEclipseContactInfo, q_("End of center line; central eclipse ends"));
+					treeItem->setText(SolarEclipseContactInfo, q_("Umbral total or annular eclipse ends"));
 					treeItem->setData(SolarEclipseContactInfo, Qt::UserRole, false);
 					break;
 				case 4:
 					treeItem->setText(SolarEclipseContactPhase, "P4");
-					treeItem->setText(SolarEclipseContactInfo, q_("Eclipse ends; last contact with Earth"));
+					treeItem->setText(SolarEclipseContactInfo, q_("Partial eclipse ends"));
 					treeItem->setData(SolarEclipseContactInfo, Qt::UserRole, false);
 					break;
 			}
@@ -4352,11 +4368,14 @@ void AstroCalcDialog::enableSolarEclipsesLocalSingleEclipseButtons(bool enable)
 	ui->solareclipseslocalMapSaveButton->setEnabled(enable);
 }
 
-void AstroCalcDialog::selectCurrentSolarEclipseLocal(const QModelIndex& modelIndex)
+void AstroCalcDialog::selectCurrentSolarEclipseLocal(QTreeWidgetItem *item, int idx)
 {
-	// Find the Sun
-	const double JD = modelIndex.sibling(modelIndex.row(), SolarEclipseLocalDate).data(Qt::UserRole).toDouble();
-	goToObject("Sun", JD);
+	double JD = item->data(SolarEclipseLocalDate, Qt::UserRole).toDouble();
+	if (idx == SolarEclipseLocalFirstContact || idx == SolarEclipseLocal2ndContact || idx == SolarEclipseLocal3rdContact || idx == SolarEclipseLocalLastContact)
+		JD = item->data(idx, Qt::UserRole).toDouble();
+	// Find the Sun if the date & time is actual (>-25000-01-01)
+	if (JD > invalidJD)
+		goToObject("Sun", JD);
 }
 
 void AstroCalcDialog::saveSolarEclipsesLocal()
@@ -4371,7 +4390,6 @@ void AstroCalcDialog::saveSolarEclipsesLocal()
 void AstroCalcDialog::setTransitHeaderNames()
 {
 	transitHeader = QStringList({
-		qc_("Date of mid-transit", "column name"),
 		// TRANSLATORS: The name of column in AstroCalc/Eclipses/Transits tool
 		q_("Planet"),
 		// TRANSLATORS: The name of column in AstroCalc/Eclipses/Transits tool
@@ -4805,10 +4823,8 @@ void AstroCalcDialog::generateTransits()
 							}
 						}
 						const double utcOffsetHrs = core->getUTCOffset(JDMid);
-						const double shift = utcOffsetHrs/24.;
 						ACTransitTreeWidgetItem* treeItem = new ACTransitTreeWidgetItem(ui->transitTreeWidget);
-						treeItem->setText(TransitDate, QString("%1 %2").arg(localeMgr->getPrintableDateLocal(JDMid, utcOffsetHrs), localeMgr->getPrintableTimeLocal(JDMid, utcOffsetHrs))); // local date and time
-						treeItem->setData(TransitDate, Qt::UserRole, JDMid);
+						QString transitMid = QString("%1 %2").arg(localeMgr->getPrintableDateLocal(JDMid, utcOffsetHrs), localeMgr->getPrintableTimeLocal(JDMid, utcOffsetHrs));
 						treeItem->setText(TransitPlanet, planetStr);
 						treeItem->setData(TransitPlanet, Qt::UserRole, planetStr);
 
@@ -4828,7 +4844,7 @@ void AstroCalcDialog::generateTransits()
 						}
 						else
 							treeItem->setText(TransitContact1, dash);
-						treeItem->setData(TransitContact1, Qt::UserRole, StelUtils::getHoursFromJulianDay(JD1 + shift));
+						treeItem->setData(TransitContact1, Qt::UserRole, JD1);
 						treeItem->setToolTip(TransitContact1, q_("The time of first contact, the instant when the planet's disk is externally tangent to the Sun (transit begins)"));
 						if (transitData.ce <= 0.)
 								treeItem->setText(TransitContact2, dash);
@@ -4843,13 +4859,13 @@ void AstroCalcDialog::generateTransits()
 						}
 						else
 							treeItem->setText(TransitContact2, localeMgr->getPrintableTimeLocal(JD2, core->getUTCOffset(JD2)));
-						treeItem->setData(TransitContact2, Qt::UserRole, StelUtils::getHoursFromJulianDay(JD2 + shift));
+						treeItem->setData(TransitContact2, Qt::UserRole, JD2);
 						treeItem->setToolTip(TransitContact2, q_("The time of second contact, the entire disk of the planet is internally tangent to the Sun"));
 						if (transitMagnitude > 0.)
 						{
 							if (saveTopocentric && altitudeMidtransit < 0.)
 								{
-									treeItem->setText(TransitMid, QString("(%1)").arg(localeMgr->getPrintableTimeLocal(JDMid, utcOffsetHrs)));
+									treeItem->setText(TransitMid, QString("(%1)").arg(transitMid));
 #if (QT_VERSION>=QT_VERSION_CHECK(5,15,0))
 									treeItem->setForeground(TransitMid, Qt::gray);
 #else
@@ -4857,12 +4873,12 @@ void AstroCalcDialog::generateTransits()
 #endif
 								}
 							else
-								treeItem->setText(TransitMid, localeMgr->getPrintableTimeLocal(JDMid, utcOffsetHrs));
+								treeItem->setText(TransitMid, transitMid);
 						}
 						else
 							treeItem->setText(TransitMid, dash);
-						treeItem->setData(TransitMid, Qt::UserRole, StelUtils::getHoursFromJulianDay(JDMid + shift));
-						treeItem->setToolTip(TransitMid, q_("The time of minimum angular distance of planet to Sun's center"));
+						treeItem->setData(TransitMid, Qt::UserRole, JDMid);
+						treeItem->setToolTip(TransitMid, q_("The date and time of minimum angular distance of planet to Sun's center"));
 						core->setUseTopocentricCoordinates(saveTopocentric);
 						core->setJD(JDMid);
 						core->update(0);
@@ -4893,7 +4909,7 @@ void AstroCalcDialog::generateTransits()
 						}
 						else
 							treeItem->setText(TransitContact3, localeMgr->getPrintableTimeLocal(JD3, core->getUTCOffset(JD3)));
-						treeItem->setData(TransitContact3, Qt::UserRole, StelUtils::getHoursFromJulianDay(JD3 + shift));
+						treeItem->setData(TransitContact3, Qt::UserRole, JD3);
 						treeItem->setToolTip(TransitContact3, q_("The time of third contact, the planet reaches the opposite limb and is once again internally tangent to the Sun"));
 						if (transitMagnitude > 0.)
 						{
@@ -4911,7 +4927,7 @@ void AstroCalcDialog::generateTransits()
 						}
 						else
 							treeItem->setText(TransitContact4, dash);
-						treeItem->setData(TransitContact4, Qt::UserRole, StelUtils::getHoursFromJulianDay(JD4 + shift));
+						treeItem->setData(TransitContact4, Qt::UserRole, JD4);
 						treeItem->setToolTip(TransitContact4, q_("The time of fourth contact, the planet's disk is externally tangent to the Sun (transit ends)"));
 						double totalDuration = 0.;
 						if (transitMagnitude > 0.)
@@ -4975,7 +4991,6 @@ void AstroCalcDialog::generateTransits()
 						treeItem->setText(TransitObservableDuration, observableDurationStr);
 						treeItem->setData(TransitObservableDuration, Qt::UserRole, observableDuration);
 						treeItem->setToolTip(TransitObservableDuration, q_("Observable duration of transit"));
-						treeItem->setTextAlignment(TransitDate, Qt::AlignRight);
 						treeItem->setTextAlignment(TransitPlanet, Qt::AlignRight);
 						treeItem->setTextAlignment(TransitContact1, Qt::AlignCenter);
 						treeItem->setTextAlignment(TransitContact2, Qt::AlignCenter);
@@ -5000,7 +5015,7 @@ void AstroCalcDialog::generateTransits()
 		}
 
 		// sort-by-date
-		ui->transitTreeWidget->sortItems(TransitDate, Qt::AscendingOrder);
+		ui->transitTreeWidget->sortItems(TransitMid, Qt::AscendingOrder);
 		enableTransitsButtons(true);
 
 		StelApp::getInstance().enableBottomStelBarUpdates(true);
@@ -5027,11 +5042,13 @@ void AstroCalcDialog::enableTransitsButtons(bool enable)
 	ui->transitsSaveButton->setEnabled(enable);
 }
 
-void AstroCalcDialog::selectCurrentTransit(const QModelIndex& modelIndex)
+void AstroCalcDialog::selectCurrentTransit(QTreeWidgetItem *item, int idx)
 {
 	// Find the planet
-	const QString name = modelIndex.sibling(modelIndex.row(), TransitPlanet).data(Qt::UserRole).toString();
-	const double JD = modelIndex.sibling(modelIndex.row(), TransitDate).data(Qt::UserRole).toDouble();
+	const QString name = item->data(TransitPlanet, Qt::UserRole).toString();
+	double JD = item->data(TransitMid, Qt::UserRole).toDouble();
+	if (idx == TransitContact1 || idx == TransitContact2 || idx == TransitContact3 || idx == TransitContact4)
+		JD = item->data(idx, Qt::UserRole).toDouble();
 	goToObject(name, JD);
 }
 

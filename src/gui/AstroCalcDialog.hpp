@@ -217,9 +217,9 @@ public:
 		SolarEclipseGamma,		//! gamma of solar eclipse
 		SolarEclipseMag,		//! greatest magnitude of solar eclipse
 		SolarEclipseLatitude,		//! latitude at greatest eclipse
-		SolarEclipseLongitude,	//! longitude at greatest eclipse
+		SolarEclipseLongitude,		//! longitude at greatest eclipse
 		SolarEclipseAltitude,		//! altitude of the Sun at greatest eclipse
-		SolarEclipsePathwidth,	//! pathwidth of total or annular solar eclipse
+		SolarEclipsePathwidth,		//! pathwidth of total or annular solar eclipse
 		SolarEclipseDuration,		//! central duration of total or annular solar eclipse
 		SolarEclipseCount		//! total number of columns
 	};
@@ -245,18 +245,17 @@ public:
 		SolarEclipseLocalType,		//! type of solar eclipse
 		SolarEclipseLocalFirstContact,	//! time of the beginning of partial solar eclipse
 		SolarEclipseLocal2ndContact,	//! time of the beginning of total/annular solar eclipse
-		SolarEclipseLocalMaximum,		//! time of maximum solar eclipse
+		SolarEclipseLocalMaximum,	//! time of maximum solar eclipse
 		SolarEclipseLocalMagnitude,	//! maximum magnitude of solar eclipse
 		SolarEclipseLocal3rdContact,	//! time of the end of total/annular solar eclipse
 		SolarEclipseLocalLastContact,	//! time of the end of partial solar eclipse
-		SolarEclipseLocalDuration,		//! duration of total/annular solar eclipse
+		SolarEclipseLocalDuration,	//! duration of total/annular solar eclipse
 		SolarEclipseLocalCount		//! total number of columns
 	};
 
 	//! Defines the number and the order of the columns in transit table
 	//! @enum TransitColumns
 	enum TransitColumns {
-		TransitDate,			//! date of mid-transit
 		TransitPlanet,			//! transit planet
 		TransitContact1,		//! time of exterior ingress
 		TransitContact2,		//! time of interior ingress
@@ -363,14 +362,14 @@ private slots:
 	//! Algorithm taken from calculating the rises, transits and sets.
 	void generateSolarEclipsesLocal();
 	void cleanupSolarEclipsesLocal();
-	void selectCurrentSolarEclipseLocal(const QModelIndex &modelIndex);
+	void selectCurrentSolarEclipseLocal(QTreeWidgetItem* item, int idx);
 	void saveSolarEclipsesLocal();
 
 	//! Calculating transits to fill the list.
 	//! Algorithm taken from calculating the rises, transits and sets.
 	void generateTransits();
 	void cleanupTransits();
-	void selectCurrentTransit(const QModelIndex &modelIndex);
+	void selectCurrentTransit(QTreeWidgetItem* item, int idx);
 	void saveTransits();
 
 	void saveEclipseFiltersState();
@@ -725,6 +724,9 @@ private:
 
 	//! Memorize day for detecting rollover to next/prev one
 	int oldGraphJD = 0;
+
+	// Special date (-25000-01-01) outside valid range of eclipses
+	const double invalidJD = -7410192.;
 
 	//! Remember to redraw active plot when dialog becomes visible
 	bool graphPlotNeedsRefresh = false;
@@ -1097,7 +1099,7 @@ private:
 	{
 		int column = treeWidget()->sortColumn();
 
-		if (column == AstroCalcDialog::TransitDate || column == AstroCalcDialog::TransitContact1 || column == AstroCalcDialog::TransitContact2 || column == AstroCalcDialog::TransitContact3 || column == AstroCalcDialog::TransitContact4 || column == AstroCalcDialog::TransitMid || column == AstroCalcDialog::TransitSeparation || column == AstroCalcDialog::TransitDuration || column == AstroCalcDialog::TransitObservableDuration)
+		if (column == AstroCalcDialog::TransitContact1 || column == AstroCalcDialog::TransitContact2 || column == AstroCalcDialog::TransitContact3 || column == AstroCalcDialog::TransitContact4 || column == AstroCalcDialog::TransitMid || column == AstroCalcDialog::TransitSeparation || column == AstroCalcDialog::TransitDuration || column == AstroCalcDialog::TransitObservableDuration)
 		{
 			return data(column, Qt::UserRole).toFloat() < other.data(column, Qt::UserRole).toFloat();
 		}		
