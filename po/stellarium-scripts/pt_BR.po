@@ -9,7 +9,6 @@
 # Radagásio Fernandes <dasodj@gmail.com>, 2022
 # Vinicius Oliveira <prof.vinic@gmail.com>, 2022
 # Tiago <tiago.henrique.cco@gmail.com>, 2022
-# Letícia Borges, 2023
 # Djhodison, 2026
 # 
 #, fuzzy
@@ -402,11 +401,11 @@ msgstr "B143 próximo a Altair"
 
 #: scripts/binocular_highlights.ssc:70
 msgid "M11 in Scutum"
-msgstr "M11 em Scutum"
+msgstr "M11 no Escudo"
 
 #: scripts/binocular_highlights.ssc:70
 msgid "Also known as the Wild Duck Cluster"
-msgstr "Também conhecido como Aglomerado do Pato Selvagem"
+msgstr "Também conhecido como Aglomerado do Pato-Selvagem"
 
 #: scripts/binocular_highlights.ssc:71
 msgid "IC 4756 in Serpens"
@@ -414,15 +413,15 @@ msgstr "IC 4756 em Serpente"
 
 #: scripts/binocular_highlights.ssc:72
 msgid "Three Star Clusters in Ophiuchus"
-msgstr "Três Aglomerados Estelares em Ophiuchus"
+msgstr "Três Aglomerados Estelares no Serpentário"
 
 #: scripts/binocular_highlights.ssc:73
 msgid "IC 4665 in Ophiuchus"
-msgstr "IC 4665 em Ophiuchus"
+msgstr "IC 4665 no Serpentário"
 
 #: scripts/binocular_highlights.ssc:74
 msgid "A Pair of Ophiuchus Globulars"
-msgstr "Um Par de Globulares em Ophiuchus"
+msgstr "Um Par de Aglomerados Globulares no Serpentário"
 
 #: scripts/binocular_highlights.ssc:74
 msgid "M10 and M12"
@@ -470,7 +469,7 @@ msgstr "M6 e M7"
 
 #: scripts/binocular_highlights.ssc:80
 msgid "A False Comet"
-msgstr "Um falso cometa"
+msgstr "Um Falso Cometa"
 
 #: scripts/binocular_highlights.ssc:80
 msgid "Cr 316, NGC 6231 and NGC 6242"
@@ -502,7 +501,7 @@ msgstr "M22 e M28"
 
 #: scripts/binocular_highlights.ssc:85
 msgid "A Lonesome Messier"
-msgstr "Um Messier solitário"
+msgstr "Um Messier Solitário"
 
 #: scripts/binocular_highlights.ssc:86
 msgid "Chapter 4"
@@ -514,7 +513,7 @@ msgstr "setembro a novembro"
 
 #: scripts/binocular_highlights.ssc:87
 msgid "Two Lacerta Clusters"
-msgstr "Dois Aglomerados em Lacerta"
+msgstr "Dois Aglomerados no Lagarto"
 
 #: scripts/binocular_highlights.ssc:87
 msgid "NGC 7209 and NGC 7243"
@@ -542,15 +541,15 @@ msgstr "Estrela variável bem conhecida e também uma dupla impressionante"
 
 #: scripts/binocular_highlights.ssc:91
 msgid "M52 in Cassiopeia"
-msgstr "M52 em Cassiopeia "
+msgstr "M52 em Cassiopeia"
 
 #: scripts/binocular_highlights.ssc:92
 msgid "Galactic Cluster NGC 7789"
-msgstr "Aglomerado galáctico NGC 7789"
+msgstr "Aglomerado Galáctico NGC 7789"
 
 #: scripts/binocular_highlights.ssc:93
 msgid "The E.T. Cluster"
-msgstr "O Aglomerado ET"
+msgstr "O Aglomerado E.T."
 
 #: scripts/binocular_highlights.ssc:94
 msgid "Open Cluster M103"
@@ -562,7 +561,7 @@ msgstr "Magnífica M31"
 
 #: scripts/binocular_highlights.ssc:96
 msgid "Andromeda's Companions"
-msgstr "Companheiros de Andrômeda "
+msgstr "Companheiras de Andrômeda"
 
 #: scripts/binocular_highlights.ssc:96
 msgid "M32 and M110"
@@ -570,11 +569,11 @@ msgstr "M32 e M110"
 
 #: scripts/binocular_highlights.ssc:97
 msgid "Ancient Cluster NGC 752"
-msgstr "Antigo aglomerado NGC 752"
+msgstr "Antigo Aglomerado NGC 752"
 
 #: scripts/binocular_highlights.ssc:98
 msgid "Triangulum's Treasure"
-msgstr "O Tesouro de Triangulum"
+msgstr "Tesouro do Triângulo"
 
 #: scripts/binocular_highlights.ssc:99
 msgid "TX Piscium"
@@ -586,7 +585,7 @@ msgstr "Estrela de carbono, que varia ligeiramente de magnitude 4,8 a 5,2"
 
 #: scripts/binocular_highlights.ssc:100
 msgid "A Farewell to Summer"
-msgstr "Uma Despedida do Verão"
+msgstr "A Despedida do Verão"
 
 #: scripts/binocular_highlights.ssc:101
 msgid "Messier 2 Shining Through"
@@ -594,11 +593,11 @@ msgstr "Messier 2 Brilhando Através"
 
 #: scripts/binocular_highlights.ssc:102
 msgid "The Ghostly Helix Nebula"
-msgstr "A Fantasmagórica Nebulosa Helix"
+msgstr "A Fantasmagórica Nebulosa da Hélice"
 
 #: scripts/binocular_highlights.ssc:103
 msgid "Challenging NGC 253 and NGC 288"
-msgstr "Desafiando NGC 253 e NGC 288"
+msgstr "Desafiadores NGC 253 e NGC 288"
 
 #: scripts/binocular_highlights.ssc:125
 msgid "Binocular Highlights"
@@ -606,7 +605,7 @@ msgstr "Destaques Binoculares"
 
 #: scripts/binocular_highlights.ssc:126
 msgid "Look through the Meade 10x50 TravelView Binocular"
-msgstr "Olhe através do Binóculo Meade 10x50 TravelView"
+msgstr "Observe com o binóculo Meade 10x50 TravelView"
 
 #: scripts/binosky.ssc:19
 msgid "Binosky: Deep Sky Objects for Binoculars"
@@ -618,15 +617,15 @@ msgstr "Asterope (21 Tauri e 22 Tauri)"
 
 #: scripts/double_stars.ssc:28
 msgid "2.5 arcminutes (SE)"
-msgstr "2,5 minutos de arcos (SE)"
+msgstr "2,5 minutos de arco (SE)"
 
 #: scripts/double_stars.ssc:28
 msgid ""
 "Extremely difficult because of their faintness, separation, and nearby "
 "bright stars"
 msgstr ""
-"Extremamente difícil por causa do brilho fraco dos objetos, da separação e "
-"da proximidade com estrelas brilhantes."
+"Extremamente difícil devido à baixa luminosidade, à separação e à "
+"proximidade de estrelas brilhantes"
 
 #: scripts/double_stars.ssc:29
 msgid "Atlas and Pleione (27 Tauri and 28 Tauri)"
@@ -647,7 +646,7 @@ msgstr "θ Tauri"
 
 #: scripts/double_stars.ssc:30
 msgid "5.6 arcminutes (NNW)"
-msgstr "5,6 minutos de arco (NNW)"
+msgstr "5,6 minutos de arco (NNO)"
 
 #: scripts/double_stars.ssc:30 scripts/double_stars.ssc:42
 #: scripts/double_stars.ssc:47
@@ -677,7 +676,7 @@ msgstr "2,24 minutos de arco (NO)"
 
 #: scripts/double_stars.ssc:32
 msgid "Very difficult because of stars and nebulosity in the area"
-msgstr "Muita dificuldade por conta das estrelas e nebulosidade na área"
+msgstr "Muito difícil devido às estrelas e à nebulosidade na região"
 
 #: scripts/double_stars.ssc:33
 msgid "42 and 45 Orionis"
@@ -730,7 +729,7 @@ msgstr "3,83 minutos de arco (NO)"
 
 #: scripts/double_stars.ssc:37
 msgid "Very difficult because of the magnitude difference"
-msgstr "Muito difícil por conta da diferença de magnitude"
+msgstr "Muito difícil devido à diferença de magnitude"
 
 #: scripts/double_stars.ssc:38
 msgid "ω Scorpii"
@@ -867,7 +866,7 @@ msgstr "Fenômeno de tripla sombra dos satélites de Júpiter"
 #: scripts/morsels_1.ssc:62 scripts/morsels_2.ssc:78 scripts/morsels_3.ssc:52
 #: scripts/morsels_4.ssc:70
 msgid "phenomena in all"
-msgstr "todos os fenômenos"
+msgstr "fenômenos no total"
 
 #: scripts/morsels_1.ssc:77 scripts/morsels_2.ssc:98 scripts/morsels_3.ssc:62
 #: scripts/morsels_4.ssc:81
