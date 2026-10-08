@@ -904,7 +904,7 @@ msgstr "Europa, Uraniborg."
 
 #: scripts/supernova.ssc:31
 msgid "Evening of 20 October 1572"
-msgstr "Anoitecer de 20 de outubro de 1572"
+msgstr "Noite de 20 de outubro de 1572"
 
 #: scripts/supernova.ssc:40
 msgid "Constellation Cassiopeia"
@@ -912,7 +912,7 @@ msgstr "Constelação de Cassiopeia"
 
 #: scripts/supernova.ssc:61
 msgid "5 days later..."
-msgstr "5 dias atrás..."
+msgstr "5 dias depois..."
 
 #: scripts/supernova.ssc:67
 msgid "Next 3 days..."
@@ -920,11 +920,11 @@ msgstr "Nos próximos 3 dias..."
 
 #: scripts/supernova.ssc:73
 msgid "New star! But people have not seen it yet..."
-msgstr "Uma nova estrela! Mas a população ainda não a viu..."
+msgstr "Uma nova estrela! Porém, as pessoas ainda não a viram..."
 
 #: scripts/supernova.ssc:78
 msgid "Evening of 31 October 1572"
-msgstr "Noite de 31  de outubro de 1572"
+msgstr "Noite de 31 de outubro de 1572"
 
 #: scripts/supernova.ssc:86
 msgid "Evening of "
@@ -932,37 +932,37 @@ msgstr "Noite de"
 
 #: scripts/supernova.ssc:86
 msgid " November 1572"
-msgstr "Novembro de 1572"
+msgstr "novembro de 1572"
 
 #: scripts/supernova.ssc:93
 msgid "Hooray! First observations in Korea and Europe."
-msgstr "Viva! Primeira observação na Coreia e na Europa."
+msgstr "Viva! Primeiras observações na Coreia e na Europa."
 
 #: scripts/supernova.ssc:101
 msgid "First observations in China."
-msgstr "Primeira observação da China."
+msgstr "Primeiras observações na China."
 
 #: scripts/supernova.ssc:109
 msgid ""
 "The clouds are gone and Tycho Brahe the first time watching a new star!"
 msgstr ""
-"As nuvens se foram e Tycho Brahe observa a nova estrela pela primeira vez."
+"As nuvens se foram e Tycho Brahe observa uma nova estrela pela primeira vez!"
 
 #: scripts/supernova.ssc:118
 msgid "Next 60 days..."
-msgstr "Próximos 60 dias..."
+msgstr "Nos próximos 60 dias..."
 
 #: scripts/supernova.ssc:129
 msgid "Next other 40 days..."
-msgstr "Mais outros 40 dias..."
+msgstr "Mais 40 dias..."
 
 #: scripts/supernova.ssc:150
 msgid "The Historical supernovae plugin is not loaded!"
-msgstr "O plugin da histórica supernova está carregado!"
+msgstr "O plug-in de supernovas históricas não está carregado!"
 
 #: scripts/h400_tour.ssc:16
 msgid "The Herschel 400 Catalogue"
-msgstr "O catálogo 400 de Herschel"
+msgstr "O Catálogo Herschel 400"
 
 #: scripts/h400_tour.ssc:17
 msgid ""
@@ -977,12 +977,12 @@ msgid ""
 "published in 1864 of 5,000 objects, and hence also of the New General "
 "Catalogue."
 msgstr ""
-"publicado em 1864 com 5000 objetos, e portanto, também do Novo Catálogo "
-"Geral. "
+"publicado em 1864 com 5.000 objetos e, portanto, também do Novo Catálogo "
+"Geral."
 
 #: scripts/h400_tour.ssc:19
 msgid "Vital statistics:"
-msgstr "Estatística vital:"
+msgstr "Dados essenciais:"
 
 #: scripts/h400_tour.ssc:20
 msgid "* The catalogue contains 400 objects"
@@ -990,7 +990,7 @@ msgstr "* O catálogo contém 400 objetos"
 
 #: scripts/h400_tour.ssc:21
 msgid "* All objects are from the NGC"
-msgstr "* Todos os objetos são de NGC"
+msgstr "* Todos os objetos são do NGC"
 
 #: scripts/h400_tour.ssc:22
 msgid "* All visible in mid northern latitudes"
@@ -1011,8 +1011,8 @@ msgid ""
 "value is from 1,340-1,940."
 msgstr ""
 "PZ Cas está localizada em uma região com forte extinção por poeira.\n"
-"O valor citado corresponde ao parâmetro médio de tamanho; o valor real\n"
-"varia entre 1.340-1.940."
+"O valor citado corresponde ao parâmetro médio de tamanho; o valor\n"
+"real varia entre 1.340-1.940."
 
 #: scripts/largest_known_stars.ssc:14
 msgid "VX Sagittarii"
@@ -1023,7 +1023,7 @@ msgid ""
 "VX Sgr is a pulsating variable with a large visual range\n"
 "and varies significantly in size."
 msgstr ""
-"VX Sgr é uma variável pulsante com uma grande amplitude visual\n"
+"VX Sgr é uma variável pulsante com uma grande faixa visual\n"
 "e varia significativamente em tamanho."
 
 #: scripts/largest_known_stars.ssc:16
@@ -1050,8 +1050,8 @@ msgid ""
 "of 3) and spectral type (observed from G8 to M), thus\n"
 "probably also in diameter."
 msgstr ""
-"RW Cep é variável tanto em brilho (por pelo menos um fator\n"
-"de 3) quanto em tipo espectral (observado de G8 a M), portanto,\n"
+"RW Cep é variável tanto em brilho (em pelo menos 3 vezes)\n"
+"quanto em tipo espectral (observada de G8 a M), portanto,\n"
 "provavelmente também em diâmetro."
 
 #: scripts/largest_known_stars.ssc:20
@@ -1065,8 +1065,8 @@ msgid ""
 "and estimates have brought it down to size."
 msgstr ""
 "Antes considerada uma hipergigante vermelha tão grande que\n"
-"contradizia a teoria da evolução estelar, medições\n"
-"e estimativas mais precisas revisaram seu tamanho para valores menores."
+"contradizia a teoria da evolução estelar, medições e estimativas\n"
+"mais precisas reduziram as estimativas de seu tamanho."
 
 #: scripts/largest_known_stars.ssc:22
 msgid "AH Scorpii"
@@ -1078,8 +1078,8 @@ msgid ""
 "and an estimated 20% in total luminosity. The variation in diameter\n"
 "is not clear because the temperature also varies."
 msgstr ""
-"AH Sco é variável em quase 3 magnitudes na faixa visual\n"
-"e cerca de 20% em luminosidade total. A variação no diâmetro\n"
+"AH Sco varia em quase 3 magnitudes na faixa visual\n"
+"e em cerca de 20% na luminosidade total. A variação no diâmetro\n"
 "não é clara porque a temperatura também varia."
 
 #: scripts/largest_known_stars.ssc:24
@@ -1092,7 +1092,7 @@ msgid ""
 "losing mass to the secondary."
 msgstr ""
 "V766 Centauri A é uma estrela altamente distorcida em um sistema binário próximo,\n"
-"perdendo massa para a componente secundária."
+"perdendo massa para a estrela secundária."
 
 #: scripts/largest_known_stars.ssc:26
 msgid "KW Sagittarii"
@@ -1164,7 +1164,7 @@ msgstr "V382 Carinae"
 
 #: scripts/largest_known_stars.ssc:43 scripts/largest_known_stars.ssc:45
 msgid "Yellow hypergiant, one of the rarest types of star."
-msgstr "Hipergigante amarela, um dos tipos mais raros de estrelas."
+msgstr "Hipergigante amarela, um dos tipos de estrelas mais raros."
 
 #: scripts/largest_known_stars.ssc:44
 msgid "V509 Cassiopeiae"
@@ -1172,7 +1172,7 @@ msgstr "V509 Cassiopeiae"
 
 #: scripts/largest_known_stars.ssc:46
 msgid "CE Tauri (\"Ruby Star\")"
-msgstr "CE Tauri (\"Estrela Rubi\")"
+msgstr "CE Tauri (Estrela Rubi)"
 
 #: scripts/largest_known_stars.ssc:47
 msgid ""
@@ -1184,12 +1184,11 @@ msgstr ""
 
 #: scripts/largest_known_stars.ssc:48
 msgid "R Leporis (\"Hind's Crimson Star\")"
-msgstr "R Leporis (\"Estrela Carmesim de Hind\")"
+msgstr "R Leporis (\"Estrela Carmesim\" de Hind)"
 
 #: scripts/largest_known_stars.ssc:49
 msgid "One of the largest carbon stars existent in the Milky Way Galaxy."
-msgstr ""
-"Uma das maiores estrelas de carbono existentes na galáxia da Via Láctea."
+msgstr "Uma das maiores estrelas de carbono existentes na Via Láctea."
 
 #: scripts/largest_known_stars.ssc:50
 msgid "Alpha Herculis (\"Ras Algethi\")"
@@ -1201,7 +1200,7 @@ msgstr "Rho Cassiopeiae"
 
 #: scripts/largest_known_stars.ssc:52
 msgid "A yellow hypergiant, one of the rarest types of a star."
-msgstr "Uma hipergigante amarela, um dos tipos mais raros de estrelas."
+msgstr "Uma hipergigante amarela, um dos tipos de estrelas mais raros."
 
 #: scripts/largest_known_stars.ssc:53
 msgid "Mira A (Omicron Ceti)"
@@ -1209,7 +1208,7 @@ msgstr "Mira A (Omicron Ceti)"
 
 #: scripts/largest_known_stars.ssc:54
 msgid "Prototype Mira variable"
-msgstr "Variável Mira prototípica"
+msgstr "Protótipo das variáveis do tipo Mira"
 
 #: scripts/largest_known_stars.ssc:55
 msgid "R Doradus"
@@ -1261,7 +1260,7 @@ msgstr "VV Cephei B"
 
 #: scripts/largest_known_stars.ssc:67
 msgid "The B-type main sequence companion of VV Cephei A."
-msgstr "A companheira de sequência principal do tipo B de VV Cephei A."
+msgstr "A companheira do tipo B da sequência principal de VV Cephei A."
 
 #: scripts/largest_known_stars.ssc:92
 msgid "Solar radii"
@@ -1294,7 +1293,7 @@ msgstr "Nascer do Sol #1"
 
 #: scripts/triple_sunrise_and_sunsets.ssc:120
 msgid "Retro"
-msgstr "Retróg."
+msgstr "Retrógrado"
 
 #: scripts/triple_sunrise_and_sunsets.ssc:141
 msgid "Sunset #1"
@@ -1306,7 +1305,7 @@ msgstr "Nascer do Sol #2"
 
 #: scripts/triple_sunrise_and_sunsets.ssc:173
 msgid "Later in the afternoon"
-msgstr "Ao final da tarde"
+msgstr "No final da tarde"
 
 #: scripts/triple_sunrise_and_sunsets.ssc:205
 msgid "Sunset #2"
@@ -1326,7 +1325,7 @@ msgstr "Analema de Saturno"
 
 #: scripts/saturnian_analemma.ssc:42 scripts/uranian_analemma.ssc:42
 msgid "Solar day"
-msgstr "Dia Solar"
+msgstr "Dia solar"
 
 #: scripts/uranian_analemma.ssc:17
 msgid "Uranian analemma"
@@ -1334,7 +1333,7 @@ msgstr "Analema de Urano"
 
 #: scripts/messier_marathon.ssc:35
 msgid "Messier Marathon"
-msgstr "Maratona Messier"
+msgstr "Maratona de Messier"
 
 #: scripts/messier_marathon.ssc:54
 msgid "Difficulty is 0"
@@ -1366,7 +1365,7 @@ msgstr "Difuso, grande e mais brilhante"
 
 #: scripts/messier_marathon.ssc:61
 msgid "Small, easy to locate, not as horror as imagined"
-msgstr "Pequeno, fácil de localizar e não tão horrível quanto o imaginado"
+msgstr "Pequeno, fácil de localizar e não tão horrível quanto se imaginava"
 
 #: scripts/messier_marathon.ssc:62
 msgid "Difficult to locate, easy to detect and verify"
