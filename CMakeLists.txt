@@ -204,6 +204,7 @@ IF(${CMAKE_BUILD_TYPE} MATCHES "Fuzzer")
      ENDIF()
 ENDIF()
 
+SET(STELLARIUM_HAS_REVISION 0)
 IF(STELLARIUM_RELEASE_BUILD)
      SET(ISS_PACKAGE_VERSION "${STELLARIUM_PUBLIC_VERSION}")
      SET(STELLARIUM_BUIDING_VERSION "${STELLARIUM_PUBLIC_VERSION}")
@@ -221,20 +222,21 @@ ELSE()
           IF(GIT_REVISION)
                # Let's use short hash in all cases
                STRING(SUBSTRING ${GIT_REVISION} 0 7 REVISION)
-               ADD_DEFINITIONS(-DGIT_REVISION="${REVISION}")
-               ADD_DEFINITIONS(-DGIT_BRANCH="${GIT_BRANCH}")
+               SET(STELLARIUM_HAS_REVISION 1)
           ENDIF()
      ELSE()
           STRING(TIMESTAMP TODAY "%j%H%M")
           SET(REVISION "${TODAY}")
-          ADD_DEFINITIONS(-DGIT_REVISION="${TODAY}")
-          ADD_DEFINITIONS(-DGIT_BRANCH="tarball")
+          SET(GIT_BRANCH "tarball")
+          SET(STELLARIUM_HAS_REVISION 1)
      ENDIF()
      SET(ISS_PACKAGE_VERSION "${STELLARIUM_PUBLIC_VERSION}-${REVISION}")
      SET(STELLARIUM_BUIDING_VERSION "${STELLARIUM_PUBLIC_VERSION}+")
 ENDIF()
 MESSAGE(STATUS "Building ${PROJECT_NAME} ${STELLARIUM_BUIDING_VERSION} (v${PACKAGE_VERSION}; Mode: ${CMAKE_BUILD_TYPE})")
 ADD_DEFINITIONS(-DSTELLARIUM_BUIDING_VERSION="${STELLARIUM_BUIDING_VERSION}")
+
+CONFIGURE_FILE(src/StelVersion.hpp.in src/StelVersion.hpp @ONLY ESCAPE_QUOTES)
 
 # Write version and series of Stellarium to Stellarium User Guide
 CONFIGURE_FILE(${PROJECT_SOURCE_DIR}/cmake/version.tex.cmake ${PROJECT_SOURCE_DIR}/guide/version.tex @ONLY NEWLINE_STYLE LF)
@@ -1129,8 +1131,9 @@ IF(NOT FROM_CHARS_WORKS)
           MESSAGE(STATUS "Using system-provided FastFloat ${FastFloat_VERSION}")
      ELSE()
           CPMAddPackage(NAME FastFloat
-               GIT_REPOSITORY https://github.com/fastfloat/fast_float
                VERSION 8.2.0
+               URL https://github.com/fastfloat/fast_float/archive/refs/tags/v8.2.0.tar.gz
+               URL_HASH SHA256=1c63903701c7aadbd47386752ab4efc3d324c9a2fbe230f461ff3806fa264d84
                EXCLUDE_FROM_ALL yes)
      ENDIF()
      GET_TARGET_PROPERTY(FastFloat_INCLUDE_DIRECTORIES

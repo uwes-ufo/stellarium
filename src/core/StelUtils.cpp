@@ -20,6 +20,7 @@
 #include "StelUtils.hpp"
 #include "VecMath.hpp"
 #include "StelLocaleMgr.hpp"
+#include "StelVersion.hpp"
 #include <QBuffer>
 #include <QString>
 #include <QStringList>
@@ -64,6 +65,16 @@ QString getApplicationVersion()
 	return QString("%1-%2 [%3]").arg(PACKAGE_VERSION, GIT_REVISION, GIT_BRANCH);
 	#else
 	return QString(PACKAGE_VERSION);
+	#endif
+}
+
+//! Return whether the version of stellarium contains a revision id
+bool isApplicationVersionDetailed()
+{
+	#ifdef GIT_REVISION
+	return true;
+	#else
+	return false;
 	#endif
 }
 
